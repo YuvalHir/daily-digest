@@ -12,6 +12,9 @@ export type Quote = {
   seriesStart: string;
   seriesAsOf: string;
 };
+const completed = new Map<string, Quote>();
+export const cachedQuote = (symbol: string, range: string) =>
+  completed.get(symbol + '|' + range);
 const requests = new Map<
   string,
   { at: number; promise: Promise<Record<string, Quote>> }
@@ -52,6 +55,7 @@ export async function quoteData(
     )
   )
     throw Error('Quote unavailable');
+  completed.set(symbol + '|' + range, q);
   return q;
 }
 export const localTime = (stamp: string, dates = true) =>

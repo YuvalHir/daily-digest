@@ -1,5 +1,7 @@
 ---
 import SocialPost from './SocialPost.astro';
+import MoveText from './MoveText.astro';
+import { plainMoves } from '../lib/plain-moves';
 import NativeQuote from './NativeQuote.astro';
 import Sparkline from './Sparkline.astro';
 import { ui } from '../i18n/ui';
@@ -13,9 +15,13 @@ const marketCharts =
 ---
 
 <article class:list={['news-card', { 'lead-card': lead }]} id={item.id}>
+  <div class="story-kicker">
+    <bdi>{String(index).padStart(2, '0')}</bdi>
+    <span>{t.sections[item.section]}</span>
+  </div>
   <Heading>
     <a href={item.source.url} target="_blank" rel="noopener noreferrer">
-      {item.headline[locale]}
+      <MoveText text={item.headline[locale]} />
     </a>
   </Heading>
   {item.heroImage && (
@@ -31,11 +37,15 @@ const marketCharts =
       </figcaption>
     </figure>
   )}
-  <p class="story-summary">{item.summary[locale]}</p>
+  <p class="story-summary">
+    <MoveText text={item.summary[locale]} />
+  </p>
   {item.bullets && (
     <ul class="story-bullets">
       {item.bullets[locale].map((b) => (
-        <li>{b}</li>
+        <li>
+          <MoveText text={b} />
+        </li>
       ))}
     </ul>
   )}
@@ -85,7 +95,7 @@ const marketCharts =
       href={item.source.url}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={`${t.read}: ${item.headline[locale]}`}
+      aria-label={`${t.read}: ${plainMoves(item.headline[locale])}`}
     >
       {t.read}
       <span aria-hidden="true"> ↗</span>

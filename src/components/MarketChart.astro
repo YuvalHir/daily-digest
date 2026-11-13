@@ -49,6 +49,14 @@ const ranges = he
       </button>
     ))}
   </div>
+  <button
+    type="button"
+    class="native-cycle"
+    data-chart-cycle
+    aria-pressed="true"
+  >
+    {he ? 'עצירת החלפה אוטומטית' : 'Pause auto rotation'}
+  </button>
   <div class="native-main-head">
     <div>
       <bdi data-main-name>Nvidia</bdi>
@@ -74,7 +82,17 @@ const ranges = he
   <p class="native-main-range" data-main-range>
     {he ? 'יום המסחר האחרון' : 'Latest trading day'}
   </p>
-  <div class="native-main-plot" data-main-plot>
+  <div
+    class="native-main-plot"
+    data-main-plot
+    tabindex="0"
+    role="group"
+    aria-label={
+      he
+        ? 'בדיקת נקודות בגרף: חצים ימינה ושמאלה'
+        : 'Inspect chart prices with left and right arrow keys'
+    }
+  >
     <svg
       viewBox="0 0 840 310"
       preserveAspectRatio="none"
@@ -224,6 +242,7 @@ const ranges = he
 <script>
   import {
     quoteData,
+    cachedQuote,
     localTime,
     rangeText,
     sparkPath,
@@ -244,12 +263,15 @@ const ranges = he
         status = find('[data-main-status]'),
         tip = find('[data-main-tooltip]'),
         cross = find('[data-main-crosshair]');
-      async function render() {
+      async function render(cacheOnly = false) {
         const current = ++version;
         status.hidden = false;
         status.textContent = he ? 'טוען נתוני שוק…' : 'Loading market data…';
         try {
-          const q = await quoteData(symbol, range);
+          const q = cacheOnly
+            ? cachedQuote(symbol, range)
+            : await quoteData(symbol, range);
+          if (!q) throw Error('No cached quote');
           if (current !== version) return;
           last = q;
           lastKey = symbol + range;
@@ -370,14 +392,48 @@ const ranges = he
           }),
         );
       const plot = find('[data-main-plot]');
-      plot.addEventListener('pointermove', (event) => {
+      let paused = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const cycle = find('[data-chart-cycle]');
+      const setPaused = (value: boolean) => {
+        paused = value;
+        cycle.setAttribute('aria-pressed', String(!paused));
+        cycle.textContent = paused
+          ? he
+            ? 'המשך החלפה'
+            : 'Resume rotation'
+          : he
+            ? 'עצור החלפה'
+            : 'Pause rotation';
+      };
+      setPaused(paused);
+      cycle.addEventListener('click', () => setPaused(!paused));
+      desk.addEventListener('pointerdown', (event) => {
+        if (event.target !== cycle) setPaused(true);
+      });
+      desk.addEventListener('focusin', (event) => {
+        if (event.target !== cycle) setPaused(true);
+      });
+      const tabs = [
+        ...desk.querySelectorAll<HTMLButtonElement>('[data-chart-symbol]'),
+      ];
+      setInterval(() => {
+        if (paused || document.hidden) return;
+        const i = tabs.findIndex((x) => x.dataset.chartSymbol === symbol);
+        const next = tabs
+          .slice(i + 1)
+          .concat(tabs.slice(0, i + 1))
+          .find((b) => cachedQuote(b.dataset.chartSymbol!, range));
+        if (!next || next.dataset.chartSymbol === symbol) return;
+        symbol = next.dataset.chartSymbol!;
+        tabs.forEach((b) => b.setAttribute('aria-pressed', String(b === next)));
+        render(true);
+      }, 8000);
+      const scrub = (clientX: number) => {
         if (!last || !status.hidden) return;
         const rect = plot.getBoundingClientRect(),
-          ratio = Math.max(
-            0,
-            Math.min(1, (event.clientX - rect.left) / rect.width),
-          ),
-          bar = last.bars[Math.round(ratio * (last.bars.length - 1))];
+          ratio = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width)),
+          index = Math.round(ratio * (last.bars.length - 1)),
+          bar = last.bars[index];
         tip.textContent =
           localTime(bar.time) +
           ' · ' +
@@ -387,8 +443,58 @@ const ranges = he
         tip.hidden = false;
         cross.hidden = false;
         cross.style.left = ratio * 100 + '%';
+        plot.dataset.scrubIndex = String(index);
+        plot.dataset.scrubValue = String(bar.value);
+      };
+      plot.addEventListener('keydown', (event) => {
+        if (
+          !last ||
+          !status.hidden ||
+          !['ArrowLeft', 'ArrowRight', 'Home', 'End', 'Escape'].includes(
+            event.key,
+          )
+        )
+          return;
+        event.preventDefault();
+        setPaused(true);
+        if (event.key === 'Escape') {
+          tip.hidden = true;
+          cross.hidden = true;
+          return;
+        }
+        let i = Number(plot.dataset.scrubIndex ?? last.bars.length - 1);
+        if (event.key === 'Home') i = 0;
+        else if (event.key === 'End') i = last.bars.length - 1;
+        else
+          i = Math.max(
+            0,
+            Math.min(
+              last.bars.length - 1,
+              i + (event.key === 'ArrowRight' ? 1 : -1),
+            ),
+          );
+        const box = plot.getBoundingClientRect();
+        scrub(box.left + (i / (last.bars.length - 1)) * box.width);
       });
-      plot.addEventListener('pointerleave', () => {
+      plot.addEventListener('contextmenu', (event) => event.preventDefault());
+      plot.addEventListener('selectstart', (event) => event.preventDefault());
+      plot.addEventListener('pointerdown', (event) => {
+        setPaused(true);
+        plot.setPointerCapture(event.pointerId);
+        scrub(event.clientX);
+      });
+      plot.addEventListener('pointerup', (event) => {
+        if (plot.hasPointerCapture(event.pointerId))
+          plot.releasePointerCapture(event.pointerId);
+      });
+      plot.addEventListener('pointercancel', () => {
+        tip.hidden = true;
+        cross.hidden = true;
+      });
+
+      plot.addEventListener('pointermove', (event) => scrub(event.clientX));
+      plot.addEventListener('pointerleave', (event) => {
+        if (event.pointerType === 'touch') return;
         tip.hidden = true;
         cross.hidden = true;
       });

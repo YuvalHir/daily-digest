@@ -43,7 +43,12 @@ export async function buildIndex(root = resolve('public/data')) {
         editionType: ed.editionType,
         editionNumber: ed.editionNumber,
         publishedAt: ed.publishedAt,
-        headlinePreview: lead.headline,
+        headlinePreview: Object.fromEntries(
+          Object.entries(lead.headline).map(([lang, text]) => [
+            lang,
+            text.replace(/\{\{move:([+-]\d+(?:\.\d+)?%)\}\}/g, '$1'),
+          ]),
+        ),
         itemCount: ed.items.length,
       });
     }

@@ -1,0 +1,44 @@
+---
+const { text } = Astro.props;
+const pattern = /\{\{move:([+-]\d+(?:\.\d+)?%)\}\}/g;
+const parts = [];
+let from = 0;
+for (const match of text.matchAll(pattern)) {
+  parts.push({ text: text.slice(from, match.index) });
+  parts.push({
+    text: match[1],
+    direction: match[1].startsWith('+') ? 'up' : 'down',
+  });
+  from = match.index + match[0].length;
+}
+parts.push({ text: text.slice(from) });
+---
+
+{parts.map((part) =>
+  part.direction ? (
+    <bdi
+      dir="ltr"
+      class:list={[
+        'market-move',
+        part.direction === 'up' ? 'market-up' : 'market-down',
+      ]}
+    >
+      {part.text}
+    </bdi>
+  ) : (
+    part.text
+  ),
+)}
+<style>
+  .market-move {
+    font-weight: 650;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .market-up {
+    color: var(--rise);
+  }
+  .market-down {
+    color: var(--fall);
+  }
+</style>

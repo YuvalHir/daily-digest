@@ -24,3 +24,7 @@ test('production routes do not import mini widget or synthetic fixtures', async 
   const data = await readFile('public/market.json', 'utf8');
   assert.ok(!data.includes('DMOA'));
 });
+
+test('visitor market adapter has no durable price-store or external cache dependency',async()=>{
+ const code=await readFile('worker/index.js','utf8');assert.ok(!/\.put\(|writeFile|git push|market-data/.test(code));assert.ok(code.includes('Cache-Control'));const client=await readFile('src/lib/market-client.ts','utf8');assert.ok(client.includes('/api/market'));assert.ok(!client.includes('raw.githubusercontent'));const native=await readFile('src/components/NativeQuote.astro','utf8');assert.ok(native.includes('quoteStamp'));assert.ok(!native.includes('נרות'));
+});

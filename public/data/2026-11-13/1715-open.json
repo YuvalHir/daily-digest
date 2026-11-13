@@ -20,12 +20,12 @@
         "en": "Wall Street · opening hour"
       },
       "headline": {
-        "he": "הפתיחה הירוקה לא החזיקה. נאסד״ק עובר לירידה של 1%",
-        "en": "The green open did not last. Nasdaq turns 1% lower"
+        "he": "הפתיחה הירוקה לא החזיקה. נאסד״ק עובר לירידה של {{move:-1%}}",
+        "en": "The green open did not last. Nasdaq turns {{move:-1%}} lower"
       },
       "summary": {
-        "he": "המדדים האמריקאיים פתחו בעליות, אך התהפכו במהלך השעה הראשונה. לפי דיווח @DeItaone ב-17:05 שעון ישראל, S&P 500 ירד 0.67%, נאסד״ק ירד 1% והדאו איבד 0.08%. אלה נתוני נקודת זמן, לא ציטוטים חיים.",
-        "en": "US indices opened higher before reversing during the first hour. A 17:05 Israel-time report from @DeItaone put the S&P 500 down 0.67%, Nasdaq down 1% and the Dow down 0.08%. These are timestamped snapshots, not live quotes."
+        "he": "המדדים האמריקאיים פתחו בעליות, אך התהפכו במהלך השעה הראשונה. לפי דיווח @DeItaone ב-17:05 שעון ישראל, S&P 500 ירד {{move:-0.67%}}, נאסד״ק ירד {{move:-1%}} והדאו איבד {{move:-0.08%}}. אלה נתוני נקודת זמן, לא ציטוטים חיים.",
+        "en": "US indices opened higher before reversing during the first hour. A 17:05 Israel-time report from @DeItaone put the S&P 500 down {{move:-0.67%}}, Nasdaq down {{move:-1%}} and the Dow down {{move:-0.08%}}. These are timestamped snapshots, not live quotes."
       },
       "source": {
         "name": "@DeItaone",
@@ -34,11 +34,11 @@
       "priority": 1,
       "bullets": {
         "he": [
-          "16:32: S&P 500 עלה 0.29%, נאסד״ק 0.13% והדאו 0.36%, לפי @FirstSquawk.",
+          "16:32: S&P 500 עלה {{move:+0.29%}}, נאסד״ק {{move:+0.13%}} והדאו {{move:+0.36%}}, לפי @FirstSquawk.",
           "17:05: שלושת המדדים עברו לטריטוריה שלילית."
         ],
         "en": [
-          "16:32: S&P 500 +0.29%, Nasdaq +0.13% and Dow +0.36%, according to @FirstSquawk.",
+          "16:32: S&P 500 {{move:+0.29%}}, Nasdaq {{move:+0.13%}} and Dow {{move:+0.36%}}, according to @FirstSquawk.",
           "17:05: all three indices were in negative territory."
         ]
       },
@@ -62,8 +62,8 @@
         "en": "More than 16 hours later, Microsoft 365 is still recovering"
       },
       "summary": {
-        "he": "לפי @wallstengine, שיבושים ב-Outlook, Teams ו-Copilot נמשכו יותר מ-16 שעות, והמניה ירדה 2.2% בדיווח המוקדם של 12:53. בעדכון מאוחר יותר שצוטט ב-16:05, Microsoft דיווחה שההתאוששות נמשכת ושחלק מהמשתמשים עדיין עלולים לחוות תקלות ועיכובים בדוא״ל.",
-        "en": "@wallstengine reported more than 16 hours of disruption to Outlook, Teams and Copilot, with MSFT down 2.2% in its earlier 12:53 Israel-time report. A later Microsoft update carried at 16:05 said recovery was continuing, but some users could still experience intermittent access problems and delayed email."
+        "he": "לפי @wallstengine, שיבושים ב-Outlook, Teams ו-Copilot נמשכו יותר מ-16 שעות, והמניה ירדה {{move:-2.2%}} בדיווח המוקדם של 12:53. בעדכון מאוחר יותר שצוטט ב-16:05, Microsoft דיווחה שההתאוששות נמשכת ושחלק מהמשתמשים עדיין עלולים לחוות תקלות ועיכובים בדוא״ל.",
+        "en": "@wallstengine reported more than 16 hours of disruption to Outlook, Teams and Copilot, with MSFT down {{move:-2.2%}} in its earlier 12:53 Israel-time report. A later Microsoft update carried at 16:05 said recovery was continuing, but some users could still experience intermittent access problems and delayed email."
       },
       "source": {
         "name": "@wallstengine",
@@ -76,7 +76,9 @@
           "url": "https://x.com/FirstSquawk/status/2121243101071319456"
         }
       ],
-      "marketSymbols": ["NASDAQ:MSFT"],
+      "marketSymbols": [
+        "NASDAQ:MSFT"
+      ],
       "socialPost": {
         "id": "2121194713466511448",
         "url": "https://x.com/wallstengine/status/2121194713466511448"
@@ -103,7 +105,9 @@
         "url": "https://x.com/wallstengine/status/2121199821986078725"
       },
       "priority": 3,
-      "marketSymbols": ["NASDAQ:NVDA"]
+      "marketSymbols": [
+        "NASDAQ:NVDA"
+      ]
     },
     {
       "id": "chip-export-controls",
@@ -126,7 +130,9 @@
         "url": "https://x.com/wallstengine/status/2121229821552496694"
       },
       "priority": 4,
-      "marketSymbols": ["NASDAQ:NVDA"]
+      "marketSymbols": [
+        "NASDAQ:NVDA"
+      ]
     },
     {
       "id": "nscale-funding",
@@ -189,15 +195,18 @@
         "en": "AMD vs Nvidia: a 53.2-point gap over five trading days"
       },
       "summary": {
-        "he": "לפי The Kobeissi Letter, מניית AMD עלתה 44.7% בחמישה ימי מסחר בעוד Nvidia ירדה 8.5%: פער של 53.2 נקודות אחוז. מדובר בהשוואת תשואות לתקופה, ולא בשינוי היומי של המניות.",
-        "en": "The Kobeissi Letter reports that AMD gained 44.7% over five trading days while Nvidia fell 8.5%, a 53.2-percentage-point gap. This is a multi-day return comparison, not either stock's daily move."
+        "he": "לפי The Kobeissi Letter, מניית AMD עלתה {{move:+44.7%}} בחמישה ימי מסחר בעוד Nvidia ירדה {{move:-8.5%}}: פער של 53.2 נקודות אחוז. מדובר בהשוואת תשואות לתקופה, ולא בשינוי היומי של המניות.",
+        "en": "The Kobeissi Letter reports that AMD gained {{move:+44.7%}} over five trading days while Nvidia fell {{move:-8.5%}}, a 53.2-percentage-point gap. This is a multi-day return comparison, not either stock's daily move."
       },
       "source": {
         "name": "@kobeissiletter",
         "url": "https://x.com/KobeissiLetter/status/2121255955438465370"
       },
       "priority": 7,
-      "marketSymbols": ["NASDAQ:AMD", "NASDAQ:NVDA"],
+      "marketSymbols": [
+        "NASDAQ:AMD",
+        "NASDAQ:NVDA"
+      ],
       "socialPost": {
         "id": "2121255955438465370",
         "url": "https://x.com/KobeissiLetter/status/2121255955438465370"
@@ -306,7 +315,9 @@
         "url": "https://x.com/KobeissiLetter/status/2121119250601697764"
       },
       "priority": 11,
-      "marketSymbols": ["BITSTAMP:BTCUSD"],
+      "marketSymbols": [
+        "BITSTAMP:BTCUSD"
+      ],
       "socialPost": {
         "id": "2121119250601697764",
         "url": "https://x.com/KobeissiLetter/status/2121119250601697764"
@@ -431,12 +442,12 @@
         "en": "Tel Aviv Stock Exchange"
       },
       "headline": {
-        "he": "סיום אדום לשבוע ירוק: ת״א-35 איבד 0.88%",
-        "en": "A red finish to a green week: TA-35 falls 0.88%"
+        "he": "סיום אדום לשבוע ירוק: ת״א-35 איבד {{move:-0.88%}}",
+        "en": "A red finish to a green week: TA-35 falls {{move:-0.88%}}"
       },
       "summary": {
-        "he": "לפי עדכון @TASE_IL, ת״א-35 ירד 0.88%, ת״א-125 ירד 0.98% ות״א-90 ירד 1.39%. מניות האנרגיה המתחדשת, הקלינטק והביטוח הובילו את הירידות, בעוד סקטור הנפט והגז עלה מעט.",
-        "en": "The @TASE_IL closing update put TA-35 down 0.88%, TA-125 down 0.98% and TA-90 down 1.39%. Renewable energy, cleantech and insurance led declines, while oil and gas posted a slight gain."
+        "he": "לפי עדכון @TASE_IL, ת״א-35 ירד {{move:-0.88%}}, ת״א-125 ירד {{move:-0.98%}} ות״א-90 ירד {{move:-1.39%}}. מניות האנרגיה המתחדשת, הקלינטק והביטוח הובילו את הירידות, בעוד סקטור הנפט והגז עלה מעט.",
+        "en": "The @TASE_IL closing update put TA-35 down {{move:-0.88%}}, TA-125 down {{move:-0.98%}} and TA-90 down {{move:-1.39%}}. Renewable energy, cleantech and insurance led declines, while oil and gas posted a slight gain."
       },
       "source": {
         "name": "@TASE_IL",
@@ -487,7 +498,9 @@
         "url": "https://x.com/calcalist/status/2121252997284167922"
       },
       "priority": 19,
-      "marketSymbols": ["NASDAQ:NVDA"]
+      "marketSymbols": [
+        "NASDAQ:NVDA"
+      ]
     },
     {
       "id": "israeli-nvidia-investors",
@@ -510,7 +523,9 @@
         "url": "https://x.com/globesnews/status/2121161573330763832"
       },
       "priority": 20,
-      "marketSymbols": ["NASDAQ:NVDA"]
+      "marketSymbols": [
+        "NASDAQ:NVDA"
+      ]
     }
   ]
 }
