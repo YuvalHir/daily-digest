@@ -1,3 +1,4 @@
+import { chartBars } from './chart-processing.js';
 import createYahooFinance from 'yahoo-finance2/createYahooFinance';
 import chart from 'yahoo-finance2/modules/chart';
 const YahooFinance = createYahooFinance({ modules: { chart } });
@@ -26,6 +27,7 @@ async function collect(key, range, yahoo) {
       period1: start,
       interval,
       includePrePost: false,
+      return: 'object',
     });
     const meta = result.meta;
     if (meta.symbol?.toUpperCase() !== symbol.toUpperCase())
@@ -34,24 +36,7 @@ async function collect(key, range, yahoo) {
       presetName === symbol
         ? meta.shortName || meta.longName || symbol
         : presetName;
-    let bars = result.quotes
-      .filter((b) => Number.isFinite(b.close) && b.date instanceof Date)
-      .map((b) => ({ time: b.date.toISOString(), value: b.close }));
-    if (!bars.length) throw Error('No source bars');
-    if (range === '1h' || range === '5h') {
-      const end = Date.parse(bars.at(-1).time),
-        from = end - (range === '1h' ? 1 : 5) * 3600000;
-      bars = bars.filter((b) => Date.parse(b.time) >= from);
-    } else if (range === '1d') {
-      const fmt = new Intl.DateTimeFormat('en-CA', {
-        timeZone: meta.exchangeTimezoneName,
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-      });
-      const day = fmt.format(new Date(bars.at(-1).time));
-      bars = bars.filter((b) => fmt.format(new Date(b.time)) === day);
-    }
+    const bars = chartBars(result, range);
     if (bars.length < 2 || !Number.isFinite(meta.regularMarketPrice))
       throw Error('Insufficient source data');
     const value = {
