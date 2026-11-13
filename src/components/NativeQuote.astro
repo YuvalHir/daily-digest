@@ -1,130 +1,15 @@
 ---
-/** Presentational only. Connect only to a verified, licensed quote source. */
-interface Quote {
-  symbol: string;
-  name: string;
-  price: number;
-  currency: string;
-  changePercent: number;
-  points: number[];
-  asOf: string;
-  sourceName: string;
-  sourceUrl: string;
-  status: 'realtime' | 'delayed' | 'closed' | 'stale';
-}
-interface Props {
-  quote?: Quote;
-  locale: 'he' | 'en';
-  size?: 'compact' | 'wide';
-  demo?: boolean;
-  symbol?: string;
-}
-const { quote, locale, size = 'compact', demo = false, symbol } = Astro.props;
+const { symbol, locale, size = 'compact' } = Astro.props;
 const he = locale === 'he';
-const valid =
-  quote &&
-  quote.points.length >= 2 &&
-  quote.points.every(Number.isFinite) &&
-  Number.isFinite(quote.price) &&
-  Number.isFinite(quote.changePercent) &&
-  !Number.isNaN(Date.parse(quote.asOf));
-const points = valid ? quote.points : [];
-const low = Math.min(...points),
-  high = Math.max(...points),
-  range = high - low || 1;
-const path = points
-  .map(
-    (v, i) =>
-      `${i ? 'L' : 'M'}${((i / (points.length - 1)) * 160).toFixed(2)},${(36 - ((v - low) / range) * 30).toFixed(2)}`,
-  )
-  .join(' ');
-const color = quote && quote.changePercent < 0 ? 'negative' : 'positive';
-const time = valid
-  ? new Intl.DateTimeFormat(navigator.language, {
-      hour: '2-digit',
-      minute: '2-digit',
-      second: '2-digit',
-      day: '2-digit',
-      month: '2-digit',
-    }).format(new Date(quote.asOf))
-  : '';
-const labels = {
-  realtime: he ? 'זמן אמת לפי המקור' : 'Real-time per source',
-  delayed: he ? 'מושהה' : 'Delayed',
-  closed: he ? 'שוק סגור' : 'Market closed',
-  stale: he ? 'לא מעודכן' : 'Stale',
-};
 ---
 
 <div
+  class:list={['native-quote', size === 'wide' ? 'wide' : '']}
   data-native-quote
   data-symbol={symbol}
   data-lang={locale}
-  class:list={['native-quote', size, color, { 'is-demo': demo }]}
 >
-  {valid ? (
-    <>
-      <svg
-        class="native-spark"
-        viewBox="0 0 164 42"
-        preserveAspectRatio="none"
-        role="img"
-        aria-label={he ? 'מגמת מחיר' : 'Price trend'}
-      >
-        <path d={path} transform="translate(2 1)" />
-        <circle
-          cx="162"
-          cy={37 - ((points.at(-1)! - low) / range) * 30}
-          r="2.8"
-        />
-      </svg>
-      <div class="native-quote-body">
-        <div class="native-identity">
-          <bdi>{quote.symbol}</bdi>
-          <span>{quote.name}</span>
-        </div>
-        <div class="native-values" dir="ltr">
-          <span class="native-change">
-            {quote.changePercent >= 0 ? '+' : ''}
-            {quote.changePercent.toFixed(2)}%
-          </span>
-          <strong>
-            {quote.currency === 'USD' ? '$' : ''}
-            {quote.price.toLocaleString('en-US', {
-              maximumFractionDigits: 2,
-              minimumFractionDigits: 2,
-            })}
-          </strong>
-        </div>
-      </div>
-      <div class="native-provenance">
-        {demo ? (
-          he ? (
-            'נתוני דמה לעיצוב בלבד'
-          ) : (
-            'Synthetic design data only'
-          )
-        ) : (
-          <>
-            <a href={quote.sourceUrl} rel="noopener noreferrer" target="_blank">
-              {quote.sourceName}
-            </a>
-            <span>
-              {' '}
-              · {labels[quote.status]} · <bdi>{time}</bdi>{' '}
-              {he ? 'שעון ישראל' : 'Israel time'}
-            </span>
-          </>
-        )}
-      </div>
-    </>
-  ) : (
-    <p class="native-empty">
-      {he
-        ? 'מחיר עדכני לא זמין · לא מוצג מחיר משוער'
-        : 'Current quote unavailable · no estimated price shown'}
-    </p>
-  )}
+  <p class="native-empty">{he ? 'טוען נתוני שוק…' : 'Loading market data…'}</p>
 </div>
 <style>
   .native-quote {
@@ -234,144 +119,115 @@ const labels = {
     }
   }
 </style>
-
 <script>
-  const refresh = async () => {
-    let data;
-    try {
-      const response = await fetch(
-        'https://raw.githubusercontent.com/YuvalHir/daily-digest/market-data/market.json',
-        { cache: 'no-cache' },
-      );
-      if (!response.ok) throw Error();
-      data = await response.json();
-    } catch {
-      try {
-        data = await (
-          await fetch('/market.json', { cache: 'no-cache' })
-        ).json();
-      } catch {
-        return;
-      }
-    }
-    document
-      .querySelectorAll<HTMLElement>('[data-native-quote]')
-      .forEach((root) => {
-        const q = data.quotes?.[root.dataset.symbol!],
-          he = root.dataset.lang === 'he';
-        if (!q || q.unavailable) return;
-        const stamp = Date.parse(q.asOf),
-          age = (Date.now() - stamp) / 60000;
-        if (
-          !Number.isFinite(stamp) ||
-          !Number.isFinite(q.price) ||
-          !Number.isFinite(q.changePercent) ||
-          !Array.isArray(q.points) ||
-          q.points.length < 2 ||
-          !q.points.every(Number.isFinite)
-        )
-          return;
-        const scope = [...root.attributes].find((a) =>
-          a.name.startsWith('data-astro-cid-'),
-        )?.name;
-        const el = (tag: string, cls: string, text?: string) => {
-          const x = document.createElement(tag);
-          if (scope) x.setAttribute(scope, '');
-          x.className = cls;
-          if (text) x.textContent = text;
-          return x;
-        };
-        root.replaceChildren();
-        root.classList.toggle('negative', q.changePercent < 0);
-        root.classList.toggle('positive', q.changePercent >= 0);
-        const ns = 'http://www.w3.org/2000/svg',
-          svg = document.createElementNS(ns, 'svg');
-        if (scope) svg.setAttribute(scope, '');
-        svg.setAttribute('class', 'native-spark');
-        svg.setAttribute('viewBox', '0 0 164 42');
-        svg.setAttribute('preserveAspectRatio', 'none');
-        svg.setAttribute('role', 'img');
-        svg.setAttribute(
-          'aria-label',
-          he ? 'מגמת המחיר היום' : 'Today’s price trend',
-        );
-        const min = Math.min(...q.points),
-          range = Math.max(...q.points) - min || 1,
-          path = document.createElementNS(ns, 'path');
-        if (scope) path.setAttribute(scope, '');
-        path.setAttribute(
-          'd',
-          q.points
-            .map(
-              (v: number, i: number) =>
-                `${i ? 'L' : 'M'}${2 + (i / (q.points.length - 1)) * 160},${37 - ((v - min) / range) * 30}`,
-            )
-            .join(' '),
-        );
-        svg.append(path);
-        root.append(svg);
-        const body = el('div', 'native-quote-body'),
-          identity = el('div', 'native-identity');
-        identity.append(el('bdi', '', q.symbol), el('span', '', q.name));
-        const values = el('div', 'native-values');
-        values.dir = 'ltr';
-        values.append(
-          el(
-            'span',
-            'native-change',
-            (q.changePercent >= 0 ? '+' : '') +
-              q.changePercent.toFixed(2) +
-              '%',
-          ),
-          el(
-            'strong',
-            '',
-            (q.currency === 'USD' ? '$' : '') +
-              q.price.toLocaleString('en-US', {
-                minimumFractionDigits: 2,
-                maximumFractionDigits: 2,
-              }),
-          ),
-        );
-        body.append(identity, values);
-        root.append(body);
-        const provenance = el('div', 'native-provenance');
-        const time = new Intl.DateTimeFormat(navigator.language, {
-          hour: '2-digit',
-          minute: '2-digit',
-          second: '2-digit',
-          day: '2-digit',
-          month: '2-digit',
-          year: 'numeric',
-        }).format(new Date(stamp));
-        provenance.textContent = `${he ? 'ייתכן עיכוב' : 'May be delayed'} · ${time}`;
-        root.dataset.stale = String(age > 30 || Boolean(q.fetchError));
-        if (age > 30 || q.fetchError) {
-          root.dataset.stale = 'true';
-          root.setAttribute(
-            'aria-label',
-            he ? 'ציטוט ישן. ייתכן עיכוב' : 'Older quote. May be delayed',
+  import {
+    quoteData,
+    localTime,
+    rangeText,
+    sparkPath,
+  } from '../lib/market-client';
+  const roots = [
+    ...document.querySelectorAll<HTMLElement>('[data-native-quote]'),
+  ];
+  async function refresh() {
+    await Promise.all(
+      roots.map(async (root) => {
+        const he = root.dataset.lang === 'he';
+        try {
+          const q = await quoteData(root.dataset.symbol!);
+          const scope = [...root.attributes].find((a) =>
+            a.name.startsWith('data-astro-cid-'),
+          )?.name;
+          const el = (tag: string, cls: string, text?: string) => {
+            const x = document.createElement(tag);
+            if (scope) x.setAttribute(scope, '');
+            x.className = cls;
+            if (text) x.textContent = text;
+            return x;
+          };
+          root.replaceChildren();
+          root.classList.toggle('negative', q.changePercent < 0);
+          root.classList.toggle('positive', q.changePercent >= 0);
+          const svg = document.createElementNS(
+            'http://www.w3.org/2000/svg',
+            'svg',
           );
+          if (scope) svg.setAttribute(scope, '');
+          svg.setAttribute('viewBox', '0 0 164 42');
+          svg.setAttribute('class', 'native-spark');
+          svg.setAttribute('role', 'img');
+          svg.setAttribute('aria-label', rangeText(q, he));
+          const path = document.createElementNS(svg.namespaceURI, 'path');
+          if (scope) path.setAttribute(scope, '');
+          path.setAttribute('d', sparkPath(q, 164, 42));
+          svg.append(path);
+          root.append(svg);
+          const body = el('div', 'native-quote-body'),
+            identity = el('div', 'native-identity');
+          identity.append(el('bdi', '', q.symbol), el('span', '', q.name));
+          const values = el('div', 'native-values');
+          values.dir = 'ltr';
+          values.append(
+            el(
+              'span',
+              'native-change',
+              (q.changePercent >= 0 ? '+' : '') +
+                q.changePercent.toFixed(2) +
+                '%',
+            ),
+            el(
+              'strong',
+              '',
+              (q.currency === 'USD' ? '$' : '') +
+                q.price.toLocaleString(navigator.language, {
+                  minimumFractionDigits: 2,
+                  maximumFractionDigits: 2,
+                }),
+            ),
+          );
+          body.append(identity, values);
+          root.append(body);
+          const range = el(
+            'div',
+            'native-provenance',
+            rangeText(q, he) +
+              ' · ' +
+              localTime(q.seriesStart) +
+              ' - ' +
+              localTime(q.seriesAsOf, false),
+          );
+          range.dir = 'auto';
+          root.append(range);
+          const stamp = el(
+            'div',
+            'native-provenance',
+            (he ? 'ייתכן עיכוב' : 'May be delayed') + ' · ' + localTime(q.asOf),
+          );
+          stamp.dir = 'auto';
+          root.append(stamp);
+          root.dataset.asOf = q.asOf;
+          root.dataset.stale = String(
+            Date.now() - Date.parse(q.asOf) > 1800000,
+          );
+          root.title = he
+            ? 'אחוז השינוי במחיר הוא לעומת הסגירה הקודמת'
+            : 'Price change is versus the previous close';
+        } catch {
+          if (!root.dataset.asOf) {
+            root.textContent = he
+              ? 'נתוני השוק אינם זמינים כרגע'
+              : 'Market data is currently unavailable';
+          } else {
+            root.dataset.stale = 'true';
+            root.title = he
+              ? 'העדכון נכשל. מוצג הציטוט האחרון'
+              : 'Refresh failed. Last received quote shown';
+          }
         }
-        provenance.dir = 'auto';
-        root.append(provenance);
-        root.dataset.asOf = q.asOf;
-      });
-  };
+      }),
+    );
+  }
   refresh();
-  setInterval(() => {
-    document
-      .querySelectorAll<HTMLElement>('[data-native-quote][data-as-of]')
-      .forEach((root) => {
-        if (Date.now() - Date.parse(root.dataset.asOf!) > 30 * 60000) {
-          root.dataset.stale = 'true';
-          root.title =
-            root.dataset.lang === 'he'
-              ? 'ציטוט ישן. ייתכן עיכוב'
-              : 'Older quote. May be delayed';
-        }
-      });
-  }, 60000);
   setInterval(() => {
     if (!document.hidden) refresh();
   }, 300000);

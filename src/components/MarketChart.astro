@@ -1,251 +1,396 @@
 ---
 const { locale } = Astro.props;
 const he = locale === 'he';
-const symbols = [
-  { symbol: 'NASDAQ:NVDA', name: 'Nvidia', status: 'delayed' },
-  { symbol: 'NASDAQ:MSFT', name: 'Microsoft', status: 'delayed' },
-  { symbol: 'NASDAQ:AMD', name: 'AMD', status: 'delayed' },
-  { symbol: 'BITSTAMP:BTCUSD', name: 'Bitcoin', status: 'realtime' },
+const assets = [
+  ['NASDAQ:NVDA', 'NVDA'],
+  ['NASDAQ:MSFT', 'MSFT'],
+  ['NASDAQ:AMD', 'AMD'],
+  ['BITSTAMP:BTCUSD', 'BTC'],
 ];
+const ranges = he
+  ? [
+      ['1h', 'שעה'],
+      ['5h', '5 שעות'],
+      ['1d', 'יום'],
+      ['1mo', 'חודש'],
+      ['1y', 'שנה'],
+    ]
+  : [
+      ['1h', '1H'],
+      ['5h', '5H'],
+      ['1d', '1D'],
+      ['1mo', '1M'],
+      ['1y', '1Y'],
+    ];
 ---
 
 <section
   class="market-desk"
-  aria-labelledby="chart-title"
   data-market-desk
   data-lang={locale}
+  aria-labelledby="chart-title"
 >
   <div class="chart-heading">
     <h2 id="chart-title">{he ? 'מאחורי הכותרות' : 'Behind the headlines'}</h2>
-    <span>{he ? 'גרף מתעדכן' : 'Updating chart'}</span>
+    <span>{he ? 'תמונת השוק' : 'The market now'}</span>
   </div>
   <div
     class="chart-tabs"
     role="group"
-    aria-label={he ? 'בחירת נכס לגרף' : 'Select a chart asset'}
+    aria-label={he ? 'בחירת נכס' : 'Select asset'}
   >
-    {symbols.map((s, i) => (
+    {assets.map(([symbol, label], i) => (
       <button
         type="button"
-        aria-pressed={i === 0 ? 'true' : 'false'}
-        data-chart-symbol={s.symbol}
-        data-chart-status={s.status}
-        data-chart-name={s.name}
+        data-chart-symbol={symbol}
+        aria-pressed={String(i === 0)}
       >
-        <bdi>{s.symbol.split(':')[1]}</bdi>
+        <bdi>{label}</bdi>
       </button>
     ))}
   </div>
-  <p class="chart-context">
-    <span>{he ? 'קשור לידיעה: ' : 'Related story: '}</span>
-    <a href="#nvidia-employees" data-chart-context>
-      {he
-        ? 'עובדי Nvidia מבקשים להחזיר את ג׳נסן הואנג'
-        : 'Nvidia employees call for Jensen Huang to return'}
-    </a>
-  </p>
-  <div class="chart-visual" data-chart-visual>
-    <div class="chart-loading" role="status">
-      {he ? 'טוען גרף מ-TradingView…' : 'Loading chart from TradingView…'}
+  <div class="native-main-head">
+    <div>
+      <bdi data-main-name>Nvidia</bdi>
+      <strong data-main-price>--</strong>
     </div>
+    <span data-main-change></span>
   </div>
-  <p class="chart-status" data-chart-status-text>
+  <div
+    class="native-ranges"
+    role="group"
+    aria-label={he ? 'טווח זמן' : 'Chart range'}
+  >
+    {ranges.map(([range, label]) => (
+      <button
+        type="button"
+        data-chart-range={range}
+        aria-pressed={String(range === '1d')}
+      >
+        {label}
+      </button>
+    ))}
+  </div>
+  <p class="native-main-range" data-main-range>
     {he
-      ? 'NASDAQ:NVDA · נתונים מושהים. משך ההשהיה לפי הספק.'
-      : 'NASDAQ:NVDA · Delayed data. Delay depends on the provider.'}
+      ? 'יום המסחר האחרון · נרות 5 דקות'
+      : 'Latest trading day · 5-minute bars'}
   </p>
-  <p class="chart-disclosure">
-    {he
-      ? 'הגרף מציג את השוק כעת, לא את רגע פרסום המהדורה. נתוני מניות מושהים; נתוני Bitstamp מתעדכנים לפי הספק. לא מובטחת מסירה מיידית.'
-      : 'The chart shows the current market, not the edition snapshot. Stocks are delayed; Bitstamp data updates via the provider. Instant delivery is not guaranteed.'}
-  </p>
-  <noscript>
-    <p>
-      {he
-        ? 'נדרש JavaScript לגרף האינטראקטיבי. סיכום החדשות זמין במלואו בלעדיו.'
-        : 'JavaScript is needed for the interactive chart. The full news edition is available without it.'}
+  <div class="native-main-plot" data-main-plot>
+    <svg
+      viewBox="0 0 840 310"
+      preserveAspectRatio="none"
+      role="img"
+      aria-label={he ? 'גרף מחיר' : 'Price chart'}
+      data-main-svg
+    ></svg>
+    <div class="native-crosshair" data-main-crosshair hidden></div>
+    <output data-main-tooltip hidden></output>
+    <p data-main-status role="status">
+      {he ? 'טוען נתוני שוק…' : 'Loading market data…'}
     </p>
-    <a href="https://www.tradingview.com/widget-docs/widgets/charts/advanced-chart/demos/basic-area-chart/">
-      TradingView
-    </a>
+  </div>
+  <div class="native-main-axis">
+    <span data-main-start></span>
+    <span data-main-end></span>
+  </div>
+  <p class="native-main-stamp" data-main-stamp></p>
+  <noscript>
+    {he
+      ? 'נדרש JavaScript להצגת הגרף. החדשות זמינות גם בלעדיו.'
+      : 'JavaScript is needed for the chart. News remains available without it.'}
   </noscript>
 </section>
+<style>
+  .native-main-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: end;
+    direction: ltr;
+    margin: 22px 0 18px;
+  }
+  .native-main-head > div {
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+  }
+  .native-main-head bdi {
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .native-main-head strong {
+    font: 500 clamp(26px, 4vw, 42px) var(--mono);
+    letter-spacing: -1.4px;
+  }
+  .native-main-head > span {
+    font: 13px var(--mono);
+    color: var(--muted);
+  }
+  .native-ranges {
+    display: flex;
+    gap: 4px;
+    direction: ltr;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 8px;
+  }
+  .native-ranges button {
+    min-width: 48px;
+    min-height: 36px;
+    border: 0;
+    background: none;
+    color: var(--muted);
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .native-ranges button[aria-pressed='true'] {
+    background: var(--ink);
+    color: var(--bg);
+    border-radius: 3px;
+  }
+  .native-main-range {
+    font-size: 11px;
+    color: var(--muted);
+    margin: 13px 0 8px;
+  }
+  .native-main-plot {
+    height: clamp(220px, 30vw, 340px);
+    position: relative;
+    direction: ltr;
+  }
+  .native-main-plot svg {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    touch-action: pan-y;
+  }
+  .native-main-plot p {
+    position: absolute;
+    inset: 35% 0 auto;
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .native-main-plot output {
+    position: absolute;
+    top: 8px;
+    inset-inline-start: 10px;
+    background: var(--bg);
+    border: 1px solid var(--rule);
+    padding: 8px 10px;
+    border-radius: 3px;
+    font: 11px var(--mono);
+    pointer-events: none;
+    z-index: 2;
+  }
+  .native-crosshair {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-inline-start: 1px dashed var(--muted);
+    pointer-events: none;
+  }
+  .native-main-axis {
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+    font: 10px var(--mono);
+    color: var(--muted);
+    margin-top: 10px;
+  }
+  .native-main-stamp {
+    font-size: 11px;
+    color: var(--muted);
+    margin: 14px 0 0;
+  }
+  .market-desk {
+    margin-bottom: 30px;
+  }
+  @media (max-width: 440px) {
+    .native-main-head > div {
+      gap: 10px;
+    }
+    .native-main-head > span {
+      font-size: 10px;
+    }
+    .native-ranges button {
+      min-width: 44px;
+    }
+    .native-main-axis {
+      font-size: 9px;
+    }
+  }
+</style>
 <script>
-  const mount = (
-    desk: HTMLElement,
-    symbol: string,
-    status: string,
-    name: string,
-  ) => {
-    const host = desk.querySelector('[data-chart-visual]')!;
-    host.replaceChildren();
-    const loading = document.createElement('p');
-    loading.className = 'chart-loading';
-    loading.role = 'status';
-    loading.textContent =
-      desk.dataset.lang === 'he'
-        ? 'טוען גרף מ-TradingView…'
-        : 'Loading chart from TradingView…';
-    host.append(loading);
-    const container = document.createElement('div');
-    container.className = 'tradingview-widget-container';
-    container.style.height = '100%';
-    container.style.width = '100%';
-    const widget = document.createElement('div');
-    widget.className = 'tradingview-widget-container__widget';
-    widget.style.height = 'calc(100% - 32px)';
-    widget.style.width = '100%';
-    container.append(widget);
-    const copyright = document.createElement('div');
-    copyright.className = 'tradingview-widget-copyright';
-    const a = document.createElement('a');
-    a.href = 'https://www.tradingview.com/';
-    a.target = '_blank';
-    a.rel = 'noopener nofollow';
-    const span = document.createElement('span');
-    span.className = 'blue-text';
-    span.textContent = name + ' chart';
-    a.append(span);
-    copyright.append(a);
-    const attribution = document.createElement('span');
-    attribution.className = 'trademark';
-    attribution.textContent = ' by TradingView';
-    copyright.append(attribution);
-    container.append(copyright);
-    const script = document.createElement('script');
-    script.src =
-      'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
-    script.async = true;
-    script.type = 'text/javascript';
-    script.textContent = JSON.stringify({
-      autosize: true,
-      symbol,
-      interval: '15',
-      timezone: 'Asia/Jerusalem',
-      theme:
-        document.documentElement.dataset.theme === 'light' ? 'light' : 'dark',
-      backgroundColor:
-        document.documentElement.dataset.theme === 'light'
-          ? 'rgba(240,238,232,1)'
-          : 'rgba(25,27,30,1)',
-      style: '3',
-      hide_top_toolbar: false,
-      hide_side_toolbar: true,
-      allow_symbol_change: false,
-      save_image: false,
-      locale: desk.dataset.lang === 'he' ? 'he_IL' : 'en',
-      calendar: false,
-      support_host: 'https://www.tradingview.com',
-    });
-    const timeout = setTimeout(() => {
-      if (!container.isConnected) return;
-      loading.textContent =
-        desk.dataset.lang === 'he'
-          ? 'הגרף עדיין לא זמין. אפשר לפתוח את TradingView בקישור למטה.'
-          : 'Chart is not available yet. You can open TradingView below.';
-    }, 20000);
-    const observer = new MutationObserver(() => {
-      const frame = container.querySelector('iframe');
-      if (frame) {
-        frame.addEventListener(
-          'load',
-          () => {
-            loading.remove();
-            clearTimeout(timeout);
-          },
-          { once: true },
-        );
-        observer.disconnect();
-      }
-    });
-    observer.observe(container, { childList: true, subtree: true });
-    script.onerror = () => {
-      clearTimeout(timeout);
-      loading.remove();
-      observer.disconnect();
-      widget.textContent =
-        desk.dataset.lang === 'he'
-          ? 'לא ניתן לטעון את הגרף. נסו לרענן או לפתוח את TradingView.'
-          : 'Chart could not load. Refresh or open TradingView.';
-    };
-    container.append(script);
-    host.append(container);
-    const he = desk.dataset.lang === 'he';
-    const related: Record<string, { id: string; he: string; en: string }> = {
-      'NASDAQ:NVDA': {
-        id: 'nvidia-employees',
-        he: 'עובדי Nvidia מבקשים להחזיר את ג׳נסן הואנג',
-        en: 'Nvidia employees call for Jensen Huang to return',
-      },
-      'NASDAQ:MSFT': {
-        id: 'microsoft-outage',
-        he: 'התקלה במיקרוסופט 365',
-        en: 'Microsoft 365 outage',
-      },
-      'NASDAQ:AMD': {
-        id: 'amd-nvidia-gap',
-        he: 'AMD מול Nvidia בשוק המאיצים',
-        en: 'AMD versus Nvidia in the accelerator market',
-      },
-      'BITSTAMP:BTCUSD': {
-        id: 'crypto-selloff',
-        he: 'גל המכירות בקריפטו',
-        en: 'Crypto selloff',
-      },
-    };
-    const context = desk.querySelector<HTMLAnchorElement>(
-      '[data-chart-context]',
-    )!;
-    context.href = '#' + related[symbol].id;
-    context.textContent = related[symbol][he ? 'he' : 'en'];
-
-    desk.querySelector('[data-chart-status-text]')!.textContent =
-      symbol +
-      ' · ' +
-      (status === 'delayed'
-        ? he
-          ? 'נתונים מושהים. משך ההשהיה לפי הספק.'
-          : 'Delayed data. Delay depends on the provider.'
-        : he
-          ? 'פיד Bitstamp בזמן אמת לפי TradingView; ללא התחייבות לאפס השהיה.'
-          : 'Bitstamp real-time feed per TradingView; no zero-latency guarantee.');
-  };
+  import {
+    quoteData,
+    localTime,
+    rangeText,
+    sparkPath,
+    type Quote,
+  } from '../lib/market-client';
   document
     .querySelectorAll<HTMLElement>('[data-market-desk]')
     .forEach((desk) => {
-      const buttons = [
-        ...desk.querySelectorAll<HTMLButtonElement>('[data-chart-symbol]'),
-      ];
-      const select = (button: HTMLButtonElement) => {
-        buttons.forEach((b) =>
-          b.setAttribute('aria-pressed', String(b === button)),
-        );
-        mount(
-          desk,
-          button.dataset.chartSymbol!,
-          button.dataset.chartStatus!,
-          button.dataset.chartName!,
-        );
-      };
-      buttons.forEach((button) =>
-        button.addEventListener('click', () => select(button)),
-      );
-      document
-        .querySelectorAll<HTMLAnchorElement>('[data-open-chart]')
-        .forEach((link) =>
-          link.addEventListener('click', () => {
-            const button = buttons.find(
-              (b) => b.dataset.chartSymbol === link.dataset.openChart,
-            );
-            if (button) select(button);
+      const he = desk.dataset.lang === 'he';
+      let symbol = 'NASDAQ:NVDA',
+        range = '1d',
+        version = 0,
+        last: Quote | undefined;
+      const find = (selector: string) =>
+        desk.querySelector<HTMLElement>(selector)!;
+      const svg = desk.querySelector<SVGSVGElement>('[data-main-svg]')!,
+        status = find('[data-main-status]'),
+        tip = find('[data-main-tooltip]'),
+        cross = find('[data-main-crosshair]');
+      async function render() {
+        const current = ++version;
+        status.hidden = false;
+        status.textContent = he ? 'טוען נתוני שוק…' : 'Loading market data…';
+        try {
+          const q = await quoteData(symbol, range);
+          if (current !== version) return;
+          last = q;
+          svg.replaceChildren();
+          const ns = 'http://www.w3.org/2000/svg',
+            min = Math.min(...q.points),
+            max = Math.max(...q.points),
+            span = max - min || 1;
+          const up = q.points.at(-1)! >= q.points[0],
+            color = up ? 'var(--rise)' : 'var(--fall)';
+          for (let i = 0; i < 4; i++) {
+            const y = 10 + i * 90,
+              line = document.createElementNS(ns, 'line');
+            line.setAttribute('x1', '0');
+            line.setAttribute('x2', '840');
+            line.setAttribute('y1', String(y));
+            line.setAttribute('y2', String(y));
+            line.setAttribute('stroke', 'var(--rule)');
+            line.setAttribute('stroke-width', '0.6');
+            svg.append(line);
+            const label = document.createElementNS(ns, 'text');
+            label.setAttribute('x', '836');
+            label.setAttribute('y', String(y + 14));
+            label.setAttribute('text-anchor', 'end');
+            label.setAttribute('fill', 'var(--muted)');
+            label.setAttribute('font-size', '10');
+            label.textContent = (max - (i / 3) * span).toFixed(2);
+            svg.append(label);
+          }
+          const d = sparkPath(q, 840, 290, 10),
+            area = document.createElementNS(ns, 'path');
+          area.setAttribute('d', d + ' L830,310 L10,310 Z');
+          area.setAttribute('fill', color);
+          area.setAttribute('opacity', '0.045');
+          svg.append(area);
+          const path = document.createElementNS(ns, 'path');
+          path.setAttribute('d', d);
+          path.setAttribute('fill', 'none');
+          path.setAttribute('stroke', color);
+          path.setAttribute('stroke-width', '2');
+          path.setAttribute('vector-effect', 'non-scaling-stroke');
+          path.setAttribute('stroke-linecap', 'round');
+          path.setAttribute('stroke-linejoin', 'round');
+          svg.append(path);
+          svg.setAttribute('aria-label', q.name + ' · ' + rangeText(q, he));
+          find('[data-main-name]').textContent =
+            q.name + (he ? ' · ציטוט אחרון' : ' · Latest quote');
+          find('[data-main-price]').textContent =
+            (q.currency === 'USD' ? '$' : '') +
+            q.price.toLocaleString(navigator.language, {
+              minimumFractionDigits: 2,
+              maximumFractionDigits: 2,
+            });
+          const change = (q.points.at(-1)! / q.points[0] - 1) * 100;
+          find('[data-main-change]').textContent =
+            (change >= 0 ? '+' : '') +
+            change.toFixed(2) +
+            '% ' +
+            (he ? 'בטווח הגרף' : 'chart range');
+          find('[data-main-change]').style.color = color;
+          find('[data-main-range]').textContent = rangeText(q, he);
+          find('[data-main-start]').textContent = localTime(q.seriesStart);
+          find('[data-main-end]').textContent = localTime(q.seriesAsOf);
+          find('[data-main-stamp]').textContent =
+            (he ? 'ייתכן עיכוב' : 'May be delayed') + ' · ' + localTime(q.asOf);
+          desk.dataset.asOf = q.asOf;
+          status.hidden = true;
+          desk.dataset.stale = String(
+            Date.now() - Date.parse(q.asOf) > 1800000,
+          );
+        } catch {
+          if (current !== version) return;
+          status.textContent = he
+            ? 'הנתונים אינם זמינים כרגע'
+            : 'Market data is currently unavailable';
+          if (
+            last &&
+            last.range === range &&
+            last.symbol === symbol.split(':')[1]
+          ) {
+            desk.dataset.stale = 'true';
+            status.textContent = he
+              ? 'העדכון נכשל. מוצג הציטוט האחרון'
+              : 'Refresh failed. Last received quote shown';
+          } else {
+            svg.replaceChildren();
+            find('[data-main-price]').textContent = '--';
+            tip.hidden = true;
+            cross.hidden = true;
+          }
+        }
+      }
+      desk
+        .querySelectorAll<HTMLButtonElement>('[data-chart-symbol]')
+        .forEach((b) =>
+          b.addEventListener('click', () => {
+            symbol = b.dataset.chartSymbol!;
+            desk
+              .querySelectorAll('[data-chart-symbol]')
+              .forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+            render();
           }),
         );
-      document.addEventListener('digest:theme', () => {
-        const active = buttons.find(
-          (b) => b.getAttribute('aria-pressed') === 'true',
+      desk
+        .querySelectorAll<HTMLButtonElement>('[data-chart-range]')
+        .forEach((b) =>
+          b.addEventListener('click', () => {
+            range = b.dataset.chartRange!;
+            desk
+              .querySelectorAll('[data-chart-range]')
+              .forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+            render();
+          }),
         );
-        if (active) select(active);
+      const plot = find('[data-main-plot]');
+      plot.addEventListener('pointermove', (event) => {
+        if (!last || !status.hidden) return;
+        const rect = plot.getBoundingClientRect(),
+          ratio = Math.max(
+            0,
+            Math.min(1, (event.clientX - rect.left) / rect.width),
+          ),
+          bar = last.bars[Math.round(ratio * (last.bars.length - 1))];
+        tip.textContent =
+          localTime(bar.time) +
+          ' · ' +
+          bar.value.toLocaleString(navigator.language, {
+            maximumFractionDigits: 2,
+          });
+        tip.hidden = false;
+        cross.hidden = false;
+        cross.style.left = ratio * 100 + '%';
       });
-      select(buttons[0]);
+      plot.addEventListener('pointerleave', () => {
+        tip.hidden = true;
+        cross.hidden = true;
+      });
+      render();
+      setInterval(() => {
+        if (!document.hidden) render();
+      }, 300000);
+      document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) render();
+      });
     });
 </script>

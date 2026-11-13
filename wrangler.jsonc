@@ -1,8 +1,12 @@
 {
   "name": "daily-digest",
+  "main": "worker/index.js",
   "compatibility_date": "2026-11-13",
+  "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": "./dist",
-    "not_found_handling": "404-page",
-  },
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/market"],
+    "not_found_handling": "404-page"
+  }
 }

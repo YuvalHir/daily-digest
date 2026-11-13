@@ -79,3 +79,11 @@ Relevant stories render native SVG sparkline strips. `scripts/update-quotes.py` 
 The `Refresh market cache` workflow targets a 15-minute cadence on a separate `market-data` branch. GitHub schedules may be delayed, so provider timestamps and stale states remain authoritative. The public site fetches this small cache every 5 minutes only while visible and on return to the tab, with the deployed `public/market.json` as a fallback. Cache branch pushes do not rebuild the site. A workflow failure keeps the previous cache, whose age remains visible. No API key, new account or paid plan is used. Do not bypass provider blocks or access challenges.
 
 The accessible light-mode button follows the device preference until a choice is saved. Theme and language choices are independent and persist across pages. Native quotes use theme tokens. The large TradingView chart remains an optional independent chart and retains its attribution and delayed-data disclosure. X embeds still require explicit visitor consent.
+
+### Visitor-driven charts
+
+The native main chart and compact quote strips request `/api/market` from the existing Cloudflare Worker. `yahoo-finance2@4.0.6` runs server-side with `nodejs_compat`; browsers do not call Yahoo directly (its chart endpoints do not permit this site's origin through CORS). Only `/api/market` runs Worker code; all content and assets use static-first routing.
+
+There is no database, KV, file or git write in this route. Identical concurrent requests share one promise and successful results may stay in a worker isolate's memory for 60 seconds. Memory may disappear at any time and is not shared worldwide. No visitor request means no data collection. The browser requests data at most every five minutes while visible and on range/asset selection. Quote and bar timestamps always come from Yahoo. Historical edition statements do not change with quotes.
+
+Range labels describe actual returned bars. Intraday charts show five-minute bars; monthly/yearly charts show daily bars. "Up to 5 hours" does not fill missing hours before today's session begins. The large top price is the latest quote; chart-range change uses only the first and last returned bar. The axis endpoints show the actual bar dates/times in the visitor's browser locale/timezone.
