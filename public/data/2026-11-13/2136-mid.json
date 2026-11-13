@@ -1,0 +1,299 @@
+{
+  "schemaVersion": "2.0",
+  "date": "2026-11-13",
+  "editionSlug": "2136-mid",
+  "editionType": "mid",
+  "editionNumber": 2,
+  "publishedAt": "2026-11-13T21:36:00+02:00",
+  "editorialLead": {
+    "he": "אנבידיה שוללת: הדירקטוריון לא פנה רשמית לאף מועמד לתפקיד המנכ\"ל",
+    "en": "Nvidia pushes back: the board says it has not formally engaged any CEO candidate"
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "^NDX",
+    "NASDAQ:MSFT",
+    "NASDAQ:NVDA",
+    "NASDAQ:AMD",
+    "BITSTAMP:BTCUSD"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "NASDAQ:NVDA",
+      "range": "1d",
+      "label": {
+        "he": "אנבידיה",
+        "en": "Nvidia"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "nvidia-ceo-search",
+      "section": "tech",
+      "isLead": true,
+      "kicker": {
+        "he": "אנבידיה · סאגת הירושה",
+        "en": "Nvidia · succession saga"
+      },
+      "headline": {
+        "he": "אנבידיה מכחישה: הדירקטוריון לא פנה רשמית לאף מועמד להחלפת ג'נסן הואנג",
+        "en": "Nvidia denies: the board has not formally engaged any candidate to succeed Jensen Huang"
+      },
+      "summary": {
+        "he": "דירקטוריון אנבידיה מסר ל-CNBC ב-{{time:board-denial}} שלא פנה רשמית לאף מועמד פוטנציאלי לתפקיד המנכ\"ל ושכל ספקולציה בנושא מוקדמת. ההכחשה באה אחרי שה-Financial Times דיווח ב-{{time:ft-report}} שהדירקטוריון פנה למנכ\"ל Arm רנה האס כמועמד אפשרי, דיווח שהזניק את סיכוייו של האס בשוקי ההימורים. מניית Arm קיצצה ירידות ל-{{move:-5%}} נכון ל-{{time:arm-move}}, לפי @DeItaone.",
+        "en": "Nvidia's board told CNBC at {{time:board-denial}} that it has not formally engaged any potential CEO candidate and that any speculation is premature. The denial followed a Financial Times report at {{time:ft-report}} that the board had approached Arm CEO Rene Haas as a possible candidate, a report that sent Haas's odds surging in prediction markets. Arm pared losses to {{move:-5%}} as of {{time:arm-move}}, per @DeItaone."
+      },
+      "bullets": {
+        "he": [
+          "ב-{{time:ft-report}} דיווח ה-Financial Times שדירקטוריון Nvidia פנה למנכ\"ל Arm רנה האס בחיפוש אחר מחליף לג'נסן הואנג.",
+          "ב-{{time:ian-buck}} הוביל סגן נשיא Nvidia יאן באק את שוקי ההימורים עם 33% סיכוי למינוי, לפי @DeItaone.",
+          "ב-{{time:board-denial}} מסר הדירקטוריון ל-CNBC שהוא לא פנה רשמית לאף מועמד ושהספקולציות מוקדמות."
+        ],
+        "en": [
+          "At {{time:ft-report}}, the Financial Times reported that Nvidia's board had approached Arm CEO Rene Haas in its search for a successor to Jensen Huang.",
+          "At {{time:ian-buck}}, Nvidia executive Ian Buck led prediction markets with a 33% chance of appointment, per @DeItaone.",
+          "At {{time:board-denial}}, the board told CNBC it has not formally engaged any candidate and that speculation is premature."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:board-denial}}",
+        "url": "https://x.com/wallstengine/status/2121319954209497368"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:ft-report}}",
+          "url": "https://x.com/DeItaone/status/2121285827770868074"
+        },
+        {
+          "name": "@DeItaone · {{time:ian-buck}}",
+          "url": "https://x.com/DeItaone/status/2121284201848987754"
+        },
+        {
+          "name": "@DeItaone · {{time:arm-move}}",
+          "url": "https://x.com/DeItaone/status/2121289367268295160"
+        },
+        {
+          "name": "@StockMKTNewz · CNBC",
+          "url": "https://x.com/StockMKTNewz/status/2121320731929940024"
+        }
+      ],
+      "socialPost": {
+        "id": "2121319954209497368",
+        "url": "https://x.com/wallstengine/status/2121319954209497368"
+      },
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "ft-report": {
+          "at": "2026-11-13T18:55:00+02:00",
+          "timeZone": "Asia/Jerusalem",
+          "precision": "minute"
+        },
+        "ian-buck": {
+          "at": "2026-11-13T18:48:00+02:00",
+          "timeZone": "Asia/Jerusalem",
+          "precision": "minute"
+        },
+        "board-denial": {
+          "at": "2026-11-13T21:11:00+02:00",
+          "timeZone": "Asia/Jerusalem",
+          "precision": "minute"
+        },
+        "arm-move": {
+          "at": "2026-11-13T19:09:00+02:00",
+          "timeZone": "Asia/Jerusalem",
+          "precision": "minute"
+        }
+      },
+      "priority": 1
+    },
+    {
+      "id": "fed-hawkish-chorus",
+      "section": "markets",
+      "kicker": {
+        "he": "הפד · ריבית",
+        "en": "Fed · rates"
+      },
+      "headline": {
+        "he": "המצבור הניצי מתרחב: נשיאת הפד של סן פרנסיסקו אומרת שהנטייה היא להעלאת ריבית",
+        "en": "The hawkish camp grows: the San Francisco Fed president says the bias is toward a rate hike"
+      },
+      "summary": {
+        "he": "נשיאת הפד של סן פרנסיסקו מרי דיילי אמרה ב-{{time:daly}} שהאינפלציה היא \"הבעיה המרכזית\" ושהנטייה היא שהריבית צריכה לעלות, והוסיפה שהיא מתחילה לשמוע שהצרכן \"נגמר לו הדלק\". נשיאת הפד של בוסטון סוזן קולינס אמרה כבר ב-{{time:collins}} שייתכן שהפד יצטרך להעלות ריבית יותר מהצפוי. ב-{{time:bofa}} הוסיפו כלכלני בנק אוף אמריקה העלאת ריבית שלישית לתחזית הפד שלהם עד מרץ 2027, לפי @DeItaone.",
+        "en": "San Francisco Fed president Mary Daly said at {{time:daly}} that inflation is the 'key problem' and that the bias is that rates need to rise, adding she is starting to hear that the consumer 'may be running out of gas'. Boston Fed president Susan Collins had already said at {{time:collins}} that the Fed may have to raise rates more than expected. At {{time:bofa}}, Bank of America economists added a third rate hike to their Fed outlook by March 2027, per @DeItaone."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:daly}}",
+        "url": "https://x.com/FirstSquawk/status/2121292395405099051"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:collins}}",
+          "url": "https://x.com/wallstengine/status/2121268240064102523"
+        },
+        {
+          "name": "@DeItaone · {{time:bofa}}",
+          "url": "https://x.com/DeItaone/status/2121305018515050580"
+        }
+      ],
+      "timeRefs": {
+        "daly": {
+          "at": "2026-11-13T19:21:00+02:00",
+          "timeZone": "Asia/Jerusalem",
+          "precision": "minute"
+        },
+        "collins": {
+          "at": "2026-11-13T17:45:00+02:00",
+          "timeZone": "Asia/Jerusalem",
+          "precision": "minute"
+        },
+        "bofa": {
+          "at": "2026-11-13T20:11:00+02:00",
+          "timeZone": "Asia/Jerusalem",
+          "precision": "minute"
+        }
+      },
+      "priority": 2
+    },
+    {
+      "id": "hassett-departure",
+      "section": "geopolitics",
+      "kicker": {
+        "he": "וושינגטון · הבית הלבן",
+        "en": "Washington · White House"
+      },
+      "headline": {
+        "he": "סמאפור: יועץ כלכלי ראשי של טראמפ צפוי לעזוב את הבית הלבן בשבועות הקרובים",
+        "en": "Semafor: Trump's top economic adviser expected to leave the White House in coming weeks"
+      },
+      "summary": {
+        "he": "מנכ\"ל המועצה הכלכלית הלאומית קווין האסט צפוי לעזוב את תפקידו בשבועות הקרובים, כך דיווח סמאפור ב-{{time:hassett}} על פי שלושה מקורות. לפי @zerohedge, המועמדים שמוזכרים כמחליפים אפשריים הם מזכיר האוצר סקוט בסנט וכלכלן וול סטריט ג'ורג' זרווס.",
+        "en": "National Economic Council director Kevin Hassett is expected to leave his role in the coming weeks, Semafor reported at {{time:hassett}}, citing three people familiar with the matter. According to @zerohedge, the names floated as possible replacements are Treasury Secretary Scott Bessent and Wall Street economist George Zervos."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:hassett}}",
+        "url": "https://x.com/wallstengine/status/2121320387703419345"
+      },
+      "secondarySources": [
+        {
+          "name": "@zerohedge",
+          "url": "https://x.com/zerohedge/status/2121322203807621495"
+        }
+      ],
+      "timeRefs": {
+        "hassett": {
+          "at": "2026-11-13T21:12:00+02:00",
+          "timeZone": "Asia/Jerusalem",
+          "precision": "minute"
+        }
+      },
+      "priority": 3
+    },
+    {
+      "id": "microsoft-outage",
+      "section": "tech",
+      "kicker": {
+        "he": "Microsoft · תקלה גלובלית",
+        "en": "Microsoft · global outage"
+      },
+      "headline": {
+        "he": "Microsoft: נרשמת התאוששות רחבה בשירותים אחרי שעות של תקלה גלובלית",
+        "en": "Microsoft: broad recovery across services after hours of global outage"
+      },
+      "summary": {
+        "he": "חברת Microsoft הודיעה ב-{{time:msft-recovery}} שהיא רואה התאוששות רחבה ויציבות בשירותים, אחרי שב-{{time:msft-outage}} הודתה שהניסיונות לתקן את התקלה הגלובלית לא מתקדמים כצפוי, לפי דיווחי ה-BBC.",
+        "en": "Microsoft said at {{time:msft-recovery}} that it is seeing broad recovery and stability across services, after acknowledging at {{time:msft-outage}} that attempts to fix the global outage were not going 'as expected', per BBC reports."
+      },
+      "source": {
+        "name": "@zerohedge · {{time:msft-recovery}}",
+        "url": "https://x.com/zerohedge/status/2121304672527134810"
+      },
+      "secondarySources": [
+        {
+          "name": "@unusual_whales · {{time:msft-outage}}",
+          "url": "https://x.com/unusual_whales/status/2121287475150614761"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:MSFT",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "msft-outage": {
+          "at": "2026-11-13T19:02:00+02:00",
+          "timeZone": "Asia/Jerusalem",
+          "precision": "minute"
+        },
+        "msft-recovery": {
+          "at": "2026-11-13T20:10:00+02:00",
+          "timeZone": "Asia/Jerusalem",
+          "precision": "minute"
+        }
+      },
+      "priority": 4
+    },
+    {
+      "id": "existing-home-sales",
+      "section": "markets",
+      "kicker": {
+        "he": "מאקרו · נדל\"ן ארה\"ב",
+        "en": "Macro · US housing"
+      },
+      "headline": {
+        "he": "מכירות בתים קיימים בארה\"ב צנחו לשפל שלא נרשם מאז 2010",
+        "en": "US existing home sales fell to their lowest level since 2010"
+      },
+      "summary": {
+        "he": "מכירות בתים קיימים בארה\"ב ירדו ב-5.5% באוקטובר לקצב שנתי של 3.75 מיליון יחידות, הנמוך ביותר מאז 2010, כשהמשכנתאות מעל 7% הרחיקו קונים מהשוק, כך דיווח @unusual_whales ב-{{time:home-sales}}.",
+        "en": "US existing home sales fell 5.5% in October to an annualized pace of 3.75 million units, the lowest since 2010, as mortgage rates above 7% kept buyers out of the market, @unusual_whales reported at {{time:home-sales}}."
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:home-sales}}",
+        "url": "https://x.com/unusual_whales/status/2121296282677571898"
+      },
+      "timeRefs": {
+        "home-sales": {
+          "at": "2026-11-13T19:37:00+02:00",
+          "timeZone": "Asia/Jerusalem",
+          "precision": "minute"
+        }
+      },
+      "priority": 5
+    },
+    {
+      "id": "israel-treasury-nvidia",
+      "section": "israel",
+      "kicker": {
+        "he": "ישראל · אנבידיה",
+        "en": "Israel · Nvidia"
+      },
+      "headline": {
+        "he": "באוצר עוקבים בדאגה אחרי הטלטלה באנבידיה: החברה מכניסה למדינה יותר מ-10 מיליארד שקל בשנה",
+        "en": "Israel's treasury watches the Nvidia turmoil with concern: the company brings in over 10 billion shekels a year"
+      },
+      "summary": {
+        "he": "משרד האוצר מביע דאגה עמוקה מהטלטלה סביב אנבידיה, שפעילותה בישראל תורמת יותר מ-10 מיליארד שקל בשנה לקופת המדינה, כך דיווח דה מרקר ב-{{time:themarker}}.",
+        "en": "Israel's finance ministry is deeply concerned about the turmoil at Nvidia, whose operations in Israel contribute more than 10 billion shekels a year to state coffers, TheMarker reported at {{time:themarker}}."
+      },
+      "source": {
+        "name": "@TheMarker · {{time:themarker}}",
+        "url": "https://x.com/TheMarker/status/2121317243229221097"
+      },
+      "timeRefs": {
+        "themarker": {
+          "at": "2026-11-13T21:00:00+02:00",
+          "timeZone": "Asia/Jerusalem",
+          "precision": "minute"
+        }
+      },
+      "priority": 6
+    }
+  ]
+}
