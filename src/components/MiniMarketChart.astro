@@ -83,7 +83,8 @@ const delayed = symbol !== 'BITSTAMP:BTCUSD';
       height: '100%',
       locale: root.dataset.lang === 'he' ? 'he_IL' : 'en',
       dateRange: '1M',
-      colorTheme: 'dark',
+      colorTheme:
+        document.documentElement.dataset.theme === 'light' ? 'light' : 'dark',
       trendLineColor: 'rgba(230, 166, 108, 1)',
       underLineColor: 'rgba(230, 166, 108, 0.18)',
       underLineBottomColor: 'rgba(230, 166, 108, 0)',
@@ -122,6 +123,25 @@ const delayed = symbol !== 'BITSTAMP:BTCUSD';
     };
     container.append(script);
   };
+  document.addEventListener('digest:theme', () =>
+    document
+      .querySelectorAll<HTMLElement>('[data-mini-market]')
+      .forEach((root) => {
+        const host = root.querySelector<HTMLElement>('[data-mini-visual]')!;
+        if (host.querySelector('iframe')) {
+          host.replaceChildren();
+          const loading = document.createElement('p');
+          loading.className = 'mini-loading';
+          loading.role = 'status';
+          loading.textContent =
+            root.dataset.lang === 'he'
+              ? 'טוען מחיר וגרף…'
+              : 'Loading quote and chart…';
+          host.append(loading);
+          load(root);
+        }
+      }),
+  );
   const observer = new IntersectionObserver(
     (entries) =>
       entries.forEach((entry) => {

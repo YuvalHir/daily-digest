@@ -106,7 +106,10 @@ const he = locale === 'he';
           const result = await Promise.race([
             api.widgets.createTweet(root.dataset.postId!, slot, {
               dnt: true,
-              theme: 'dark',
+              theme:
+                document.documentElement.dataset.theme === 'light'
+                  ? 'light'
+                  : 'dark',
               lang: root.dataset.lang,
               conversation: 'none',
               align: 'center',
@@ -132,6 +135,9 @@ const he = locale === 'he';
               : 'The post is unavailable, removed or blocked from loading. No cached copy is shown; you can use the source link.';
           button.disabled = false;
         }
+      });
+      document.addEventListener('digest:theme', () => {
+        if (!hide.hidden) hide.click();
       });
       hide.addEventListener('click', () => {
         version++;

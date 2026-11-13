@@ -17,7 +17,18 @@ const title = lead.headline[locale] + ' | ' + t.brand;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="color-scheme" content="dark" />
+    <meta name="color-scheme" content="dark light" />
+    <script is:inline>
+      try {
+        const saved = localStorage.getItem('digest_theme');
+        document.documentElement.dataset.theme =
+          saved === 'light' || saved === 'dark'
+            ? saved
+            : matchMedia('(prefers-color-scheme: light)').matches
+              ? 'light'
+              : 'dark';
+      } catch {}
+    </script>
     <meta name="theme-color" content="#101113" />
     <title>{title}</title>
     <meta name="description" content={edition.editorialLead[locale]} />

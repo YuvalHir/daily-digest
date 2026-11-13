@@ -1,6 +1,6 @@
 ---
 import SocialPost from './SocialPost.astro';
-import MiniMarketChart from './MiniMarketChart.astro';
+import NativeQuote from './NativeQuote.astro';
 import Sparkline from './Sparkline.astro';
 import { ui } from '../i18n/ui';
 const { item, locale, index = 1, lead = false } = Astro.props;
@@ -60,7 +60,7 @@ const Heading = lead ? 'h1' : 'h3';
   {item.marketSymbols?.length > 0 && (
     <div class="mini-market-grid">
       {item.marketSymbols.map((symbol) => (
-        <MiniMarketChart symbol={symbol} locale={locale} />
+        <NativeQuote symbol={symbol} locale={locale} />
       ))}
     </div>
   )}

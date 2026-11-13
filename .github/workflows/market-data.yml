@@ -1,0 +1,42 @@
+name: Refresh market cache
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: market-cache
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install yfinance==1.8.0
+      - name: Load last good cache
+        run: |
+          git fetch origin market-data || true
+          git show origin/market-data:market.json > /tmp/market.json || cp public/market.json /tmp/market.json
+      - run: python scripts/update-quotes.py /tmp/market.json
+      - name: Publish cache separately from site builds
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin market-data || true
+          if git show-ref --verify --quiet refs/remotes/origin/market-data; then
+            git checkout -B market-data origin/market-data
+          else
+            git checkout --orphan market-data
+            git rm -rf .
+          fi
+          cp /tmp/market.json market.json
+          git add market.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: refresh timestamped market cache'
+            git push origin market-data
+          fi

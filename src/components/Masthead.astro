@@ -1,4 +1,5 @@
 ---
+import ThemeToggle from './ThemeToggle.astro';
 import LanguageToggle from './LanguageToggle.astro';
 import ArchiveDrawer from './ArchiveDrawer.astro';
 import { ui } from '../i18n/ui';
@@ -15,6 +16,7 @@ const t = ui[locale as 'he' | 'en'];
     <div class="utility-actions">
       <ArchiveDrawer index={index} locale={locale} />
       <LanguageToggle locale={locale} />
+      <ThemeToggle locale={locale} />
     </div>
   </div>
   <div class="masthead-title">

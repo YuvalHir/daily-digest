@@ -1,0 +1,55 @@
+---
+const { locale } = Astro.props;
+const he = locale === 'he';
+---
+
+<button
+  class="theme-toggle"
+  type="button"
+  data-theme-toggle
+  aria-pressed="false"
+  aria-label={he ? 'מצב בהיר' : 'Light mode'}
+>
+  <span aria-hidden="true" data-theme-icon>
+    ☀
+  </span>
+  <span>{he ? 'בהיר' : 'Light'}</span>
+</button>
+<script>
+  const system = window.matchMedia('(prefers-color-scheme: light)');
+  const set = (theme: string, save = false) => {
+    document.documentElement.dataset.theme = theme;
+    document
+      .querySelector<HTMLMetaElement>('meta[name="theme-color"]')
+      ?.setAttribute('content', theme === 'light' ? '#faf9f6' : '#101113');
+    document
+      .querySelectorAll<HTMLButtonElement>('[data-theme-toggle]')
+      .forEach((button) => {
+        button.setAttribute('aria-pressed', String(theme === 'light'));
+        button.querySelector('[data-theme-icon]')!.textContent =
+          theme === 'light' ? '☾' : '☀';
+      });
+    if (save)
+      try {
+        localStorage.setItem('digest_theme', theme);
+      } catch {}
+    document.dispatchEvent(new CustomEvent('digest:theme', { detail: theme }));
+  };
+  document
+    .querySelectorAll<HTMLButtonElement>('[data-theme-toggle]')
+    .forEach((button) =>
+      button.addEventListener('click', () =>
+        set(
+          document.documentElement.dataset.theme === 'light' ? 'dark' : 'light',
+          true,
+        ),
+      ),
+    );
+  system.addEventListener('change', (event) => {
+    try {
+      if (localStorage.getItem('digest_theme')) return;
+    } catch {}
+    set(event.matches ? 'light' : 'dark');
+  });
+  set(document.documentElement.dataset.theme || 'dark');
+</script>

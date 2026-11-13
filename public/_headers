@@ -3,6 +3,6 @@
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: DENY
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://s3.tradingview.com https://platform.x.com https://platform.twitter.com https://cdn.syndication.twimg.com; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://cdn.syndication.twimg.com https://syndication.twitter.com; frame-src https://www.tradingview-widget.com https://platform.x.com https://platform.twitter.com https://syndication.twitter.com; frame-ancestors 'none'; base-uri 'self'; form-action 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://s3.tradingview.com https://platform.x.com https://platform.twitter.com https://cdn.syndication.twimg.com; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://raw.githubusercontent.com https://cdn.syndication.twimg.com https://syndication.twitter.com; frame-src https://www.tradingview-widget.com https://platform.x.com https://platform.twitter.com https://syndication.twitter.com; frame-ancestors 'none'; base-uri 'self'; form-action 'none'
 /data/*
   Cache-Control: public, max-age=60
