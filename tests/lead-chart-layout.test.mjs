@@ -42,3 +42,11 @@ test('range controls follow the plot while quote identity and price retain RTL t
   assert.ok(css.includes(".market-desk[data-lang='he'] .native-ranges"));
   assert.ok(css.includes(".market-desk[data-lang='he'] .native-main-head"));
 });
+test('edition panel rotates configured stocks without a manual stock selector', async () => {
+  const panel = await readFile('src/components/MarketChart.astro', 'utf8');
+  assert.ok(!panel.includes('data-chart-symbol'));
+  assert.ok(!panel.includes('class="chart-tabs"'));
+  assert.ok(panel.includes('data-assets={JSON.stringify(assets)}'));
+  assert.ok(panel.includes('cachedQuote(a[0], range)'));
+  assert.ok(panel.includes('8000'));
+});

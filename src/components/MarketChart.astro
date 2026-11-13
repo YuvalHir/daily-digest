@@ -30,27 +30,12 @@ const ranges = he
   data-initial-symbol={assets[0]?.[0] ?? ''}
   data-initial-range={assets[0]?.[2] ?? '1d'}
   data-configured={String(assets.length > 0)}
+  data-assets={JSON.stringify(assets)}
   aria-labelledby="chart-title"
 >
   <div class="chart-heading">
     <h2 id="chart-title">{he ? 'מאחורי הכותרות' : 'Behind the headlines'}</h2>
     <span>{he ? 'תמונת השוק' : 'The market now'}</span>
-  </div>
-  <div
-    class="chart-tabs"
-    role="group"
-    aria-label={he ? 'בחירת נכס' : 'Select asset'}
-  >
-    {assets.map(([symbol, label], i) => (
-      <button
-        type="button"
-        data-chart-symbol={symbol}
-        data-default-range={assets[i][2]}
-        aria-pressed={String(i === 0)}
-      >
-        <bdi>{label}</bdi>
-      </button>
-    ))}
   </div>
   <div class="market-instrument">
     <bdi class="market-symbol" data-main-symbol>
@@ -304,12 +289,11 @@ const ranges = he
         status = find('[data-main-status]'),
         tip = find('[data-main-tooltip]'),
         cross = find('[data-main-crosshair]');
+      const configuredAssets: string[][] = JSON.parse(
+        desk.dataset.assets || '[]',
+      );
       const selectedLabel = () =>
-        desk
-          .querySelector<HTMLButtonElement>(
-            `[data-chart-symbol="${CSS.escape(symbol)}"]`,
-          )
-          ?.textContent?.trim() || symbol;
+        configuredAssets.find((a) => a[0] === symbol)?.[1] || symbol;
       async function render(cacheOnly = false) {
         find('[data-main-name]').textContent = selectedLabel();
         if (displayedSymbol !== symbol) {
@@ -448,17 +432,6 @@ const ranges = he
         }
       }
       desk
-        .querySelectorAll<HTMLButtonElement>('[data-chart-symbol]')
-        .forEach((b) =>
-          b.addEventListener('click', () => {
-            symbol = b.dataset.chartSymbol!;
-            desk
-              .querySelectorAll('[data-chart-symbol]')
-              .forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
-            render();
-          }),
-        );
-      desk
         .querySelectorAll<HTMLButtonElement>('[data-chart-range]')
         .forEach((b) =>
           b.addEventListener('click', () => {
@@ -492,19 +465,15 @@ const ranges = he
       desk.addEventListener('focusin', (event) => {
         if (event.target !== cycle) setPaused(true);
       });
-      const tabs = [
-        ...desk.querySelectorAll<HTMLButtonElement>('[data-chart-symbol]'),
-      ];
       setInterval(() => {
         if (paused || document.hidden) return;
-        const i = tabs.findIndex((x) => x.dataset.chartSymbol === symbol);
-        const next = tabs
+        const i = configuredAssets.findIndex((a) => a[0] === symbol);
+        const next = configuredAssets
           .slice(i + 1)
-          .concat(tabs.slice(0, i + 1))
-          .find((b) => cachedQuote(b.dataset.chartSymbol!, range));
-        if (!next || next.dataset.chartSymbol === symbol) return;
-        symbol = next.dataset.chartSymbol!;
-        tabs.forEach((b) => b.setAttribute('aria-pressed', String(b === next)));
+          .concat(configuredAssets.slice(0, i + 1))
+          .find((a) => cachedQuote(a[0], range));
+        if (!next || next[0] === symbol) return;
+        symbol = next[0];
         render(true);
       }, 8000);
       const scrub = (clientX: number) => {
