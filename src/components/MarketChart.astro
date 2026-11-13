@@ -99,15 +99,6 @@ const ranges = he
     ))}
   </div>
   <p class="native-main-stamp" data-main-stamp></p>
-  <button
-    type="button"
-    class="native-cycle"
-    data-chart-cycle
-    hidden={assets.length < 2}
-    aria-pressed="true"
-  >
-    {he ? 'עצירת החלפה אוטומטית' : 'Pause auto rotation'}
-  </button>
   <noscript>
     {he
       ? 'נדרש JavaScript להצגת הגרף. החדשות זמינות גם בלעדיו.'
@@ -444,29 +435,15 @@ const ranges = he
         );
       const plot = find('[data-main-plot]');
       const lastPrices = new Map<string, number>();
-      let paused = matchMedia('(prefers-reduced-motion: reduce)').matches;
-      const cycle = find('[data-chart-cycle]');
-      const setPaused = (value: boolean) => {
-        paused = value;
-        cycle.setAttribute('aria-pressed', String(!paused));
-        cycle.textContent = paused
-          ? he
-            ? 'המשך החלפה'
-            : 'Resume rotation'
-          : he
-            ? 'עצור החלפה'
-            : 'Pause rotation';
-      };
-      setPaused(paused);
-      cycle.addEventListener('click', () => setPaused(!paused));
-      desk.addEventListener('pointerdown', (event) => {
-        if (event.target !== cycle) setPaused(true);
-      });
-      desk.addEventListener('focusin', (event) => {
-        if (event.target !== cycle) setPaused(true);
-      });
+      const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
       setInterval(() => {
-        if (paused || document.hidden) return;
+        if (
+          reducedMotion.matches ||
+          document.hidden ||
+          !tip.hidden ||
+          desk.contains(document.activeElement)
+        )
+          return;
         const i = configuredAssets.findIndex((a) => a[0] === symbol);
         const next = configuredAssets
           .slice(i + 1)
@@ -504,7 +481,6 @@ const ranges = he
         )
           return;
         event.preventDefault();
-        setPaused(true);
         if (event.key === 'Escape') {
           tip.hidden = true;
           cross.hidden = true;
@@ -527,7 +503,6 @@ const ranges = he
       plot.addEventListener('contextmenu', (event) => event.preventDefault());
       plot.addEventListener('selectstart', (event) => event.preventDefault());
       plot.addEventListener('pointerdown', (event) => {
-        setPaused(true);
         plot.setPointerCapture(event.pointerId);
         scrub(event.clientX);
       });

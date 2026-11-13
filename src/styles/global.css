@@ -1598,10 +1598,7 @@ html[lang='en'] .lead-card h1 {
 .market-desk .market-instrument {
   margin-top: 17px;
 }
-.market-desk .native-cycle {
-  margin: 12px 0 0;
-  font-size: 10px;
-}
+
 @media (max-width: 360px) {
   .market-desk .native-main-head {
     gap: 10px;

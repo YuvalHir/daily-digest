@@ -50,3 +50,9 @@ test('edition panel rotates configured stocks without a manual stock selector', 
   assert.ok(panel.includes('cachedQuote(a[0], range)'));
   assert.ok(panel.includes('8000'));
 });
+
+test('panel has no visible rotation control and respects reduced motion', async () => {
+  const panel = await readFile('src/components/MarketChart.astro', 'utf8');
+  assert.ok(!panel.includes('data-chart-cycle'));
+  assert.ok(panel.includes('reducedMotion.matches'));
+});

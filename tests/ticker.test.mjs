@@ -17,3 +17,9 @@ test('context ticker stores symbols only and shares source client, never fetches
   assert.ok(!code.includes('מול סגירה'));
   assert.ok(code.includes('animation-direction: reverse'));
 });
+
+test('ticker moves at half original speed without changing its infinite loop', async () => {
+  const source = await readFile('src/components/TickerRibbon.astro', 'utf8');
+  assert.ok(source.includes('wire-drift 90s linear infinite'));
+  assert.ok(source.includes('translateX(-50%)'));
+});
