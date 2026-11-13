@@ -541,5 +541,12 @@
         "en": "Nasdaq 100"
       }
     }
+  ],
+  "contextSymbols": [
+    "^NDX",
+    "NASDAQ:MSFT",
+    "NASDAQ:NVDA",
+    "NASDAQ:AMD",
+    "BITSTAMP:BTCUSD"
   ]
 }

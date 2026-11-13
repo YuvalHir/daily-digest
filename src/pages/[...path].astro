@@ -57,6 +57,9 @@ const sections = ['tech', 'markets', 'geopolitics', 'israel'] as const;
 
 <BaseLayout locale={locale} edition={edition}>
   <Masthead locale={locale} edition={edition} index={index} />
+  {edition.contextSymbols?.length > 0 && (
+    <TickerRibbon symbols={edition.contextSymbols} locale={locale} />
+  )}
   <EditionTimeline locale={locale} edition={edition} dayIndex={dayIndex} />
   <SectionNav locale={locale} items={edition.items} />
   <main id="main">

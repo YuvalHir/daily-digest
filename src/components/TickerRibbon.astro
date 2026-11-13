@@ -1,53 +1,267 @@
 ---
-import Sparkline from './Sparkline.astro';
-import { ui } from '../i18n/ui';
-import { localTime } from '../lib/digest';
-const { tickers, locale } = Astro.props;
-const t = ui[locale as 'he' | 'en'];
+const { symbols = [], locale } = Astro.props;
+const tickers = [];
+const demo = false;
+const dataTime = null;
+const he = locale === 'he';
 ---
 
-<section class="market-ribbon" aria-label={t.market}>
-  {tickers.length > 0 ? (
-    <>
-      <div class="ticker-scroll">
-        {tickers.map((ticker) => (
-          <div class="ticker">
-            <div class="ticker-top">
-              <bdi dir="ltr">{ticker.symbol}</bdi>
+<section
+  class="market-wire"
+  data-market-wire
+  data-symbols={JSON.stringify(symbols)}
+  data-lang={locale}
+  aria-label={he ? 'הקשר שוק רוחבי' : 'Market context'}
+>
+  <div class="wire-window">
+    <div class="wire-track" data-wire-track>
+      {[false, true].map((duplicate) => (
+        <div class="wire-copy" aria-hidden={duplicate ? 'true' : undefined}>
+          {tickers.map((q) => (
+            <span class="wire-quote">
+              <bdi dir="ltr">{q.symbol}</bdi>
+              <bdi dir="ltr">
+                {q.price.toLocaleString('en-US', { maximumFractionDigits: 2 })}
+              </bdi>
               <bdi
                 dir="ltr"
-                class={ticker.changePercent >= 0 ? 'positive' : 'negative'}
+                class={q.changePercent >= 0 ? 'positive' : 'negative'}
               >
-                {ticker.changePercent >= 0 ? '+' : ''}
-                {ticker.changePercent.toFixed(2)}%
+                {q.changePercent >= 0 ? '+' : ''}
+                {q.changePercent.toFixed(2)}%
               </bdi>
-            </div>
-            <div class="ticker-bottom">
-              <bdi dir="ltr">
-                {ticker.price.toLocaleString('en-US', {
-                  maximumFractionDigits: 3,
-                })}
-                <small> {ticker.currency}</small>
-              </bdi>
-              <Sparkline
-                series={ticker.sparkline}
-                positive={ticker.changePercent >= 0}
-                label={ticker.name}
-              />
-            </div>
-            <small class="quote-time">
-              {ticker.sparkline.timeframe}
-              {ticker.asOf ? ' · ' + localTime(ticker.asOf) + ' IST' : ''}
-            </small>
-          </div>
-        ))}
-      </div>
-      <p class="market-note">{t.marketNote}</p>
-    </>
-  ) : (
-    <div class="market-unavailable">
-      <span class="status-dot"></span>
-      <span>{t.missing}</span>
+            </span>
+          ))}
+        </div>
+      ))}
     </div>
-  )}
+  </div>
+  <button
+    type="button"
+    data-wire-pause
+    aria-pressed="false"
+    aria-label={he ? 'עצירת תנועה' : 'Pause motion'}
+  >
+    Ⅱ
+  </button>
 </section>
+<p class="wire-meta" data-wire-meta role="status">
+  {demo && (
+    <span>
+      {he
+        ? 'דוגמת עיצוב · נתוני בדיקה קודמים'
+        : 'Design demo · previously captured data'}{' '}
+      ·{' '}
+    </span>
+  )}
+  {dataTime && (
+    <span>
+      {he ? 'עדכון נתונים' : 'Data updated'} <bdi dir="ltr">{dataTime}</bdi>
+    </span>
+  )}
+</p>
+<style is:global>
+  .market-wire {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid var(--rule);
+    min-height: 43px;
+    direction: ltr;
+    overflow: hidden;
+    font: 11px var(--mono);
+  }
+  .wire-meta {
+    margin: 2px 0 1px;
+    font-size: 10px;
+    line-height: 1.35;
+    color: var(--muted);
+    text-align: end;
+  }
+  .wire-label {
+    font: 11px var(--font);
+    color: var(--muted);
+    max-width: 145px;
+    flex-shrink: 0;
+    line-height: 1.25;
+  }
+  .wire-window {
+    flex: 1;
+    overflow: hidden;
+    min-width: 0;
+  }
+  .wire-track {
+    display: flex;
+    width: max-content;
+    animation: wire-drift 45s linear infinite;
+  }
+  .wire-copy {
+    display: flex;
+    flex-shrink: 0;
+  }
+  .wire-quote {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    padding-inline: 18px;
+    border-inline-end: 1px solid var(--rule);
+    white-space: nowrap;
+  }
+  .wire-quote > bdi:first-child {
+    font-weight: 700;
+  }
+  .market-wire button {
+    background: none;
+    border: 0;
+    font-size: 15px;
+    min-width: 38px;
+    min-height: 38px;
+  }
+  .market-wire[data-paused='true'] .wire-track,
+  .market-wire:hover .wire-track {
+    animation-play-state: paused;
+  }
+  @keyframes wire-drift {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .wire-track {
+      animation: none;
+    }
+    .wire-window {
+      overflow-x: auto;
+    }
+  }
+  @media (max-width: 750px) {
+    .market-wire {
+      gap: 4px;
+      min-height: 39px;
+      font-size: 10px;
+    }
+    .wire-meta {
+      margin: 2px 0 1px;
+      font-size: 10px;
+      line-height: 1.35;
+      color: var(--muted);
+      text-align: end;
+    }
+    .wire-label {
+      font-size: 9px;
+      max-width: 90px;
+    }
+    .wire-quote {
+      gap: 7px;
+      padding-inline: 12px;
+    }
+  }
+</style>
+<script>
+  import { quoteData, localTime } from '../lib/market-client';
+  document
+    .querySelectorAll<HTMLElement>('[data-market-wire]')
+    .forEach((wire) => {
+      const symbols: string[] = JSON.parse(wire.dataset.symbols || '[]'),
+        he = wire.dataset.lang === 'he';
+      const button =
+          wire.querySelector<HTMLButtonElement>('[data-wire-pause]')!,
+        meta = wire.nextElementSibling as HTMLElement;
+      let paused = matchMedia('(prefers-reduced-motion:reduce)').matches;
+      const set = (value: boolean) => {
+        paused = value;
+        wire.dataset.paused = String(value);
+        button.setAttribute('aria-pressed', String(value));
+        button.textContent = value ? '▶' : 'Ⅱ';
+        button.setAttribute(
+          'aria-label',
+          value
+            ? he
+              ? 'המשך תנועה'
+              : 'Resume motion'
+            : he
+              ? 'עצירת תנועה'
+              : 'Pause motion',
+        );
+      };
+      set(paused);
+      button.addEventListener('click', () => set(!paused));
+      wire.addEventListener('pointerdown', (e) => {
+        if (e.target !== button) set(true);
+      });
+      wire.addEventListener('focusin', (e) => {
+        if (e.target !== button) set(true);
+      });
+      async function load() {
+        const settled = await Promise.allSettled(
+          symbols.map((s) => quoteData(s, '1d')),
+        );
+        const quotes = settled.flatMap((r) =>
+          r.status === 'fulfilled' ? [r.value] : [],
+        );
+        if (!quotes.length) {
+          meta.textContent = he ? 'נתונים אינם זמינים' : 'Data unavailable';
+          return;
+        }
+        for (const copy of wire.querySelectorAll<HTMLElement>('.wire-copy')) {
+          copy.replaceChildren();
+          for (const q of quotes) {
+            const row = document.createElement('span');
+            row.className = 'wire-quote';
+            for (const [text, cls] of [
+              [
+                q.symbol === '^NDX'
+                  ? he
+                    ? 'נאסד״ק 100'
+                    : 'Nasdaq 100'
+                  : q.symbol,
+                '',
+              ],
+              [
+                q.price.toLocaleString('en-US', { maximumFractionDigits: 2 }),
+                '',
+              ],
+              [
+                (q.changePercent >= 0 ? '+' : '') +
+                  q.changePercent.toFixed(2) +
+                  '%',
+                q.changePercent >= 0 ? 'positive' : 'negative',
+              ],
+            ]) {
+              const el = document.createElement('bdi');
+              el.dir = 'ltr';
+              el.className = cls;
+              el.textContent = text;
+              if (cls)
+                el.title = he ? 'שינוי בטווח הגרף' : 'Chart-range change';
+              row.append(el);
+            }
+            copy.append(row);
+          }
+        }
+        const oldest = Math.min(...quotes.map((q) => Date.parse(q.asOf))),
+          old = Date.now() - oldest > 1800000,
+          sameDay =
+            new Date(oldest).toDateString() === new Date().toDateString();
+        meta.textContent =
+          (old ? '' : he ? 'עודכן ' : 'Updated ') +
+          localTime(new Date(oldest).toISOString(), !sameDay) +
+          (old ? (he ? ' · נתונים ישנים' : ' · Older data') : '') +
+          (quotes.length < symbols.length
+            ? he
+              ? ' · נתונים חלקיים'
+              : ' · Partial data'
+            : '');
+        wire.setAttribute(
+          'aria-label',
+          he
+            ? 'הקשר שוק. האחוזים הם השינוי בטווח הגרף, לא מול סגירה קודמת.'
+            : 'Market context. Percentages show chart-range change, not change from previous close.',
+        );
+      }
+      load();
+      setInterval(() => {
+        if (!document.hidden) load();
+      }, 300000);
+    });
+</script>

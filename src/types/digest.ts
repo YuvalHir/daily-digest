@@ -83,6 +83,7 @@ export interface DigestEdition {
   publishedAt: string;
   editorialLead: LocalizedText;
   marketRibbon: TickerItem[];
+  contextSymbols?: string[];
   /** Ordered explicit charts relevant to the lead story; no global defaults. */
   heroCharts?: {
     symbol: string;
