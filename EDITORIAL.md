@@ -101,3 +101,21 @@ dated entry never claims a publisher instruction that did not happen.
 - 2026-11-13 (reader request): the masthead summary carries only the
   very most important points. Rule: lead plus at most one second theme, plain
   language, no compressed edition index; see Masthead summary.
+
+## Market coverage
+
+- A material stock move discussed in a story needs market coverage, even if
+  the stock is not the lead company. Cross-check the stories against
+  marketCharts, heroCharts and contextSymbols before publishing. Use only
+  supported symbols and verified quotes. If support or data is missing,
+  report the gap instead of inventing a price.
+- Prefer the central panel for edition stocks. Suppress the duplicate chart
+  immediately below the lead when it is covered by the panel. Nonlead articles
+  keep their own compact local widget even when the panel also rotates that stock.
+- 2026-11-13 (reader report): the lead discussed Arm and its share move, but
+  the central panel only covered Nvidia and Microsoft. Arm was added using
+  the supported ARM symbol and a verified source quote.
+
+- 2026-11-13 (reader report): the Microsoft article lost its local widget when
+  the stock entered the central panel. Local context belongs beside nonlead
+  articles; only the directly repeated lead widget is suppressed.

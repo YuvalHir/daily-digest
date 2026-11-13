@@ -12,7 +12,7 @@ const marketCharts = (
   item.marketCharts ??
   item.marketSymbols?.map((symbol) => ({ symbol, range: '1d' })) ??
   []
-).filter(({ symbol }) => !heroSymbols.includes(symbol));
+).filter(({ symbol }) => !lead || !heroSymbols.includes(symbol));
 ---
 
 <article class:list={['news-card', { 'lead-card': lead }]} id={item.id}>

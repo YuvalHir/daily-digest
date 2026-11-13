@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 test('lead skips only charts already covered by the edition hero', async () => {
   const card = await readFile('src/components/NewsCard.astro', 'utf8'),
     page = await readFile('src/pages/[...path].astro', 'utf8');
-  assert.ok(card.includes('!heroSymbols.includes(symbol)'));
+  assert.ok(card.includes('!lead || !heroSymbols.includes(symbol)'));
   assert.ok(page.includes('heroSymbols='));
 });
 test('source label names the linked account without merging it with the reported outlet', async () => {
@@ -55,4 +55,17 @@ test('panel has no visible rotation control and respects reduced motion', async 
   const panel = await readFile('src/components/MarketChart.astro', 'utf8');
   assert.ok(!panel.includes('data-chart-cycle'));
   assert.ok(panel.includes('reducedMotion.matches'));
+});
+test('current edition includes ARM price coverage alongside Nvidia and Microsoft, without duplicate charts', async () => {
+  const d = JSON.parse(await readFile('public/data/2026-11-13/2136-mid.json'));
+  const hero = d.heroCharts.map((c) => c.symbol);
+  for (const symbol of ['NASDAQ:NVDA', 'NASDAQ:MSFT', 'ARM'])
+    assert.ok(hero.includes(symbol));
+  assert.ok(
+    d.items
+      .find((i) => i.id === 'nvidia-ceo-search')
+      .marketCharts.some((c) => c.symbol === 'ARM'),
+  );
+  assert.ok(d.contextSymbols.includes('ARM'));
+  assert.equal(new Set(hero).size, hero.length);
 });

@@ -15,7 +15,8 @@
     "NASDAQ:MSFT",
     "NASDAQ:NVDA",
     "NASDAQ:AMD",
-    "BITSTAMP:BTCUSD"
+    "BITSTAMP:BTCUSD",
+    "ARM"
   ],
   "heroCharts": [
     {
@@ -32,6 +33,14 @@
       "label": {
         "he": "מיקרוסופט",
         "en": "Microsoft"
+      }
+    },
+    {
+      "symbol": "ARM",
+      "range": "1d",
+      "label": {
+        "he": "Arm",
+        "en": "Arm"
       }
     }
   ],
@@ -93,6 +102,10 @@
       "marketCharts": [
         {
           "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        },
+        {
+          "symbol": "ARM",
           "range": "1d"
         }
       ],
