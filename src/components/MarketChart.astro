@@ -1,0 +1,241 @@
+---
+const { locale } = Astro.props;
+const he = locale === 'he';
+const symbols = [
+  { symbol: 'NASDAQ:NVDA', name: 'Nvidia', status: 'delayed' },
+  { symbol: 'NASDAQ:MSFT', name: 'Microsoft', status: 'delayed' },
+  { symbol: 'NASDAQ:AMD', name: 'AMD', status: 'delayed' },
+  { symbol: 'BITSTAMP:BTCUSD', name: 'Bitcoin', status: 'realtime' },
+];
+---
+
+<section
+  class="market-desk"
+  aria-labelledby="chart-title"
+  data-market-desk
+  data-lang={locale}
+>
+  <div class="chart-heading">
+    <h2 id="chart-title">{he ? 'מאחורי הכותרות' : 'Behind the headlines'}</h2>
+    <span>{he ? 'גרף מתעדכן' : 'Updating chart'}</span>
+  </div>
+  <div
+    class="chart-tabs"
+    role="group"
+    aria-label={he ? 'בחירת נכס לגרף' : 'Select a chart asset'}
+  >
+    {symbols.map((s, i) => (
+      <button
+        type="button"
+        aria-pressed={i === 0 ? 'true' : 'false'}
+        data-chart-symbol={s.symbol}
+        data-chart-status={s.status}
+        data-chart-name={s.name}
+      >
+        <bdi>{s.symbol.split(':')[1]}</bdi>
+      </button>
+    ))}
+  </div>
+  <p class="chart-context">
+    <span>{he ? 'קשור לידיעה: ' : 'Related story: '}</span>
+    <a href="#nvidia-employees" data-chart-context>
+      {he
+        ? 'עובדי Nvidia מבקשים להחזיר את ג׳נסן הואנג'
+        : 'Nvidia employees call for Jensen Huang to return'}
+    </a>
+  </p>
+  <div class="chart-visual" data-chart-visual>
+    <div class="chart-loading" role="status">
+      {he ? 'טוען גרף מ-TradingView…' : 'Loading chart from TradingView…'}
+    </div>
+  </div>
+  <p class="chart-status" data-chart-status-text>
+    {he
+      ? 'NASDAQ:NVDA · נתונים מושהים. משך ההשהיה לפי הספק.'
+      : 'NASDAQ:NVDA · Delayed data. Delay depends on the provider.'}
+  </p>
+  <p class="chart-disclosure">
+    {he
+      ? 'הגרף מציג את השוק כעת, לא את רגע פרסום המהדורה. נתוני מניות מושהים; נתוני Bitstamp מתעדכנים לפי הספק. לא מובטחת מסירה מיידית.'
+      : 'The chart shows the current market, not the edition snapshot. Stocks are delayed; Bitstamp data updates via the provider. Instant delivery is not guaranteed.'}
+  </p>
+  <noscript>
+    <p>
+      {he
+        ? 'נדרש JavaScript לגרף האינטראקטיבי. סיכום החדשות זמין במלואו בלעדיו.'
+        : 'JavaScript is needed for the interactive chart. The full news edition is available without it.'}
+    </p>
+    <a href="https://www.tradingview.com/widget-docs/widgets/charts/advanced-chart/demos/basic-area-chart/">
+      TradingView
+    </a>
+  </noscript>
+</section>
+<script>
+  const mount = (
+    desk: HTMLElement,
+    symbol: string,
+    status: string,
+    name: string,
+  ) => {
+    const host = desk.querySelector('[data-chart-visual]')!;
+    host.replaceChildren();
+    const loading = document.createElement('p');
+    loading.className = 'chart-loading';
+    loading.role = 'status';
+    loading.textContent =
+      desk.dataset.lang === 'he'
+        ? 'טוען גרף מ-TradingView…'
+        : 'Loading chart from TradingView…';
+    host.append(loading);
+    const container = document.createElement('div');
+    container.className = 'tradingview-widget-container';
+    container.style.height = '100%';
+    container.style.width = '100%';
+    const widget = document.createElement('div');
+    widget.className = 'tradingview-widget-container__widget';
+    widget.style.height = 'calc(100% - 32px)';
+    widget.style.width = '100%';
+    container.append(widget);
+    const copyright = document.createElement('div');
+    copyright.className = 'tradingview-widget-copyright';
+    const a = document.createElement('a');
+    a.href = 'https://www.tradingview.com/';
+    a.target = '_blank';
+    a.rel = 'noopener nofollow';
+    const span = document.createElement('span');
+    span.className = 'blue-text';
+    span.textContent = name + ' chart';
+    a.append(span);
+    copyright.append(a);
+    const attribution = document.createElement('span');
+    attribution.className = 'trademark';
+    attribution.textContent = ' by TradingView';
+    copyright.append(attribution);
+    container.append(copyright);
+    const script = document.createElement('script');
+    script.src =
+      'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
+    script.async = true;
+    script.type = 'text/javascript';
+    script.textContent = JSON.stringify({
+      autosize: true,
+      symbol,
+      interval: '15',
+      timezone: 'Asia/Jerusalem',
+      theme: 'dark',
+      backgroundColor: 'rgba(25, 27, 30, 1)',
+      style: '3',
+      hide_top_toolbar: false,
+      hide_side_toolbar: true,
+      allow_symbol_change: false,
+      save_image: false,
+      locale: desk.dataset.lang === 'he' ? 'he_IL' : 'en',
+      calendar: false,
+      support_host: 'https://www.tradingview.com',
+    });
+    const timeout = setTimeout(() => {
+      if (!container.isConnected) return;
+      loading.textContent =
+        desk.dataset.lang === 'he'
+          ? 'הגרף עדיין לא זמין. אפשר לפתוח את TradingView בקישור למטה.'
+          : 'Chart is not available yet. You can open TradingView below.';
+    }, 20000);
+    const observer = new MutationObserver(() => {
+      const frame = container.querySelector('iframe');
+      if (frame) {
+        frame.addEventListener(
+          'load',
+          () => {
+            loading.remove();
+            clearTimeout(timeout);
+          },
+          { once: true },
+        );
+        observer.disconnect();
+      }
+    });
+    observer.observe(container, { childList: true, subtree: true });
+    script.onerror = () => {
+      clearTimeout(timeout);
+      loading.remove();
+      observer.disconnect();
+      widget.textContent =
+        desk.dataset.lang === 'he'
+          ? 'לא ניתן לטעון את הגרף. נסו לרענן או לפתוח את TradingView.'
+          : 'Chart could not load. Refresh or open TradingView.';
+    };
+    container.append(script);
+    host.append(container);
+    const he = desk.dataset.lang === 'he';
+    const related: Record<string, { id: string; he: string; en: string }> = {
+      'NASDAQ:NVDA': {
+        id: 'nvidia-employees',
+        he: 'עובדי Nvidia מבקשים להחזיר את ג׳נסן הואנג',
+        en: 'Nvidia employees call for Jensen Huang to return',
+      },
+      'NASDAQ:MSFT': {
+        id: 'microsoft-outage',
+        he: 'התקלה במיקרוסופט 365',
+        en: 'Microsoft 365 outage',
+      },
+      'NASDAQ:AMD': {
+        id: 'amd-nvidia-gap',
+        he: 'AMD מול Nvidia בשוק המאיצים',
+        en: 'AMD versus Nvidia in the accelerator market',
+      },
+      'BITSTAMP:BTCUSD': {
+        id: 'crypto-selloff',
+        he: 'גל המכירות בקריפטו',
+        en: 'Crypto selloff',
+      },
+    };
+    const context = desk.querySelector<HTMLAnchorElement>(
+      '[data-chart-context]',
+    )!;
+    context.href = '#' + related[symbol].id;
+    context.textContent = related[symbol][he ? 'he' : 'en'];
+
+    desk.querySelector('[data-chart-status-text]')!.textContent =
+      symbol +
+      ' · ' +
+      (status === 'delayed'
+        ? he
+          ? 'נתונים מושהים. משך ההשהיה לפי הספק.'
+          : 'Delayed data. Delay depends on the provider.'
+        : he
+          ? 'פיד Bitstamp בזמן אמת לפי TradingView; ללא התחייבות לאפס השהיה.'
+          : 'Bitstamp real-time feed per TradingView; no zero-latency guarantee.');
+  };
+  document
+    .querySelectorAll<HTMLElement>('[data-market-desk]')
+    .forEach((desk) => {
+      const buttons = [
+        ...desk.querySelectorAll<HTMLButtonElement>('[data-chart-symbol]'),
+      ];
+      const select = (button: HTMLButtonElement) => {
+        buttons.forEach((b) =>
+          b.setAttribute('aria-pressed', String(b === button)),
+        );
+        mount(
+          desk,
+          button.dataset.chartSymbol!,
+          button.dataset.chartStatus!,
+          button.dataset.chartName!,
+        );
+      };
+      buttons.forEach((button) =>
+        button.addEventListener('click', () => select(button)),
+      );
+      document
+        .querySelectorAll<HTMLAnchorElement>('[data-open-chart]')
+        .forEach((link) =>
+          link.addEventListener('click', () => {
+            const button = buttons.find(
+              (b) => b.dataset.chartSymbol === link.dataset.openChart,
+            );
+            if (button) select(button);
+          }),
+        );
+      select(buttons[0]);
+    });
+</script>

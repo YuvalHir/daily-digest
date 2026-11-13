@@ -1,21 +1,134 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';import Masthead from '../components/Masthead.astro';import EditionTimeline from '../components/EditionTimeline.astro';import TickerRibbon from '../components/TickerRibbon.astro';import SectionNav from '../components/SectionNav.astro';import HeroLeadCard from '../components/HeroLeadCard.astro';import NewsCard from '../components/NewsCard.astro';import {loadDigestIndex,loadEdition,localTime} from '../lib/digest';import {ui} from '../i18n/ui';import type {Locale} from '../types/digest';
+import MarketChart from '../components/MarketChart.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Masthead from '../components/Masthead.astro';
+import EditionTimeline from '../components/EditionTimeline.astro';
+import TickerRibbon from '../components/TickerRibbon.astro';
+import SectionNav from '../components/SectionNav.astro';
+import HeroLeadCard from '../components/HeroLeadCard.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { loadDigestIndex, loadEdition, localTime } from '../lib/digest';
+import { ui } from '../i18n/ui';
+import type { Locale } from '../types/digest';
 export async function getStaticPaths() {
- const index = await loadDigestIndex();
- const paths = [];
- for (const locale of ['he', 'en'] as Locale[]) {
-  const prefix = locale === 'he' ? '' : 'en';
-  const latest = await loadEdition(index.latestDate, index.latestEditionSlug);
-  paths.push({params:{path:prefix || undefined},props:{locale,edition:latest,index}});
-  for (const day of index.days) {
-   paths.push({params:{path:[prefix,day.date].filter(Boolean).join('/')},props:{locale,edition:await loadEdition(day.date,day.latestEditionSlug),index}});
-   for (const ed of day.editions) {
-    paths.push({params:{path:[prefix,day.date,ed.slug].filter(Boolean).join('/')},props:{locale,edition:await loadEdition(day.date,ed.slug),index}});
-   }
+  const index = await loadDigestIndex();
+  const paths = [];
+  for (const locale of ['he', 'en'] as Locale[]) {
+    const prefix = locale === 'he' ? '' : 'en';
+    const latest = await loadEdition(index.latestDate, index.latestEditionSlug);
+    paths.push({
+      params: { path: prefix || undefined },
+      props: { locale, edition: latest, index },
+    });
+    for (const day of index.days) {
+      paths.push({
+        params: { path: [prefix, day.date].filter(Boolean).join('/') },
+        props: {
+          locale,
+          edition: await loadEdition(day.date, day.latestEditionSlug),
+          index,
+        },
+      });
+      for (const ed of day.editions) {
+        paths.push({
+          params: {
+            path: [prefix, day.date, ed.slug].filter(Boolean).join('/'),
+          },
+          props: {
+            locale,
+            edition: await loadEdition(day.date, ed.slug),
+            index,
+          },
+        });
+      }
+    }
   }
- }
- return paths;
+  return paths;
 }
-const {locale,edition,index}=Astro.props;const t=ui[locale];const dayIndex=index.days.find(d=>d.date===edition.date)!;const sorted=[...edition.items].sort((a,b)=>a.priority-b.priority);const lead=sorted.find(i=>i.isLead)||sorted[0];const remaining=sorted.filter(i=>i.id!==lead.id);const sections=['tech','markets','geopolitics','israel'] as const;
+const { locale, edition, index } = Astro.props;
+const t = ui[locale];
+const dayIndex = index.days.find((d) => d.date === edition.date)!;
+const sorted = [...edition.items].sort((a, b) => a.priority - b.priority);
+const lead = sorted.find((i) => i.isLead) || sorted[0];
+const remaining = sorted.filter((i) => i.id !== lead.id);
+const sections = ['tech', 'markets', 'geopolitics', 'israel'] as const;
 ---
-<BaseLayout locale={locale} edition={edition}><Masthead locale={locale} edition={edition} index={index}/><EditionTimeline locale={locale} edition={edition} dayIndex={dayIndex}/><TickerRibbon locale={locale} tickers={edition.marketRibbon}/><SectionNav locale={locale} items={edition.items}/><main id="main"><div class="issue-heading"><span class="eyebrow"><i></i>{t.editions[edition.editionType]}<span class="meta-separator">/</span><bdi>{localTime(edition.publishedAt)} IST</bdi></span><span class="issue-count"><bdi>{edition.items.length}</bdi> {t.stories}</span></div><section class="lead-grid" aria-label={t.summary}><HeroLeadCard item={lead} locale={locale} index={1}/><aside class="brief-panel"><span class="eyebrow">{t.summary}</span><p class="editorial-lead">{edition.editorialLead[locale]}</p><div class="brief-contents"><span class="eyebrow">{t.contents}</span>{sections.map(s=>{const count=edition.items.filter(i=>i.section===s).length;return count>0&&<a href={'#'+s}><span>{t.sections[s]}</span><bdi>{String(count).padStart(2,'0')} ↙</bdi></a>})}</div><div class="brief-mark" aria-hidden="true">D<span>.</span></div></aside></section>{sections.map((section,n)=>{const stories=remaining.filter(i=>i.section===section);return <section class="news-section" id={section}><div class="section-heading"><h2><span class="section-index"><bdi>0{n+1}</bdi></span>{t.sections[section]}</h2><span class="section-line"></span><span class="section-total"><bdi>{edition.items.filter(i=>i.section===section).length}</bdi> {t.stories}</span></div>{stories.length?<div class="news-grid">{stories.map(item=><NewsCard item={item} locale={locale} index={sorted.findIndex(i=>i.id===item.id)+1}/>)}</div>:<a class="lead-reference" href={'#'+lead.id}>{lead.headline[locale]} ↗</a>}</section>})}</main><footer class="site-footer"><div><a class="footer-brand" href="#top">DAILY DIGEST<span class="brand-dot"></span></a><p>{t.footer}</p></div><div class="footer-meta"><p>{t.disclaimer}</p><p>{t.published}: <bdi>{edition.date} · {localTime(edition.publishedAt)} IST</bdi></p><a href="https://github.com/YuvalHir/daily-digest" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#top">{t.back} ↑</a></div></footer></BaseLayout>
+
+<BaseLayout locale={locale} edition={edition}>
+  <Masthead locale={locale} edition={edition} index={index} />
+  <EditionTimeline locale={locale} edition={edition} dayIndex={dayIndex} />
+  <SectionNav locale={locale} items={edition.items} />
+  <main id="main">
+    <div class="issue-heading">
+      <span class="eyebrow">
+        {t.editions[edition.editionType]}
+        <span class="meta-separator">/</span>
+        <bdi>{localTime(edition.publishedAt)} IST</bdi>
+      </span>
+      <span class="issue-count">
+        <bdi>{edition.items.length}</bdi> {t.stories}
+      </span>
+    </div>
+    <section class="lead-grid" aria-label={t.summary}>
+      <HeroLeadCard item={lead} locale={locale} index={1} />
+      <MarketChart locale={locale} />
+    </section>
+    {sections.map((section, n) => {
+      const stories = remaining.filter((i) => i.section === section);
+      return (
+        <section class="news-section" id={section}>
+          <div class="section-heading">
+            <h2>{t.sections[section]}</h2>
+            <span class="section-line"></span>
+            <span class="section-total">
+              <bdi>
+                {edition.items.filter((i) => i.section === section).length}
+              </bdi>{' '}
+              {t.stories}
+            </span>
+          </div>
+          {stories.length ? (
+            <div class="news-grid">
+              {stories.map((item) => (
+                <NewsCard
+                  item={item}
+                  locale={locale}
+                  index={sorted.findIndex((i) => i.id === item.id) + 1}
+                />
+              ))}
+            </div>
+          ) : (
+            <a class="lead-reference" href={'#' + lead.id}>
+              {lead.headline[locale]} ↗
+            </a>
+          )}
+        </section>
+      );
+    })}
+  </main>
+  <footer class="site-footer">
+    <div>
+      <a class="footer-brand" href="#top">
+        DAILY DIGEST
+      </a>
+      <p>{t.footer}</p>
+    </div>
+    <div class="footer-meta">
+      <p>{t.disclaimer}</p>
+      <p>
+        {t.published}:{' '}
+        <bdi>
+          {edition.date} · {localTime(edition.publishedAt)} IST
+        </bdi>
+      </p>
+      <a
+        href="https://github.com/YuvalHir/daily-digest"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub ↗
+      </a>
+      <a href="#top">{t.back} ↑</a>
+    </div>
+  </footer>
+</BaseLayout>

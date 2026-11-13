@@ -3,12 +3,12 @@ export type Locale = 'he' | 'en';
 export type SectionId = 'tech' | 'markets' | 'geopolitics' | 'israel';
 
 export type EditionType =
-  | 'morning'    // מהדורת בוקר (סיכום לילה ואסיה)
-  | 'premarket'  // טרום-מסחר ארה״ב ואירופה
-  | 'open'       // פתיחת המסחר בוול סטריט
-  | 'mid'        // עדכון אמצע יום
-  | 'close'      // סיכום נעילה
-  | 'breaking';  // מהדורה מיוחדת / אירוע מתפרץ
+  | 'morning' // מהדורת בוקר (סיכום לילה ואסיה)
+  | 'premarket' // טרום-מסחר ארה״ב ואירופה
+  | 'open' // פתיחת המסחר בוול סטריט
+  | 'mid' // עדכון אמצע יום
+  | 'close' // סיכום נעילה
+  | 'breaking'; // מהדורה מיוחדת / אירוע מתפרץ
 
 export interface LocalizedText {
   he: string;
@@ -38,24 +38,6 @@ export interface TickerItem {
   sourceUrl?: string;
 }
 
-export interface EmbeddedTweet {
-  id: string;
-  authorName: string;
-  authorHandle: string;
-  verified?: boolean;
-  avatarUrl?: string;
-  /** טקסט הציוץ (או תרגומו/הקשרו) בשתי השפות */
-  text: LocalizedText;
-  timestamp: string;
-  url: string;
-  media?: {
-    type: 'image';
-    url: string;
-    alt: LocalizedText;
-    aspectRatio?: string;
-  };
-}
-
 export interface NewsSource {
   name: string;
   url: string;
@@ -78,7 +60,11 @@ export interface DigestItem {
   source: NewsSource;
   secondarySources?: NewsSource[];
   tickers?: TickerItem[];
-  tweets?: EmbeddedTweet[];
+  marketSymbols?: Array<
+    'NASDAQ:NVDA' | 'NASDAQ:MSFT' | 'NASDAQ:AMD' | 'BITSTAMP:BTCUSD'
+  >;
+  socialPost?: { id: string; url: string };
+  tweets?: never[];
   priority: number;
 }
 
@@ -100,16 +86,16 @@ export interface DigestEdition {
 }
 
 export interface DigestEditionIndexEntry {
-  slug: string;          // "0830-morning"
+  slug: string; // "0830-morning"
   editionType: EditionType;
   editionNumber: number;
-  publishedAt: string;   // ISO timestamp למיון כרונולוגי מדויק
+  publishedAt: string; // ISO timestamp למיון כרונולוגי מדויק
   headlinePreview: LocalizedText;
   itemCount: number;
 }
 
 export interface DigestDayIndex {
-  date: string;          // "2026-11-13"
+  date: string; // "2026-11-13"
   latestEditionSlug: string;
   editionCount: number;
   /** ממוין כרונולוגית מתחילת היום לסופו עבור ציר הזמן */
@@ -123,4 +109,3 @@ export interface DigestIndex {
   /** ממוין מהתאריך החדש לישן */
   days: DigestDayIndex[];
 }
-

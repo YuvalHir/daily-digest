@@ -6,9 +6,10 @@
 - Every editorial text has `he` and `en`. Summarized or translated posts must remain labeled as summaries, never presented as verbatim quotes.
 - Preserve published editions. Correct factual errors transparently, not by silently substituting invented data.
 - Use exact article/post URLs. Broad profile URLs are not a substitute for a source story.
-- Archive tweet media locally in `public/media/YYYY-MM-DD/<editionSlug>/`. Do not put credentials, personal contact details or private conversation records into this public repository.
+- Never copy social-post text, translations or media. Publish independent summaries and source links. Optional official X embeds contain only ID/URL in `socialPost`, load only after visitor consent and use dnt=true. Test no X requests before consent and blocked/unavailable states. Prebuild rejects all copied `tweets` objects.
+- Never archive X media. Do not put credentials, personal contact details or private conversation records into this public repository.
 - Optional `asOf` (ISO offset datetime) and `sourceUrl` on market tickers capture quote provenance. `publishedAt` is the edition snapshot time; never label static data as live.
-- Build static HTML only. No SSR, database, third-party trackers or embedded X scripts.
+- Build static HTML only. No SSR or database. Only the official consent-gated X widget and branded TradingView widget may load third-party code.
 - `npm test && npm run build` before push. Never commit generated `public/data/index.json`.
 - Keep charts native SVG and isolate financial values with LTR `bdi`.
 - Preserve mobile RTL and English LTR. Check 320px, 390px and desktop pixels after layout changes.

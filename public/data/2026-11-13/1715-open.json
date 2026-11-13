@@ -75,7 +75,12 @@
           "name": "@FirstSquawk · עדכון התאוששות / recovery",
           "url": "https://x.com/FirstSquawk/status/2121243101071319456"
         }
-      ]
+      ],
+      "marketSymbols": ["NASDAQ:MSFT"],
+      "socialPost": {
+        "id": "2121194713466511448",
+        "url": "https://x.com/wallstengine/status/2121194713466511448"
+      }
     },
     {
       "id": "nvidia-employees",
@@ -97,7 +102,8 @@
         "name": "@wallstengine",
         "url": "https://x.com/wallstengine/status/2121199821986078725"
       },
-      "priority": 3
+      "priority": 3,
+      "marketSymbols": ["NASDAQ:NVDA"]
     },
     {
       "id": "chip-export-controls",
@@ -119,7 +125,8 @@
         "name": "@wallstengine",
         "url": "https://x.com/wallstengine/status/2121229821552496694"
       },
-      "priority": 4
+      "priority": 4,
+      "marketSymbols": ["NASDAQ:NVDA"]
     },
     {
       "id": "nscale-funding",
@@ -163,7 +170,11 @@
         "name": "@wallstengine",
         "url": "https://x.com/wallstengine/status/2121258348024861021"
       },
-      "priority": 6
+      "priority": 6,
+      "socialPost": {
+        "id": "2121258348024861021",
+        "url": "https://x.com/wallstengine/status/2121258348024861021"
+      }
     },
     {
       "id": "amd-nvidia-gap",
@@ -185,7 +196,12 @@
         "name": "@kobeissiletter",
         "url": "https://x.com/KobeissiLetter/status/2121255955438465370"
       },
-      "priority": 7
+      "priority": 7,
+      "marketSymbols": ["NASDAQ:AMD", "NASDAQ:NVDA"],
+      "socialPost": {
+        "id": "2121255955438465370",
+        "url": "https://x.com/KobeissiLetter/status/2121255955438465370"
+      }
     },
     {
       "id": "ppi-inflation",
@@ -289,7 +305,12 @@
         "name": "@kobeissiletter",
         "url": "https://x.com/KobeissiLetter/status/2121119250601697764"
       },
-      "priority": 11
+      "priority": 11,
+      "marketSymbols": ["BITSTAMP:BTCUSD"],
+      "socialPost": {
+        "id": "2121119250601697764",
+        "url": "https://x.com/KobeissiLetter/status/2121119250601697764"
+      }
     },
     {
       "id": "goldman-outlook",
@@ -465,7 +486,8 @@
         "name": "@calcalist",
         "url": "https://x.com/calcalist/status/2121252997284167922"
       },
-      "priority": 19
+      "priority": 19,
+      "marketSymbols": ["NASDAQ:NVDA"]
     },
     {
       "id": "israeli-nvidia-investors",
@@ -487,7 +509,8 @@
         "name": "@globesnews",
         "url": "https://x.com/globesnews/status/2121161573330763832"
       },
-      "priority": 20
+      "priority": 20,
+      "marketSymbols": ["NASDAQ:NVDA"]
     }
   ]
 }

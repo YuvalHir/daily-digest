@@ -1,0 +1,145 @@
+---
+const { post, locale } = Astro.props;
+const he = locale === 'he';
+---
+
+<div
+  class="social-post"
+  data-social-post
+  data-post-id={post.id}
+  data-lang={locale}
+>
+  <div class="social-consent" data-social-consent>
+    <p>
+      {he
+        ? 'הצגת הפוסט המקורי תיצור חיבור ל-X ותעביר אליו מידע על הדפדפן והעמוד. הפוסט ייטען רק לאחר אישורך.'
+        : 'Showing the original post connects to X and shares browser and page information with X. It loads only after you agree.'}
+    </p>
+    <div class="social-actions">
+      <button type="button" data-load-post>
+        {he ? 'אישור והצגת הפוסט מ-X' : 'Agree and show the X post'}
+      </button>
+      <a href={post.url} target="_blank" rel="noopener noreferrer">
+        {he ? 'פתיחה ב-X במקום' : 'Open on X instead'}
+      </a>
+    </div>
+  </div>
+  <p class="social-status" data-social-status role="status" hidden></p>
+  <div data-social-target></div>
+  <button type="button" class="social-hide" data-hide-post hidden>
+    {he ? 'הסתרת הפוסט' : 'Hide post'}
+  </button>
+  <noscript>
+    <p>
+      {he
+        ? 'הטמעה דורשת JavaScript. אפשר לפתוח את המקור ישירות.'
+        : 'Embedding needs JavaScript. You can open the source directly.'}
+    </p>
+  </noscript>
+</div>
+<script>
+  type XApi = {
+    widgets: {
+      createTweet: (
+        id: string,
+        target: HTMLElement,
+        options: Record<string, unknown>,
+      ) => Promise<HTMLElement | undefined>;
+    };
+    ready?: (fn: () => void) => void;
+  };
+  let loader: Promise<XApi> | undefined;
+  const loadX = () =>
+    (loader ??= new Promise<XApi>((resolve, reject) => {
+      const win = window as Window & { twttr?: XApi };
+      if (win.twttr?.widgets) {
+        resolve(win.twttr);
+        return;
+      }
+      const script = document.createElement('script');
+      script.id = 'twitter-wjs';
+      script.src = 'https://platform.x.com/widgets.js';
+      script.async = true;
+      const timer = setTimeout(() => {
+        script.remove();
+        loader = undefined;
+        reject(new Error('timeout'));
+      }, 15000);
+      script.onload = () => {
+        clearTimeout(timer);
+        if (win.twttr?.widgets) resolve(win.twttr);
+        else {
+          loader = undefined;
+          reject(new Error('unavailable'));
+        }
+      };
+      script.onerror = () => {
+        clearTimeout(timer);
+        script.remove();
+        loader = undefined;
+        reject(new Error('blocked'));
+      };
+      document.head.append(script);
+    }));
+  document
+    .querySelectorAll<HTMLElement>('[data-social-post]')
+    .forEach((root) => {
+      const button = root.querySelector<HTMLButtonElement>('[data-load-post]')!,
+        hide = root.querySelector<HTMLButtonElement>('[data-hide-post]')!,
+        target = root.querySelector<HTMLElement>('[data-social-target]')!,
+        status = root.querySelector<HTMLElement>('[data-social-status]')!,
+        consent = root.querySelector<HTMLElement>('[data-social-consent]')!;
+      let version = 0;
+      button.addEventListener('click', async () => {
+        const request = ++version;
+        button.disabled = true;
+        status.hidden = false;
+        status.textContent =
+          root.dataset.lang === 'he'
+            ? 'טוען את ההטמעה הרשמית של X…'
+            : 'Loading the official X embed…';
+        try {
+          const api = await loadX();
+          if (request !== version) return;
+          const slot = document.createElement('div');
+          target.replaceChildren(slot);
+          const result = await Promise.race([
+            api.widgets.createTweet(root.dataset.postId!, slot, {
+              dnt: true,
+              theme: 'dark',
+              lang: root.dataset.lang,
+              conversation: 'none',
+              align: 'center',
+            }),
+            new Promise<undefined>((_, reject) =>
+              setTimeout(() => reject(new Error('timeout')), 15000),
+            ),
+          ]);
+          if (request !== version) {
+            target.replaceChildren();
+            return;
+          }
+          if (!result) throw new Error('unavailable');
+          consent.hidden = true;
+          status.hidden = true;
+          hide.hidden = false;
+        } catch {
+          if (request !== version) return;
+          target.replaceChildren();
+          status.textContent =
+            root.dataset.lang === 'he'
+              ? 'הפוסט אינו זמין, הוסר או נחסם לטעינה. אין כאן עותק שמור; אפשר לפתוח את קישור המקור.'
+              : 'The post is unavailable, removed or blocked from loading. No cached copy is shown; you can use the source link.';
+          button.disabled = false;
+        }
+      });
+      hide.addEventListener('click', () => {
+        version++;
+        target.replaceChildren();
+        hide.hidden = true;
+        consent.hidden = false;
+        status.hidden = true;
+        button.disabled = false;
+      });
+    });
+</script>

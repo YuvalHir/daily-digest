@@ -1,7 +1,68 @@
 ---
-import '../styles/reset.css';import '../styles/tokens.css';import '../styles/global.css';import {ui} from '../i18n/ui';
-const {locale,edition}=Astro.props;const t=ui[locale as 'he'|'en'];
-const path=Astro.url.pathname.replace(/^\/en(?=\/|$)/,'');const he=new URL(path,Astro.site),en=new URL('/en'+(path==='/'?'/':path),Astro.site);
-const lead=edition.items.find(i=>i.isLead)||edition.items[0];const title=lead.headline[locale]+' | '+t.brand;
+import '../styles/reset.css';
+import '../styles/tokens.css';
+import '../styles/global.css';
+import { ui } from '../i18n/ui';
+const { locale, edition } = Astro.props;
+const t = ui[locale as 'he' | 'en'];
+const path = Astro.url.pathname.replace(/^\/en(?=\/|$)/, '');
+const he = new URL(path, Astro.site),
+  en = new URL('/en' + (path === '/' ? '/' : path), Astro.site);
+const lead = edition.items.find((i) => i.isLead) || edition.items[0];
+const title = lead.headline[locale] + ' | ' + t.brand;
 ---
-<!doctype html><html lang={locale} dir={locale==='he'?'rtl':'ltr'}><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="color-scheme" content="dark"/><meta name="theme-color" content="#111713"/><title>{title}</title><meta name="description" content={edition.editorialLead[locale]}/><link rel="icon" type="image/svg+xml" href="/favicon.svg"/><link rel="canonical" href={locale==='he'?he:en}/><link rel="alternate" hreflang="he" href={he}/><link rel="alternate" hreflang="en" href={en}/><link rel="alternate" hreflang="x-default" href={he}/><meta property="og:type" content="article"/><meta property="og:title" content={title}/><meta property="og:description" content={edition.editorialLead[locale]}/><meta property="og:locale" content={locale==='he'?'he_IL':'en_GB'}/><meta property="og:url" content={locale==='he'?he:en}/><meta property="article:published_time" content={edition.publishedAt}/><link rel="preload" as="font" href={locale==='he'?'/fonts/Heebo-Hebrew.woff2':'/fonts/Heebo-Latin.woff2'} type="font/woff2" crossorigin/>{locale==='he'&&<script is:inline>try{const p=localStorage.getItem('digest_locale');if(!p&&navigator.language&&!navigator.language.toLowerCase().startsWith('he'))location.replace('/en'+location.pathname+location.search+location.hash)}catch{}</script>}</head><body><a class="skip-link" href="#main">{t.skip}</a><div class="page-shell"><slot/></div></body></html>
+
+<!doctype html>
+<html lang={locale} dir={locale === 'he' ? 'rtl' : 'ltr'}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#101113" />
+    <title>{title}</title>
+    <meta name="description" content={edition.editorialLead[locale]} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={locale === 'he' ? he : en} />
+    <link rel="alternate" hreflang="he" href={he} />
+    <link rel="alternate" hreflang="en" href={en} />
+    <link rel="alternate" hreflang="x-default" href={he} />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={edition.editorialLead[locale]} />
+    <meta property="og:locale" content={locale === 'he' ? 'he_IL' : 'en_GB'} />
+    <meta property="og:url" content={locale === 'he' ? he : en} />
+    <meta property="article:published_time" content={edition.publishedAt} />
+    <link
+      rel="preload"
+      as="font"
+      href={
+        locale === 'he'
+          ? '/fonts/Heebo-Hebrew.woff2'
+          : '/fonts/Heebo-Latin.woff2'
+      }
+      type="font/woff2"
+      crossorigin
+    />
+    {locale === 'he' && <script is:inline>
+      try {
+        const p = localStorage.getItem('digest_locale');
+        if (
+          !p &&
+          navigator.language &&
+          !navigator.language.toLowerCase().startsWith('he')
+        )
+          location.replace(
+            '/en' + location.pathname + location.search + location.hash,
+          );
+      } catch {}
+    </script>}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">
+      {t.skip}
+    </a>
+    <div class="page-shell">
+      <slot />
+    </div>
+  </body>
+</html>
