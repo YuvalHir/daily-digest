@@ -1,4 +1,5 @@
 import { chartBars } from './chart-processing.js';
+import { quoteReference } from './quote-reference.js';
 import createYahooFinance from 'yahoo-finance2/createYahooFinance';
 import chart from 'yahoo-finance2/modules/chart';
 const YahooFinance = createYahooFinance({ modules: { chart } });
@@ -46,6 +47,8 @@ async function collect(key, range, yahoo) {
       currency: meta.currency,
       changePercent: (bars.at(-1).value / bars[0].value - 1) * 100,
       changeBasis: 'chartRange',
+      // Optional exact quote-reference metadata; never inferred from graph bars.
+      quoteChange: quoteReference(meta),
       asOf: meta.regularMarketTime.toISOString(),
       sourceName: 'Yahoo Finance · yahoo-finance2',
       sourceUrl: `https://finance.yahoo.com/quote/${symbol}/`,
