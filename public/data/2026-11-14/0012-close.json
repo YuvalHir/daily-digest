@@ -1,0 +1,460 @@
+{
+  "schemaVersion": "2.0",
+  "date": "2026-11-14",
+  "editionSlug": "0012-close",
+  "editionType": "close",
+  "editionNumber": 3,
+  "publishedAt": "2026-11-14T00:12:23+02:00",
+  "editorialLead": {
+    "he": "אנבידיה בלי הואנג: השבוע הקשה ביותר מאז אפריל, והדירקטוריון בלי מועמד רשמי",
+    "en": "Nvidia without Huang: the worst week since April, and a board with no formal candidate"
+  },
+  "topSummary": {
+    "he": "אנבידיה משלימה את השבוע הקשה ביותר מאז אפריל 2025, והמירוץ אחר מחליפו של ג'נסן הואנג בעיצומו. ובארה\"ב: עצירת המראות ארצית; בעדכון האחרון שנכלל במהדורה טרם נמסר מועד לחידוש הטיסות.",
+    "en": "Nvidia caps its worst week since April 2025 as the race to succeed Jensen Huang heats up. In the US, a nationwide ground stop; the last update included in this edition gave no timetable for flights to resume."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "NASDAQ:NVDA",
+    "ARM"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "NASDAQ:NVDA",
+      "range": "1d",
+      "label": {
+        "he": "אנבידיה",
+        "en": "Nvidia"
+      }
+    },
+    {
+      "symbol": "ARM",
+      "range": "1d",
+      "label": {
+        "he": "Arm",
+        "en": "Arm"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "nvidia-ceo-search",
+      "section": "tech",
+      "isLead": true,
+      "priority": 1,
+      "kicker": {
+        "he": "אנבידיה · אחרי הואנג",
+        "en": "Nvidia · after Huang"
+      },
+      "headline": {
+        "he": "אנבידיה משלימה את השבוע הקשה ביותר מאז אפריל 2025: ירידה יומית של {{move:-2.01%}}, והדירקטוריון מכחיש שפנה רשמית למועמד",
+        "en": "Nvidia caps its worst week since April 2025 with a {{move:-2.01%}} daily drop as the board denies formally engaging any candidate"
+      },
+      "summary": {
+        "he": "מניית אנבידיה נסגרה בירידה של {{move:-2.01%}} ל-162.85 דולר, לפי Yahoo Finance, והשלימה צניחה שבועית של {{move:-13%}} - הקשה ביותר מאז אפריל 2025, לפי zerohedge. אנבידיה הודיעה ב-12 בנובמבר על התפטרותו של ג'נסן הואנג ומינתה את סמנכ\"לית הכספים Colette Kress למנכ\"לית-ביניים. ב-{{time:board-denial}} מסר הדירקטוריון ל-CNBC שלא פנה רשמית לאף מועמד קבוע ושכל ספקולציה מוקדמת, אחרי שה-Financial Times דיווח ב-{{time:ft-report}} שהדירקטוריון פנה למנכ\"ל Arm רנה האס כמועמד אפשרי.",
+        "en": "Nvidia shares closed down {{move:-2.01%}} at $162.85, per Yahoo Finance, completing a {{move:-13%}} weekly plunge - the worst since April 2025, per zerohedge. Nvidia announced Jensen Huang's resignation on November 12 and named CFO Colette Kress interim CEO. At {{time:board-denial}}, the board told CNBC it has not formally engaged any permanent candidate and that any speculation is premature, after the Financial Times reported at {{time:ft-report}} that the board had approached Arm CEO Rene Haas as a possible candidate."
+      },
+      "bullets": {
+        "he": [
+          "בהודעה הרשמית מ-12 בנובמבר: הואנג התפטר בתוקף מיידי מתפקיד המנכ\"ל ומהדירקטוריון; Harvey C. Jones מונה ליו\"ר הדירקטוריון הראשון בתולדות החברה, והחיפוש אחר מנכ\"ל קבוע כולל מועמדים פנימיים וחיצוניים.",
+          "מניית Arm קיצצה ירידות ל-{{move:-5%}} נכון ל-{{time:arm-move}} בעקבות דיווח ה-FT, לפי @DeItaone. בשווקי ההימורים נכון ל-{{time:odds}}: רנה האס 34%, סגן הנשיא יאן באק 30% ו-Kress 12%.",
+          "משקיעים קמעונאים רכשו השבוע מניות אנבידיה בהיקף של 1.96 מיליארד דולר, הגבוה ביותר מאז מרץ 2025, לפי ה-WSJ; Vanda Research צופה שהרכישות יעברו את ה-2 מיליארד דולר.",
+          "אילון מאסק הודיע ב-{{time:petition}} שיחתום על עצומה להחזרת הואנג לתפקיד, לפי Kobeissi Letter; פוסט פנימי בחברה הקורא להחזירו משך מעל 1,600 תגובות, לפי WIRED.",
+          "HSBC הורידה את דירוג המניה והעריכה שהיא תתקשה עד למינוי מנכ\"ל קבוע, לפי CNBC. אנבידיה תפרסם את דוחותיה ב-17 בנובמבר, כמתוכנן מראש."
+        ],
+        "en": [
+          "In the official November 12 announcement: Huang resigned effective immediately as CEO and from the board; Harvey C. Jones was appointed the company's first-ever chair of the board, and the search for a permanent CEO covers internal and external candidates.",
+          "Arm shares pared losses to {{move:-5%}} as of {{time:arm-move}} after the FT report, per @DeItaone. Prediction markets as of {{time:odds}}: Rene Haas 34%, Nvidia executive Ian Buck 30% and Kress 12%.",
+          "Retail investors bought $1.96 billion of Nvidia stock this week, the most since March 2025, per the WSJ; Vanda Research expects purchases to top $2 billion.",
+          "Elon Musk announced at {{time:petition}} that he will sign a petition to reinstate Huang, per Kobeissi Letter; an internal post calling for his return has drawn over 1,600 comments, per WIRED.",
+          "HSBC downgraded the stock and said it would struggle until a permanent CEO is named, per CNBC. Nvidia reports earnings on November 17 as previously scheduled."
+        ]
+      },
+      "source": {
+        "name": "@zerohedge · {{time:week-close}}",
+        "url": "https://x.com/zerohedge/status/2121348061939089548"
+      },
+      "secondarySources": [
+        {
+          "name": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/jensen-huang-resigns-nvidia-017d4af2ad194ec2981d661663da9f9b"
+        },
+        {
+          "name": "Yahoo Finance · NVDA",
+          "url": "https://finance.yahoo.com/quote/NVDA/"
+        },
+        {
+          "name": "@StockMKTNewz · {{time:board-denial}}",
+          "url": "https://x.com/StockMKTNewz/status/2121320731929940024"
+        },
+        {
+          "name": "@DeItaone · {{time:ft-report}}",
+          "url": "https://x.com/DeItaone/status/2121285827770868074"
+        },
+        {
+          "name": "@DeItaone · {{time:arm-move}}",
+          "url": "https://x.com/DeItaone/status/2121289367268295160"
+        },
+        {
+          "name": "@DeItaone · {{time:odds}}",
+          "url": "https://x.com/DeItaone/status/2121287186200887530"
+        },
+        {
+          "name": "@wallstengine",
+          "url": "https://x.com/wallstengine/status/2121355060622119359"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:petition}}",
+          "url": "https://x.com/KobeissiLetter/status/2121348797276320087"
+        },
+        {
+          "name": "@FirstSquawk · {{time:hsbc}}",
+          "url": "https://x.com/FirstSquawk/status/2121277307289829406"
+        }
+      ],
+      "socialPost": {
+        "id": "2121341581139877917",
+        "url": "https://x.com/unusual_whales/status/2121341581139877917"
+      },
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        },
+        {
+          "symbol": "ARM",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "week-close": {
+          "at": "2026-11-13T21:02:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "board-denial": {
+          "at": "2026-11-13T19:14:09+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ft-report": {
+          "at": "2026-11-13T16:55:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "arm-move": {
+          "at": "2026-11-13T17:09:31+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "odds": {
+          "at": "2026-11-13T17:00:51+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "petition": {
+          "at": "2026-11-13T21:05:40+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "hsbc": {
+          "at": "2026-11-13T16:21:36+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "faa-groundstop",
+      "section": "geopolitics",
+      "priority": 2,
+      "kicker": {
+        "he": "ארה\"ב · עצירת המראות",
+        "en": "US · ground stop"
+      },
+      "headline": {
+        "he": "עצירת המראות הארצית בארה\"ב: כ-7,000 טיסות עוכבו או בוטלו; נכון ל-{{time:faa-latest}} טרם נמסר מועד לחידוש",
+        "en": "Nationwide US ground stop: about 7,000 flights delayed or cancelled; no resumption timetable as of {{time:faa-latest}}"
+      },
+      "summary": {
+        "he": "רשות התעופה הפדרלית (FAA) הורתה ב-{{time:faa-order}} על עצירת המראות בכל שדות התעופה בארה\"ב, בנימוק \"נסיבות חריגות ושיקולי בטיחות\". כ-7,000 טיסות עוכבו או בוטלו, לפי נתוני FlightAware מ-{{time:flightaware}}, ונכון ל-{{time:faa-latest}} לא נמסרה הערכה מתי תוסר ההוראה. מזכיר התחבורה שון דאפי ייחס את ההוראה לתקלת תקשורת ב-22 מרכזי הבקרה האזוריים, לפי AP, ו-CNN מדווחת שאין בשלב זה עדות למתקפת סייבר.",
+        "en": "The Federal Aviation Administration ordered a ground stop at all US airports at {{time:faa-order}}, citing \"extraordinary circumstances and reasons of safety\". About 7,000 flights were delayed or cancelled, per FlightAware data at {{time:flightaware}}, and as of {{time:faa-latest}} the FAA had given no indication of when the order would be lifted. Transportation Secretary Sean Duffy attributed the order to a communications failure at 22 regional control centers, per AP, and CNN reports there is no evidence at this stage of a cyberattack."
+      },
+      "bullets": {
+        "he": [
+          "ההוראה: כל טיסות ההמראה נשארות על הקרקע עד הודעה חדשה; טיסות נכנסות מחו\"ל מטופלות כל מקרה לגופו, וטיסות שכבר באוויר לא הוסטו לנחיתה.",
+          "לפי wallstengine, זו הפעם השלישית בהיסטוריה שכל הטיסות בארה\"ב מוקפאות; הראשונה הייתה ב-11 בספטמבר 2001."
+        ],
+        "en": [
+          "The order: all departing traffic remains grounded until further notice; inbound international flights are handled case by case, and aircraft already airborne were not diverted.",
+          "Per wallstengine, this is the third time in history that every flight in the US has been grounded; the first was September 11, 2001."
+        ]
+      },
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/flights-halted-airports-faa-f81b0904331dafad6133f291e5f531a8"
+      },
+      "secondarySources": [
+        {
+          "name": "@zerohedge · {{time:faa-order}}",
+          "url": "https://x.com/zerohedge/status/2121347678978408473"
+        },
+        {
+          "name": "@DeItaone · {{time:flightaware}}",
+          "url": "https://x.com/DeItaone/status/2121356471220785413"
+        },
+        {
+          "name": "@DeItaone · {{time:faa-latest}}",
+          "url": "https://x.com/DeItaone/status/2121358744579710992"
+        },
+        {
+          "name": "@zerohedge · {{time:cnn}}",
+          "url": "https://x.com/zerohedge/status/2121362493893452187"
+        },
+        {
+          "name": "@wallstengine · {{time:third-time}}",
+          "url": "https://x.com/wallstengine/status/2121358840793067978"
+        }
+      ],
+      "socialPost": {
+        "id": "2121358840793067978",
+        "url": "https://x.com/wallstengine/status/2121358840793067978"
+      },
+      "timeRefs": {
+        "faa-order": {
+          "at": "2026-11-13T21:01:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "flightaware": {
+          "at": "2026-11-13T21:36:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "faa-latest": {
+          "at": "2026-11-13T21:45:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "cnn": {
+          "at": "2026-11-13T22:00:06+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "third-time": {
+          "at": "2026-11-13T21:45:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "fed-hawkish-chorus",
+      "section": "markets",
+      "priority": 3,
+      "kicker": {
+        "he": "הפד · ריבית",
+        "en": "Fed · rates"
+      },
+      "headline": {
+        "he": "הצד הניצי בפד מתרחב: דיילי רומזת להעלאה, ובנק אוף אמריקה מוסיף העלאה שלישית לתחזית",
+        "en": "The Fed's hawkish camp grows: Daly signals a hike bias and BofA adds a third hike to its forecast"
+      },
+      "summary": {
+        "he": "נשיאת הפד של סן פרנסיסקו מרי דיילי אמרה ב-{{time:daly}} שהאינפלציה היא \"הבעיה המרכזית\" ושהנטייה היא שהריבית צריכה לעלות, והזהירה שהצרכן האמריקאי מתחיל \"להיגמר לו הדלק\". נשיאת הפד של בוסטון סוזן קולינס אמרה ב-{{time:collins}} שייתכן שהפד יצטרך להעלות ריבית יותר מהצפוי, וכלכלני בנק אוף אמריקה הוסיפו ב-{{time:bofa}} העלאת ריבית שלישית לתחזית שלהם עד מרץ 2027. וול סטריט נסגרה מעורבת: הנאסד\"ק ירד {{move:-0.91%}} וה-S&P 500 ירד {{move:-0.40%}}, בעוד הדאו עלה {{move:+0.10%}}; למרות הירידה היומית, ה-S&P השלים שבוע חיובי של {{move:+2.5%}}, הראשון מאז תחילת אוקטובר, לפי AP ו-Yahoo Finance.",
+        "en": "San Francisco Fed president Mary Daly said at {{time:daly}} that inflation is \"the key problem\" and that the bias is for rates to rise, warning that the American consumer is starting to \"run out of gas\". Boston Fed president Susan Collins said at {{time:collins}} that the Fed may need to raise rates more than expected, and Bank of America economists at {{time:bofa}} added a third rate hike to their forecast by March 2027. Wall Street closed mixed: the Nasdaq fell {{move:-0.91%}} and the S&P 500 {{move:-0.40%}}, while the Dow rose {{move:+0.10%}}; despite the daily drop, the S&P completed a {{move:+2.5%}} winning week, its first since early October, per AP and Yahoo Finance."
+      },
+      "bullets": {
+        "he": [
+          "נתוני מחירי היצרן לאוקטובר שנותרו גבוהים - עלייה שנתית של 6.5%, מעט מתחת לתחזית - לא הרגיעו את השוק, לפי @LiveSquawk.",
+          "בדו\"ח היציבות הפיננסית שפרסם הפד צוינה ההתלהבות מהבינה המלאכותית כסיכון, עם אזהרה שההשקעה ב-AI עלולה לעבור את הבום הטלקומי של שנות ה-90, לפי wallstengine."
+        ],
+        "en": [
+          "October producer-price data that stayed elevated - a 6.5% annual increase, just below forecast - did little to calm the market, per @LiveSquawk.",
+          "The Fed's latest financial stability report flags AI enthusiasm as a risk, warning that AI investment could soon surpass the 1990s telecom boom, per wallstengine."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:daly}}",
+        "url": "https://x.com/FirstSquawk/status/2121290538863526049"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:collins}}",
+          "url": "https://x.com/LiveSquawk/status/2121266625395544545"
+        },
+        {
+          "name": "@DeItaone · {{time:bofa}}",
+          "url": "https://x.com/DeItaone/status/2121305018515050580"
+        },
+        {
+          "name": "@wallstengine · {{time:fed-report}}",
+          "url": "https://x.com/wallstengine/status/2121354338086043688"
+        },
+        {
+          "name": "@LiveSquawk · {{time:ppi}}",
+          "url": "https://x.com/LiveSquawk/status/2121234882382725530"
+        },
+        {
+          "name": "Yahoo Finance · S&P 500",
+          "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+        },
+        {
+          "name": "Yahoo Finance · Nasdaq Composite",
+          "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-12c1e8155fb85c3c7b09e058ed6d3c74"
+        }
+      ],
+      "timeRefs": {
+        "daly": {
+          "at": "2026-11-13T17:14:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "collins": {
+          "at": "2026-11-13T15:39:09+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bofa": {
+          "at": "2026-11-13T18:11:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fed-report": {
+          "at": "2026-11-13T21:27:41+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ppi": {
+          "at": "2026-11-13T13:33:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "hassett-departure",
+      "section": "geopolitics",
+      "priority": 4,
+      "kicker": {
+        "he": "וושינגטון · הבית הלבן",
+        "en": "Washington · White House"
+      },
+      "headline": {
+        "he": "קווין האסט מכחיש ב-CNBC: לא אעזוב את הבית הלבן בקרוב",
+        "en": "Kevin Hassett denies on CNBC he is leaving the White House"
+      },
+      "summary": {
+        "he": "מנהל המועצה הכלכלית הלאומית קווין האסט הכחיש ב-{{time:hassett-denial}} ב-CNBC את דיווח סמאפור מ-{{time:semafor-report}}, שלפיו הוא צפוי לעזוב את הבית הלבן בשבועות הקרובים. סמאפור ציטטה שלושה מקורות ודיווחה שמזכיר האוצר סקוט בסנט או דייוויד זרווס מועמדים להחליפו.",
+        "en": "National Economic Council director Kevin Hassett denied at {{time:hassett-denial}} on CNBC the Semafor report from {{time:semafor-report}} that he is expected to leave the White House in the coming weeks. Semafor cited three people familiar with his plans and reported that Treasury Secretary Scott Bessent or David Zervos are eyed to replace him."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:hassett-denial}}",
+        "url": "https://x.com/wallstengine/status/2121328477328851148"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:semafor-report}}",
+          "url": "https://x.com/FirstSquawk/status/2121323993525604617"
+        },
+        {
+          "name": "@zerohedge",
+          "url": "https://x.com/zerohedge/status/2121322203807621495"
+        }
+      ],
+      "timeRefs": {
+        "hassett-denial": {
+          "at": "2026-11-13T19:44:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "semafor-report": {
+          "at": "2026-11-13T19:27:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "israel-treasury-nvidia",
+      "section": "israel",
+      "priority": 5,
+      "kicker": {
+        "he": "ישראל · אנבידיה",
+        "en": "Israel · Nvidia"
+      },
+      "headline": {
+        "he": "באוצר עוקבים בדאגה אחרי הטלטלה באנבידיה: החברה מכניסה למדינה יותר מ-10 מיליארד שקל בשנה",
+        "en": "Israel's treasury tracks the Nvidia turmoil with concern: the company brings the state over NIS 10 billion a year"
+      },
+      "summary": {
+        "he": "התפטרותו של ג'נסן הואנג והטלטלה סביב אנבידיה מטרידות גם את ירושלים: באוצר עוקבים בדאגה אחרי ההתפתחויות, כיוון שפעילות החברה בישראל מכניסה למדינה יותר מ-10 מיליארד שקל בשנה, לפי דה מרקר. בכלכליסט נכתב שאנבידיה אחראית לחלק ניכר מהצמיחה ומהכנסות המס בישראל, שבנק ישראל כבר מפריד את תחזיות הצמיחה שלו לתרחישים עם ובלי פעילות החברה, ושהסערה סביב מנכ\"ל החברה לשעבר חושפת סיכון ממשי לצמיחה.",
+        "en": "Jensen Huang's resignation and the turmoil around Nvidia are worrying Jerusalem too: the treasury is tracking developments with concern, as the company's activity in Israel brings the state more than NIS 10 billion a year, per TheMarker. Calcalist writes that Nvidia accounts for a significant share of Israel's growth and tax revenue, that the Bank of Israel is already separating its growth forecasts into scenarios with and without the company's operations, and that the scandal around its former CEO exposes a real risk to growth."
+      },
+      "source": {
+        "name": "@TheMarker · {{time:marker-treasury}}",
+        "url": "https://x.com/TheMarker/status/2121317243229221097"
+      },
+      "secondarySources": [
+        {
+          "name": "@calcalist · {{time:calcalist-boi}}",
+          "url": "https://x.com/calcalist/status/2121252997284167922"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "marker-treasury": {
+          "at": "2026-11-13T19:00:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "calcalist-boi": {
+          "at": "2026-11-13T14:45:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "tase-close",
+      "section": "israel",
+      "priority": 6,
+      "kicker": {
+        "he": "ישראל · בורסה",
+        "en": "Israel · TASE"
+      },
+      "headline": {
+        "he": "בורסת ת\"א ננעלה בירידות בסיום שבוע ירוק: ת\"א 35 ירד {{move:-0.88%}}",
+        "en": "Tel Aviv ends a green week lower: TA-35 down {{move:-0.88%}}"
+      },
+      "summary": {
+        "he": "מדד ת\"א 35 ירד {{move:-0.88%}}, מדד ת\"א 125 ירד {{move:-0.98%}} ומדד ת\"א 90 ירד {{move:-1.39%}}, לפי הבורסה לניירות ערך ב-{{time:tase-close}}. את הירידות הובילו מניות האנרגיה המתחדשת, הקלינטק והביטוח; מניות הנפט והגז בלטו בעלייה קלה.",
+        "en": "The TA-35 index fell {{move:-0.88%}}, the TA-125 fell {{move:-0.98%}} and the TA-90 fell {{move:-1.39%}}, per the Tel Aviv Stock Exchange at {{time:tase-close}}. The declines were led by renewable energy, cleantech and insurance stocks; oil and gas stocks stood out with a slight gain."
+      },
+      "source": {
+        "name": "@TASE_IL · {{time:tase-close}}",
+        "url": "https://x.com/TASE_IL/status/2121212431758250045"
+      },
+      "timeRefs": {
+        "tase-close": {
+          "at": "2026-11-13T12:03:48+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    }
+  ]
+}
