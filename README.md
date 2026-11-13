@@ -30,6 +30,10 @@ Static translations of social posts are labeled as translations/summaries. No th
 
 ## Cloudflare Workers Static Assets
 
+Production: https://daily-digest.hyuval1511.workers.dev
+
+Initial deployment is live. Automatic Git-to-Cloudflare deployment is not connected yet; a Git push currently validates in GitHub Actions but still needs a manual Wrangler deployment. Do not assume a pushed edition is public until its live route and latest-edition links have been verified.
+
 `wrangler.jsonc` points to `dist/`. For Workers Builds, connect this GitHub repository, choose `main`, set build command `npm run build`, deploy command `npx wrangler deploy`, and Node.js 22. Set build variable `SITE_URL` to the verified production URL before publishing, so canonical and hreflang URLs use the right host.
 
 ```sh
