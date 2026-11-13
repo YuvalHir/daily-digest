@@ -287,6 +287,7 @@ const ranges = he
     .forEach((desk) => {
       const he = desk.dataset.lang === 'he';
       let lastKey = '';
+      let displayedSymbol = '';
       if (desk.dataset.configured !== 'true') {
         desk.querySelector('[data-main-status]')!.textContent = he
           ? 'לא נבחר גרף לסיפור המוביל'
@@ -311,6 +312,21 @@ const ranges = he
           ?.textContent?.trim() || symbol;
       async function render(cacheOnly = false) {
         find('[data-main-name]').textContent = selectedLabel();
+        if (displayedSymbol !== symbol) {
+          find('[data-main-symbol]').textContent =
+            symbol === 'BITSTAMP:BTCUSD'
+              ? 'BTC-USD'
+              : symbol.split(':').at(-1)!;
+          find('[data-main-price]').textContent = '--';
+          find('[data-main-change]').textContent = '';
+          find('[data-main-change-label]').hidden = true;
+          svg.replaceChildren();
+          ['[data-main-start]', '[data-main-end]', '[data-main-stamp]'].forEach(
+            (x) => (find(x).textContent = ''),
+          );
+          tip.hidden = true;
+          cross.hidden = true;
+        }
         const current = ++version;
         status.hidden = false;
         status.textContent = he ? 'טוען נתוני שוק…' : 'Loading market data…';
@@ -321,6 +337,7 @@ const ranges = he
           if (!q) throw Error('No cached quote');
           const display = await quoteForDisplay(symbol, q);
           if (current !== version) return;
+          displayedSymbol = symbol;
           last = q;
           lastKey = symbol + range;
           svg.replaceChildren();
