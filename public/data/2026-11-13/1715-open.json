@@ -70,28 +70,6 @@
         "url": "https://x.com/wallstengine/status/2121194713466511448"
       },
       "priority": 2,
-      "tweets": [
-        {
-          "id": "2121194713466511448",
-          "authorName": "@wallstengine",
-          "authorHandle": "wallstengine",
-          "text": {
-            "he": "לפי הדיווח: תקלה עולמית ב-Microsoft 365 נמשכת יותר מ-16 שעות, עם שיבושים ב-Outlook, Teams ו-Copilot. מניית MSFT ירדה 2.2% בזמן הדיווח.",
-            "en": "The report says Microsoft 365 disruption has lasted more than 16 hours, with Outlook, Teams and Copilot down or unstable. MSFT was down 2.2% at the time of the post."
-          },
-          "timestamp": "12:53 IST",
-          "url": "https://x.com/wallstengine/status/2121194713466511448",
-          "media": {
-            "type": "image",
-            "url": "/media/2026-11-13/1715-open/microsoft-outage.webp",
-            "alt": {
-              "he": "תמונה שצורפה לדיווח המקורי של @wallstengine",
-              "en": "Image attached to the original report by @wallstengine"
-            },
-            "aspectRatio": "680/233"
-          }
-        }
-      ],
       "secondarySources": [
         {
           "name": "@FirstSquawk · עדכון התאוששות / recovery",
@@ -185,29 +163,7 @@
         "name": "@wallstengine",
         "url": "https://x.com/wallstengine/status/2121258348024861021"
       },
-      "priority": 6,
-      "tweets": [
-        {
-          "id": "2121258348024861021",
-          "authorName": "@wallstengine",
-          "authorHandle": "wallstengine",
-          "text": {
-            "he": "לפי @wallstengine, OpenAI מתחילה להשיק את ChatGPT Wallet, שמאפשר למשתמשים להיעזר בסוכן Dot לביצוע רכישות בשמם. הדיווח מציין שההשקה מתחילה במנויי ChatGPT Pro בארצות הברית.",
-            "en": "According to @wallstengine, OpenAI is beginning to roll out ChatGPT Wallet, allowing users to have their Dot agent complete purchases on their behalf. The report says access starts with ChatGPT Pro subscribers in the United States."
-          },
-          "timestamp": "17:06 IST",
-          "url": "https://x.com/wallstengine/status/2121258348024861021",
-          "media": {
-            "type": "image",
-            "url": "/media/2026-11-13/1715-open/chatgpt-wallet.webp",
-            "alt": {
-              "he": "תמונה שצורפה לדיווח המקורי של @wallstengine",
-              "en": "Image attached to the original report by @wallstengine"
-            },
-            "aspectRatio": "680/554"
-          }
-        }
-      ]
+      "priority": 6
     },
     {
       "id": "amd-nvidia-gap",
@@ -229,29 +185,7 @@
         "name": "@kobeissiletter",
         "url": "https://x.com/KobeissiLetter/status/2121255955438465370"
       },
-      "priority": 7,
-      "tweets": [
-        {
-          "id": "2121255955438465370",
-          "authorName": "@kobeissiletter",
-          "authorHandle": "kobeissiletter",
-          "text": {
-            "he": "לפי The Kobeissi Letter, מניית AMD עלתה 44.7% בחמישה ימי מסחר בעוד Nvidia ירדה 8.5%: פער של 53.2 נקודות אחוז. מדובר בהשוואת תשואות לתקופה, ולא בשינוי היומי של המניות.",
-            "en": "The Kobeissi Letter reports that AMD gained 44.7% over five trading days while Nvidia fell 8.5%, a 53.2-percentage-point gap. This is a multi-day return comparison, not either stock's daily move."
-          },
-          "timestamp": "16:56 IST",
-          "url": "https://x.com/KobeissiLetter/status/2121255955438465370",
-          "media": {
-            "type": "image",
-            "url": "/media/2026-11-13/1715-open/amd-nvidia-gap.webp",
-            "alt": {
-              "he": "תמונה שצורפה לדיווח המקורי של @kobeissiletter",
-              "en": "Image attached to the original report by @kobeissiletter"
-            },
-            "aspectRatio": "680/454"
-          }
-        }
-      ]
+      "priority": 7
     },
     {
       "id": "ppi-inflation",
@@ -355,29 +289,7 @@
         "name": "@kobeissiletter",
         "url": "https://x.com/KobeissiLetter/status/2121119250601697764"
       },
-      "priority": 11,
-      "tweets": [
-        {
-          "id": "2121119250601697764",
-          "authorName": "@kobeissiletter",
-          "authorHandle": "kobeissiletter",
-          "text": {
-            "he": "לפי The Kobeissi Letter, ביטקוין ירד מתחת ל-69 אלף דולר ואת׳ריום התקרב ל-1,900 דולר. אותו דיווח מציין מחיקה של כ-150 מיליארד דולר משווי שוק הקריפטו בתוך 48 שעות. הנתונים משקפים את מועד הדיווח, 07:53 שעון ישראל.",
-            "en": "The Kobeissi Letter reported Bitcoin below $69,000 and Ether approaching $1,900, with roughly $150 billion erased from the crypto market in 48 hours. These figures reflect the report's 07:53 Israel-time snapshot."
-          },
-          "timestamp": "07:53 IST",
-          "url": "https://x.com/KobeissiLetter/status/2121119250601697764",
-          "media": {
-            "type": "image",
-            "url": "/media/2026-11-13/1715-open/crypto-selloff.webp",
-            "alt": {
-              "he": "תמונה שצורפה לדיווח המקורי של @kobeissiletter",
-              "en": "Image attached to the original report by @kobeissiletter"
-            },
-            "aspectRatio": "458/680"
-          }
-        }
-      ]
+      "priority": 11
     },
     {
       "id": "goldman-outlook",
