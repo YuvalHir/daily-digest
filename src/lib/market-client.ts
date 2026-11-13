@@ -66,6 +66,7 @@ export async function quoteData(
 }
 export const localTime = (stamp: string, dates = true) =>
   new Intl.DateTimeFormat(navigator.language, {
+    hour12: false,
     ...(dates ? { year: 'numeric', month: '2-digit', day: '2-digit' } : {}),
     hour: '2-digit',
     minute: '2-digit',
@@ -75,14 +76,14 @@ export function rangeText(q: Quote, he: boolean) {
     ? {
         '1h': 'שעה אחרונה של הנתונים',
         '5h': 'עד 5 שעות אחרונות',
-        '1d': 'יום המסחר האחרון',
+        '1d': 'גרף יומי',
         '1mo': 'חודש אחרון',
         '1y': 'שנה אחרונה',
       }
     : {
         '1h': 'Last hour of data',
         '5h': 'Up to 5 hours',
-        '1d': 'Latest trading day',
+        '1d': 'Daily chart',
         '1mo': 'Last month',
         '1y': 'Last year',
       };
@@ -100,30 +101,81 @@ export function sparkPath(q: Quote, width: number, height: number, pad = 5) {
     .join(' ');
 }
 
+export function dailyChange(q: Quote): number | null {
+  const c = q.quoteChange;
+  return c?.basis === 'previousClose' &&
+    c.priceType === 'regularMarketPrice' &&
+    c.session === 'regular' &&
+    c.priceAsOf === q.asOf &&
+    Number.isFinite(c.percent) &&
+    Number.isFinite(c.referencePrice) &&
+    c.referencePrice > 0 &&
+    Math.abs(c.percent - (q.price / c.referencePrice - 1) * 100) < 0.000001
+    ? c.percent
+    : null;
+}
+// Reuse an already requested daily quote for price + daily percent as one pair.
+// Switching chart ranges never starts another quote request here.
+export async function quoteForDisplay(
+  symbol: string,
+  chart: Quote,
+): Promise<Quote> {
+  if (dailyChange(chart) !== null) return chart;
+  let daily = cachedQuote(symbol, '1d');
+  if (!daily) {
+    const pending = requests.get(symbol + '|1d');
+    if (pending) {
+      try {
+        daily = (await pending.promise)[symbol];
+      } catch {
+        /* Chart can remain price-only. */
+      }
+    }
+  }
+  return daily && dailyChange(daily) !== null ? daily : chart;
+}
+export function flashPrice(
+  el: HTMLElement,
+  previous: number | undefined,
+  current: number,
+) {
+  if (
+    previous === undefined ||
+    !Number.isFinite(previous) ||
+    previous === current
+  )
+    return;
+  el.classList.remove('price-up', 'price-down');
+  void el.offsetWidth;
+  el.classList.add(current > previous ? 'price-up' : 'price-down');
+}
 export function quoteStamp(q: Quote, he: boolean) {
-  const sameDay = new Date(q.asOf).toDateString() === new Date().toDateString();
-  const time = localTime(q.asOf, !sameDay);
+  const old = Date.now() - Date.parse(q.asOf) > 1800000;
   return {
-    prefix: he ? 'ייתכן עיכוב · עודכן ב-' : 'May be delayed · Updated ',
-    time,
+    prefix: he ? 'עדכון ' : 'Updated ',
+    time: localTime(
+      q.asOf,
+      !(new Date(q.asOf).toDateString() === new Date().toDateString()),
+    ),
+    suffix: old ? (he ? ' · נתונים ישנים' : ' · Older data') : '',
   };
 }
 export function shortRange(q: Quote, he: boolean) {
   return (
     he
       ? {
-          '1h': 'שעה',
-          '5h': 'עד 5 שעות',
-          '1d': 'יום מסחר',
-          '1mo': 'חודש',
-          '1y': 'שנה',
+          '1h': 'גרף שעתי',
+          '5h': 'גרף 5 שעות',
+          '1d': 'גרף יומי',
+          '1mo': 'גרף חודשי',
+          '1y': 'גרף שנתי',
         }
       : {
-          '1h': '1 hour',
-          '5h': 'Up to 5 hours',
-          '1d': 'Trading day',
-          '1mo': '1 month',
-          '1y': '1 year',
+          '1h': 'Hourly chart',
+          '5h': '5-hour chart',
+          '1d': 'Daily chart',
+          '1mo': 'Monthly chart',
+          '1y': 'Yearly chart',
         }
   )[q.range as '1h'];
 }

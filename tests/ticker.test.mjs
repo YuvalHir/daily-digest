@@ -13,7 +13,7 @@ test('context ticker stores symbols only and shares source client, never fetches
   assert.ok(!code.includes('Date.now().toISOString'));
   assert.ok(code.includes('aria-hidden'));
   assert.ok(!code.includes('q.changePercent'));
-  assert.ok(code.includes("change?.basis === 'previousClose'"));
-  assert.ok(code.includes('מול סגירה'));
-  assert.ok(code.includes("change.session === 'regular'"));
+  assert.ok(code.includes('dailyChange(q)'));
+  assert.ok(!code.includes('מול סגירה'));
+  assert.ok(code.includes('animation-direction: reverse'));
 });

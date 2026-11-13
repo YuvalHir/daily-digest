@@ -45,6 +45,9 @@ const he = locale === 'he';
   .native-spark circle {
     fill: var(--trend);
   }
+  .native-quote-body {
+    min-width: 0;
+  }
   .native-identity {
     display: flex;
     gap: 8px;
@@ -57,6 +60,9 @@ const he = locale === 'he';
     color: var(--ink, #f5f5f2);
   }
   .native-identity span {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-size: 12px;
     color: var(--quote-muted, #858c96);
   }
@@ -78,11 +84,12 @@ const he = locale === 'he';
     font-weight: 600;
   }
   .native-provenance {
-    grid-column: 1/-1;
+    grid-column: 1;
+    grid-row: 2;
     font-size: 10px;
     line-height: 1.5;
     color: var(--quote-muted, #959ca5);
-    text-align: end;
+    text-align: start;
     direction: rtl;
     margin-block-start: 3px;
   }
@@ -93,6 +100,17 @@ const he = locale === 'he';
     grid-column: 1/-1;
     font-size: 12px;
     color: var(--muted, #b8bbc2);
+  }
+  .native-quote[data-lang='he'] .native-spark {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .native-quote[data-lang='he'] .native-quote-body {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .native-quote[data-lang='he'] .native-provenance {
+    grid-column: 2;
   }
   .wide {
     padding: 16px 18px;
@@ -123,11 +141,14 @@ const he = locale === 'he';
 <script>
   import {
     quoteData,
+    quoteForDisplay,
     localTime,
     rangeText,
     sparkPath,
     quoteStamp,
     shortRange,
+    dailyChange,
+    flashPrice,
   } from '../lib/market-client';
   const roots = [
     ...document.querySelectorAll<HTMLElement>('[data-native-quote]'),
@@ -138,6 +159,7 @@ const he = locale === 'he';
         const he = root.dataset.lang === 'he';
         try {
           const q = await quoteData(root.dataset.symbol!, root.dataset.range);
+          const display = await quoteForDisplay(root.dataset.symbol!, q);
           const scope = [...root.attributes].find((a) =>
             a.name.startsWith('data-astro-cid-'),
           )?.name;
@@ -148,6 +170,10 @@ const he = locale === 'he';
             if (text) x.textContent = text;
             return x;
           };
+          const previous = root.dataset.price
+            ? Number(root.dataset.price)
+            : undefined;
+          const change = dailyChange(display);
           root.replaceChildren();
           root.classList.toggle('negative', q.changePercent < 0);
           root.classList.toggle('positive', q.changePercent >= 0);
@@ -170,51 +196,48 @@ const he = locale === 'he';
           identity.append(el('bdi', '', q.symbol), el('span', '', q.name));
           const values = el('div', 'native-values');
           values.dir = 'ltr';
-          values.append(
-            el(
-              'span',
-              'native-change',
-              (q.changePercent >= 0 ? '+' : '') +
-                q.changePercent.toFixed(2) +
-                '%',
-            ),
-            el(
-              'strong',
-              '',
-              (q.currency === 'USD' ? '$' : '') +
-                q.price.toLocaleString(navigator.language, {
-                  minimumFractionDigits: 2,
-                  maximumFractionDigits: 2,
-                }),
-            ),
-          );
-          values
-            .querySelector('.native-change')
-            ?.setAttribute(
-              'aria-label',
-              (he ? 'שינוי בטווח הגרף: ' : 'Change over chart range: ') +
-                q.changePercent.toFixed(2) +
-                '%',
+          if (change !== null)
+            values.append(
+              el(
+                'span',
+                'native-change',
+                (change >= 0 ? '+' : '') + change.toFixed(2) + '%',
+              ),
             );
+          const price = el(
+            'strong',
+            '',
+            (display.currency === 'USD' && !q.symbol.startsWith('^')
+              ? '$'
+              : '') +
+              display.price.toLocaleString(navigator.language, {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,
+              }),
+          );
+          values.append(price);
+          flashPrice(price, previous, display.price);
+          root.dataset.price = String(display.price);
+          root.classList.toggle('negative', change !== null && change < 0);
           body.append(identity, values);
           root.append(body);
           const stamp = el('div', 'native-provenance');
           stamp.dir = he ? 'rtl' : 'ltr';
-          const timing = quoteStamp(q, he);
+          const timing = quoteStamp(display, he);
           stamp.append(
             document.createTextNode(shortRange(q, he) + ' · ' + timing.prefix),
           );
           const time = el('bdi', '', timing.time);
           time.dir = 'ltr';
-          stamp.append(time);
+          stamp.append(time, document.createTextNode(timing.suffix));
           root.append(stamp);
-          root.dataset.asOf = q.asOf;
+          root.dataset.asOf = display.asOf;
           root.dataset.stale = String(
-            Date.now() - Date.parse(q.asOf) > 1800000,
+            Date.now() - Date.parse(display.asOf) > 1800000,
           );
           root.title = he
-            ? 'אחוז השינוי הוא בטווח הגרף; המחיר הוא הציטוט האחרון'
-            : 'Percent change is for the chart range; price is the latest quote';
+            ? 'אחוז שינוי מול הסגירה הקודמת, כאשר זמין'
+            : 'Change from previous close, when available';
         } catch {
           if (!root.dataset.asOf) {
             root.textContent = he

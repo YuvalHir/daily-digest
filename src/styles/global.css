@@ -1546,4 +1546,32 @@ html[lang='en'] .lead-card h1 {
 .lead-without-chart .lead-card h1 {
   max-width: 30ch;
 }
-.native-main-price, [data-main-price] { white-space: nowrap; flex-shrink: 0; }
+.native-main-price,
+[data-main-price] {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Short marker on changed prices only, never on first load or unchanged ticks. */
+.price-up {
+  animation: price-rise-marker 1.6s ease-out;
+}
+.price-down {
+  animation: price-fall-marker 1.6s ease-out;
+}
+@keyframes price-rise-marker {
+  from {
+    background: color-mix(in srgb, var(--rise) 30%, transparent);
+  }
+  to {
+    background: transparent;
+  }
+}
+@keyframes price-fall-marker {
+  from {
+    background: color-mix(in srgb, var(--fall) 30%, transparent);
+  }
+  to {
+    background: transparent;
+  }
+}
