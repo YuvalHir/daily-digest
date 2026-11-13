@@ -40,8 +40,7 @@ const path = points
   .join(' ');
 const color = quote && quote.changePercent < 0 ? 'negative' : 'positive';
 const time = valid
-  ? new Intl.DateTimeFormat(he ? 'he-IL' : 'en-GB', {
-      timeZone: 'Asia/Jerusalem',
+  ? new Intl.DateTimeFormat(navigator.language, {
       hour: '2-digit',
       minute: '2-digit',
       second: '2-digit',
@@ -337,32 +336,42 @@ const labels = {
         body.append(identity, values);
         root.append(body);
         const provenance = el('div', 'native-provenance');
-        const label =
-          q.status === 'closed'
-            ? he
-              ? 'סגירה'
-              : 'Close'
-            : age > 30 || q.fetchError
-              ? he
-                ? 'לא מעודכן'
-                : 'Stale'
-              : he
-                ? 'מטמון · ייתכן עיכוב'
-                : 'Cached · may be delayed';
-        const time = new Intl.DateTimeFormat(he ? 'he-IL' : 'en-GB', {
-          timeZone: 'Asia/Jerusalem',
+        const time = new Intl.DateTimeFormat(navigator.language, {
           hour: '2-digit',
           minute: '2-digit',
           second: '2-digit',
           day: '2-digit',
           month: '2-digit',
+          year: 'numeric',
         }).format(new Date(stamp));
-        provenance.textContent = `Yahoo Finance · ${label} · ${time} ${he ? 'שעון ישראל · היום' : 'Israel time · 1D'}`;
+        provenance.textContent = `${he ? 'ייתכן עיכוב' : 'May be delayed'} · ${time}`;
+        root.dataset.stale = String(age > 30 || Boolean(q.fetchError));
+        if (age > 30 || q.fetchError) {
+          root.dataset.stale = 'true';
+          root.setAttribute(
+            'aria-label',
+            he ? 'ציטוט ישן. ייתכן עיכוב' : 'Older quote. May be delayed',
+          );
+        }
+        provenance.dir = 'auto';
         root.append(provenance);
         root.dataset.asOf = q.asOf;
       });
   };
   refresh();
+  setInterval(() => {
+    document
+      .querySelectorAll<HTMLElement>('[data-native-quote][data-as-of]')
+      .forEach((root) => {
+        if (Date.now() - Date.parse(root.dataset.asOf!) > 30 * 60000) {
+          root.dataset.stale = 'true';
+          root.title =
+            root.dataset.lang === 'he'
+              ? 'ציטוט ישן. ייתכן עיכוב'
+              : 'Older quote. May be delayed';
+        }
+      });
+  }, 60000);
   setInterval(() => {
     if (!document.hidden) refresh();
   }, 300000);

@@ -10,18 +10,15 @@ const he = locale === 'he';
   data-lang={locale}
 >
   <div class="social-consent" data-social-consent>
-    <p>
+    <p data-social-notice hidden>
       {he
-        ? 'הצגת הפוסט המקורי תיצור חיבור ל-X ותעביר אליו מידע על הדפדפן והעמוד. הפוסט ייטען רק לאחר אישורך.'
-        : 'Showing the original post connects to X and shares browser and page information with X. It loads only after you agree.'}
+        ? 'הפוסט נטען מ-X, שיקבל מידע על הדפדפן והעמוד. להמשיך?'
+        : 'The post connects to X, which receives browser and page information. Continue?'}
     </p>
     <div class="social-actions">
       <button type="button" data-load-post>
-        {he ? 'אישור והצגת הפוסט מ-X' : 'Agree and show the X post'}
+        {he ? 'הצג פוסט' : 'Show post'}
       </button>
-      <a href={post.url} target="_blank" rel="noopener noreferrer">
-        {he ? 'פתיחה ב-X במקום' : 'Open on X instead'}
-      </a>
     </div>
   </div>
   <p class="social-status" data-social-status role="status" hidden></p>
@@ -90,7 +87,27 @@ const he = locale === 'he';
         status = root.querySelector<HTMLElement>('[data-social-status]')!,
         consent = root.querySelector<HTMLElement>('[data-social-consent]')!;
       let version = 0;
+      let confirming = false;
+      const notice = root.querySelector<HTMLElement>('[data-social-notice]')!;
       button.addEventListener('click', async () => {
+        let allowed = false;
+        try {
+          allowed = sessionStorage.getItem('digest_x_consent') === 'yes';
+        } catch {}
+        if (!allowed && !confirming) {
+          notice.hidden = false;
+          confirming = true;
+          button.textContent =
+            root.dataset.lang === 'he' ? 'אישור והצגה' : 'Agree and show';
+          return;
+        }
+        if (!allowed) {
+          try {
+            sessionStorage.setItem('digest_x_consent', 'yes');
+          } catch {}
+        }
+        notice.hidden = true;
+
         const request = ++version;
         button.disabled = true;
         status.hidden = false;

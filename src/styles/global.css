@@ -1021,3 +1021,28 @@ html[lang='en'] .lead-card h1 {
   grid-template-columns: 1fr;
   gap: 8px;
 }
+
+.social-post {
+  padding-block: 2px 8px;
+  margin-block: 0 8px;
+  border: 0;
+}
+.social-consent .social-actions {
+  margin: 0;
+}
+.social-actions button {
+  padding: 6px 0;
+  min-height: 36px;
+  border: 0;
+  color: var(--accent);
+  background: none;
+}
+.social-consent [data-social-notice] {
+  border-inline-start: 2px solid var(--rule);
+  padding-inline-start: 10px;
+  margin-block: 5px 8px;
+  max-width: 48ch;
+}
+.native-quote[data-stale='true'] {
+  border-style: dashed;
+}
