@@ -23,13 +23,6 @@ const he = locale === 'he';
               <bdi dir="ltr">
                 {q.price.toLocaleString('en-US', { maximumFractionDigits: 2 })}
               </bdi>
-              <bdi
-                dir="ltr"
-                class={q.changePercent >= 0 ? 'positive' : 'negative'}
-              >
-                {q.changePercent >= 0 ? '+' : ''}
-                {q.changePercent.toFixed(2)}%
-              </bdi>
             </span>
           ))}
         </div>
@@ -221,12 +214,6 @@ const he = locale === 'he';
                 q.price.toLocaleString('en-US', { maximumFractionDigits: 2 }),
                 '',
               ],
-              [
-                (q.changePercent >= 0 ? '+' : '') +
-                  q.changePercent.toFixed(2) +
-                  '%',
-                q.changePercent >= 0 ? 'positive' : 'negative',
-              ],
             ]) {
               const el = document.createElement('bdi');
               el.dir = 'ltr';
@@ -255,8 +242,8 @@ const he = locale === 'he';
         wire.setAttribute(
           'aria-label',
           he
-            ? 'הקשר שוק. האחוזים הם השינוי בטווח הגרף, לא מול סגירה קודמת.'
-            : 'Market context. Percentages show chart-range change, not change from previous close.',
+            ? 'הקשר שוק. מחירי מקור; אחוזים יוצגו רק מול בסיס השוואה מאומת.'
+            : 'Market context. Source prices; changes require a verified comparison basis.',
         );
       }
       load();
