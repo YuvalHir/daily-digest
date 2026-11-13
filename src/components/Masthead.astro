@@ -24,7 +24,7 @@ const t = ui[locale as 'he' | 'en'];
       {t.brand}
     </a>
     <div class="masthead-caption">
-      <p>{t.tagline}</p>
+      <p class="edition-top-summary">{edition.topSummary?.[locale]}</p>
       <span>{localDate(edition.date, locale)}</span>
     </div>
   </div>

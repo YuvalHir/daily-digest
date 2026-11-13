@@ -158,6 +158,7 @@ export const DigestEdition = z
     editionNumber: z.number().int().positive(),
     publishedAt: z.string().datetime({ offset: true }),
     editorialLead: LocalizedText,
+    topSummary: LocalizedText.optional(),
     marketRibbon: z.array(TickerItem),
     contextSymbols: z.array(marketKey).max(12).optional(),
     heroCharts: z

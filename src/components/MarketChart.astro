@@ -67,21 +67,6 @@ const ranges = he
       </span>
     </div>
   </div>
-  <div
-    class="native-ranges"
-    role="group"
-    aria-label={he ? 'טווח זמן' : 'Chart range'}
-  >
-    {ranges.map(([range, label]) => (
-      <button
-        type="button"
-        data-chart-range={range}
-        aria-pressed={String(range === (assets[0]?.[2] ?? '1d'))}
-      >
-        {label}
-      </button>
-    ))}
-  </div>
   <p class="native-main-range" data-main-range>
     {he ? 'גרף יומי' : 'Daily chart'}
   </p>
@@ -112,6 +97,21 @@ const ranges = he
   <div class="native-main-axis">
     <span data-main-start></span>
     <span data-main-end></span>
+  </div>
+  <div
+    class="native-ranges"
+    role="group"
+    aria-label={he ? 'טווח זמן' : 'Chart range'}
+  >
+    {ranges.map(([range, label]) => (
+      <button
+        type="button"
+        data-chart-range={range}
+        aria-pressed={String(range === (assets[0]?.[2] ?? '1d'))}
+      >
+        {label}
+      </button>
+    ))}
   </div>
   <p class="native-main-stamp" data-main-stamp></p>
   <button

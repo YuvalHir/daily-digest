@@ -89,6 +89,8 @@ export interface DigestEdition {
   /** חותמת זמן מלאה בפורמט ISO 8601, למשל "2026-11-13T08:30:00+02:00" */
   publishedAt: string;
   editorialLead: LocalizedText;
+  /** One or two editorial sentences summarizing this edition. */
+  topSummary?: LocalizedText;
   marketRibbon: TickerItem[];
   contextSymbols?: string[];
   /** Ordered explicit charts relevant to the lead story; no global defaults. */

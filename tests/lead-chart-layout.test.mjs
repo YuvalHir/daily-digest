@@ -33,3 +33,12 @@ test('stock panel groups a clear symbol, price and large daily change without va
   assert.ok(!panel.includes('Latest quote'));
   assert.ok(!panel.includes('ציטוט אחרון'));
 });
+test('range controls follow the plot while quote identity and price retain RTL treatment', async () => {
+  const panel = await readFile('src/components/MarketChart.astro', 'utf8');
+  const css = await readFile('src/styles/global.css', 'utf8');
+  assert.ok(
+    panel.indexOf('class="native-ranges"') > panel.indexOf('data-main-svg'),
+  );
+  assert.ok(css.includes(".market-desk[data-lang='he'] .native-ranges"));
+  assert.ok(css.includes(".market-desk[data-lang='he'] .native-main-head"));
+});

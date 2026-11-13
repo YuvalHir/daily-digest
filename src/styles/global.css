@@ -1441,24 +1441,6 @@ html[lang='en'] .lead-card h1 {
   .market-desk {
     padding: 13px 14px;
   }
-  .native-main-head > div {
-    flex-direction: row !important;
-    gap: 12px !important;
-    align-items: baseline !important;
-    flex-wrap: nowrap !important;
-  }
-  .native-main-head bdi {
-    font-size: 10px !important;
-    max-width: 115px !important;
-  }
-  .native-main-head > span {
-    font-size: 9px !important;
-    white-space: nowrap;
-    max-width: none !important;
-  }
-  .native-main-head strong {
-    font-size: 27px !important;
-  }
   .native-main-plot {
     height: 145px !important;
   }
@@ -1629,5 +1611,86 @@ html[lang='en'] .lead-card h1 {
   }
   .market-desk [data-main-change] {
     font-size: 18px;
+  }
+}
+
+.edition-top-summary {
+  max-width: 48ch;
+  text-wrap: pretty;
+  line-height: 1.6;
+}
+.edition-top-summary:empty {
+  display: none;
+}
+
+/* Hebrew reading order with isolated numeric values. */
+.market-desk[data-lang='he'] .market-instrument {
+  justify-content: flex-end;
+}
+.market-desk[data-lang='he'] .native-main-head {
+  direction: rtl;
+}
+.market-desk [data-main-price],
+.market-desk [data-main-change] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+.market-desk .market-daily-change {
+  gap: 0;
+  line-height: 1.1;
+}
+.market-desk .market-daily-label {
+  line-height: 1.15;
+}
+.market-desk .native-ranges {
+  width: 100%;
+  margin-top: 12px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 0;
+  padding: 5px 0 0 !important;
+  display: flex;
+  gap: 4px !important;
+}
+.market-desk[data-lang='he'] .native-ranges {
+  direction: rtl;
+}
+.market-desk .native-ranges button {
+  flex: 1;
+  min-width: 0 !important;
+  min-height: 24px !important;
+  padding: 2px 5px;
+  font-size: 11px !important;
+  border-radius: 2px;
+}
+.market-desk .native-main-head > .market-daily-change {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+}
+.market-desk[data-lang='he'] .native-main-head > .market-daily-change {
+  align-items: flex-end;
+}
+.masthead-caption .edition-top-summary {
+  display: block;
+  max-width: 44ch;
+  margin-bottom: 7px;
+}
+.masthead-caption {
+  max-width: 420px;
+}
+@media (max-width: 750px) {
+  .masthead-title {
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .masthead-caption {
+    flex-basis: 100%;
+    max-width: none;
+  }
+  .masthead-caption .edition-top-summary {
+    font-size: 13px;
+    max-width: none;
+    line-height: 1.6;
   }
 }
