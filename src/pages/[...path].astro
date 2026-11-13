@@ -70,9 +70,17 @@ const sections = ['tech', 'markets', 'geopolitics', 'israel'] as const;
         <bdi>{edition.items.length}</bdi> {t.stories}
       </span>
     </div>
-    <section class="lead-grid" aria-label={t.summary}>
+    <section
+      class:list={[
+        'lead-grid',
+        { 'lead-without-chart': !edition.heroCharts?.length },
+      ]}
+      aria-label={t.summary}
+    >
       <HeroLeadCard item={lead} locale={locale} index={1} />
-      <MarketChart locale={locale} />
+      {edition.heroCharts?.length > 0 && (
+        <MarketChart locale={locale} charts={edition.heroCharts} />
+      )}
     </section>
     {sections.map((section, n) => {
       const stories = remaining.filter((i) => i.section === section);

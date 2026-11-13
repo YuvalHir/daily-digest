@@ -24,13 +24,11 @@ export async function quoteData(
   range = '1d',
   fresh = false,
 ): Promise<Quote> {
-  const key = range === '1d' ? 'daily' : symbol + range;
+  const key = symbol + '|' + range;
   let entry = requests.get(key);
   if (fresh || !entry || Date.now() - entry.at > 290000) {
     const promise = fetch(
-      '/api/market?range=' +
-        range +
-        (range === '1d' ? '' : '&symbol=' + encodeURIComponent(symbol)),
+      '/api/market?range=' + range + '&symbol=' + encodeURIComponent(symbol),
       { cache: 'no-store' },
     ).then(async (r) => {
       if (!r.ok) throw Error('Quote unavailable');

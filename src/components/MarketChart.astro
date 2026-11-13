@@ -1,12 +1,11 @@
 ---
-const { locale } = Astro.props;
+const { locale, charts = [] } = Astro.props;
 const he = locale === 'he';
-const assets = [
-  ['NASDAQ:NVDA', 'NVDA'],
-  ['NASDAQ:MSFT', 'MSFT'],
-  ['NASDAQ:AMD', 'AMD'],
-  ['BITSTAMP:BTCUSD', 'BTC'],
-];
+const assets = charts.map((chart) => [
+  chart.symbol,
+  chart.label[locale],
+  chart.range,
+]);
 const ranges = he
   ? [
       ['1h', 'שעה'],
@@ -28,6 +27,9 @@ const ranges = he
   class="market-desk"
   data-market-desk
   data-lang={locale}
+  data-initial-symbol={assets[0]?.[0] ?? ''}
+  data-initial-range={assets[0]?.[2] ?? '1d'}
+  data-configured={String(assets.length > 0)}
   aria-labelledby="chart-title"
 >
   <div class="chart-heading">
@@ -43,6 +45,7 @@ const ranges = he
       <button
         type="button"
         data-chart-symbol={symbol}
+        data-default-range={assets[i][2]}
         aria-pressed={String(i === 0)}
       >
         <bdi>{label}</bdi>
@@ -53,13 +56,19 @@ const ranges = he
     type="button"
     class="native-cycle"
     data-chart-cycle
+    hidden={assets.length < 2}
     aria-pressed="true"
   >
     {he ? 'עצירת החלפה אוטומטית' : 'Pause auto rotation'}
   </button>
   <div class="native-main-head">
     <div>
-      <bdi data-main-name>Nvidia</bdi>
+      <bdi data-main-name>
+        {assets[0]?.[1] ??
+          (he
+            ? 'לא נבחר גרף לסיפור המוביל'
+            : 'No chart selected for the lead story')}
+      </bdi>
       <strong data-main-price>--</strong>
     </div>
     <span data-main-change></span>
@@ -73,7 +82,7 @@ const ranges = he
       <button
         type="button"
         data-chart-range={range}
-        aria-pressed={String(range === '1d')}
+        aria-pressed={String(range === (assets[0]?.[2] ?? '1d'))}
       >
         {label}
       </button>
@@ -253,8 +262,14 @@ const ranges = he
     .forEach((desk) => {
       const he = desk.dataset.lang === 'he';
       let lastKey = '';
-      let symbol = 'NASDAQ:NVDA',
-        range = '1d',
+      if (desk.dataset.configured !== 'true') {
+        desk.querySelector('[data-main-status]')!.textContent = he
+          ? 'לא נבחר גרף לסיפור המוביל'
+          : 'No chart selected for the lead story';
+        return;
+      }
+      let symbol = desk.dataset.initialSymbol!,
+        range = desk.dataset.initialRange!,
         version = 0,
         last: Quote | undefined;
       const find = (selector: string) =>
@@ -263,7 +278,14 @@ const ranges = he
         status = find('[data-main-status]'),
         tip = find('[data-main-tooltip]'),
         cross = find('[data-main-crosshair]');
+      const selectedLabel = () =>
+        desk
+          .querySelector<HTMLButtonElement>(
+            `[data-chart-symbol="${CSS.escape(symbol)}"]`,
+          )
+          ?.textContent?.trim() || symbol;
       async function render(cacheOnly = false) {
+        find('[data-main-name]').textContent = selectedLabel();
         const current = ++version;
         status.hidden = false;
         status.textContent = he ? 'טוען נתוני שוק…' : 'Loading market data…';
@@ -318,9 +340,9 @@ const ranges = he
           svg.append(path);
           svg.setAttribute('aria-label', q.name + ' · ' + rangeText(q, he));
           find('[data-main-name]').textContent =
-            q.name + (he ? ' · ציטוט אחרון' : ' · Latest quote');
+            selectedLabel() + (he ? ' · ציטוט אחרון' : ' · Latest quote');
           find('[data-main-price]').textContent =
-            (q.currency === 'USD' ? '$' : '') +
+            (q.currency === 'USD' && !symbol.startsWith('^') ? '$' : '') +
             q.price.toLocaleString(navigator.language, {
               minimumFractionDigits: 2,
               maximumFractionDigits: 2,

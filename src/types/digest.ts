@@ -83,6 +83,12 @@ export interface DigestEdition {
   publishedAt: string;
   editorialLead: LocalizedText;
   marketRibbon: TickerItem[];
+  /** Ordered explicit charts relevant to the lead story; no global defaults. */
+  heroCharts?: {
+    symbol: string;
+    range: '1h' | '5h' | '1d' | '1mo' | '1y';
+    label: LocalizedText;
+  }[];
   items: DigestItem[];
 }
 

@@ -1539,3 +1539,11 @@ html[lang='en'] .lead-card h1 {
   direction: ltr;
   unicode-bidi: isolate;
 }
+
+.lead-grid.lead-without-chart {
+  grid-template-columns: 1fr;
+}
+.lead-without-chart .lead-card h1 {
+  max-width: 30ch;
+}
+.native-main-price, [data-main-price] { white-space: nowrap; flex-shrink: 0; }

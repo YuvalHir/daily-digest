@@ -20,16 +20,16 @@
         "en": "Wall Street · opening hour"
       },
       "headline": {
-        "he": "הפתיחה הירוקה לא החזיקה. נאסד״ק עובר לירידה של {{move:-1%}}",
-        "en": "The green open did not last. Nasdaq turns {{move:-1%}} lower"
+        "he": "הפתיחה הירוקה לא החזיקה. נאסד״ק 100 עובר לאדום",
+        "en": "The green open did not last. Nasdaq 100 turns red"
       },
       "summary": {
-        "he": "המדדים האמריקאיים פתחו בעליות, אך התהפכו במהלך השעה הראשונה. לפי דיווח @DeItaone ב-17:05 שעון ישראל, S&P 500 ירד {{move:-0.67%}}, נאסד״ק ירד {{move:-1%}} והדאו איבד {{move:-0.08%}}. אלה נתוני נקודת זמן, לא ציטוטים חיים.",
-        "en": "US indices opened higher before reversing during the first hour. A 17:05 Israel-time report from @DeItaone put the S&P 500 down {{move:-0.67%}}, Nasdaq down {{move:-1%}} and the Dow down {{move:-0.08%}}. These are timestamped snapshots, not live quotes."
+        "he": "ב-16:57 שעון ישראל דיווח @FirstSquawk שנאסד״ק 100 חצה את סף הירידה {{move:-1%}} והגיע לשפל יומי. בנפרד, בדיווח @DeItaone ב-17:05, S&P 500 ירד {{move:-0.67%}}, מדד שכונה \"נאסד״ק\" ללא פירוט ירד {{move:-1%}} והדאו איבד {{move:-0.08%}}. אלה נתוני נקודת זמן, לא ציטוטים חיים.",
+        "en": "At 16:57 Israel time, @FirstSquawk reported that the Nasdaq 100 had crossed the {{move:-1%}} decline threshold and reached a session low. Separately, a 17:05 report from @DeItaone put the S&P 500 down {{move:-0.67%}}, an index identified only as \"Nasdaq\" down {{move:-1%}} and the Dow down {{move:-0.08%}}. These are timestamped snapshots, not live quotes."
       },
       "source": {
-        "name": "@DeItaone",
-        "url": "https://x.com/DeItaone/status/2121258258866597908"
+        "name": "@FirstSquawk · 16:57",
+        "url": "https://x.com/FirstSquawk/status/2121256081842479517"
       },
       "priority": 1,
       "bullets": {
@@ -43,6 +43,10 @@
         ]
       },
       "secondarySources": [
+        {
+          "name": "@DeItaone · 17:05",
+          "url": "https://x.com/DeItaone/status/2121258258866597908"
+        },
         {
           "name": "@FirstSquawk · 16:32",
           "url": "https://x.com/FirstSquawk/status/2121250199641444730"
@@ -526,6 +530,16 @@
       "marketSymbols": [
         "NASDAQ:NVDA"
       ]
+    }
+  ],
+  "heroCharts": [
+    {
+      "symbol": "^NDX",
+      "range": "1d",
+      "label": {
+        "he": "נאסד״ק 100",
+        "en": "Nasdaq 100"
+      }
     }
   ]
 }

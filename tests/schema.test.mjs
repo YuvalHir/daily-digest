@@ -180,6 +180,7 @@ test('remove-post removes all editions and build prevents reintroduction', async
 
 test('market charts have explicit per-chart ranges and safe source symbols', () => {
   const d = fixture();
+  d.heroCharts = [{ symbol: 'NASDAQ:MSFT', range: '1h', label: text }];
   d.items[0].marketCharts = [
     { symbol: 'NASDAQ:MSFT', range: '1h' },
     { symbol: 'BTC-USD', range: '1y' },
@@ -194,4 +195,16 @@ test('market charts have explicit per-chart ranges and safe source symbols', () 
     d.items[0].marketCharts = [bad];
     assert.equal(DigestEdition.safeParse(d).success, false);
   }
+});
+
+test('hero selection is explicit, ordered, safe and required when lead declares assets', () => {
+  const d = fixture();
+  d.items[0].marketCharts = [{ symbol: '^NDX', range: '1d' }];
+  assert.equal(DigestEdition.safeParse(d).success, false);
+  d.heroCharts = [
+    { symbol: '^NDX', range: '1d', label: { he: 'נאסדק100', en: 'Nasdaq100' } },
+  ];
+  assert.equal(DigestEdition.safeParse(d).success, true);
+  d.heroCharts.push({ ...d.heroCharts[0] });
+  assert.equal(DigestEdition.safeParse(d).success, false);
 });

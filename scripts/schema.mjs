@@ -124,6 +124,18 @@ export const DigestEdition = z
     publishedAt: z.string().datetime({ offset: true }),
     editorialLead: LocalizedText,
     marketRibbon: z.array(TickerItem),
+    heroCharts: z
+      .array(
+        z
+          .object({
+            symbol: marketKey,
+            range: z.enum(['1h', '5h', '1d', '1mo', '1y']),
+            label: LocalizedText,
+          })
+          .strict(),
+      )
+      .max(4)
+      .optional(),
     items: z.array(DigestItem).min(1).max(100),
   })
   .strict()
@@ -149,6 +161,23 @@ export const DigestEdition = z
       ctx.addIssue({ code: 'custom', message: 'Invalid calendar date' });
     if (new Set(v.items.map((i) => i.id)).size !== v.items.length)
       ctx.addIssue({ code: 'custom', message: 'Duplicate item IDs' });
+    const lead = v.items.find((i) => i.isLead) || v.items[0];
+    if (
+      (lead.marketCharts?.length ||
+        lead.marketSymbols?.length ||
+        lead.tickers?.length) &&
+      !v.heroCharts?.length
+    )
+      ctx.addIssue({
+        code: 'custom',
+        message:
+          'Lead story has financial assets: provide explicit relevant heroCharts, never rely on unrelated defaults',
+      });
+    if (
+      v.heroCharts &&
+      new Set(v.heroCharts.map((c) => c.symbol)).size !== v.heroCharts.length
+    )
+      ctx.addIssue({ code: 'custom', message: 'Duplicate hero chart symbols' });
     if (v.items.filter((i) => i.isLead).length > 1)
       ctx.addIssue({
         code: 'custom',
