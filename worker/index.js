@@ -1,5 +1,5 @@
 import { chartBars } from './chart-processing.js';
-import { quoteReference } from './quote-reference.js';
+import { quoteReference, cryptoQuoteReference } from './quote-reference.js';
 import createYahooFinance from 'yahoo-finance2/createYahooFinance';
 import chart from 'yahoo-finance2/modules/chart';
 const YahooFinance = createYahooFinance({ modules: { chart } });
@@ -12,6 +12,23 @@ const assets = {
 const ranges = new Set(['1h', '5h', '1d', '1mo', '1y']);
 // Opportunistic in-memory request sharing only. No KV, database, files or price history.
 const hot = new Map();
+const dailyCrypto = new Map();
+async function cryptoDaily(symbol, yahoo, now) {
+  const old = dailyCrypto.get(symbol);
+  if (old && old.expires > now) return old.promise;
+  const day = Math.floor(now / 86400000) * 86400000;
+  const promise = yahoo.chart(symbol, {
+    period1: new Date(day - 3 * 86400000),
+    interval: '1d',
+    includePrePost: false,
+    return: 'object',
+  });
+  dailyCrypto.set(symbol, { promise, expires: now + 60000 });
+  // Keep a failed result shared for this short cache window too. No retries.
+  if (dailyCrypto.size > 64)
+    dailyCrypto.delete(dailyCrypto.keys().next().value);
+  return promise;
+}
 async function collect(key, range, yahoo) {
   const cacheKey = key + range,
     now = Date.now(),
@@ -40,6 +57,17 @@ async function collect(key, range, yahoo) {
     const bars = chartBars(result, range);
     if (bars.length < 2 || !Number.isFinite(meta.regularMarketPrice))
       throw Error('Insufficient source data');
+    let quoteChange = quoteReference(meta);
+    if (meta.instrumentType === 'CRYPTOCURRENCY') {
+      try {
+        const daily =
+          interval === '1d' ? result : await cryptoDaily(symbol, yahoo, now);
+        quoteChange = cryptoQuoteReference(meta, daily);
+      } catch {
+        // Preserve the verified price when the daily reference is unavailable.
+        quoteChange = null;
+      }
+    }
     const value = {
       symbol,
       name,
@@ -48,7 +76,7 @@ async function collect(key, range, yahoo) {
       changePercent: (bars.at(-1).value / bars[0].value - 1) * 100,
       changeBasis: 'chartRange',
       // Optional exact quote-reference metadata; never inferred from graph bars.
-      quoteChange: quoteReference(meta),
+      quoteChange,
       asOf: meta.regularMarketTime.toISOString(),
       sourceName: 'Yahoo Finance · yahoo-finance2',
       sourceUrl: `https://finance.yahoo.com/quote/${symbol}/`,

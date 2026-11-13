@@ -6,10 +6,12 @@ export type Quote = {
   changePercent: number;
   quoteChange?: {
     percent: number;
-    basis: 'previousClose';
+    basis: 'previousClose' | 'previousDailyCloseUTC';
+    referenceAsOf?: string;
+    referenceBarStart?: string;
     referencePrice: number;
     priceType: 'regularMarketPrice';
-    session: 'regular';
+    session: 'regular' | 'utc24h';
     priceAsOf: string;
   } | null;
   asOf: string;
@@ -103,9 +105,17 @@ export function sparkPath(q: Quote, width: number, height: number, pad = 5) {
 
 export function dailyChange(q: Quote): number | null {
   const c = q.quoteChange;
-  return c?.basis === 'previousClose' &&
+  const day = Math.floor(Date.parse(q.asOf) / 86400000) * 86400000;
+  const validBasis =
+    (c?.basis === 'previousClose' && c.session === 'regular') ||
+    (q.symbol === 'BTC-USD' &&
+      c?.basis === 'previousDailyCloseUTC' &&
+      c.session === 'utc24h' &&
+      Date.parse(c.referenceAsOf || '') === day &&
+      Date.parse(c.referenceBarStart || '') === day - 86400000);
+  return validBasis &&
+    c &&
     c.priceType === 'regularMarketPrice' &&
-    c.session === 'regular' &&
     c.priceAsOf === q.asOf &&
     Number.isFinite(c.percent) &&
     Number.isFinite(c.referencePrice) &&

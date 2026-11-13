@@ -89,3 +89,44 @@ test('price markers skip initial and unchanged ticks, distinguish rise and fall'
   assert.ok(classes.has('price-down'));
   assert.ok(!classes.has('price-up'));
 });
+test('BTC UTC daily metadata stays separate from regular equities and rolling 24h', () => {
+  const q = {
+    symbol: 'BTC-USD',
+    price: 110,
+    asOf: '2026-11-13T23:59:59Z',
+    quoteChange: {
+      basis: 'previousDailyCloseUTC',
+      session: 'utc24h',
+      percent: 10,
+      referencePrice: 100,
+      referenceAsOf: '2026-11-13T00:00Z',
+      referenceBarStart: '2026-11-12T00:00Z',
+      priceType: 'regularMarketPrice',
+      priceAsOf: '2026-11-13T23:59:59Z',
+    },
+  };
+  assert.equal(m.dailyChange(q), 10);
+  assert.equal(m.dailyChange({ ...q, symbol: 'MSFT' }), null);
+  assert.equal(
+    m.dailyChange({
+      ...q,
+      quoteChange: { ...q.quoteChange, referenceAsOf: '2026-11-12T22:00Z' },
+    }),
+    null,
+  );
+  assert.equal(
+    m.dailyChange({
+      ...q,
+      quoteChange: { ...q.quoteChange, basis: 'rolling24h' },
+    }),
+    null,
+  );
+  assert.equal(
+    m.dailyChange({
+      ...q,
+      asOf: '2026-11-14T00:00:00Z',
+      quoteChange: { ...q.quoteChange, priceAsOf: '2026-11-14T00:00:00Z' },
+    }),
+    null,
+  );
+});
