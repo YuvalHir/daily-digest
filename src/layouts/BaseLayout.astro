@@ -10,7 +10,8 @@ const path = Astro.url.pathname.replace(/^\/en(?=\/|$)/, '');
 const he = new URL(path, Astro.site),
   en = new URL('/en' + (path === '/' ? '/' : path), Astro.site);
 const lead = edition.items.find((i) => i.isLead) || edition.items[0];
-const title = plainMoves(lead.headline[locale]) + ' | ' + t.brand;
+const title =
+  plainMoves(lead.headline[locale], lead.timeRefs) + ' | ' + t.brand;
 ---
 
 <!doctype html>

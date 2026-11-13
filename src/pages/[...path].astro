@@ -1,6 +1,7 @@
 ---
 import { plainMoves } from '../lib/plain-moves';
 import MarketChart from '../components/MarketChart.astro';
+import LocalTime from '../components/LocalTime.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Masthead from '../components/Masthead.astro';
 import EditionTimeline from '../components/EditionTimeline.astro';
@@ -8,7 +9,7 @@ import TickerRibbon from '../components/TickerRibbon.astro';
 import SectionNav from '../components/SectionNav.astro';
 import HeroLeadCard from '../components/HeroLeadCard.astro';
 import NewsCard from '../components/NewsCard.astro';
-import { loadDigestIndex, loadEdition, localTime } from '../lib/digest';
+import { loadDigestIndex, loadEdition } from '../lib/digest';
 import { ui } from '../i18n/ui';
 import type { Locale } from '../types/digest';
 export async function getStaticPaths() {
@@ -67,7 +68,9 @@ const sections = ['tech', 'markets', 'geopolitics', 'israel'] as const;
       <span class="eyebrow">
         {t.editions[edition.editionType]}
         <span class="meta-separator">/</span>
-        <bdi>{localTime(edition.publishedAt)} IST</bdi>
+        <bdi>
+          <LocalTime at={edition.publishedAt} locale={locale} />
+        </bdi>
       </span>
       <span class="issue-count">
         <bdi>{edition.items.length}</bdi> {t.stories}
@@ -130,7 +133,7 @@ const sections = ['tech', 'markets', 'geopolitics', 'israel'] as const;
       <p>
         {t.published}:{' '}
         <bdi>
-          {edition.date} · {localTime(edition.publishedAt)} IST
+          <LocalTime at={edition.publishedAt} locale={locale} showDate={true} />
         </bdi>
       </p>
       <a

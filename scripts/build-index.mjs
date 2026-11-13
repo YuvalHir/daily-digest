@@ -1,5 +1,6 @@
 import { readdir, readFile, writeFile, stat } from 'node:fs/promises';
 import { resolve, join } from 'node:path';
+import { plainEditorial } from '../src/lib/editorial-time.mjs';
 import { DigestEdition } from './schema.mjs';
 export async function buildIndex(root = resolve('public/data')) {
   let removed = [];
@@ -46,7 +47,7 @@ export async function buildIndex(root = resolve('public/data')) {
         headlinePreview: Object.fromEntries(
           Object.entries(lead.headline).map(([lang, text]) => [
             lang,
-            text.replace(/\{\{move:([+-]\d+(?:\.\d+)?%)\}\}/g, '$1'),
+            plainEditorial(text, lead.timeRefs),
           ]),
         ),
         itemCount: ed.items.length,

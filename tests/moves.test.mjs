@@ -26,12 +26,12 @@ test('historical moves keep explicit signs in both languages, not non-price perc
 });
 test('text metadata and accessible link names use plain move text', async () => {
   const card = await readFile('src/components/NewsCard.astro', 'utf8');
-  assert.ok(card.includes('plainMoves(item.headline[locale])'));
+  assert.ok(card.includes('plainMoves(item.headline[locale], item.timeRefs)'));
   assert.ok(!card.includes('$<MoveText'));
   const metadata = await readFile('src/layouts/BaseLayout.astro', 'utf8');
   assert.ok(metadata.includes('plainMoves'));
   const indexer = await readFile('scripts/build-index.mjs', 'utf8');
-  assert.ok(indexer.includes('move:'));
+  assert.ok(indexer.includes('plainEditorial'));
 });
 
 test('lead hero follows explicitly sourcedNasdaq100, not fixed stock defaults', async () => {

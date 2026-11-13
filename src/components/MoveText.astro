@@ -1,21 +1,25 @@
 ---
-const { text } = Astro.props;
-const pattern = /\{\{move:([+-]\d+(?:\.\d+)?%)\}\}/g;
+import LocalTime from './LocalTime.astro';
+const { text, timeRefs = {}, locale = 'en' } = Astro.props;
+const pattern = /\{\{(?:move:([+-]\d+(?:\.\d+)?%)|time:([a-z][a-z0-9-]*))\}\}/g;
 const parts = [];
 let from = 0;
 for (const match of text.matchAll(pattern)) {
   parts.push({ text: text.slice(from, match.index) });
-  parts.push({
-    text: match[1],
-    direction: match[1].startsWith('+') ? 'up' : 'down',
-  });
+  parts.push(
+    match[2]
+      ? { time: timeRefs[match[2]], text: match[0] }
+      : { text: match[1], direction: match[1].startsWith('+') ? 'up' : 'down' },
+  );
   from = match.index + match[0].length;
 }
 parts.push({ text: text.slice(from) });
 ---
 
 {parts.map((part) =>
-  part.direction ? (
+  part.time ? (
+    <LocalTime {...part.time} locale={locale} />
+  ) : part.direction ? (
     <bdi
       dir="ltr"
       class:list={[

@@ -1,2 +1,2 @@
-export const plainMoves = (text: string) =>
-  text.replace(/\{\{move:([+-]\d+(?:\.\d+)?%)\}\}/g, '$1');
+import { plainEditorial } from './editorial-time.mjs';
+export const plainMoves = plainEditorial;

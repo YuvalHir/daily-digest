@@ -86,8 +86,26 @@ The native main chart and compact quote strips request `/api/market` from the ex
 
 There is no database, KV, file or git write in this route. Requests in one page share fetched data. Worker requests use independent library instances; completed successful results may stay in a worker isolate's memory for 60 seconds. Memory may disappear at any time and is not shared worldwide. No visitor request means no data collection. The browser requests data at most every five minutes while visible and on range/asset selection. Quote and bar timestamps always come from Yahoo. Historical edition statements do not change with quotes.
 
-Range labels describe actual returned bars. Charts are lines, not candlesticks. Intraday samples are five minutes apart; monthly/yearly samples are daily. "Up to 5 hours" does not fill missing hours before today's session begins. The large top price is the latest quote; chart-range change uses only the first and last returned bar. The axis endpoints show the actual bar dates/times in the visitor's browser locale/timezone.
+Range labels describe actual returned bars. Charts are lines, not candlesticks. Intraday samples are five minutes apart; monthly/yearly samples are daily. "Up to 5 hours" does not fill missing hours before today's session begins. The price and displayed daily percent are a matched regular-session quote pair. Daily percent uses an explicit source previousClose, independent of the selected chart range. Without a validated reference, show price only. A daily quote already loaded on the page can supply this pair when a monthly/yearly chart omits its reference, without another fetch. The axis endpoints show the actual bar dates/times in the visitor's browser locale/timezone.
 
 #### Per-story chart selection
 
 Prefer `marketCharts: [{"symbol":"MSFT","range":"1h"},{"symbol":"BTC-USD","range":"1mo"}]` on a story. Supported ranges are `1h`, `5h`, `1d`, `1mo`, `1y`. Each is required and drives both fetching and its visible label. `marketCharts` takes precedence over legacy `marketSymbols` (which means `1d`). New symbols use Yahoo's own symbol, for example `TSLA`, `BTC-USD` or `^GSPC`. Unknown symbols fail explicitly; never substitute a different asset. The old `BITSTAMP:BTCUSD` identifier is a compatibility alias for Yahoo `BTC-USD`, not a Bitstamp source. Source symbol is checked against the provider response.
+
+## Editorial timestamps
+
+Use an explicit timestamp reference rather than hard-coding a clock time in prose:
+
+```json
+"timeRefs": {
+  "report": {"at":"2026-11-13T16:57:00+02:00", "timeZone":"Asia/Jerusalem"}
+},
+"summary": {
+  "he":"הדיווח פורסם ב-{{time:report}}.",
+  "en":"The report was published at {{time:report}}."
+}
+```
+
+References are scoped to each story and can appear in headlines, summaries, bullets, image captions and source names. Both languages use the same reference. `at` must include its date and UTC offset; `timeZone` must be the source's IANA zone, matching that wall time and offset on the date, including DST. UTC timestamps use `Z` with `UTC`. Missing/invalid references fail the build. Never infer a missing timezone or convert an unmarked duration such as "16 hours".
+
+The browser displays the instant in its own timezone, in 24-hour time. If conversion crosses the source's calendar date, it includes the local date. Optional `showDate:true` always includes the date. Use `precision:"minute"` when a verified source supplies only a clock minute; its `:00` seconds are a serialization convention, not a claim that the event happened at exactly second zero. HTML `datetime` retains the original instant; a non-JavaScript fallback explicitly shows UTC, never a silently assumed local timezone. Publication timestamps use the same display behavior. Edition archive dates and URL slugs remain editorial identifiers, not the visitor's date. Search metadata uses explicit UTC text for time tokens, never unresolved markers.

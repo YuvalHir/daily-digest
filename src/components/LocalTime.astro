@@ -1,0 +1,45 @@
+---
+import { fallbackTime } from '../lib/editorial-time.mjs';
+const { at, timeZone = 'UTC', showDate = false, locale = 'en' } = Astro.props;
+---
+
+<time
+  datetime={at}
+  data-event-local-time
+  data-source-zone={timeZone}
+  data-show-date={String(showDate)}
+  data-time-lang={locale}
+  data-source-day={at.slice(0, 10)}
+  dir="ltr"
+>
+  {fallbackTime({ at })}
+</time>
+<style>
+  time {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+</style>
+<script>
+  import { displayEventTime } from '../lib/editorial-time.mjs';
+  for (const el of document.querySelectorAll<HTMLTimeElement>(
+    '[data-event-local-time]',
+  )) {
+    const ref = {
+      at: el.dateTime,
+      timeZone: el.dataset.sourceZone,
+      showDate: el.dataset.showDate === 'true',
+    };
+    const locale = el.dataset.timeLang === 'he' ? 'he-IL' : 'en-GB';
+    el.textContent = displayEventTime(ref, locale);
+    const zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    el.title =
+      new Intl.DateTimeFormat(locale, {
+        dateStyle: 'full',
+        timeStyle: 'long',
+      }).format(new Date(ref.at)) +
+      ' · ' +
+      zone;
+  }
+</script>

@@ -1,4 +1,18 @@
 import { z } from 'zod';
+import { validTimeRef, timeToken } from '../src/lib/editorial-time.mjs';
+export const TimeRef = z
+  .object({
+    at: z.string().datetime({ offset: true }),
+    timeZone: z.string().min(1),
+    precision: z.enum(['minute', 'second']).optional(),
+    showDate: z.boolean().optional(),
+  })
+  .strict()
+  .refine(
+    validTimeRef,
+    'Source timestamp offset must match its IANA zone on that date',
+  );
+const TimeRefs = z.record(z.string().regex(/^[a-z][a-z0-9-]*$/), TimeRef);
 const safeUrl = z
   .string()
   .refine(
@@ -63,6 +77,7 @@ export const DigestItem = z
     id: z.string().regex(/^[a-z0-9-]+$/),
     section: z.enum(['tech', 'markets', 'geopolitics', 'israel']),
     isLead: z.boolean().optional(),
+    timeRefs: TimeRefs.optional(),
     kicker: LocalizedText,
     headline: LocalizedText,
     summary: LocalizedText,
@@ -111,7 +126,27 @@ export const DigestItem = z
     tweets: z.array(z.never()).max(0).optional(),
     priority: z.number().int().nonnegative(),
   })
-  .strict();
+  .strict()
+  .superRefine((item, ctx) => {
+    const fields = [
+      item.headline,
+      item.summary,
+      item.kicker,
+      item.bullets,
+      item.source,
+      item.secondarySources,
+      item.heroImage,
+    ];
+    const text = JSON.stringify(fields);
+    if (/\{\{time:/.test(text.replace(timeToken, '')))
+      ctx.addIssue({ code: 'custom', message: 'Malformed time marker' });
+    for (const match of text.matchAll(timeToken))
+      if (!item.timeRefs?.[match[1]])
+        ctx.addIssue({
+          code: 'custom',
+          message: 'Unknown time ref: ' + match[1],
+        });
+  });
 export const DigestEdition = z
   .object({
     schemaVersion: z.literal('2.0'),

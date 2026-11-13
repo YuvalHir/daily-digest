@@ -21,30 +21,42 @@ const marketCharts =
   </div>
   <Heading>
     <a href={item.source.url} target="_blank" rel="noopener noreferrer">
-      <MoveText text={item.headline[locale]} />
+      <MoveText
+        timeRefs={item.timeRefs}
+        locale={locale}
+        text={item.headline[locale]}
+      />
     </a>
   </Heading>
   {item.heroImage && (
     <figure>
       <img
         src={item.heroImage.url}
-        alt={item.heroImage.caption?.[locale] || ''}
+        alt={plainMoves(item.heroImage.caption?.[locale] || '', item.timeRefs)}
         loading={lead ? 'eager' : 'lazy'}
       />
       <figcaption>
-        {item.heroImage.caption?.[locale]}{' '}
+        <MoveText
+          text={item.heroImage.caption?.[locale] || ''}
+          timeRefs={item.timeRefs}
+          locale={locale}
+        />{' '}
         {item.heroImage.credit && <span>© {item.heroImage.credit}</span>}
       </figcaption>
     </figure>
   )}
   <p class="story-summary">
-    <MoveText text={item.summary[locale]} />
+    <MoveText
+      timeRefs={item.timeRefs}
+      locale={locale}
+      text={item.summary[locale]}
+    />
   </p>
   {item.bullets && (
     <ul class="story-bullets">
       {item.bullets[locale].map((b) => (
         <li>
-          <MoveText text={b} />
+          <MoveText timeRefs={item.timeRefs} locale={locale} text={b} />
         </li>
       ))}
     </ul>
@@ -81,12 +93,21 @@ const marketCharts =
   <footer class="card-footer">
     <div class="source-links">
       <a href={item.source.url} target="_blank" rel="noopener noreferrer">
-        {item.source.name}
+        <MoveText
+          text={item.source.name}
+          timeRefs={item.timeRefs}
+          locale={locale}
+        />
         <span aria-hidden="true"> ↗</span>
       </a>
       {item.secondarySources?.map((source) => (
         <a href={source.url} target="_blank" rel="noopener noreferrer">
-          {source.name} ↗
+          <MoveText
+            text={source.name}
+            timeRefs={item.timeRefs}
+            locale={locale}
+          />{' '}
+          ↗
         </a>
       ))}
     </div>
@@ -95,7 +116,7 @@ const marketCharts =
       href={item.source.url}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={`${t.read}: ${plainMoves(item.headline[locale])}`}
+      aria-label={`${t.read}: ${plainMoves(item.headline[locale], item.timeRefs)}`}
     >
       {t.read}
       <span aria-hidden="true"> ↗</span>

@@ -1,6 +1,7 @@
 ---
+import LocalTime from './LocalTime.astro';
 import { ui } from '../i18n/ui';
-import { editionHref, localTime } from '../lib/digest';
+import { editionHref } from '../lib/digest';
 const { dayIndex, edition, locale } = Astro.props;
 const t = ui[locale as 'he' | 'en'];
 ---
@@ -20,7 +21,9 @@ const t = ui[locale as 'he' | 'en'];
         href={editionHref(locale, edition.date, ed.slug)}
         aria-current={ed.slug === edition.editionSlug ? 'page' : undefined}
       >
-        <bdi dir="ltr">{localTime(ed.publishedAt)}</bdi>
+        <bdi dir="ltr">
+          <LocalTime at={ed.publishedAt} locale={locale} />
+        </bdi>
         <span>{t.editions[ed.editionType]}</span>
         {ed.slug === dayIndex.latestEditionSlug && <small>{t.latest}</small>}
       </a>

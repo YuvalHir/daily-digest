@@ -44,7 +44,14 @@ export interface NewsSource {
   tag?: LocalizedText;
 }
 
+export interface TimeRef {
+  precision?: 'minute' | 'second';
+  at: string;
+  timeZone: string;
+  showDate?: boolean;
+}
 export interface DigestItem {
+  timeRefs?: Record<string, TimeRef>;
   id: string;
   section: SectionId;
   isLead?: boolean;
