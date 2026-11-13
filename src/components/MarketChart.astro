@@ -52,26 +52,20 @@ const ranges = he
       </button>
     ))}
   </div>
-  <button
-    type="button"
-    class="native-cycle"
-    data-chart-cycle
-    hidden={assets.length < 2}
-    aria-pressed="true"
-  >
-    {he ? 'עצירת החלפה אוטומטית' : 'Pause auto rotation'}
-  </button>
+  <div class="market-instrument">
+    <bdi class="market-symbol" data-main-symbol>
+      {assets[0]?.[0]?.split(':').at(-1) ?? ''}
+    </bdi>
+    <bdi data-main-name>{assets[0]?.[1] ?? ''}</bdi>
+  </div>
   <div class="native-main-head">
-    <div>
-      <bdi data-main-name>
-        {assets[0]?.[1] ??
-          (he
-            ? 'לא נבחר גרף לסיפור המוביל'
-            : 'No chart selected for the lead story')}
-      </bdi>
-      <strong data-main-price>--</strong>
+    <strong data-main-price>--</strong>
+    <div class="market-daily-change">
+      <span data-main-change></span>
+      <span class="market-daily-label" data-main-change-label hidden>
+        {he ? 'שינוי יומי' : 'Today'}
+      </span>
     </div>
-    <span data-main-change></span>
   </div>
   <div
     class="native-ranges"
@@ -120,6 +114,15 @@ const ranges = he
     <span data-main-end></span>
   </div>
   <p class="native-main-stamp" data-main-stamp></p>
+  <button
+    type="button"
+    class="native-cycle"
+    data-chart-cycle
+    hidden={assets.length < 2}
+    aria-pressed="true"
+  >
+    {he ? 'עצירת החלפה אוטומטית' : 'Pause auto rotation'}
+  </button>
   <noscript>
     {he
       ? 'נדרש JavaScript להצגת הגרף. החדשות זמינות גם בלעדיו.'
@@ -127,31 +130,48 @@ const ranges = he
   </noscript>
 </section>
 <style>
+  .market-instrument {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0 10px;
+    direction: ltr;
+  }
+  .market-symbol {
+    background: var(--bg);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 5px 8px;
+    font: 600 13px var(--mono);
+    color: var(--ink);
+  }
+  [data-main-name] {
+    font-size: 16px;
+    font-weight: 650;
+    color: var(--ink);
+  }
   .native-main-head {
     display: flex;
-    justify-content: space-between;
-    gap: 12px;
-    align-items: end;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: center;
     direction: ltr;
-    margin: 22px 0 18px;
-  }
-  .native-main-head > div {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 18px;
-  }
-  .native-main-head bdi {
-    flex-basis: 100%;
-    color: var(--muted);
-    font-size: 14px;
+    margin: 0 0 20px;
   }
   .native-main-head strong {
-    font: 500 clamp(26px, 4vw, 42px) var(--mono);
+    font: 600 clamp(30px, 3vw, 42px) var(--mono);
     letter-spacing: -1.4px;
   }
-  .native-main-head > span {
-    font: 13px var(--mono);
+  .market-daily-change {
+    display: grid;
+    gap: 1px;
+  }
+  [data-main-change] {
+    font: 600 20px var(--mono);
+    white-space: nowrap;
+  }
+  .market-daily-label {
+    font-size: 10px;
     color: var(--muted);
   }
   .native-ranges {
@@ -234,11 +254,11 @@ const ranges = he
     margin-bottom: 30px;
   }
   @media (max-width: 440px) {
-    .native-main-head > div {
-      gap: 10px;
+    .native-main-head {
+      gap: 12px;
     }
-    .native-main-head > span {
-      font-size: 10px;
+    [data-main-change] {
+      font-size: 20px;
     }
     .native-ranges button {
       min-width: 44px;
@@ -345,8 +365,8 @@ const ranges = he
           path.setAttribute('stroke-linejoin', 'round');
           svg.append(path);
           svg.setAttribute('aria-label', q.name + ' · ' + rangeText(q, he));
-          find('[data-main-name]').textContent =
-            selectedLabel() + (he ? ' · ציטוט אחרון' : ' · Latest quote');
+          find('[data-main-name]').textContent = selectedLabel();
+          find('[data-main-symbol]').textContent = display.symbol;
           find('[data-main-price]').textContent =
             (display.currency === 'USD' && !symbol.startsWith('^') ? '$' : '') +
             display.price.toLocaleString(navigator.language, {
@@ -354,6 +374,7 @@ const ranges = he
               maximumFractionDigits: 2,
             });
           const change = dailyChange(display);
+          find('[data-main-change-label]').hidden = change === null;
           find('[data-main-change]').textContent =
             change === null
               ? ''
@@ -393,6 +414,7 @@ const ranges = he
               : 'Refresh failed. Last received quote shown';
           } else {
             svg.replaceChildren();
+            find('[data-main-change-label]').hidden = true;
             find('[data-main-price]').textContent = '--';
             [
               '[data-main-change]',

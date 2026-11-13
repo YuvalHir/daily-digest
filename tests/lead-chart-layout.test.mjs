@@ -25,3 +25,11 @@ test('section count follows the cards rendered below, and separately links its l
     !page.includes('edition.items.filter((i) => i.section === section).length'),
   );
 });
+test('stock panel groups a clear symbol, price and large daily change without vague quote label', async () => {
+  const panel = await readFile('src/components/MarketChart.astro', 'utf8');
+  assert.ok(panel.includes('data-main-symbol'));
+  assert.ok(panel.includes('market-daily-change'));
+  assert.ok(panel.includes('data-main-change-label'));
+  assert.ok(!panel.includes('Latest quote'));
+  assert.ok(!panel.includes('ציטוט אחרון'));
+});
