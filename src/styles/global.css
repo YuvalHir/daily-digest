@@ -1575,3 +1575,42 @@ html[lang='en'] .lead-card h1 {
     background: transparent;
   }
 }
+
+/* Inline article quotes are compact supporting details, never a second hero. */
+.mini-market-grid {
+  width: 100%;
+  max-width: 420px;
+  justify-self: start;
+}
+.mini-market-grid .native-quote {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  gap: 3px 12px;
+  padding: 8px 10px !important;
+}
+.mini-market-grid .native-spark {
+  height: 30px;
+}
+.source-links bdi {
+  unicode-bidi: isolate;
+}
+
+.section-lead-link {
+  display: block;
+  margin: 12px 0 18px;
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 360px) {
+  .mini-market-grid .native-values {
+    gap: 5px;
+    font-size: 11px;
+  }
+  .mini-market-grid .native-values strong {
+    font-size: 14px;
+  }
+  .mini-market-grid .native-identity span {
+    display: none;
+  }
+}

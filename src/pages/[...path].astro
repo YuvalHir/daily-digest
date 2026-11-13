@@ -83,7 +83,12 @@ const sections = ['tech', 'markets', 'geopolitics', 'israel'] as const;
       ]}
       aria-label={t.summary}
     >
-      <HeroLeadCard item={lead} locale={locale} index={1} />
+      <HeroLeadCard
+        item={lead}
+        locale={locale}
+        index={1}
+        heroSymbols={edition.heroCharts?.map((c) => c.symbol) ?? []}
+      />
       {edition.heroCharts?.length > 0 && (
         <MarketChart locale={locale} charts={edition.heroCharts} />
       )}
@@ -96,17 +101,24 @@ const sections = ['tech', 'markets', 'geopolitics', 'israel'] as const;
             <h2>{t.sections[section]}</h2>
             <span class="section-line"></span>
             <span class="section-total">
-              <bdi>
-                {edition.items.filter((i) => i.section === section).length}
-              </bdi>{' '}
+              <bdi>{stories.length || (lead.section === section ? 1 : 0)}</bdi>{' '}
               {t.stories}
             </span>
           </div>
+          {lead.section === section && stories.length > 0 && (
+            <a class="section-lead-link" href={'#' + lead.id}>
+              {locale === 'he'
+                ? 'הכתבה המובילה במדור, בראש העמוד: '
+                : 'Lead story in this section, at the top: '}
+              {plainMoves(lead.headline[locale], lead.timeRefs)} ↗
+            </a>
+          )}
           {stories.length ? (
             <div class="news-grid">
               {stories.map((item) => (
                 <NewsCard
                   item={item}
+                  heroSymbols={edition.heroCharts?.map((c) => c.symbol) ?? []}
                   locale={locale}
                   index={sorted.findIndex((i) => i.id === item.id) + 1}
                 />

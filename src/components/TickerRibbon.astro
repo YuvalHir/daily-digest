@@ -247,6 +247,26 @@ const he = locale === 'he';
             copy.append(row);
           }
         }
+        // Each identical cycle must exceed the visible window; otherwise the
+        // second cycle can run out before the animation wraps on wide screens.
+        const copies = [...wire.querySelectorAll<HTMLElement>('.wire-copy')];
+        const cycleWidth = copies[0]?.getBoundingClientRect().width || 0;
+        const windowWidth = wire
+          .querySelector('.wire-window')!
+          .getBoundingClientRect().width;
+        const repeats =
+          cycleWidth > 0
+            ? Math.max(1, Math.ceil(windowWidth / cycleWidth) + 1)
+            : 1;
+        for (const copy of copies) {
+          const original = [...copy.children];
+          for (let n = 1; n < repeats; n++)
+            for (const child of original) {
+              const clone = child.cloneNode(true) as HTMLElement;
+              clone.setAttribute('aria-hidden', 'true');
+              copy.append(clone);
+            }
+        }
         for (const q of quotes) previousPrices.set(q.symbol, q.price);
         const oldest = Math.min(...quotes.map((q) => Date.parse(q.asOf))),
           old = Date.now() - oldest > 1800000,

@@ -25,6 +25,14 @@
         "he": "אנבידיה",
         "en": "Nvidia"
       }
+    },
+    {
+      "symbol": "NASDAQ:MSFT",
+      "range": "1d",
+      "label": {
+        "he": "מיקרוסופט",
+        "en": "Microsoft"
+      }
     }
   ],
   "items": [
@@ -74,7 +82,7 @@
           "url": "https://x.com/DeItaone/status/2121289367268295160"
         },
         {
-          "name": "@StockMKTNewz · CNBC",
+          "name": "@StockMKTNewz",
           "url": "https://x.com/StockMKTNewz/status/2121320731929940024"
         }
       ],

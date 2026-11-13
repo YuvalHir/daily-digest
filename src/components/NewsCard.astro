@@ -5,13 +5,14 @@ import { plainMoves } from '../lib/plain-moves';
 import NativeQuote from './NativeQuote.astro';
 import Sparkline from './Sparkline.astro';
 import { ui } from '../i18n/ui';
-const { item, locale, index = 1, lead = false } = Astro.props;
+const { item, locale, index = 1, lead = false, heroSymbols = [] } = Astro.props;
 const t = ui[locale as 'he' | 'en'];
 const Heading = lead ? 'h1' : 'h3';
-const marketCharts =
+const marketCharts = (
   item.marketCharts ??
   item.marketSymbols?.map((symbol) => ({ symbol, range: '1d' })) ??
-  [];
+  []
+).filter(({ symbol }) => !heroSymbols.includes(symbol));
 ---
 
 <article class:list={['news-card', { 'lead-card': lead }]} id={item.id}>
@@ -93,20 +94,24 @@ const marketCharts =
   <footer class="card-footer">
     <div class="source-links">
       <a href={item.source.url} target="_blank" rel="noopener noreferrer">
-        <MoveText
-          text={item.source.name}
-          timeRefs={item.timeRefs}
-          locale={locale}
-        />
+        <bdi>
+          <MoveText
+            text={item.source.name}
+            timeRefs={item.timeRefs}
+            locale={locale}
+          />
+        </bdi>
         <span aria-hidden="true"> ↗</span>
       </a>
       {item.secondarySources?.map((source) => (
         <a href={source.url} target="_blank" rel="noopener noreferrer">
-          <MoveText
-            text={source.name}
-            timeRefs={item.timeRefs}
-            locale={locale}
-          />{' '}
+          <bdi>
+            <MoveText
+              text={source.name}
+              timeRefs={item.timeRefs}
+              locale={locale}
+            />
+          </bdi>{' '}
           ↗
         </a>
       ))}
