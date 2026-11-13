@@ -4,6 +4,14 @@ export type Quote = {
   price: number;
   currency: string;
   changePercent: number;
+  quoteChange?: {
+    percent: number;
+    basis: 'previousClose';
+    referencePrice: number;
+    priceType: 'regularMarketPrice';
+    session: 'regular';
+    priceAsOf: string;
+  } | null;
   asOf: string;
   range: string;
   interval: string;

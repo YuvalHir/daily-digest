@@ -219,9 +219,31 @@ const he = locale === 'he';
               el.dir = 'ltr';
               el.className = cls;
               el.textContent = text;
-              if (cls)
-                el.title = he ? 'שינוי בטווח הגרף' : 'Chart-range change';
               row.append(el);
+            }
+            const change = q.quoteChange;
+            if (
+              change?.basis === 'previousClose' &&
+              change.session === 'regular' &&
+              change.priceType === 'regularMarketPrice' &&
+              change.priceAsOf === q.asOf &&
+              Number.isFinite(change.percent) &&
+              Number.isFinite(change.referencePrice) &&
+              change.referencePrice > 0 &&
+              Math.abs(
+                change.percent - (q.price / change.referencePrice - 1) * 100,
+              ) < 0.000001
+            ) {
+              const percent = document.createElement('bdi');
+              percent.dir = 'ltr';
+              percent.className = change.percent >= 0 ? 'positive' : 'negative';
+              percent.textContent =
+                (change.percent >= 0 ? '+' : '') +
+                change.percent.toFixed(2) +
+                '%';
+              const basis = document.createElement('span');
+              basis.textContent = he ? 'מול סגירה' : 'prev close';
+              row.append(percent, basis);
             }
             copy.append(row);
           }
