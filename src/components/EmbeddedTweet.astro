@@ -1,0 +1,4 @@
+---
+import {ui} from '../i18n/ui';const {tweet,locale}=Astro.props;const t=ui[locale as 'he'|'en'];
+---
+<blockquote class="tweet"><div class="tweet-header"><div>{tweet.avatarUrl&&<img src={tweet.avatarUrl} width="36" height="36" loading="lazy" alt=""/>}<span><strong>{tweet.authorName}</strong><small><bdi dir="ltr">@{tweet.authorHandle}</bdi></small></span></div><a href={tweet.url} target="_blank" rel="noopener noreferrer" aria-label="View on X">𝕏 ↗</a></div><p>{tweet.text[locale]}</p>{tweet.media&&<img class="tweet-media" src={tweet.media.url} alt={tweet.media.alt[locale]} loading="lazy" style={'aspect-ratio:'+(tweet.media.aspectRatio||'16/9')}/>}<footer><span>{t.translation}</span><a href={tweet.url} target="_blank" rel="noopener noreferrer"><bdi>{tweet.timestamp}</bdi></a></footer></blockquote>

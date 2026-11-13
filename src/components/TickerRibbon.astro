@@ -1,0 +1,5 @@
+---
+import Sparkline from './Sparkline.astro';import {ui} from '../i18n/ui';import {localTime} from '../lib/digest';
+const {tickers,locale}=Astro.props;const t=ui[locale as 'he'|'en'];
+---
+<section class="market-ribbon" aria-label={t.market}>{tickers.length>0?<><div class="ticker-scroll">{tickers.map(ticker=><div class="ticker"><div class="ticker-top"><bdi dir="ltr">{ticker.symbol}</bdi><bdi dir="ltr" class={ticker.changePercent>=0?'positive':'negative'}>{ticker.changePercent>=0?'+':''}{ticker.changePercent.toFixed(2)}%</bdi></div><div class="ticker-bottom"><bdi dir="ltr">{ticker.price.toLocaleString('en-US',{maximumFractionDigits:3})}<small> {ticker.currency}</small></bdi><Sparkline series={ticker.sparkline} positive={ticker.changePercent>=0} label={ticker.name}/></div><small class="quote-time">{ticker.sparkline.timeframe}{ticker.asOf?' · '+localTime(ticker.asOf)+' IST':''}</small></div>)}</div><p class="market-note">{t.marketNote}</p></>:<div class="market-unavailable"><span class="status-dot"></span><span>{t.missing}</span></div>}</section>

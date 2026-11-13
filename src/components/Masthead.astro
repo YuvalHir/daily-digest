@@ -1,0 +1,5 @@
+---
+import LanguageToggle from './LanguageToggle.astro';import ArchiveDrawer from './ArchiveDrawer.astro';import {ui} from '../i18n/ui';import {localDate} from '../lib/digest';
+const {locale,edition,index}=Astro.props;const t=ui[locale as 'he'|'en'];
+---
+<header id="top" class="masthead"><div class="utility"><a class="small-brand" href={locale==='he'?'/':'/en/'}>DAILY DIGEST<span class="brand-dot"></span></a><div class="utility-actions"><ArchiveDrawer index={index} locale={locale}/><LanguageToggle locale={locale}/></div></div><div class="masthead-title"><a href={locale==='he'?'/':'/en/'} aria-label={t.brand}>{t.brand}<span class="title-dot">.</span></a><div class="masthead-caption"><p>{t.tagline}</p><span>{localDate(edition.date,locale)}</span></div></div></header>

@@ -1,0 +1,5 @@
+---
+import {ui} from '../i18n/ui';import {editionHref,localDate} from '../lib/digest';
+const {index,locale}=Astro.props;const t=ui[locale as 'he'|'en'];
+---
+<details class="archive"><summary>{t.archive}<span aria-hidden="true"> +</span></summary><div class="archive-menu"><p>{t.openArchive}</p>{index.days.map(day=><a href={editionHref(locale,day.date)}>{localDate(day.date,locale)}<small>{day.editionCount} {t.edition}</small></a>)}</div></details>

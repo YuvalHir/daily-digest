@@ -1,0 +1,581 @@
+{
+  "schemaVersion": "2.0",
+  "date": "2026-11-13",
+  "editionSlug": "1715-open",
+  "editionType": "open",
+  "editionNumber": 1,
+  "publishedAt": "2026-11-13T17:15:00+02:00",
+  "editorialLead": {
+    "he": "וול סטריט מחקה את העליות של הפתיחה. ברקע: אינפלציית יצרן גבוהה, תחזית ריבית קשוחה ותקלה מתמשכת בענן של Microsoft. מהדורת פתיחה עם ההקשר מאחורי המספרים.",
+    "en": "Wall Street erases its opening gains as elevated producer inflation, a tougher rate outlook and Microsoft's prolonged cloud disruption set the tone. The opening edition, with context behind the numbers."
+  },
+  "marketRibbon": [],
+  "items": [
+    {
+      "id": "wall-street-reversal",
+      "section": "markets",
+      "isLead": true,
+      "kicker": {
+        "he": "וול סטריט · פתיחה",
+        "en": "Wall Street · opening hour"
+      },
+      "headline": {
+        "he": "הפתיחה הירוקה לא החזיקה. נאסד״ק עובר לירידה של 1%",
+        "en": "The green open did not last. Nasdaq turns 1% lower"
+      },
+      "summary": {
+        "he": "המדדים האמריקאיים פתחו בעליות, אך התהפכו במהלך השעה הראשונה. לפי דיווח @DeItaone ב-17:05 שעון ישראל, S&P 500 ירד 0.67%, נאסד״ק ירד 1% והדאו איבד 0.08%. אלה נתוני נקודת זמן, לא ציטוטים חיים.",
+        "en": "US indices opened higher before reversing during the first hour. A 17:05 Israel-time report from @DeItaone put the S&P 500 down 0.67%, Nasdaq down 1% and the Dow down 0.08%. These are timestamped snapshots, not live quotes."
+      },
+      "source": {
+        "name": "@DeItaone",
+        "url": "https://x.com/DeItaone/status/2121258258866597908"
+      },
+      "priority": 1,
+      "bullets": {
+        "he": [
+          "16:32: S&P 500 עלה 0.29%, נאסד״ק 0.13% והדאו 0.36%, לפי @FirstSquawk.",
+          "17:05: שלושת המדדים עברו לטריטוריה שלילית."
+        ],
+        "en": [
+          "16:32: S&P 500 +0.29%, Nasdaq +0.13% and Dow +0.36%, according to @FirstSquawk.",
+          "17:05: all three indices were in negative territory."
+        ]
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · 16:32",
+          "url": "https://x.com/FirstSquawk/status/2121250199641444730"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-outage",
+      "section": "tech",
+      "isLead": false,
+      "kicker": {
+        "he": "תשתיות ענן",
+        "en": "Cloud infrastructure"
+      },
+      "headline": {
+        "he": "תקלה של יותר מ-16 שעות: Microsoft 365 עדיין מתאוששת",
+        "en": "More than 16 hours later, Microsoft 365 is still recovering"
+      },
+      "summary": {
+        "he": "לפי @wallstengine, שיבושים ב-Outlook, Teams ו-Copilot נמשכו יותר מ-16 שעות, והמניה ירדה 2.2% בדיווח המוקדם של 12:53. בעדכון מאוחר יותר שצוטט ב-16:05, Microsoft דיווחה שההתאוששות נמשכת ושחלק מהמשתמשים עדיין עלולים לחוות תקלות ועיכובים בדוא״ל.",
+        "en": "@wallstengine reported more than 16 hours of disruption to Outlook, Teams and Copilot, with MSFT down 2.2% in its earlier 12:53 Israel-time report. A later Microsoft update carried at 16:05 said recovery was continuing, but some users could still experience intermittent access problems and delayed email."
+      },
+      "source": {
+        "name": "@wallstengine",
+        "url": "https://x.com/wallstengine/status/2121194713466511448"
+      },
+      "priority": 2,
+      "tweets": [
+        {
+          "id": "2121194713466511448",
+          "authorName": "@wallstengine",
+          "authorHandle": "wallstengine",
+          "text": {
+            "he": "לפי הדיווח: תקלה עולמית ב-Microsoft 365 נמשכת יותר מ-16 שעות, עם שיבושים ב-Outlook, Teams ו-Copilot. מניית MSFT ירדה 2.2% בזמן הדיווח.",
+            "en": "The report says Microsoft 365 disruption has lasted more than 16 hours, with Outlook, Teams and Copilot down or unstable. MSFT was down 2.2% at the time of the post."
+          },
+          "timestamp": "12:53 IST",
+          "url": "https://x.com/wallstengine/status/2121194713466511448",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-13/1715-open/microsoft-outage.webp",
+            "alt": {
+              "he": "תמונה שצורפה לדיווח המקורי של @wallstengine",
+              "en": "Image attached to the original report by @wallstengine"
+            },
+            "aspectRatio": "680/233"
+          }
+        }
+      ],
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · עדכון התאוששות / recovery",
+          "url": "https://x.com/FirstSquawk/status/2121243101071319456"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-employees",
+      "section": "tech",
+      "isLead": false,
+      "kicker": {
+        "he": "אנבידיה",
+        "en": "Nvidia"
+      },
+      "headline": {
+        "he": "עובדי Nvidia מבקשים להחזיר את ג׳נסן הואנג",
+        "en": "Nvidia employees push to reinstate Jensen Huang"
+      },
+      "summary": {
+        "he": "לפי דיווח WIRED שצוטט ב-@wallstengine, תיבת הצעות פנימית צברה יותר מ-1,600 תגובות, עם תמיכה בהחזרתו של ג׳נסן הואנג. מדובר בדיווח על עמדות עובדים, לא בהודעה על החלטת הדירקטוריון.",
+        "en": "A WIRED report cited by @wallstengine says an internal suggestion box drew more than 1,600 comments, with support for reinstating Jensen Huang. This is a report on employee sentiment, not an announcement of a board decision."
+      },
+      "source": {
+        "name": "@wallstengine",
+        "url": "https://x.com/wallstengine/status/2121199821986078725"
+      },
+      "priority": 3
+    },
+    {
+      "id": "chip-export-controls",
+      "section": "tech",
+      "isLead": false,
+      "kicker": {
+        "he": "שבבים ורגולציה",
+        "en": "Chips & regulation"
+      },
+      "headline": {
+        "he": "בסנט: האוצר דחף להכניס את Megaspeed לרשימת ההגבלות",
+        "en": "Bessent says Treasury pushed to restrict Megaspeed"
+      },
+      "summary": {
+        "he": "לפי @wallstengine, שר האוצר האמריקאי סקוט בסנט אמר שהאוצר ביקש במשך חודשים להוסיף את לקוחת Nvidia לרשימת הישויות המוגבלות, אך משרד המסחר טרם פעל. הדיווח מחזיר למוקד את הפערים באכיפת מגבלות יצוא השבבים.",
+        "en": "According to @wallstengine, US Treasury Secretary Scott Bessent said Treasury had sought for months to add Nvidia customer Megaspeed to the Entity List, while Commerce had not yet acted. The report puts chip-export enforcement back in focus."
+      },
+      "source": {
+        "name": "@wallstengine",
+        "url": "https://x.com/wallstengine/status/2121229821552496694"
+      },
+      "priority": 4
+    },
+    {
+      "id": "nscale-funding",
+      "section": "tech",
+      "isLead": false,
+      "kicker": {
+        "he": "מימון תשתיות AI",
+        "en": "AI infrastructure finance"
+      },
+      "headline": {
+        "he": "לפי ZeroHedge: ל-Nscale אין עדיין התחייבויות מימון מחייבות לפרויקט Anthropic",
+        "en": "ZeroHedge: Nscale lacks binding funding commitments for Anthropic project"
+      },
+      "summary": {
+        "he": "ZeroHedge מדווחת כי Nscale טרם השיגה התחייבויות מחייבות למימון פרויקט מרכז הנתונים של Anthropic, על רקע צורכי חוב גדלים. זו טענה של הדיווח המקושר, ולא הודעה עצמאית מאומתת כאן של החברה.",
+        "en": "ZeroHedge reports that Nscale has not obtained binding commitments to finance its Anthropic data-center project as debt needs grow. This remains a claim in the linked report, rather than a company statement independently verified here."
+      },
+      "source": {
+        "name": "@zerohedge",
+        "url": "https://x.com/zerohedge/status/2121230462471303199"
+      },
+      "priority": 5
+    },
+    {
+      "id": "chatgpt-wallet",
+      "section": "tech",
+      "isLead": false,
+      "kicker": {
+        "he": "סוכני AI",
+        "en": "AI agents"
+      },
+      "headline": {
+        "he": "דיווח: ChatGPT Wallet נפתח למנויי Pro בארה״ב",
+        "en": "Report: ChatGPT Wallet begins rollout to US Pro subscribers"
+      },
+      "summary": {
+        "he": "לפי @wallstengine, OpenAI מתחילה להשיק את ChatGPT Wallet, שמאפשר למשתמשים להיעזר בסוכן Dot לביצוע רכישות בשמם. הדיווח מציין שההשקה מתחילה במנויי ChatGPT Pro בארצות הברית.",
+        "en": "According to @wallstengine, OpenAI is beginning to roll out ChatGPT Wallet, allowing users to have their Dot agent complete purchases on their behalf. The report says access starts with ChatGPT Pro subscribers in the United States."
+      },
+      "source": {
+        "name": "@wallstengine",
+        "url": "https://x.com/wallstengine/status/2121258348024861021"
+      },
+      "priority": 6,
+      "tweets": [
+        {
+          "id": "2121258348024861021",
+          "authorName": "@wallstengine",
+          "authorHandle": "wallstengine",
+          "text": {
+            "he": "לפי @wallstengine, OpenAI מתחילה להשיק את ChatGPT Wallet, שמאפשר למשתמשים להיעזר בסוכן Dot לביצוע רכישות בשמם. הדיווח מציין שההשקה מתחילה במנויי ChatGPT Pro בארצות הברית.",
+            "en": "According to @wallstengine, OpenAI is beginning to roll out ChatGPT Wallet, allowing users to have their Dot agent complete purchases on their behalf. The report says access starts with ChatGPT Pro subscribers in the United States."
+          },
+          "timestamp": "17:06 IST",
+          "url": "https://x.com/wallstengine/status/2121258348024861021",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-13/1715-open/chatgpt-wallet.webp",
+            "alt": {
+              "he": "תמונה שצורפה לדיווח המקורי של @wallstengine",
+              "en": "Image attached to the original report by @wallstengine"
+            },
+            "aspectRatio": "680/554"
+          }
+        }
+      ]
+    },
+    {
+      "id": "amd-nvidia-gap",
+      "section": "tech",
+      "isLead": false,
+      "kicker": {
+        "he": "תנועות במניות",
+        "en": "Stock moves"
+      },
+      "headline": {
+        "he": "AMD מול Nvidia: פער של 53.2 נקודות אחוז בחמישה ימי מסחר",
+        "en": "AMD vs Nvidia: a 53.2-point gap over five trading days"
+      },
+      "summary": {
+        "he": "לפי The Kobeissi Letter, מניית AMD עלתה 44.7% בחמישה ימי מסחר בעוד Nvidia ירדה 8.5%: פער של 53.2 נקודות אחוז. מדובר בהשוואת תשואות לתקופה, ולא בשינוי היומי של המניות.",
+        "en": "The Kobeissi Letter reports that AMD gained 44.7% over five trading days while Nvidia fell 8.5%, a 53.2-percentage-point gap. This is a multi-day return comparison, not either stock's daily move."
+      },
+      "source": {
+        "name": "@kobeissiletter",
+        "url": "https://x.com/KobeissiLetter/status/2121255955438465370"
+      },
+      "priority": 7,
+      "tweets": [
+        {
+          "id": "2121255955438465370",
+          "authorName": "@kobeissiletter",
+          "authorHandle": "kobeissiletter",
+          "text": {
+            "he": "לפי The Kobeissi Letter, מניית AMD עלתה 44.7% בחמישה ימי מסחר בעוד Nvidia ירדה 8.5%: פער של 53.2 נקודות אחוז. מדובר בהשוואת תשואות לתקופה, ולא בשינוי היומי של המניות.",
+            "en": "The Kobeissi Letter reports that AMD gained 44.7% over five trading days while Nvidia fell 8.5%, a 53.2-percentage-point gap. This is a multi-day return comparison, not either stock's daily move."
+          },
+          "timestamp": "16:56 IST",
+          "url": "https://x.com/KobeissiLetter/status/2121255955438465370",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-13/1715-open/amd-nvidia-gap.webp",
+            "alt": {
+              "he": "תמונה שצורפה לדיווח המקורי של @kobeissiletter",
+              "en": "Image attached to the original report by @kobeissiletter"
+            },
+            "aspectRatio": "680/454"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ppi-inflation",
+      "section": "markets",
+      "isLead": false,
+      "kicker": {
+        "he": "מאקרו · ארה״ב",
+        "en": "Macro · United States"
+      },
+      "headline": {
+        "he": "מחירי היצרן עלו 6.5% בשנה; הנתון החודשי מתחת לתחזית",
+        "en": "Producer prices rise 6.5% annually; monthly reading below forecast"
+      },
+      "summary": {
+        "he": "לפי נתוני PPI שפורסמו ב-@wallstengine, מחירי היצרן באוקטובר עלו 0.3% בחודש לעומת צפי ל-0.4%, ו-6.5% בשנה לעומת צפי ל-6.6%. מדד הליבה השנתי עמד על 5.0%, בהתאם לתחזית.",
+        "en": "PPI figures carried by @wallstengine show October producer prices rising 0.3% month on month versus 0.4% expected, and 6.5% year on year versus 6.6% expected. Annual core PPI was 5.0%, in line with forecasts."
+      },
+      "source": {
+        "name": "@wallstengine",
+        "url": "https://x.com/wallstengine/status/2121234241555951983"
+      },
+      "priority": 8,
+      "bullets": {
+        "he": [
+          "PPI חודשי: 0.3% | צפי: 0.4%.",
+          "PPI שנתי: 6.5% | ליבה שנתית: 5.0%."
+        ],
+        "en": [
+          "Monthly PPI: 0.3% | Forecast: 0.4%.",
+          "Annual PPI: 6.5% | Annual core: 5.0%."
+        ]
+      }
+    },
+    {
+      "id": "bofa-fed-outlook",
+      "section": "markets",
+      "isLead": false,
+      "kicker": {
+        "he": "תחזיות ריבית",
+        "en": "Rate outlook"
+      },
+      "headline": {
+        "he": "בנק אוף אמריקה מוסיף העלאת ריבית בינואר לתחזית",
+        "en": "Bank of America adds a January rate hike to its forecast"
+      },
+      "summary": {
+        "he": "לפי דיווח @DeItaone, חטיבת המחקר של בנק אוף אמריקה צופה כעת העלאות של 25 נקודות בסיס בדצמבר 2026, בינואר 2027 ובמרץ 2027. זו תחזית של הבנק, לא החלטת הפדרל ריזרב.",
+        "en": "@DeItaone reports that Bank of America Global Research now expects 25-basis-point Fed increases in December 2026, January 2027 and March 2027. This is the bank's forecast, not a Federal Reserve decision."
+      },
+      "source": {
+        "name": "@DeItaone",
+        "url": "https://x.com/DeItaone/status/2121243303551062466"
+      },
+      "priority": 9
+    },
+    {
+      "id": "goolsbee-inflation",
+      "section": "markets",
+      "isLead": false,
+      "kicker": {
+        "he": "הפדרל ריזרב",
+        "en": "Federal Reserve"
+      },
+      "headline": {
+        "he": "גולסבי: הפד עדיין לא במסלול לאינפלציה של 2%",
+        "en": "Goolsbee: the Fed is not on track for 2% inflation"
+      },
+      "summary": {
+        "he": "לפי @FirstSquawk, אוסטן גולסבי אמר שהאינפלציה עולה ומתמשכת מעבר לצפוי, והזהיר מפני התחממות יתר של הביקוש. בדיווחים נוספים מדבריו ציין שגם הקמת מרכזי נתונים מוסיפה לחץ על המחירים.",
+        "en": "According to @FirstSquawk, Austan Goolsbee said inflation is rising and proving more persistent than expected, warning against overheating demand. Further reports of his remarks cited data-center construction as an additional source of price pressure."
+      },
+      "source": {
+        "name": "@FirstSquawk",
+        "url": "https://x.com/FirstSquawk/status/2121242919340548513"
+      },
+      "priority": 10,
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · data centers",
+          "url": "https://x.com/FirstSquawk/status/2121238030606606464"
+        }
+      ]
+    },
+    {
+      "id": "crypto-selloff",
+      "section": "markets",
+      "isLead": false,
+      "kicker": {
+        "he": "קריפטו",
+        "en": "Crypto"
+      },
+      "headline": {
+        "he": "ביטקוין מתחת ל-69 אלף דולר, כשהלחץ על הקריפטו גובר",
+        "en": "Bitcoin slips below $69,000 as crypto selling accelerates"
+      },
+      "summary": {
+        "he": "לפי The Kobeissi Letter, ביטקוין ירד מתחת ל-69 אלף דולר ואת׳ריום התקרב ל-1,900 דולר. אותו דיווח מציין מחיקה של כ-150 מיליארד דולר משווי שוק הקריפטו בתוך 48 שעות. הנתונים משקפים את מועד הדיווח, 07:53 שעון ישראל.",
+        "en": "The Kobeissi Letter reported Bitcoin below $69,000 and Ether approaching $1,900, with roughly $150 billion erased from the crypto market in 48 hours. These figures reflect the report's 07:53 Israel-time snapshot."
+      },
+      "source": {
+        "name": "@kobeissiletter",
+        "url": "https://x.com/KobeissiLetter/status/2121119250601697764"
+      },
+      "priority": 11,
+      "tweets": [
+        {
+          "id": "2121119250601697764",
+          "authorName": "@kobeissiletter",
+          "authorHandle": "kobeissiletter",
+          "text": {
+            "he": "לפי The Kobeissi Letter, ביטקוין ירד מתחת ל-69 אלף דולר ואת׳ריום התקרב ל-1,900 דולר. אותו דיווח מציין מחיקה של כ-150 מיליארד דולר משווי שוק הקריפטו בתוך 48 שעות. הנתונים משקפים את מועד הדיווח, 07:53 שעון ישראל.",
+            "en": "The Kobeissi Letter reported Bitcoin below $69,000 and Ether approaching $1,900, with roughly $150 billion erased from the crypto market in 48 hours. These figures reflect the report's 07:53 Israel-time snapshot."
+          },
+          "timestamp": "07:53 IST",
+          "url": "https://x.com/KobeissiLetter/status/2121119250601697764",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-13/1715-open/crypto-selloff.webp",
+            "alt": {
+              "he": "תמונה שצורפה לדיווח המקורי של @kobeissiletter",
+              "en": "Image attached to the original report by @kobeissiletter"
+            },
+            "aspectRatio": "458/680"
+          }
+        }
+      ]
+    },
+    {
+      "id": "goldman-outlook",
+      "section": "markets",
+      "isLead": false,
+      "kicker": {
+        "he": "מבט ל-2027",
+        "en": "Looking to 2027"
+      },
+      "headline": {
+        "he": "גולדמן זאקס מציב ל-S&P 500 יעד של 8,700",
+        "en": "Goldman Sachs targets 8,700 for the S&P 500"
+      },
+      "summary": {
+        "he": "לפי @DeItaone, גולדמן זאקס צופה שמדד S&P 500 יגיע ל-8,700 ב-12 החודשים הקרובים, על בסיס צמיחת רווחים צפויה של 11%. זו תחזית שוק, לא יעד מובטח.",
+        "en": "According to @DeItaone, Goldman Sachs sees the S&P 500 reaching 8,700 over the next 12 months, supported by expected earnings growth of 11%. This is a market forecast, not a guaranteed outcome."
+      },
+      "source": {
+        "name": "@DeItaone",
+        "url": "https://x.com/DeItaone/status/2121227192054985163"
+      },
+      "priority": 12
+    },
+    {
+      "id": "mossad-washington",
+      "section": "geopolitics",
+      "isLead": false,
+      "kicker": {
+        "he": "ישראל · ארה״ב · איראן",
+        "en": "Israel · US · Iran"
+      },
+      "headline": {
+        "he": "לפי Axios: ראש המוסד נפגש בוושינגטון עם ראש ה-CIA",
+        "en": "Axios report: Mossad chief meets CIA director in Washington"
+      },
+      "summary": {
+        "he": "דיווח Axios שצוטט ב-ZeroHedge אומר שראש המוסד רומן גופמן נפגש עם ראש ה-CIA ג׳ון רטקליף, על רקע לחץ ישראלי לחדש את המלחמה באיראן. הדיווח צופה גם פגישה במיאמי עם השליח סטיב ויטקוף.",
+        "en": "An Axios report carried by ZeroHedge says Mossad chief Roman Gofman is meeting CIA director John Ratcliffe amid Israeli pressure to resume the war with Iran. The report also says a Miami meeting with envoy Steve Witkoff is expected."
+      },
+      "source": {
+        "name": "@zerohedge",
+        "url": "https://x.com/zerohedge/status/2121239349660426667"
+      },
+      "priority": 13
+    },
+    {
+      "id": "iran-bahrain-claim",
+      "section": "geopolitics",
+      "isLead": false,
+      "kicker": {
+        "he": "ביטחון אזורי",
+        "en": "Regional security"
+      },
+      "headline": {
+        "he": "איראן טוענת שתקפה מכ״ם אמריקאי בבחריין",
+        "en": "Iran claims an attack on a US radar in Bahrain"
+      },
+      "summary": {
+        "he": "גלובס מדווחת כי איראן טוענת שתקפה מכ״ם אמריקאי בבחריין, לראשונה מאז ספטמבר. מדובר בטענה איראנית כפי שדווחה, ולא באימות עצמאי של התקיפה.",
+        "en": "Globes reports Iran's claim that it attacked an American radar in Bahrain for the first time since September. This is a reported Iranian claim, not independent confirmation of the attack."
+      },
+      "source": {
+        "name": "@globesnews",
+        "url": "https://x.com/globesnews/status/2121152350949638293"
+      },
+      "priority": 14
+    },
+    {
+      "id": "turkey-qatar-defense",
+      "section": "geopolitics",
+      "isLead": false,
+      "kicker": {
+        "he": "הסכמים אזוריים",
+        "en": "Regional agreements"
+      },
+      "headline": {
+        "he": "טורקיה וקטאר חתמו על הסכם הגנה הדדי",
+        "en": "Turkey and Qatar sign a mutual defense agreement"
+      },
+      "summary": {
+        "he": "לפי @FirstSquawk, לשכת נשיא טורקיה הודיעה על חתימת הסכם הגנה הדדי בין טורקיה לקטאר. פרטי ההסכם אינם מופיעים בדיווח הקצר.",
+        "en": "According to @FirstSquawk, the Turkish president's office announced a mutual defense agreement between Turkey and Qatar. The short report does not provide the agreement's detailed terms."
+      },
+      "source": {
+        "name": "@FirstSquawk",
+        "url": "https://x.com/FirstSquawk/status/2121259617846264017"
+      },
+      "priority": 15
+    },
+    {
+      "id": "iran-inspections",
+      "section": "geopolitics",
+      "isLead": false,
+      "kicker": {
+        "he": "פיקוח גרעיני",
+        "en": "Nuclear safeguards"
+      },
+      "headline": {
+        "he": "דיווח על דוח סבא״א: חוסר במידע ובגישה לאתרים באיראן",
+        "en": "IAEA report coverage points to gaps in Iran data and access"
+      },
+      "summary": {
+        "he": "לפי @FirstSquawk, דוח סבא״א מצביע על פערי מידע בנוגע לאתרי הגרעין ולחומרים באיראן, ועל גישה מוגבלת למתקנים. הדיווחים מצטטים דוח רבעוני שהועבר למדינות החברות.",
+        "en": "@FirstSquawk reports that an IAEA assessment identifies gaps in information about Iranian nuclear sites and material, alongside limited access to facilities. The reports cite a quarterly assessment circulated to member states."
+      },
+      "source": {
+        "name": "@FirstSquawk",
+        "url": "https://x.com/FirstSquawk/status/2121155639556923867"
+      },
+      "priority": 16
+    },
+    {
+      "id": "tase-close",
+      "section": "israel",
+      "isLead": false,
+      "kicker": {
+        "he": "בורסת תל אביב",
+        "en": "Tel Aviv Stock Exchange"
+      },
+      "headline": {
+        "he": "סיום אדום לשבוע ירוק: ת״א-35 איבד 0.88%",
+        "en": "A red finish to a green week: TA-35 falls 0.88%"
+      },
+      "summary": {
+        "he": "לפי עדכון @TASE_IL, ת״א-35 ירד 0.88%, ת״א-125 ירד 0.98% ות״א-90 ירד 1.39%. מניות האנרגיה המתחדשת, הקלינטק והביטוח הובילו את הירידות, בעוד סקטור הנפט והגז עלה מעט.",
+        "en": "The @TASE_IL closing update put TA-35 down 0.88%, TA-125 down 0.98% and TA-90 down 1.39%. Renewable energy, cleantech and insurance led declines, while oil and gas posted a slight gain."
+      },
+      "source": {
+        "name": "@TASE_IL",
+        "url": "https://x.com/TASE_IL/status/2121212431758250045"
+      },
+      "priority": 17
+    },
+    {
+      "id": "arkia-workers",
+      "section": "israel",
+      "isLead": false,
+      "kicker": {
+        "he": "תעופה ועסקים",
+        "en": "Aviation & business"
+      },
+      "headline": {
+        "he": "בעסקת ארקיע, תאגיד העובדים מחפש משקיע חלופי",
+        "en": "Arkia employee corporation looks for an alternative investor"
+      },
+      "summary": {
+        "he": "לפי TheMarker, תאגיד העובדים בארקיע מחפש משקיע חלופי לעסקת השליטה, עם דגש על משקיע שיתמוך בעובדים. הדיווח מתאר ניסיון להשפיע על העסקה, לא הסכם חדש שהושלם.",
+        "en": "TheMarker reports that Arkia's employee corporation is seeking an alternative investor for the control transaction, emphasizing support for employees. This is an effort to influence the deal, not a newly completed agreement."
+      },
+      "source": {
+        "name": "@TheMarker",
+        "url": "https://x.com/TheMarker/status/2121256842684727451"
+      },
+      "priority": 18
+    },
+    {
+      "id": "nvidia-israel-growth",
+      "section": "israel",
+      "isLead": false,
+      "kicker": {
+        "he": "טכנולוגיה וכלכלה",
+        "en": "Technology & economy"
+      },
+      "headline": {
+        "he": "התלות ב-Nvidia נכנסת גם לתחזיות הצמיחה בישראל",
+        "en": "Israel's growth forecasts put Nvidia dependence in focus"
+      },
+      "summary": {
+        "he": "כלכליסט מדווחת כי Nvidia אחראית לחלק משמעותי מהצמיחה ומהכנסות המס בישראל, וכי בנק ישראל כבר מבחין בין תרחישי צמיחה עם פעילות החברה ובלעדיה. הדיווח ממחיש את רגישות המשק לפעילותה של חברה גלובלית אחת.",
+        "en": "Calcalist reports that Nvidia accounts for a significant share of Israel's growth and tax revenue, and that the Bank of Israel distinguishes between scenarios with and without its operations. The report points to the economy's sensitivity to a single global company."
+      },
+      "source": {
+        "name": "@calcalist",
+        "url": "https://x.com/calcalist/status/2121252997284167922"
+      },
+      "priority": 19
+    },
+    {
+      "id": "israeli-nvidia-investors",
+      "section": "israel",
+      "isLead": false,
+      "kicker": {
+        "he": "משקיעים מקומיים",
+        "en": "Local investors"
+      },
+      "headline": {
+        "he": "גלובס: זרם חריג של משקיעים ישראלים למניית Nvidia",
+        "en": "Globes reports unusual Israeli buying of Nvidia shares"
+      },
+      "summary": {
+        "he": "גלובס מתארת כניסה חריגה של משקיעים ישראלים למניית Nvidia בימים האחרונים. הכותרת אינה מספקת פירוט כמותי, ולכן לא מוצגים כאן היקף רכישות או מספר משקיעים שלא אומתו.",
+        "en": "Globes describes unusually strong Israeli investor interest in Nvidia shares in recent days. The headline does not provide a verified numerical breakdown, so no purchase volume or investor count is added here."
+      },
+      "source": {
+        "name": "@globesnews",
+        "url": "https://x.com/globesnews/status/2121161573330763832"
+      },
+      "priority": 20
+    }
+  ]
+}

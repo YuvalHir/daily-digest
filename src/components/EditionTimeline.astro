@@ -1,0 +1,5 @@
+---
+import {ui} from '../i18n/ui';import {editionHref,localTime} from '../lib/digest';
+const {dayIndex,edition,locale}=Astro.props;const t=ui[locale as 'he'|'en'];
+---
+<nav class="edition-timeline" aria-label={t.edition}><span class="timeline-label">{t.edition}<bdi> {String(edition.editionNumber).padStart(3,'0')}</bdi></span><div class="timeline-scroll">{dayIndex.editions.map(ed=><a class:list={['timeline-item',{active:ed.slug===edition.editionSlug}]} href={editionHref(locale,edition.date,ed.slug)} aria-current={ed.slug===edition.editionSlug?'page':undefined}><bdi dir="ltr">{localTime(ed.publishedAt)}</bdi><span>{t.editions[ed.editionType]}</span>{ed.slug===dayIndex.latestEditionSlug&&<small><i></i>{t.latest}</small>}</a>)}</div></nav>

@@ -1,0 +1,4 @@
+---
+import {ui} from '../i18n/ui';const {locale,items}=Astro.props;const t=ui[locale as 'he'|'en'];
+---
+<nav class="section-nav" aria-label={t.contents}><a href="#top" class="nav-all">{t.all}</a>{Object.entries(t.sections).map(([key,label])=>{const count=items.filter(i=>i.section===key).length;return count>0&&<a href={'#'+key}>{label}<sup>{count}</sup></a>})}</nav>

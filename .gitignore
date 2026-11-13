@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+.wrangler/
+.env*
+!.env.example
+public/data/index.json
+playwright-report/
+test-results/

@@ -1,0 +1,7 @@
+---
+import type {SparklineSeries} from '../types/digest';
+const {series,positive=true,label='Price history'}=Astro.props as {series:SparklineSeries,positive?:boolean,label?:string};
+const min=Math.min(...series.points),max=Math.max(...series.points),range=max-min||1;
+const points=series.points.map((n,i)=>`${4+i/(series.points.length-1)*152},${44-(n-min)/range*36}`).join(' ');
+---
+<svg class:list={['sparkline',positive?'positive':'negative']} viewBox="0 0 160 52" dir="ltr" role="img" aria-label={`${label} · ${series.timeframe}`}><title>{label} · {series.timeframe}</title><path d="M4 46H156" stroke="currentColor" opacity=".13"/><polyline points={points} fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>

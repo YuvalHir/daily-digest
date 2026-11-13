@@ -1,0 +1,10 @@
+---
+const {locale}=Astro.props;
+const path=Astro.url.pathname.replace(/\/$/,'');
+const href=locale==='he'?'/en'+(path||'')+'/':(path.replace(/^\/en(?=\/|$)/,'')||'')+'/';
+const target=locale==='he'?'en':'he';
+---
+<a class="language-toggle" href={href} lang={target} hreflang={target} aria-label={target==='en'?'Read in English':'קריאה בעברית'} data-locale={target}>{target==='en'?'EN':'עב'}<span aria-hidden="true"> ↗</span></a>
+<script>
+ document.querySelectorAll('[data-locale]').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('digest_locale',a.getAttribute('data-locale')!)}catch{}}));
+</script>
