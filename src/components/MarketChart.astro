@@ -72,9 +72,7 @@ const ranges = he
     ))}
   </div>
   <p class="native-main-range" data-main-range>
-    {he
-      ? 'יום המסחר האחרון · נרות 5 דקות'
-      : 'Latest trading day · 5-minute bars'}
+    {he ? 'יום המסחר האחרון' : 'Latest trading day'}
   </p>
   <div class="native-main-plot" data-main-plot>
     <svg
@@ -112,10 +110,12 @@ const ranges = he
   }
   .native-main-head > div {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     gap: 18px;
   }
   .native-main-head bdi {
+    flex-basis: 100%;
     color: var(--muted);
     font-size: 14px;
   }
@@ -233,6 +233,7 @@ const ranges = he
     .querySelectorAll<HTMLElement>('[data-market-desk]')
     .forEach((desk) => {
       const he = desk.dataset.lang === 'he';
+      let lastKey = '';
       let symbol = 'NASDAQ:NVDA',
         range = '1d',
         version = 0,
@@ -251,6 +252,7 @@ const ranges = he
           const q = await quoteData(symbol, range);
           if (current !== version) return;
           last = q;
+          lastKey = symbol + range;
           svg.replaceChildren();
           const ns = 'http://www.w3.org/2000/svg',
             min = Math.min(...q.points),
@@ -273,7 +275,7 @@ const ranges = he
             label.setAttribute('y', String(y + 14));
             label.setAttribute('text-anchor', 'end');
             label.setAttribute('fill', 'var(--muted)');
-            label.setAttribute('font-size', '10');
+            label.setAttribute('font-size', innerWidth < 480 ? '24' : '17');
             label.textContent = (max - (i / 3) * span).toFixed(2);
             svg.append(label);
           }
@@ -323,11 +325,7 @@ const ranges = he
           status.textContent = he
             ? 'הנתונים אינם זמינים כרגע'
             : 'Market data is currently unavailable';
-          if (
-            last &&
-            last.range === range &&
-            last.symbol === symbol.split(':')[1]
-          ) {
+          if (last && lastKey === symbol + range) {
             desk.dataset.stale = 'true';
             status.textContent = he
               ? 'העדכון נכשל. מוצג הציטוט האחרון'
@@ -335,6 +333,15 @@ const ranges = he
           } else {
             svg.replaceChildren();
             find('[data-main-price]').textContent = '--';
+            [
+              '[data-main-change]',
+              '[data-main-start]',
+              '[data-main-end]',
+              '[data-main-stamp]',
+            ].forEach((x) => (find(x).textContent = ''));
+            find('[data-main-range]').textContent = he
+              ? 'אין נתונים לטווח המבוקש'
+              : 'No data for the requested range';
             tip.hidden = true;
             cross.hidden = true;
           }

@@ -63,6 +63,7 @@ export interface DigestItem {
   marketSymbols?: Array<
     'NASDAQ:NVDA' | 'NASDAQ:MSFT' | 'NASDAQ:AMD' | 'BITSTAMP:BTCUSD'
   >;
+  marketCharts?: { symbol: string; range: '1h' | '5h' | '1d' | '1mo' | '1y' }[];
   socialPost?: { id: string; url: string };
   tweets?: never[];
   priority: number;

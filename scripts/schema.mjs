@@ -54,6 +54,10 @@ const Source = z
     tag: LocalizedText.optional(),
   })
   .strict();
+const marketKey = z.union([
+  z.enum(['NASDAQ:NVDA', 'NASDAQ:MSFT', 'NASDAQ:AMD', 'BITSTAMP:BTCUSD']),
+  z.string().regex(/^[A-Z0-9^][A-Z0-9.^=-]{0,19}$/),
+]);
 export const DigestItem = z
   .object({
     id: z.string().regex(/^[a-z0-9-]+$/),
@@ -77,6 +81,17 @@ export const DigestItem = z
     marketSymbols: z
       .array(
         z.enum(['NASDAQ:NVDA', 'NASDAQ:MSFT', 'NASDAQ:AMD', 'BITSTAMP:BTCUSD']),
+      )
+      .max(4)
+      .optional(),
+    marketCharts: z
+      .array(
+        z
+          .object({
+            symbol: marketKey,
+            range: z.enum(['1h', '5h', '1d', '1mo', '1y']),
+          })
+          .strict(),
       )
       .max(4)
       .optional(),

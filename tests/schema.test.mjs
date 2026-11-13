@@ -177,3 +177,21 @@ test('remove-post removes all editions and build prevents reintroduction', async
     await rm(root, { recursive: true, force: true });
   }
 });
+
+test('market charts have explicit per-chart ranges and safe source symbols', () => {
+  const d = fixture();
+  d.items[0].marketCharts = [
+    { symbol: 'NASDAQ:MSFT', range: '1h' },
+    { symbol: 'BTC-USD', range: '1y' },
+    { symbol: 'TSLA', range: '1mo' },
+  ];
+  assert.equal(DigestEdition.safeParse(d).success, true);
+  for (const bad of [
+    { symbol: 'MSFT', range: 'guess' },
+    { symbol: 'https://example.com/private', range: '1d' },
+    { symbol: 'MSFT' },
+  ]) {
+    d.items[0].marketCharts = [bad];
+    assert.equal(DigestEdition.safeParse(d).success, false);
+  }
+});

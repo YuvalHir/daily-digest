@@ -76,15 +76,7 @@ export function rangeText(q: Quote, he: boolean) {
         '1mo': 'Last month',
         '1y': 'Last year',
       };
-  const interval =
-    q.interval === '1d'
-      ? he
-        ? 'נרות יומיים'
-        : 'Daily bars'
-      : he
-        ? 'נרות 5 דקות'
-        : '5-minute bars';
-  return `${names[q.range]} · ${interval}`;
+  return names[q.range];
 }
 export function sparkPath(q: Quote, width: number, height: number, pad = 5) {
   const min = Math.min(...q.points),
@@ -96,4 +88,32 @@ export function sparkPath(q: Quote, width: number, height: number, pad = 5) {
         `${i ? 'L' : 'M'}${pad + (i / (q.points.length - 1)) * (width - 2 * pad)},${height - pad - ((v - min) / span) * (height - 2 * pad)}`,
     )
     .join(' ');
+}
+
+export function quoteStamp(q: Quote, he: boolean) {
+  const sameDay = new Date(q.asOf).toDateString() === new Date().toDateString();
+  const time = localTime(q.asOf, !sameDay);
+  return {
+    prefix: he ? 'ייתכן עיכוב · עודכן ב-' : 'May be delayed · Updated ',
+    time,
+  };
+}
+export function shortRange(q: Quote, he: boolean) {
+  return (
+    he
+      ? {
+          '1h': 'שעה',
+          '5h': 'עד 5 שעות',
+          '1d': 'יום מסחר',
+          '1mo': 'חודש',
+          '1y': 'שנה',
+        }
+      : {
+          '1h': '1 hour',
+          '5h': 'Up to 5 hours',
+          '1d': 'Trading day',
+          '1mo': '1 month',
+          '1y': '1 year',
+        }
+  )[q.range as '1h'];
 }

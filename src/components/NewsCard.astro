@@ -6,6 +6,10 @@ import { ui } from '../i18n/ui';
 const { item, locale, index = 1, lead = false } = Astro.props;
 const t = ui[locale as 'he' | 'en'];
 const Heading = lead ? 'h1' : 'h3';
+const marketCharts =
+  item.marketCharts ??
+  item.marketSymbols?.map((symbol) => ({ symbol, range: '1d' })) ??
+  [];
 ---
 
 <article class:list={['news-card', { 'lead-card': lead }]} id={item.id}>
@@ -57,10 +61,10 @@ const Heading = lead ? 'h1' : 'h3';
     </div>
   )}
   {item.socialPost && <SocialPost post={item.socialPost} locale={locale} />}
-  {item.marketSymbols?.length > 0 && (
+  {marketCharts.length > 0 && (
     <div class="mini-market-grid">
-      {item.marketSymbols.map((symbol) => (
-        <NativeQuote symbol={symbol} locale={locale} />
+      {marketCharts.map(({ symbol, range }) => (
+        <NativeQuote symbol={symbol} range={range} locale={locale} />
       ))}
     </div>
   )}

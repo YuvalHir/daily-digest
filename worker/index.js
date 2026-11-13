@@ -1,7 +1,6 @@
 import createYahooFinance from 'yahoo-finance2/createYahooFinance';
 import chart from 'yahoo-finance2/modules/chart';
 const YahooFinance = createYahooFinance({ modules: { chart } });
-const yahoo = new YahooFinance({ suppressNotices: ['yahooSurvey'] });
 const assets = {
   'NASDAQ:NVDA': ['NVDA', 'Nvidia'],
   'NASDAQ:MSFT': ['MSFT', 'Microsoft'],
@@ -11,15 +10,13 @@ const assets = {
 const ranges = new Set(['1h', '5h', '1d', '1mo', '1y']);
 // Opportunistic in-memory request sharing only. No KV, database, files or price history.
 const hot = new Map();
-const inFlight = new Map();
-async function collect(key, range) {
+async function collect(key, range, yahoo) {
   const cacheKey = key + range,
     now = Date.now(),
     old = hot.get(cacheKey);
   if (old && old.expires > now) return old.value;
-  if (inFlight.has(cacheKey)) return inFlight.get(cacheKey);
   const pending = (async () => {
-    const [symbol, name] = assets[key];
+    const [symbol, presetName] = assets[key] || [key, key];
     const start = new Date(now);
     if (range === '1y') start.setFullYear(start.getFullYear() - 1);
     else if (range === '1mo') start.setMonth(start.getMonth() - 1);
@@ -31,6 +28,12 @@ async function collect(key, range) {
       includePrePost: false,
     });
     const meta = result.meta;
+    if (meta.symbol?.toUpperCase() !== symbol.toUpperCase())
+      throw Error('Source symbol mismatch');
+    const name =
+      presetName === symbol
+        ? meta.shortName || meta.longName || symbol
+        : presetName;
     let bars = result.quotes
       .filter((b) => Number.isFinite(b.close) && b.date instanceof Date)
       .map((b) => ({ time: b.date.toISOString(), value: b.close }));
@@ -51,15 +54,13 @@ async function collect(key, range) {
     }
     if (bars.length < 2 || !Number.isFinite(meta.regularMarketPrice))
       throw Error('Insufficient source data');
-    const prior = meta.previousClose ?? meta.chartPreviousClose;
     const value = {
       symbol,
       name,
       price: meta.regularMarketPrice,
       currency: meta.currency,
-      changePercent: Number.isFinite(prior)
-        ? (meta.regularMarketPrice / prior - 1) * 100
-        : 0,
+      changePercent: (bars.at(-1).value / bars[0].value - 1) * 100,
+      changeBasis: 'chartRange',
       asOf: meta.regularMarketTime.toISOString(),
       sourceName: 'Yahoo Finance · yahoo-finance2',
       sourceUrl: `https://finance.yahoo.com/quote/${symbol}/`,
@@ -70,10 +71,10 @@ async function collect(key, range) {
       seriesStart: bars[0].time,
       seriesAsOf: bars.at(-1).time,
     };
+    if (hot.size >= 64) hot.delete(hot.keys().next().value);
     hot.set(cacheKey, { value, expires: Date.now() + 60000 });
     return value;
-  })().finally(() => inFlight.delete(cacheKey));
-  inFlight.set(cacheKey, pending);
+  })();
   return pending;
 }
 export default {
@@ -82,19 +83,27 @@ export default {
     if (url.pathname !== '/api/market') return env.ASSETS.fetch(request);
     if (request.method !== 'GET')
       return new Response('Method not allowed', { status: 405 });
+    for (const [key, entry] of hot)
+      if (entry.expires <= Date.now()) hot.delete(key);
     const range = url.searchParams.get('range') || '1d',
       symbol = url.searchParams.get('symbol');
-    if (!ranges.has(range) || (symbol && !assets[symbol]))
+    if (
+      !ranges.has(range) ||
+      (symbol &&
+        !assets[symbol] &&
+        !/^[A-Z0-9^][A-Z0-9.^=-]{0,19}$/.test(symbol))
+    )
       return Response.json(
         { error: 'Unknown asset or range' },
         { status: 400 },
       );
     const selected = symbol ? [symbol] : Object.keys(assets);
     const quotes = {};
+    const yahoo = new YahooFinance({ suppressNotices: ['yahooSurvey'] });
     await Promise.all(
       selected.map(async (key) => {
         try {
-          quotes[key] = await collect(key, range);
+          quotes[key] = await collect(key, range, yahoo);
         } catch {
           quotes[key] = { unavailable: true };
         }

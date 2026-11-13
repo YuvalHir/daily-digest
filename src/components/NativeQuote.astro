@@ -1,5 +1,5 @@
 ---
-const { symbol, locale, size = 'compact' } = Astro.props;
+const { symbol, locale, size = 'compact', range = '1d' } = Astro.props;
 const he = locale === 'he';
 ---
 
@@ -8,6 +8,7 @@ const he = locale === 'he';
   data-native-quote
   data-symbol={symbol}
   data-lang={locale}
+  data-range={range}
 >
   <p class="native-empty">{he ? 'טוען נתוני שוק…' : 'Loading market data…'}</p>
 </div>
@@ -125,6 +126,8 @@ const he = locale === 'he';
     localTime,
     rangeText,
     sparkPath,
+    quoteStamp,
+    shortRange,
   } from '../lib/market-client';
   const roots = [
     ...document.querySelectorAll<HTMLElement>('[data-native-quote]'),
@@ -134,7 +137,7 @@ const he = locale === 'he';
       roots.map(async (root) => {
         const he = root.dataset.lang === 'he';
         try {
-          const q = await quoteData(root.dataset.symbol!);
+          const q = await quoteData(root.dataset.symbol!, root.dataset.range);
           const scope = [...root.attributes].find((a) =>
             a.name.startsWith('data-astro-cid-'),
           )?.name;
@@ -185,33 +188,33 @@ const he = locale === 'he';
                 }),
             ),
           );
+          values
+            .querySelector('.native-change')
+            ?.setAttribute(
+              'aria-label',
+              (he ? 'שינוי בטווח הגרף: ' : 'Change over chart range: ') +
+                q.changePercent.toFixed(2) +
+                '%',
+            );
           body.append(identity, values);
           root.append(body);
-          const range = el(
-            'div',
-            'native-provenance',
-            rangeText(q, he) +
-              ' · ' +
-              localTime(q.seriesStart) +
-              ' - ' +
-              localTime(q.seriesAsOf, false),
+          const stamp = el('div', 'native-provenance');
+          stamp.dir = he ? 'rtl' : 'ltr';
+          const timing = quoteStamp(q, he);
+          stamp.append(
+            document.createTextNode(shortRange(q, he) + ' · ' + timing.prefix),
           );
-          range.dir = 'auto';
-          root.append(range);
-          const stamp = el(
-            'div',
-            'native-provenance',
-            (he ? 'ייתכן עיכוב' : 'May be delayed') + ' · ' + localTime(q.asOf),
-          );
-          stamp.dir = 'auto';
+          const time = el('bdi', '', timing.time);
+          time.dir = 'ltr';
+          stamp.append(time);
           root.append(stamp);
           root.dataset.asOf = q.asOf;
           root.dataset.stale = String(
             Date.now() - Date.parse(q.asOf) > 1800000,
           );
           root.title = he
-            ? 'אחוז השינוי במחיר הוא לעומת הסגירה הקודמת'
-            : 'Price change is versus the previous close';
+            ? 'אחוז השינוי הוא בטווח הגרף; המחיר הוא הציטוט האחרון'
+            : 'Percent change is for the chart range; price is the latest quote';
         } catch {
           if (!root.dataset.asOf) {
             root.textContent = he
@@ -227,6 +230,17 @@ const he = locale === 'he';
       }),
     );
   }
+  setInterval(
+    () =>
+      roots.forEach((root) => {
+        if (
+          root.dataset.asOf &&
+          Date.now() - Date.parse(root.dataset.asOf) > 1800000
+        )
+          root.dataset.stale = 'true';
+      }),
+    60000,
+  );
   refresh();
   setInterval(() => {
     if (!document.hidden) refresh();
