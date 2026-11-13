@@ -71,3 +71,9 @@ Official widget documentation:
 - https://docs.x.com/x-for-websites/javascript-api/guides/set-up-x-for-websites
 - https://docs.x.com/x-for-websites/embedded-posts/guides/embedded-post-javascript-factory-function
 - https://docs.x.com/x-for-websites/embedded-posts/guides/embedded-tweet-parameter-reference
+
+## Inline market quotes
+
+Relevant stories use lazy-loaded official Mini Chart widgets, not downloaded price arrays. The widget maintains its own data connection while displayed; the app does not poll the provider or cache price data. Quotes and one-month charts are separate from historical figures written into a report. Equities are delayed per provider, while Bitstamp is a real-time feed with no promise of zero latency. The Mini Chart does not expose a verified last-trade timestamp to the host, so the UI says that the quote time is not supplied. It never substitutes browser load time for market measurement time. If an exact provider quote timestamp is required, this widget route does not meet that requirement.
+
+Yahoo/yfinance and other repository wrappers were reviewed but are not used as public market-data feeds. A code license does not grant rights to redistribute the upstream market data. No new account, paid plan or hidden data scraping is part of this implementation.

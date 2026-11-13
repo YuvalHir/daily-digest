@@ -1,5 +1,6 @@
 ---
 import SocialPost from './SocialPost.astro';
+import MiniMarketChart from './MiniMarketChart.astro';
 import Sparkline from './Sparkline.astro';
 import { ui } from '../i18n/ui';
 const { item, locale, index = 1, lead = false } = Astro.props;
@@ -57,12 +58,9 @@ const Heading = lead ? 'h1' : 'h3';
   )}
   {item.socialPost && <SocialPost post={item.socialPost} locale={locale} />}
   {item.marketSymbols?.length > 0 && (
-    <div class="related-charts">
+    <div class="mini-market-grid">
       {item.marketSymbols.map((symbol) => (
-        <a href="#chart-title" data-open-chart={symbol}>
-          <bdi>{symbol.split(':')[1]}</bdi>
-          <span>{locale === 'he' ? 'לגרף' : 'Chart'}</span>
-        </a>
+        <MiniMarketChart symbol={symbol} locale={locale} />
       ))}
     </div>
   )}
