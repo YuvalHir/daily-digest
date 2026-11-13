@@ -1694,3 +1694,14 @@ html[lang='en'] .lead-card h1 {
     line-height: 1.6;
   }
 }
+@media (max-width: 750px) {
+  html[lang='en'] .masthead-title {
+    flex-wrap: wrap;
+  }
+  html[lang='en'] .masthead-caption {
+    flex-basis: 100%;
+    max-width: none;
+    width: 100%;
+    text-align: start;
+  }
+}
