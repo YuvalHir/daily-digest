@@ -1,0 +1,1115 @@
+{
+  "schemaVersion": "2.0",
+  "date": "2026-11-17",
+  "editionSlug": "0012-close",
+  "editionType": "close",
+  "editionNumber": 5,
+  "publishedAt": "2026-11-17T00:12:09+02:00",
+  "editorialLead": {
+    "he": "אנבידיה בשפל של 52 שבועות ערב הדוחות: הדירקטוריון לא שוקל החזרת הואנג",
+    "en": "Nvidia at a 52-week low on earnings eve: the board is not weighing a Huang return"
+  },
+  "topSummary": {
+    "he": "וול סטריט נסגרה בירידות חדות: אנבידיה צנחה לשפל של 52 שבועות ערב הדוחות, ומדד השבבים איבד מעל 5%; לפי CNBC, הדירקטוריון אינו שוקל להחזיר את ג'נסן הואנג. ובמפרץ: איראן מדווחת על מכלית רביעית שפגעה במוקש במצר הורמוז תוך 24 שעות.",
+    "en": "Wall Street closed sharply lower: Nvidia sank to a 52-week low on the eve of earnings and chip stocks lost over 5%; the board is not considering bringing Jensen Huang back, per CNBC. In the Gulf, Iran reports a fourth tanker hitting a mine in the Strait of Hormuz within 24 hours."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "NASDAQ:NVDA",
+    "^IXIC",
+    "MU",
+    "CVX"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "NASDAQ:NVDA",
+      "range": "1d",
+      "label": {
+        "he": "אנבידיה",
+        "en": "Nvidia"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "nvidia-close",
+      "section": "tech",
+      "isLead": true,
+      "priority": 1,
+      "kicker": {
+        "he": "אנבידיה · ערב הדוחות",
+        "en": "Nvidia · earnings eve"
+      },
+      "headline": {
+        "he": "אנבידיה נסגרת בשפל של 52 שבועות - {{move:-4.12%}} ל-156.14 דולר; הדירקטוריון לא שוקל החזרת הואנג",
+        "en": "Nvidia closes at a 52-week low - {{move:-4.12%}} to $156.14; the board is not weighing a Huang return"
+      },
+      "summary": {
+        "he": "מניית אנבידיה נפלה {{move:-4.12%}} ל-156.14 דולר בסגירה - שפל של 52 שבועות - והייתה שוב המשקולת הגדולה ביותר על השוק, לפי AP ו-Investing.com. דירקטוריון החברה אינו שוקל להחזיר את ג'נסן הואנג לתפקיד המנכ\"ל ומתמקד בחקירת ביטחון לאומי הקשורה אליו, לפי מקור של CNBC דרך @wallstengine ב-{{time:board-wse}} ו-FirstSquawk ב-{{time:board-cnbc}} - לאחר שמוקדם יותר ב-16 בנובמבר נשיא ארה\"ב דונלד טראמפ אמר שלא יתנגד להחזרתו.",
+        "en": "Nvidia shares fell {{move:-4.12%}} to close at $156.14 - a 52-week low - and were again the market's biggest drag, per AP and Investing.com. The board is not considering bringing Jensen Huang back as CEO and is focused on a national security investigation related to him, per a CNBC source via @wallstengine at {{time:board-wse}} and FirstSquawk at {{time:board-cnbc}} - after President Trump earlier on November 16 said he would not object to his return."
+      },
+      "bullets": {
+        "he": [
+          "אנבידיה תפרסם ב-17 בנובמבר, אחרי הסגירה, את הדוחות הראשונים מאז התפטרות הואנג; המנכ\"לית הזמנית Colette Kress תוביל את שיחת הדוחות, וההכנסות צפויות להסתכם בכ-109 מיליארד דולר - עלייה של כ-90% לעומת השנה שעברה, לפי unusual_whales ב-{{time:earnings}}.",
+          "אנבידיה איבדה מעל 2 טריליון דולר משוויה מאז השיא ב-6 באוקטובר - הירידה הגדולה ביותר בהיסטוריה משיא לשפל - וירדה ממקום ראשון למקום שלישי בדירוג החברות הגדולות בעולם, לפי charliebilello ב-{{time:peak-loss}}.",
+          "מנכ\"ל OpenAI סם אלטמן אמר באירוע של Semafor ש״קשה לדמיין את מהפכת הבינה המלאכותית בלי ג'נסן״, לפי wallstengine ב-{{time:altman}}; סגן הנשיא ג'יי די ואנס אמר שארה\"ב אינה יכולה לאשר אם אליס הואנג קשורה למודיעין הסיני, לפי @DeItaone ב-{{time:vance}}.",
+          "לפי דיווח 13F, אנבידיה הגדילה ברבעון השלישי את אחזקתה ב-SpaceX ב-6.3% ל-130.5 מיליון מניות וקיצצה את אחזקתה באינטל ב-25%, לפי FirstSquawk ב-{{time:nvda-13f}}."
+        ],
+        "en": [
+          "Nvidia reports on November 17, after the close, its first results since Huang's resignation; interim CEO Colette Kress will lead the call, and revenue is expected at about $109 billion - up roughly 90% from a year earlier, per unusual_whales at {{time:earnings}}.",
+          "Nvidia has lost over $2 trillion in market value since its October 6 peak - the biggest peak-to-trough decline in history - falling from the world's most valuable company to number three, per charliebilello at {{time:peak-loss}}.",
+          "OpenAI CEO Sam Altman told a Semafor event it is 'hard to imagine the AI revolution without Jensen', per wallstengine at {{time:altman}}; Vice President JD Vance said the US cannot confirm whether Alice Huang has ties to Chinese intelligence, per @DeItaone at {{time:vance}}.",
+          "Per its 13F filing, Nvidia raised its SpaceX stake by 6.3% to 130.5 million shares in the third quarter and cut its Intel stake by 25%, per FirstSquawk at {{time:nvda-13f}}."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:board-wse}}",
+        "url": "https://x.com/wallstengine/status/2122384844080685217"
+      },
+      "secondarySources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-141-5030993"
+        },
+        {
+          "name": "@FirstSquawk · {{time:board-cnbc}}",
+          "url": "https://x.com/FirstSquawk/status/2122387596508885391"
+        },
+        {
+          "name": "@charliebilello · {{time:peak-loss}}",
+          "url": "https://x.com/charliebilello/status/2122402234059157665"
+        },
+        {
+          "name": "@unusual_whales · {{time:earnings}}",
+          "url": "https://x.com/unusual_whales/status/2122318015425393079"
+        },
+        {
+          "name": "@wallstengine · {{time:altman}}",
+          "url": "https://x.com/wallstengine/status/2122382460923326645"
+        },
+        {
+          "name": "@DeItaone · {{time:vance}}",
+          "url": "https://x.com/DeItaone/status/2122396462428655748"
+        },
+        {
+          "name": "@FirstSquawk · {{time:nvda-13f}}",
+          "url": "https://x.com/FirstSquawk/status/2122446229452083275"
+        }
+      ],
+      "socialPost": {
+        "id": "2122384844080685217",
+        "url": "https://x.com/wallstengine/status/2122384844080685217"
+      },
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "earnings": {
+          "at": "2026-11-16T13:17:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "board-wse": {
+          "at": "2026-11-16T17:42:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "board-cnbc": {
+          "at": "2026-11-16T17:53:29+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "altman": {
+          "at": "2026-11-16T17:33:05+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "vance": {
+          "at": "2026-11-16T18:28:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "peak-loss": {
+          "at": "2026-11-16T18:51:39+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nvda-13f": {
+          "at": "2026-11-16T21:46:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "wall-street-close",
+      "section": "markets",
+      "priority": 2,
+      "kicker": {
+        "he": "וול סטריט · סגירה",
+        "en": "Wall Street · close"
+      },
+      "headline": {
+        "he": "סגירה שלילית חדה: S&P 500 ירד {{move:-1.9%}} ביום שלישי רצוף, הנאסד\"ק {{move:-2.5%}}, מדד השבבים {{move:-5.3%}}",
+        "en": "A sharply lower close: the S&P 500 fell {{move:-1.9%}} for a third straight day, the Nasdaq {{move:-2.5%}}, chip stocks {{move:-5.3%}}"
+      },
+      "summary": {
+        "he": "מדד S&P 500 ירד {{move:-1.9%}} ורשם שלושה ימי ירידות רצופים, ומדד הנאסד\"ק (Composite) ירד {{move:-2.5%}}, לפי AP; מדד דאו ג'ונס ירד {{move:-1.41%}}, לפי Investing.com. מדד הנאסד\"ק 100 ירד {{move:-2.7%}} ומניות השבבים צללו {{move:-5.3%}} - כל 14 מניות השבבים ב-S&P 500 ירדו - על רקע גיבוש פוזיציות לקראת הדוחות של אנבידיה וההנפקה הצפויה של אנתרופיק, לפי FirstSquawk ב-{{time:close-wrap}} ו-unusual_whales ב-{{time:chips-red}}. מדד התנודתיות VIX זינק ב-{{move:+18.55%}} ל-22.88, לפי Investing.com.",
+        "en": "The S&P 500 fell {{move:-1.9%}} for a third straight loss and the Nasdaq Composite fell {{move:-2.5%}}, per AP; the Dow Jones fell {{move:-1.41%}}, per Investing.com. The Nasdaq 100 fell {{move:-2.7%}} and chipmakers slumped {{move:-5.3%}} - all 14 S&P 500 chip stocks down - as investors positioned ahead of Nvidia's earnings and Anthropic's expected market debut, per FirstSquawk at {{time:close-wrap}} and unusual_whales at {{time:chips-red}}. The VIX jumped {{move:+18.55%}} to 22.88, per Investing.com."
+      },
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7"
+      },
+      "secondarySources": [
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-141-5030993"
+        },
+        {
+          "name": "@FirstSquawk · {{time:close-wrap}}",
+          "url": "https://x.com/FirstSquawk/status/2122443405154529515"
+        },
+        {
+          "name": "@unusual_whales · {{time:chips-red}}",
+          "url": "https://x.com/unusual_whales/status/2122374502940295290"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "chips-red": {
+          "at": "2026-11-16T17:01:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "close-wrap": {
+          "at": "2026-11-16T21:35:15+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "chip-selloff",
+      "section": "tech",
+      "priority": 3,
+      "kicker": {
+        "he": "שבבים · מכירה",
+        "en": "Chips · selloff"
+      },
+      "headline": {
+        "he": "מיקרון צללה {{move:-7.62%}}, אינטל {{move:-7.07%}}; גולדמן: אמון הלקוחות בסיפור ה-AI בשפל",
+        "en": "Micron plunged {{move:-7.62%}}, Intel {{move:-7.07%}}; Goldman: client confidence in the AI story at a low"
+      },
+      "summary": {
+        "he": "מניית מיקרון צללה {{move:-7.62%}} ל-719.02 דולר, אינטל ירדה {{move:-7.07%}} ל-55.47 דולר ו-Teradyne איבדה {{move:-7.07%}}, לפי Investing.com. דסק המסחר של גולדמן זאקס מסר שהסנטימנט סביב נושא הבינה המלאכותית אצל לקוחות הבנק הוא ״כמעט השלילי ביותר שראינו מזה זמן רב״, ושהפסימיות באה לידי ביטוי בפוזיציות ובמכפילים, לפי unusual_whales ב-{{time:gs-desk}}.",
+        "en": "Micron plunged {{move:-7.62%}} to $719.02, Intel fell {{move:-7.07%}} to $55.47 and Teradyne lost {{move:-7.07%}}, per Investing.com. Goldman Sachs' trading desk said client sentiment around the AI theme is 'about as negative as we have seen in quite some time', with pessimism reflected in positioning and valuations, per unusual_whales at {{time:gs-desk}}."
+      },
+      "source": {
+        "name": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-141-5030993"
+      },
+      "secondarySources": [
+        {
+          "name": "@unusual_whales · {{time:gs-desk}}",
+          "url": "https://x.com/unusual_whales/status/2122393512666865674"
+        }
+      ],
+      "timeRefs": {
+        "gs-desk": {
+          "at": "2026-11-16T18:17:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "MU",
+          "range": "1d"
+        },
+        {
+          "symbol": "INTC",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "semianalysis-capex",
+      "section": "tech",
+      "priority": 4,
+      "kicker": {
+        "he": "תשתיות AI · תחזית",
+        "en": "AI infrastructure · forecast"
+      },
+      "headline": {
+        "he": "SemiAnalysis חותכת את תחזית ההשקעות של ענקיות הענן ב-AI ל-2027: מ-770 ל-627 מיליארד דולר",
+        "en": "SemiAnalysis cuts its 2027 AI capex forecast for hyperscalers: from $770B to $627B"
+      },
+      "summary": {
+        "he": "חברת המחקר SemiAnalysis הורידה את תחזית ההשקעות (capex) של ענקיות הענן בתשתיות בינה מלאכותית: ל-2027 התחזית ירדה מ-770 מיליארד ל-627 מיליארד דולר, ול-2028 מ-1.05 טריליון ל-758 מיליארד דולר, לפי StockMKTNewz ב-{{time:semianalysis}}.",
+        "en": "Research firm SemiAnalysis lowered its hyperscaler AI capex forecasts: for 2027, to $627 billion from $770 billion, and for 2028, to $758 billion from $1.05 trillion, per StockMKTNewz at {{time:semianalysis}}."
+      },
+      "source": {
+        "name": "@StockMKTNewz · {{time:semianalysis}}",
+        "url": "https://x.com/StockMKTNewz/status/2122357122579021969"
+      },
+      "timeRefs": {
+        "semianalysis": {
+          "at": "2026-11-16T15:52:24+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "burry-puts",
+      "section": "markets",
+      "priority": 5,
+      "kicker": {
+        "he": "מייקל בארי",
+        "en": "Michael Burry"
+      },
+      "headline": {
+        "he": "מייקל בארי הכפיל את הפוטים על הנאסד\"ק 100 וחידש את הפוטים על תעודת השבבים",
+        "en": "Michael Burry doubled his Nasdaq 100 puts and reopened puts on the semiconductor ETF"
+      },
+      "summary": {
+        "he": "המשקיע מייקל בארי, מכוכב ״המכה הגדולה״, הכפיל ביום חמישי את אופציות המכר (פוטים) שלו על מדד הנאסד\"ק 100 וחידש פוטים על תעודת השבבים VanEck SMH, שההחזקות הגדולות בה הן אנבידיה ו-TSMC; הפוטים יפקעו בתחילת 2027, לפי unusual_whales ב-{{time:burry}}.",
+        "en": "'Big Short' investor Michael Burry doubled his put options on the Nasdaq 100 on Thursday and reopened puts on the VanEck Semiconductor ETF SMH, whose top holdings are Nvidia and TSMC; the puts expire in early 2027, per unusual_whales at {{time:burry}}."
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:burry}}",
+        "url": "https://x.com/unusual_whales/status/2122378413164089440"
+      },
+      "timeRefs": {
+        "burry": {
+          "at": "2026-11-16T17:17:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "microsoft-outage-bug",
+      "section": "tech",
+      "priority": 6,
+      "kicker": {
+        "he": "מיקרוסופט · תקלה",
+        "en": "Microsoft · outage"
+      },
+      "headline": {
+        "he": "מיקרוסופט: באג שלא זוהה מאז יולי עמד מאחורי ההפסקה העולמית בשירותים בשבוע שעבר",
+        "en": "Microsoft: a bug undetected since July caused last week's worldwide service outage"
+      },
+      "summary": {
+        "he": "מיקרוסופט מסרה שבאג תוכנה שלא זוהה מאז יולי עמד מאחורי ההפסקה העולמית שפגעה בשבוע שעבר ב-Outlook, ב-Teams, ב-Copilot ובשירותים נוספים; התקלה החלה ב-11 בנובמבר, בעת ניתוב מחדש שגרתי של תעבורה, לפי @DeItaone ב-{{time:msft-bug}}.",
+        "en": "Microsoft said a software bug undetected since July triggered last week's worldwide disruption affecting Outlook, Teams, Copilot and other services; the failure began on November 11 during routine traffic rerouting, per @DeItaone at {{time:msft-bug}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:msft-bug}}",
+        "url": "https://x.com/DeItaone/status/2122417058113896834"
+      },
+      "timeRefs": {
+        "msft-bug": {
+          "at": "2026-11-16T19:50:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "bank-outages",
+      "section": "markets",
+      "priority": 7,
+      "kicker": {
+        "he": "בנקים · תקלות",
+        "en": "Banks · outages"
+      },
+      "headline": {
+        "he": "גל תקלות בבנקי ארה\"ב: ג'יי פי מורגן אישר - באג תוכנה בחומרה מקומית של צ'ייס, לא סייבר",
+        "en": "A wave of US bank outages: JPMorgan confirms - a software bug in Chase's own hardware, not cyber"
+      },
+      "summary": {
+        "he": "לקוחות של ג'יי פי מורגן צ'ייס, בנק אוף אמריקה, וולס פארגו ו-US Bank דיווחו על קפיצות בדיווחי תקלות, לפי wallstengine ב-{{time:outages}}. ג'יי פי מורגן מסר כי באג תוכנה במערכות חומרה מקומיות של צ'ייס פגע בשירותים הדיגיטליים, וכי לא מדובר באירוע סייבר, לפי wallstengine ב-{{time:chase}}; דובר הבנק אמר שההעברות ״נמשכות זמן רב יותר מהרגיל״, לפי @DeItaone ב-{{time:jpm-spox}}. עם זאת, מקור של CNBC מסר שאין באג תוכנה רחב שמשפיע על מספר בנקים, לפי @DeItaone ב-{{time:cnbc-banks}}.",
+        "en": "Customers of JPMorgan Chase, Bank of America, Wells Fargo and US Bank reported spikes in outage reports, per wallstengine at {{time:outages}}. JPMorgan said a software bug in Chase's on-premises hardware systems affected digital services and that this was not a cyber event, per wallstengine at {{time:chase}}; a spokesperson said transfers were 'taking longer than usual', per @DeItaone at {{time:jpm-spox}}. A CNBC source, however, said there is no broad software bug affecting multiple banks, per @DeItaone at {{time:cnbc-banks}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:chase}}",
+        "url": "https://x.com/wallstengine/status/2122445220625412301"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:outages}}",
+          "url": "https://x.com/wallstengine/status/2122398039545704952"
+        },
+        {
+          "name": "@DeItaone · {{time:cnbc-banks}}",
+          "url": "https://x.com/DeItaone/status/2122402171085844917"
+        },
+        {
+          "name": "@DeItaone · {{time:jpm-spox}}",
+          "url": "https://x.com/DeItaone/status/2122411863325491619"
+        }
+      ],
+      "timeRefs": {
+        "outages": {
+          "at": "2026-11-16T18:34:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "cnbc-banks": {
+          "at": "2026-11-16T18:51:24+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "jpm-spox": {
+          "at": "2026-11-16T19:29:55+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "chase": {
+          "at": "2026-11-16T21:42:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "oil-close",
+      "section": "markets",
+      "priority": 8,
+      "kicker": {
+        "he": "אנרגיה",
+        "en": "Energy"
+      },
+      "headline": {
+        "he": "הנפט ירד ביותר מ-3%: WTI נסגר ב-85.72 דולר למניל, הברנט ב-92.44 דולר",
+        "en": "Oil fell over 3%: WTI settled at $85.72 a barrel, Brent at $92.44"
+      },
+      "summary": {
+        "he": "מחיר הנפט הגולמי מסוג WTI לספקת דצמבר נסחר ב-85.72 דולר למניל בסגירה, ירידה של {{move:-3.21%}}, והברנט איבד {{move:-3.55%}} ל-92.44 דולר, לפי FirstSquawk ב-{{time:wti}} וב-{{time:brent}}. במקביל, מחירי הבנזין ירדו בכל 50 המדינות בארה\"ב, ל-3.84 דולר לגלון בממוצע ארצי, לפי unusual_whales ב-{{time:gas}}.",
+        "en": "December WTI crude traded at $85.72 a barrel at the settle, down {{move:-3.21%}}, while Brent lost {{move:-3.55%}} to $92.44, per FirstSquawk at {{time:wti}} and {{time:brent}}. Meanwhile, gasoline prices fell in all 50 US states, to a national average of $3.84 a gallon, per unusual_whales at {{time:gas}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:wti}}",
+        "url": "https://x.com/FirstSquawk/status/2122412386468696384"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:brent}}",
+          "url": "https://x.com/FirstSquawk/status/2122415002070188136"
+        },
+        {
+          "name": "@unusual_whales · {{time:gas}}",
+          "url": "https://x.com/unusual_whales/status/2122418678218342411"
+        }
+      ],
+      "timeRefs": {
+        "wti": {
+          "at": "2026-11-16T19:32:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "brent": {
+          "at": "2026-11-16T19:42:23+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "gas": {
+          "at": "2026-11-16T19:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "gold-close",
+      "section": "markets",
+      "priority": 9,
+      "kicker": {
+        "he": "זהב",
+        "en": "Gold"
+      },
+      "headline": {
+        "he": "הזהב נחלש: החוזים לדצמבר נסגרו ב-3,856.40 דולר, ירידה של {{move:-0.77%}}",
+        "en": "Gold weakens: December futures settled at $3,856.40, down {{move:-0.77%}}"
+      },
+      "summary": {
+        "he": "חוזי הזהב לספקת דצמבר נסגרו ב-3,856.40 דולר לאונקיה, ירידה של {{move:-0.77%}}, לפי Investing.com.",
+        "en": "December gold futures settled at $3,856.40 an ounce, down {{move:-0.77%}}, per Investing.com."
+      },
+      "source": {
+        "name": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-141-5030993"
+      }
+    },
+    {
+      "id": "berkshire-13f",
+      "section": "markets",
+      "priority": 10,
+      "kicker": {
+        "he": "ברקשיר · דיווח 13F",
+        "en": "Berkshire · 13F filing"
+      },
+      "headline": {
+        "he": "ברקשיר האת'וויי קיצצה את אחזקותיה בקרוגר ובבנק אוף אמריקה - ורכשה אחזקה חדשה ב-Bending Spoons",
+        "en": "Berkshire Hathaway trimmed Kroger and Bank of America - and bought a new stake in Bending Spoons"
+      },
+      "summary": {
+        "he": "לפי דיווח 13F לרבעון השלישי, ברקשיר האת'וויי של וורן באפט קיצצה את אחזקתה בקרוגר ב-10.3% ל-35.0 מיליון מניות ואת אחזקתה בבנק אוף אמריקה ב-5.7% ל-455.9 מיליון מניות, ורכשה אחזקה חדשה של 20.7 מיליון מניות ב-Bending Spoons, לפי FirstSquawk ב-{{time:berkshire}}. בניגוד למגמה, הקרן הגדילה את אחזקתה בדלתא איירליינס ב-12.4% ל-64.5 מיליון מניות ואת אחזקתה במייסיס ב-2.6% ל-37.9 מיליון מניות, לפי FirstSquawk ב-{{time:berkshire-delta}}.",
+        "en": "Per its third-quarter 13F filing, Warren Buffett's Berkshire Hathaway cut its Kroger stake by 10.3% to 35.0 million shares and its Bank of America stake by 5.7% to 455.9 million shares, and bought a new 20.7 million-share stake in Bending Spoons, per FirstSquawk at {{time:berkshire}}. Against that trend, it raised its Delta Air Lines stake by 12.4% to 64.5 million shares and its Macy's stake by 2.6% to 37.9 million shares, per FirstSquawk at {{time:berkshire-delta}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:berkshire}}",
+        "url": "https://x.com/FirstSquawk/status/2122436533940875578"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:berkshire-delta}}",
+          "url": "https://x.com/FirstSquawk/status/2122436684893839872"
+        }
+      ],
+      "timeRefs": {
+        "berkshire": {
+          "at": "2026-11-16T21:07:57+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "berkshire-delta": {
+          "at": "2026-11-16T21:08:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "druckenmiller-13f",
+      "section": "markets",
+      "priority": 11,
+      "kicker": {
+        "he": "דראקנמילר · דיווח 13F",
+        "en": "Druckenmiller · 13F filing"
+      },
+      "headline": {
+        "he": "סטן דראקנמילר מכר את כל האחזקות ב-AMD וב-Arm, קיצץ את TSMC ב-94% - ונכנס ל-Palantir ול-SpaceX",
+        "en": "Stan Druckenmiller sold out of AMD and Arm, cut TSMC by 94% - and entered Palantir and SpaceX"
+      },
+      "summary": {
+        "he": "משפחת ההשקעות של סטן דראקנמילר מכרה ברבעון השלישי את מלוא אחזקותיה ב-AMD וב-Arm, לפי unusual_whales ב-{{time:druck-exits}}. בנוסף, Duquesne קיצצה את אחזקתה ב-TSMC ב-94%, מכרה את כל האחזקה באלפבית, פתחה אחזקות חדשות ב-Palantir וב-SpaceX והגדילה את האחזקה ב-Seagate ב-180% ל-2.2 מיליון מניות, לפי wallstengine ב-{{time:druck-detail}}.",
+        "en": "Stan Druckenmiller's family office sold its entire AMD and Arm positions in the third quarter, per unusual_whales at {{time:druck-exits}}. Duquesne also cut its TSMC stake by 94%, exited Alphabet entirely, opened new positions in Palantir and SpaceX, and raised its Seagate stake by 180% to 2.2 million shares, per wallstengine at {{time:druck-detail}}."
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:druck-exits}}",
+        "url": "https://x.com/unusual_whales/status/2122430036909371802"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:druck-detail}}",
+          "url": "https://x.com/wallstengine/status/2122433501341585467"
+        }
+      ],
+      "timeRefs": {
+        "druck-exits": {
+          "at": "2026-11-16T20:42:08+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "druck-detail": {
+          "at": "2026-11-16T20:55:54+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "tiger-global-13f",
+      "section": "markets",
+      "priority": 12,
+      "kicker": {
+        "he": "טייגר גלובל · דיווח 13F",
+        "en": "Tiger Global · 13F filing"
+      },
+      "headline": {
+        "he": "טייגר גלובל הגדילה את אחזקתה באנבידיה ב-7.2% - ההחזקה הגדולה ביותר של הקרן, בשווי כ-2.7 מיליארד דולר",
+        "en": "Tiger Global raised its Nvidia stake by 7.2% - now the fund's largest holding, worth about $2.7B"
+      },
+      "summary": {
+        "he": "קרן הגידור טייגר גלובל הגדילה ברבעון השלישי את אחזקתה באנבידיה ב-7.2% ל-12.0 מיליון מניות ואת אחזקתה באינטל ב-30.4% ל-7.8 מיליון מניות, לפי FirstSquawk ב-{{time:tiger-filing}}. אנבידיה היא כעת ההחזקה הגדולה ביותר של הקרן, בשווי של כ-2.7 מיליארד דולר, לפי StockMKTNewz ב-{{time:tiger}}.",
+        "en": "Tiger Global raised its Nvidia stake by 7.2% to 12.0 million shares and its Intel stake by 30.4% to 7.8 million shares in the third quarter, per FirstSquawk at {{time:tiger-filing}}. Nvidia is now the fund's largest holding, worth about $2.7 billion, per StockMKTNewz at {{time:tiger}}."
+      },
+      "source": {
+        "name": "@StockMKTNewz · {{time:tiger}}",
+        "url": "https://x.com/StockMKTNewz/status/2122417201546174499"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:tiger-filing}}",
+          "url": "https://x.com/FirstSquawk/status/2122406841133253073"
+        }
+      ],
+      "timeRefs": {
+        "tiger-filing": {
+          "at": "2026-11-16T19:09:57+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tiger": {
+          "at": "2026-11-16T19:51:08+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "anthropic-ipo-eve",
+      "section": "tech",
+      "priority": 13,
+      "kicker": {
+        "he": "אנתרופיק · לקראת ההנפקה",
+        "en": "Anthropic · ahead of the IPO"
+      },
+      "headline": {
+        "he": "לקראת ההנפקה הצפויה של אנתרופיק: בראד גרסטנר מתכנן השקעה של 5 מיליארד דולר; הון האחים אמודיי מוערך ב-18 מיליארד דולר לכל אחד",
+        "en": "Ahead of Anthropic's expected IPO: Altimeter's Brad Gerstner plans a $5B investment; the Amodei siblings' fortunes pegged at $18B each"
+      },
+      "summary": {
+        "he": "בראד גרסטנר מ-Altimeter מתכנן להשקיע בהנפקת אנתרופיק 5 מיליארד דולר לקראת ההנפקה הצפויה - פי חמש מההתחייבות הגדולה שלו בהנפקה, לפי wallstengine ב-{{time:gerstner}} על בסיס CNBC. הון האחים דריו ודניאלה אמודיי מוערך בכ-18 מיליארד דולר לכל אחד, לפי גלובס ב-{{time:amodei}}. עובדי החברה צפויים לחלוק כ-216 מיליארד דולר בקצה העליון של טווח ההנפקה - בממוצע כ-41 מיליון דולר לעובד, לפי unusual_whales ב-{{time:windfall}}. ומדד MSCI צפוי להכיל את המניה החל מ-30 בנובמבר, בכפוף לעמידה בקריטריונים, לפי FirstSquawk ב-{{time:msci}}.",
+        "en": "Altimeter's Brad Gerstner plans to invest $5 billion in the expected Anthropic IPO - five times his largest IPO commitment, per wallstengine at {{time:gerstner}} citing CNBC. Dario and Daniela Amodei's fortunes are estimated at roughly $18 billion each, per Globes at {{time:amodei}}. Employees are set to share about $216 billion at the top of the IPO range - an average of about $41 million each, per unusual_whales at {{time:windfall}}. MSCI is expected to include the stock in its indices from November 30, subject to criteria, per FirstSquawk at {{time:msci}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:gerstner}}",
+        "url": "https://x.com/wallstengine/status/2122391497039561165"
+      },
+      "secondarySources": [
+        {
+          "name": "@globesnews · {{time:amodei}}",
+          "url": "https://x.com/globesnews/status/2122406286360821865"
+        },
+        {
+          "name": "@unusual_whales · {{time:windfall}}",
+          "url": "https://x.com/unusual_whales/status/2122413645241983422"
+        },
+        {
+          "name": "@FirstSquawk · {{time:msci}}",
+          "url": "https://x.com/FirstSquawk/status/2122439202109579647"
+        }
+      ],
+      "timeRefs": {
+        "gerstner": {
+          "at": "2026-11-16T18:08:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "amodei": {
+          "at": "2026-11-16T19:07:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "windfall": {
+          "at": "2026-11-16T19:37:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "msci": {
+          "at": "2026-11-16T21:18:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "russell-value",
+      "section": "markets",
+      "priority": 14,
+      "kicker": {
+        "he": "ערך מול צמיחה",
+        "en": "Value vs. growth"
+      },
+      "headline": {
+        "he": "מדד הערך של ראסל מוביל על מדד הצמיחה ב-27.7 נקודות אחוז מתחילת השנה - הפער הגדול מאז 2000",
+        "en": "The Russell 1000 Value index leads Growth by 27.7 percentage points year-to-date - the widest gap since 2000"
+      },
+      "summary": {
+        "he": "מדד Russell 1000 Value מוביל מתחילת 2026 על מקבילו מדד הצמיחה ב-27.7 נקודות אחוז - הפער הרחב ביותר מאז 2000 - כשהתשואה הכוללת של מדד הערך עומדת על כ-38.3% לעומת כ-10.6% בלבד במדד הצמיחה, לפי KobeissiLetter ב-{{time:value}}.",
+        "en": "The Russell 1000 Value index is leading its growth counterpart by 27.7 percentage points so far in 2026 - the widest gap since 2000 - with value's total return at about 38.3% versus roughly 10.6% for growth, per KobeissiLetter at {{time:value}}."
+      },
+      "source": {
+        "name": "@KobeissiLetter · {{time:value}}",
+        "url": "https://x.com/KobeissiLetter/status/2122356550710784495"
+      },
+      "timeRefs": {
+        "value": {
+          "at": "2026-11-16T15:50:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "fitch-outlook",
+      "section": "markets",
+      "priority": 15,
+      "kicker": {
+        "he": "פיץ' · דירוג",
+        "en": "Fitch · ratings"
+      },
+      "headline": {
+        "he": "פיץ': התחזית לחוב המדינות בצפון אמריקה מחמירה על רקע הסיכונים הפיסקליים של ארה\"ב",
+        "en": "Fitch: the North American sovereign outlook is deteriorating on US fiscal risks"
+      },
+      "summary": {
+        "he": "סוכנות הדירוג פיץ' הודיעה שהתחזית לחוב המדינות בצפון אמריקה מחמירה על רקע הסיכונים הפיסקליים של ארצות הברית, לפי LiveSquawk ב-{{time:fitch}}; הסוכנות ציינה שתנאי המימון יישארו הדוקים ויפגעו במגזרים כמו הדיור בארה\"ב, בעוד התחזית לקנדה ל-2027 נתמכת על ידי שיפור בצמיחה וצמצום הגירעונות, לפי FirstSquawk ב-{{time:fitch-detail}}.",
+        "en": "Fitch Ratings said the outlook for North American sovereign debt is deteriorating amid US fiscal risks, per LiveSquawk at {{time:fitch}}; the agency noted financing conditions will stay tight, hurting sectors such as US housing, while Canada's 2027 outlook is supported by improving growth and narrowing deficits, per FirstSquawk at {{time:fitch-detail}}."
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:fitch}}",
+        "url": "https://x.com/LiveSquawk/status/2122382146056626669"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:fitch-detail}}",
+          "url": "https://x.com/FirstSquawk/status/2122387152680128764"
+        }
+      ],
+      "timeRefs": {
+        "fitch": {
+          "at": "2026-11-16T17:31:50+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fitch-detail": {
+          "at": "2026-11-16T17:51:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "hammack-inflation",
+      "section": "markets",
+      "priority": 16,
+      "kicker": {
+        "he": "הפד · אינפלציה",
+        "en": "Fed · inflation"
+      },
+      "headline": {
+        "he": "נשיאת הפד של קליבלנד: האינפלציה הולכת בכיוון הלא נכון, הלחצים מתרחבים",
+        "en": "Cleveland Fed's Hammack: inflation is going the wrong way, pressures are broadening"
+      },
+      "summary": {
+        "he": "נשיאת הפדרל ריזרב של קליבלנד, בֵּת' האמאק, אמרה שהאינפלציה בארה\"ב ״הולכת בכיוון הלא נכון״ ושלחצי המחירים מתרחבים, לפי FirstSquawk ב-{{time:hammack}}; היא הוסיפה שהיא מעדיפה העלאות ריבית קטנות וקבועות, לפי FirstSquawk ב-{{time:hammack-hikes}}.",
+        "en": "Cleveland Fed President Beth Hammack said US inflation is 'going in the wrong direction' and that price pressures are broadening, per FirstSquawk at {{time:hammack}}; she added that she prefers steady, small rate hikes, per FirstSquawk at {{time:hammack-hikes}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:hammack}}",
+        "url": "https://x.com/FirstSquawk/status/2122408374629511241"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:hammack-hikes}}",
+          "url": "https://x.com/FirstSquawk/status/2122408503986053380"
+        }
+      ],
+      "timeRefs": {
+        "hammack": {
+          "at": "2026-11-16T19:16:03+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "hammack-hikes": {
+          "at": "2026-11-16T19:16:34+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "hormuz-tankers",
+      "section": "geopolitics",
+      "priority": 17,
+      "kicker": {
+        "he": "מצר הורמוז",
+        "en": "Strait of Hormuz"
+      },
+      "headline": {
+        "he": "איראן מדווחת על מכלית רביעית שפגעה במוקש במצר הורמוז תוך 24 שעות; דיווח בריטי על שרפה בחדר המכונות של כלי שיט נוסף",
+        "en": "Iran reports a fourth tanker hitting a mine in the Strait of Hormuz within 24 hours; a UK agency reports an engine-room fire on another vessel"
+      },
+      "summary": {
+        "he": "איראן טוענת שמכלית רביעית פגעה במוקש במצר הורמוז בתוך 24 שעות, לפי FirstSquawk ב-{{time:tanker4}} על בסיס סוכנות IRIB; צי איראן מסר שמכלית בוערת לאחר שפגעה במוקש - הכלי הרביעי שנפגע תוך 24 שעות, לפי הטלוויזיה הממלכתית האיראנית דרך FirstSquawk ב-{{time:tanker-navy}}. עוד בבוקר דווח, על פי צבא איראן דרך FirstSquawk ב-{{time:tanker-am}}, שמכלית עלתה בלהבות לאחר שפגעה במוקש ימי במזרח המצר. בנוסף, סוכנות הפעולות הימיות הבריטית UKMTO קיבלה דיווח על תקיפה כ-7 מייל ימיים צפונית לחסאב שבעומאן, שהשביתה כלי שיט וגרמה לשרפה בחדר המכונות, לפי FirstSquawk ב-{{time:ukmto}}.",
+        "en": "Iran claims a fourth tanker struck a mine in the Strait of Hormuz within 24 hours, per FirstSquawk at {{time:tanker4}} citing IRIB; Iran's navy said a tanker was on fire after hitting a mine - the fourth vessel affected in 24 hours, per Iranian state TV via FirstSquawk at {{time:tanker-navy}}. Earlier in the morning, per Iran's army via FirstSquawk at {{time:tanker-am}}, a tanker burst into flames after hitting a naval mine in the eastern strait. Separately, the UK's Maritime Trade Operations agency received a report of an attack about 7 nautical miles north of Khasab, Oman, that disabled a vessel and caused an engine-room fire, per FirstSquawk at {{time:ukmto}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:tanker4}}",
+        "url": "https://x.com/FirstSquawk/status/2122423782266794380"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:tanker-navy}}",
+          "url": "https://x.com/FirstSquawk/status/2122427220300099606"
+        },
+        {
+          "name": "@FirstSquawk · {{time:tanker-am}}",
+          "url": "https://x.com/FirstSquawk/status/2122217289236013492"
+        },
+        {
+          "name": "@FirstSquawk · {{time:ukmto}}",
+          "url": "https://x.com/FirstSquawk/status/2122446158127911277"
+        }
+      ],
+      "timeRefs": {
+        "tanker-am": {
+          "at": "2026-11-16T06:36:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tanker4": {
+          "at": "2026-11-16T20:17:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tanker-navy": {
+          "at": "2026-11-16T20:30:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ukmto": {
+          "at": "2026-11-16T21:46:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "vance-iran",
+      "section": "geopolitics",
+      "priority": 18,
+      "kicker": {
+        "he": "ארה\"ב · איראן",
+        "en": "US · Iran"
+      },
+      "headline": {
+        "he": "סגן הנשיא ואנס: ארה\"ב לא תיתן לאיראן להפוך למחויבות צבאית של שנתיים",
+        "en": "Vice President Vance: the US will not let Iran become a two-year military commitment"
+      },
+      "summary": {
+        "he": "סגן נשיא ארה\"ב ג'יי די ואנס אמר בראיון ל-Fox News שארצות הברית לא תיתן לאיראן להפוך למחויבות צבאית אמריקאית של שנתיים, לפי @DeItaone ב-{{time:vance-iran}} ו-FirstSquawk ב-{{time:vance-iran-fs}}.",
+        "en": "US Vice President JD Vance told Fox News the United States will not allow Iran to become a two-year American military commitment, per @DeItaone at {{time:vance-iran}} and FirstSquawk at {{time:vance-iran-fs}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:vance-iran}}",
+        "url": "https://x.com/DeItaone/status/2122412092959727794"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:vance-iran-fs}}",
+          "url": "https://x.com/FirstSquawk/status/2122412712307347500"
+        }
+      ],
+      "timeRefs": {
+        "vance-iran": {
+          "at": "2026-11-16T19:30:50+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "vance-iran-fs": {
+          "at": "2026-11-16T19:33:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "chevron-beacon",
+      "section": "markets",
+      "priority": 19,
+      "kicker": {
+        "he": "מיזוגים ורכישות",
+        "en": "M&A"
+      },
+      "headline": {
+        "he": "שברון בדרך לרכישת Beacon Offshore Energy, הגובה בבלקסטון, בכ-5 מיליארד דולר",
+        "en": "Chevron nears a roughly $5B purchase of Blackstone-backed Beacon Offshore Energy"
+      },
+      "summary": {
+        "he": "שברון מתקרבת לעסקה לרכישת חברת Beacon Offshore Energy הפועלת במפרץ מקסיקו, הגובה על ידי בלקסטון, תמורת כ-5 מיליארד דולר - ועוקפת מתחרות במכרז, לפי ה-Financial Times דרך FirstSquawk ב-{{time:chevron}} ו-LiveSquawk ב-{{time:chevron-ls}}.",
+        "en": "Chevron is nearing a deal to buy Blackstone-backed Beacon Offshore Energy, which operates in the US Gulf, for about $5 billion - pulling ahead of rival bidders, per the Financial Times via FirstSquawk at {{time:chevron}} and LiveSquawk at {{time:chevron-ls}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:chevron}}",
+        "url": "https://x.com/FirstSquawk/status/2122425374084878425"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:chevron-ls}}",
+          "url": "https://x.com/LiveSquawk/status/2122424568438505745"
+        }
+      ],
+      "timeRefs": {
+        "chevron-ls": {
+          "at": "2026-11-16T20:20:24+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "chevron": {
+          "at": "2026-11-16T20:23:36+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "chip-export-rule",
+      "section": "tech",
+      "priority": 20,
+      "kicker": {
+        "he": "רגולציה · שבבים",
+        "en": "Regulation · chips"
+      },
+      "headline": {
+        "he": "ארה\"ב סוגרת את פרצת הענן: כלל ביניים מגביל גישה מרחוק של סין לשבבי AI מתקדמים",
+        "en": "The US closes the cloud loophole: an interim rule restricts remote access to advanced AI chips"
+      },
+      "summary": {
+        "he": "מחלקת המסחר האמריקאית הוציאה ב-{{time:rule}} כלל ביניים המגביל גישה מרחוק לשבבי בינה מלאכותית ולתשתיות מחשוב מתקדמות, במטרה למנוע מסין וממדינות נוספות הכפופות למגבלות ייצוא לעקוף את הבקרות באמצעות גישה מרחוק לשבבים אמריקאיים, לפי Kobeissi Letter. עד כה כיסו הבקרות משלוח פיזי של שבבים מוגבלים אך לא השכרת גישה אליהם - פרצה שאפשרה לחברות AI סיניות להשתמש בשבבי אנבידיה מתקדמים דרך הענן, לפי unusual_whales ב-{{time:rule-detail}}.",
+        "en": "The US Commerce Department issued at {{time:rule}} an interim rule restricting remote access to advanced AI chips and computing infrastructure, aiming to stop China and other export-restricted countries from circumventing controls by accessing American chips remotely, per Kobeissi Letter. Until now the controls covered physically shipping restricted chips but not renting access to them - a loophole that let Chinese AI firms use advanced Nvidia chips through the cloud, per unusual_whales at {{time:rule-detail}}."
+      },
+      "bullets": {
+        "he": [
+          "הכלל החדש מחייב רישיון אמריקאי לייצוא-חוזר של שבבים מתקדמים לסינגפור, ברזיל, אינדונזיה, מלזיה ותאילנד, לפי FirstSquawk ב-{{time:reexport}}.",
+          "הסנאטורית מריה קנטוול האשימה את שר המסחר הווארד לוטניק בכישלון למנוע הגעת שבבי AI מתקדמים לסין, לפי Reuters דרך unusual_whales ב-{{time:cantwell}}.",
+          "טראמפ אמר שייתכן שלוטניק עיכב את הכנסת חברת Megaspeed לרשימת הייצוא כדי לא לכעוס את סין, לפי zerohedge ב-{{time:megaspeed-delay}}; משטרת אינדונזיה פשטה מוקדם יותר השנה על משרד מקומי של Megaspeed ומצאה מתלהי שרתים ריקים ללא מעבדי אנבידיה, לפי unusual_whales ב-{{time:megaspeed}}."
+        ],
+        "en": [
+          "The new rule requires a US license to re-export advanced chips to Singapore, Brazil, Indonesia, Malaysia and Thailand, per FirstSquawk at {{time:reexport}}.",
+          "Senator Maria Cantwell accused Commerce Secretary Howard Lutnick of failing to stop advanced AI chips from reaching China, per Reuters via unusual_whales at {{time:cantwell}}.",
+          "Trump said Lutnick may have delayed putting Megaspeed on the export list to avoid angering China, per zerohedge at {{time:megaspeed-delay}}; Indonesian police raided a local Megaspeed office earlier this year and found empty server racks with no Nvidia GPUs, per unusual_whales at {{time:megaspeed}}."
+        ]
+      },
+      "source": {
+        "name": "@KobeissiLetter · {{time:rule}}",
+        "url": "https://x.com/KobeissiLetter/status/2122322912086536623"
+      },
+      "secondarySources": [
+        {
+          "name": "@unusual_whales · {{time:rule-detail}}",
+          "url": "https://x.com/unusual_whales/status/2122332271231320113"
+        },
+        {
+          "name": "@FirstSquawk · {{time:reexport}}",
+          "url": "https://x.com/FirstSquawk/status/2122322241161666756"
+        },
+        {
+          "name": "@unusual_whales · {{time:cantwell}}",
+          "url": "https://x.com/unusual_whales/status/2122315939370725640"
+        },
+        {
+          "name": "@unusual_whales · {{time:megaspeed}}",
+          "url": "https://x.com/unusual_whales/status/2122303943292395664"
+        },
+        {
+          "name": "@zerohedge · {{time:megaspeed-delay}}",
+          "url": "https://x.com/zerohedge/status/2122339575528100203"
+        }
+      ],
+      "timeRefs": {
+        "megaspeed": {
+          "at": "2026-11-16T12:21:05+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "cantwell": {
+          "at": "2026-11-16T13:08:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "reexport": {
+          "at": "2026-11-16T13:33:47+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "rule": {
+          "at": "2026-11-16T13:36:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "rule-detail": {
+          "at": "2026-11-16T14:13:39+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "megaspeed-delay": {
+          "at": "2026-11-16T14:42:40+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "summit-shenzhen",
+      "section": "geopolitics",
+      "priority": 21,
+      "kicker": {
+        "he": "גיאופוליטיקה · פסגה",
+        "en": "Geopolitics · summit"
+      },
+      "headline": {
+        "he": "אושר: פסגה משולשת טראמפ-שי-פוטין ביום חמישי בשנזן; הקרמלין מודיע על סבב נוסף של שיחות שלום על אוקראינה",
+        "en": "Confirmed: a three-way Trump-Xi-Putin summit on Thursday in Shenzhen; the Kremlin announces another round of Ukraine peace talks"
+      },
+      "summary": {
+        "he": "הקרמלין אישר ב-{{time:summit}} כי נשיא ארה\"ב דונלד טראמפ, נשיא סין שי ג'ינפינג ונשיא רוסיה ולדימיר פוטין יקיימו פסגה משולשת ב-19 בנובמבר (יום חמישי) במסגרת פסגת APEC; ב-18 בנובמבר ייפגשו פוטין ושי בנפרד לדיון בשיתוף פעולה כלכלי, באוקראינה ובחצי האי הקוריאני, לפי @DeItaone. לפי בייג'ינג, שלושת המנהיגים ידונו ב״שלום עולמי״ בפסגה המשולשת הראשונה מסוגה, שתתקיים בשנזן, לפי unusual_whales ב-{{time:shenzhen}}.",
+        "en": "The Kremlin confirmed at {{time:summit}} that US President Donald Trump, China's President Xi Jinping and Russia's President Vladimir Putin will hold a three-way summit on November 19 (Thursday) during the APEC summit; on November 18, Putin and Xi will meet separately to discuss economic cooperation, Ukraine and the Korean Peninsula, per @DeItaone. According to Beijing, the three leaders will discuss 'world peace' at their first trilateral summit, to be held in Shenzhen, per unusual_whales at {{time:shenzhen}}."
+      },
+      "bullets": {
+        "he": [
+          "טראמפ אמר שייתכן שייפגש גם עם מנהיג צפון קוריאה קים ג'ונג-און במהלך הביקור בסין, לפי @DeItaone ב-{{time:kim}}.",
+          "הקרמלין אישר סבב נוסף של שיחות שלום בין ארה\"ב, רוסיה ואוקראינה, שצפוי להתקיים באבו דאבי מבלי שנקבע מועד, ודחה השתתפות אירופית בשיחות, לפי @DeItaone ב-{{time:ukraine-talks}}.",
+          "טראמפ אמר שפוטין ״נסוג קצת״ בעניין אוקראינה אך ״יכול להיות קשוח יותר״, לפי @DeItaone ב-{{time:trump-putin}}."
+        ],
+        "en": [
+          "Trump said he may also meet North Korean leader Kim Jong Un during the China trip, per @DeItaone at {{time:kim}}.",
+          "The Kremlin confirmed another round of US-Russia-Ukraine peace talks, expected in Abu Dhabi with no date set, and rejected European participation, per @DeItaone at {{time:ukraine-talks}}.",
+          "Trump said Putin is 'backing down a bit' on Ukraine but 'could be tougher', per @DeItaone at {{time:trump-putin}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:summit}}",
+        "url": "https://x.com/DeItaone/status/2122329133845709251"
+      },
+      "secondarySources": [
+        {
+          "name": "@unusual_whales · {{time:shenzhen}}",
+          "url": "https://x.com/unusual_whales/status/2122320531772842024"
+        },
+        {
+          "name": "@DeItaone · {{time:kim}}",
+          "url": "https://x.com/DeItaone/status/2122335701677351174"
+        },
+        {
+          "name": "@DeItaone · {{time:trump-putin}}",
+          "url": "https://x.com/DeItaone/status/2122338807592976837"
+        },
+        {
+          "name": "@DeItaone · {{time:ukraine-talks}}",
+          "url": "https://x.com/DeItaone/status/2122344072337617157"
+        }
+      ],
+      "timeRefs": {
+        "shenzhen": {
+          "at": "2026-11-16T13:27:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "summit": {
+          "at": "2026-11-16T14:01:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "kim": {
+          "at": "2026-11-16T14:27:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trump-putin": {
+          "at": "2026-11-16T14:39:37+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ukraine-talks": {
+          "at": "2026-11-16T15:00:32+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "tase-close",
+      "section": "israel",
+      "priority": 22,
+      "kicker": {
+        "he": "בורסת ת\"א · סגירה",
+        "en": "TASE · close"
+      },
+      "headline": {
+        "he": "תל אביב נסגרה בירידות בעקבות וול סטריט: ת\"א 35 ירד {{move:-1.55%}}, מניות השבבים הובילו את הירידות",
+        "en": "Tel Aviv closed lower in Wall Street's wake: the TA-35 fell {{move:-1.55%}}, chip stocks led declines"
+      },
+      "summary": {
+        "he": "בורסת תל אביב נסגרה בירידות: מדד ת\"א 35 ירד {{move:-1.55%}}, מדד ת\"א 125 ירד {{move:-1.33%}} ומדד ת\"א 90 ירד {{move:-0.66%}}; מניות השבבים הובילו את הירידות בעקבות הירידות החדות בוול סטריט, בעוד מדד התוכנה עלה ב-{{move:+1.68%}}, לפי TASE_IL ב-{{time:tase}}.",
+        "en": "The Tel Aviv Stock Exchange closed lower: the TA-35 fell {{move:-1.55%}}, the TA-125 lost {{move:-1.33%}} and the TA-90 eased {{move:-0.66%}}; chip stocks led declines after Wall Street's sharp losses, while the software index rose {{move:+1.68%}}, per TASE_IL at {{time:tase}}."
+      },
+      "source": {
+        "name": "@TASE_IL · {{time:tase}}",
+        "url": "https://x.com/TASE_IL/status/2122360402373677196"
+      },
+      "timeRefs": {
+        "tase": {
+          "at": "2026-11-16T16:05:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "arkia-sale",
+      "section": "israel",
+      "priority": 23,
+      "kicker": {
+        "he": "ארקיע · מכירת השליטה",
+        "en": "Arkia · control sale"
+      },
+      "headline": {
+        "he": "דירקטוריון ארקיע אישר את מכירת השליטה לרונן אלעד; העובדים חגגו מחוץ לישיבה",
+        "en": "Arkia's board approved the control sale to Ronen Elad; employees celebrated outside the meeting"
+      },
+      "summary": {
+        "he": "דירקטוריון ארקיע אישר ב-16 בנובמבר את מכירת השליטה בחברת התעופה לאיש העסקים רונן אלעד, לפי גלובס ב-{{time:arkia}}. עובדי החברה חגגו את האישור מחוץ לישיבת הדירקטוריון, לפי כלכליסט ב-{{time:arkia-party}}; ההצעה של העובדים התקבלה ואלעד יהפוך לבעל השליטה, לפי TheMarker ב-{{time:arkia-marker}}.",
+        "en": "Arkia's board approved on November 16 the sale of control in the airline to businessman Ronen Elad, per Globes at {{time:arkia}}. Employees celebrated the approval outside the board meeting, per Calcalist at {{time:arkia-party}}; the employees' proposal was accepted and Elad will become the controlling owner, per TheMarker at {{time:arkia-marker}}."
+      },
+      "source": {
+        "name": "@globesnews · {{time:arkia}}",
+        "url": "https://x.com/globesnews/status/2122362848848351495"
+      },
+      "secondarySources": [
+        {
+          "name": "@calcalist · {{time:arkia-party}}",
+          "url": "https://x.com/calcalist/status/2122371615447216423"
+        },
+        {
+          "name": "@TheMarker · {{time:arkia-marker}}",
+          "url": "https://x.com/TheMarker/status/2122404393844687142"
+        }
+      ],
+      "timeRefs": {
+        "arkia": {
+          "at": "2026-11-16T16:15:09+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "arkia-party": {
+          "at": "2026-11-16T16:49:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "arkia-marker": {
+          "at": "2026-11-16T19:00:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    }
+  ]
+}
