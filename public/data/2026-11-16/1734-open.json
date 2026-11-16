@@ -1,0 +1,1064 @@
+{
+  "schemaVersion": "2.0",
+  "date": "2026-11-16",
+  "editionSlug": "1734-open",
+  "editionType": "open",
+  "editionNumber": 4,
+  "publishedAt": "2026-11-16T17:34:44+02:00",
+  "editorialLead": {
+    "he": "אנבידיה שוב במרכז: טראמפ לא שולל החזרת הואנג, המניה מתאוששת - והדוחות כבר מחר",
+    "en": "Nvidia at the center again: Trump does not rule out a Huang return, the stock recovers - and earnings land tomorrow"
+  },
+  "topSummary": {
+    "he": "טראמפ אמר שלא יתנגד להחזרת ג'נסן הואנג להובלת אנבידיה, והמניה התאוששה מירידות מוקדמות; מחר יתפרסמו הדוחות הראשונים מאז ההתפטרות. ובגיאופוליטיקה: אושרה פסגה משולשת טראמפ-שי-פוטין ביום חמישי בשנזן.",
+    "en": "Trump said he would not object to Jensen Huang returning to lead Nvidia, and the stock recovered from early losses; the first earnings since the resignation land tomorrow. In geopolitics: a three-way Trump-Xi-Putin summit was confirmed for Thursday in Shenzhen."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "NASDAQ:NVDA",
+    "^IXIC",
+    "TSLA",
+    "BITSTAMP:BTCUSD"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "NASDAQ:NVDA",
+      "range": "1d",
+      "label": {
+        "he": "אנבידיה",
+        "en": "Nvidia"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "nvidia-huang-lobby",
+      "section": "tech",
+      "isLead": true,
+      "priority": 1,
+      "kicker": {
+        "he": "אנבידיה · המאבק על החזרת הואנג",
+        "en": "Nvidia · the push to bring Huang back"
+      },
+      "headline": {
+        "he": "אנבידיה: טראמפ ״לא יתנגד״ להחזרת ג'נסן הואנג - והמניה מחקה ירידה מוקדמת של {{move:-3.6%}}",
+        "en": "Nvidia: Trump 'would not mind' a Jensen Huang return - and the stock erased an early {{move:-3.6%}} drop"
+      },
+      "summary": {
+        "he": "מניית אנבידיה נפלה עד {{move:-3.6%}} במסחר המוקדם, לפי @DeItaone ב-{{time:premarket}}, על רקע דיווח ה-Financial Times כי תומכיו של ג'נסן הואנג, שהתפטר בשבוע שעבר מתפקיד המנכ\"ל, מפעילים לובי להחזרתו, לפי @DeItaone ב-{{time:ft-report}}. ב-{{time:trump}} אמר הנשיא טראמפ ש״לא יהיה לו אכפת״ אם הואנג יוחזר לתפקיד, שהוא ״למד לקח״ וב-{{time:national-security}} אמר שהוא לא סיכן את הביטחון הלאומי; ב-{{time:turn-positive}} מחקה המניה את הירידות והפכה חיובית, לפי Kobeissi Letter. TD Cowen הורידה את מחיר היעד מ-275 ל-200 דולר ({{time:cowen}}) ו-UBS מ-300 ל-240 דולר ({{time:ubs}}), ואנליסטים של Lynx Equity Strategies העריכו שהסיכוי לחזרה קלוש ({{time:lynx}}), לפי @DeItaone.",
+        "en": "Nvidia shares fell as much as {{move:-3.6%}} in premarket trading, per @DeItaone at {{time:premarket}}, after the Financial Times reported that allies of Jensen Huang, who resigned as CEO last week, are lobbying for his return, per @DeItaone at {{time:ft-report}}. At {{time:trump}}, President Trump said he 'would not mind' Huang being reinstated, that he has 'learned a lesson' and, at {{time:national-security}}, that he did not put national security at risk; by {{time:turn-positive}} the stock had erased its losses and turned positive, per Kobeissi Letter. TD Cowen cut its price target from $275 to $200 ({{time:cowen}}) and UBS from $300 to $240 ({{time:ubs}}), while Lynx Equity Strategies analysts called a comeback unlikely ({{time:lynx}}), per @DeItaone."
+      },
+      "bullets": {
+        "he": [
+          "אנבידיה תפרסם מחר (17 בנובמבר), אחרי הסגירה, את הדוחות הראשונים מאז התפטרות הואנג; המנכ\"לית הזמנית Colette Kress תוביל את שיחת הדוחות, וההכנסות צפויות להסתכם בכ-109 מיליארד דולר - עלייה של כ-90% לעומת השנה שעברה, לפי unusual_whales ב-{{time:earnings}}.",
+          "המניה השלימה שישה שבועות רצופים של ירידות, לפי @DeItaone ב-{{time:weekly-fall}}; לפי zerohedge ב-{{time:sixweeks}}, היא ירדה {{move:-34.6%}} בשישה שבועות, והאופציות מתמחרות תנודה של כ-7.8% סביב הדוחות - הגדולה ביותר מזה שנתיים.",
+          "העצומה להחזרת הואנג צברה כ-175 אלף חתימות, אבל שווקי ההימורים מעריכים את הסיכוי לחזרה ב-18% בלבד, ושר האוצר סקוט בסנט מתנגד להחזרה, לפי @DeItaone ב-{{time:petition}}.",
+          "טראמפ אמר שייתכן שידבר עם נשיא סין שי ג'ינפינג על נושא אנבידיה, לפי Kobeissi Letter ב-{{time:turn-positive}}, והבהיר שאינו שוקל להחליף את שר המסחר הווארד לוטניק, לפי @DeItaone ב-{{time:lutnick}}."
+        ],
+        "en": [
+          "Nvidia reports tomorrow (November 17), after the close, its first results since Huang's resignation; interim CEO Colette Kress will lead the call, and revenue is expected at about $109 billion - up roughly 90% from a year earlier, per unusual_whales at {{time:earnings}}.",
+          "The stock has now fallen for six straight weeks, per @DeItaone at {{time:weekly-fall}}; per zerohedge at {{time:sixweeks}}, it is down {{move:-34.6%}} over six weeks, and options imply a move of about 7.8% around earnings - the largest in two years.",
+          "The petition to reinstate Huang has drawn about 175,000 signatures, but prediction markets give a return only an 18% chance, and Treasury Secretary Scott Bessent opposes it, per @DeItaone at {{time:petition}}.",
+          "Trump said he may raise Nvidia with China's President Xi, per Kobeissi Letter at {{time:turn-positive}}, and made clear he is not considering replacing Commerce Secretary Howard Lutnick, per @DeItaone at {{time:lutnick}}."
+        ]
+      },
+      "source": {
+        "name": "@KobeissiLetter · {{time:trump}}",
+        "url": "https://x.com/KobeissiLetter/status/2122338569347801430"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:ft-report}}",
+          "url": "https://x.com/DeItaone/status/2122289023322394802"
+        },
+        {
+          "name": "@DeItaone · {{time:premarket}}",
+          "url": "https://x.com/DeItaone/status/2122300353068851202"
+        },
+        {
+          "name": "@DeItaone · {{time:petition}}",
+          "url": "https://x.com/DeItaone/status/2122301866704764979"
+        },
+        {
+          "name": "@DeItaone · {{time:lynx}}",
+          "url": "https://x.com/DeItaone/status/2122303102988534060"
+        },
+        {
+          "name": "@DeItaone · {{time:cowen}}",
+          "url": "https://x.com/DeItaone/status/2122311030802129011"
+        },
+        {
+          "name": "@DeItaone · {{time:ubs}}",
+          "url": "https://x.com/DeItaone/status/2122339498813988910"
+        },
+        {
+          "name": "@zerohedge · {{time:sixweeks}}",
+          "url": "https://x.com/zerohedge/status/2122316980904415342"
+        },
+        {
+          "name": "@unusual_whales · {{time:earnings}}",
+          "url": "https://x.com/unusual_whales/status/2122318015425393079"
+        },
+        {
+          "name": "@DeItaone · {{time:weekly-fall}}",
+          "url": "https://x.com/DeItaone/status/2122336729809961351"
+        },
+        {
+          "name": "@DeItaone · {{time:lutnick}}",
+          "url": "https://x.com/DeItaone/status/2122338868561088595"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:turn-positive}}",
+          "url": "https://x.com/KobeissiLetter/status/2122340464552517927"
+        },
+        {
+          "name": "@FirstSquawk · {{time:national-security}}",
+          "url": "https://x.com/FirstSquawk/status/2122339136115982565"
+        }
+      ],
+      "socialPost": {
+        "id": "2122338569347801430",
+        "url": "https://x.com/KobeissiLetter/status/2122338569347801430"
+      },
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "ft-report": {
+          "at": "2026-11-16T11:21:48+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "premarket": {
+          "at": "2026-11-16T12:06:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "petition": {
+          "at": "2026-11-16T12:12:50+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "lynx": {
+          "at": "2026-11-16T12:17:44+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "cowen": {
+          "at": "2026-11-16T12:49:15+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "sixweeks": {
+          "at": "2026-11-16T13:12:53+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "earnings": {
+          "at": "2026-11-16T13:17:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "weekly-fall": {
+          "at": "2026-11-16T14:31:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trump": {
+          "at": "2026-11-16T14:38:40+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "lutnick": {
+          "at": "2026-11-16T14:39:52+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ubs": {
+          "at": "2026-11-16T14:42:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "turn-positive": {
+          "at": "2026-11-16T14:46:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "national-security": {
+          "at": "2026-11-16T14:40:55+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "wall-street-open",
+      "section": "markets",
+      "priority": 2,
+      "kicker": {
+        "he": "וול סטריט · פתיחה",
+        "en": "Wall Street · open"
+      },
+      "headline": {
+        "he": "פתיחה שלילית בוול סטריט: הנאסד\"ק ירד {{move:-1.26%}} בפתיחה והחריף ל-{{move:-2%}}; ה-VIX קפץ ל-21.1",
+        "en": "A red open on Wall Street: the Nasdaq fell {{move:-1.26%}} at the open and deepened to {{move:-2%}}; the VIX jumped to 21.1"
+      },
+      "summary": {
+        "he": "בפתיחת המסחר ({{time:open-print}}) ירד מדד הנאסד\"ק (Composite) ב-{{move:-1.26%}} ל-24,820.07 נקודות, מדד דאו ג'ונס ירד ב-{{move:-0.16%}} ל-52,263.40 נקודות, ומדד S&P 500 איבד 57.67 נקודות ({{move:-0.76%}}) ל-7,504.00 נקודות, לפי FirstSquawk. ב-{{time:nasdaq-2pct}} החריפו הירידות והנאסד\"ק הגיע לירידה של {{move:-2%}}, לפי @DeItaone. מדד התנודתיות VIX עלה ב-1.8 נקודות ל-21.1, לפי @DeItaone ב-{{time:vix}}.",
+        "en": "At the opening bell ({{time:open-print}}) the Nasdaq Composite fell {{move:-1.26%}} to 24,820.07 points, the Dow Jones fell {{move:-0.16%}} to 52,263.40 points, and the S&P 500 lost 57.67 points ({{move:-0.76%}}) to 7,504.00 points, per FirstSquawk. At {{time:nasdaq-2pct}} the losses deepened and the Nasdaq reached a {{move:-2%}} drop, per @DeItaone. The VIX volatility index rose 1.8 points to 21.1, per @DeItaone at {{time:vix}}."
+      },
+      "bullets": {
+        "he": [
+          "מדד הנאסד\"ק 100 רושם בנובמבר נדנדה יומית ממוצעת של 2.4% - בדרך לחודש התנודתי ביותר מאז אפריל 2025, לאחר 1.0% בספטמבר, לפי Kobeissi Letter ב-{{time:volatility}}.",
+          "מדד הייצור Empire של ניו יורק צנח בנובמבר ל-7.8 נקודות, מול תחזית של 18.0 וקריאה של 25.5 באוקטובר, לפי zerohedge ב-{{time:empire}}."
+        ],
+        "en": [
+          "The Nasdaq 100 is recording an average daily swing of 2.4% in November - on track for its most volatile month since April 2025, after 1.0% in September, per Kobeissi Letter at {{time:volatility}}.",
+          "The New York Empire manufacturing index plunged to 7.8 points in November, versus a forecast of 18.0 and a reading of 25.5 in October, per zerohedge at {{time:empire}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:open-print}}",
+        "url": "https://x.com/FirstSquawk/status/2122337282887950673"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:nasdaq-2pct}}",
+          "url": "https://x.com/DeItaone/status/2122345540285268406"
+        },
+        {
+          "name": "@DeItaone · {{time:vix}}",
+          "url": "https://x.com/DeItaone/status/2122338138341126578"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:volatility}}",
+          "url": "https://x.com/KobeissiLetter/status/2122319525584474425"
+        },
+        {
+          "name": "@zerohedge · {{time:empire}}",
+          "url": "https://x.com/zerohedge/status/2122322348552675335"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "volatility": {
+          "at": "2026-11-16T13:23:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "empire": {
+          "at": "2026-11-16T13:34:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "open-print": {
+          "at": "2026-11-16T14:33:34+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "vix": {
+          "at": "2026-11-16T14:36:57+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nasdaq-2pct": {
+          "at": "2026-11-16T15:06:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "chip-export-rule",
+      "section": "tech",
+      "priority": 3,
+      "kicker": {
+        "he": "רגולציה · שבבים",
+        "en": "Regulation · chips"
+      },
+      "headline": {
+        "he": "ארה\"ב סוגרת את פרצת הענן: כלל ביניים מגביל גישה מרחוק של סין לשבבי AI מתקדמים",
+        "en": "The US closes the cloud loophole: an interim rule restricts remote access to advanced AI chips"
+      },
+      "summary": {
+        "he": "מחלקת המסחר האמריקאית הוציאה ב-{{time:rule}} כלל ביניים המגביל גישה מרחוק לשבבי בינה מלאכותית ולתשתיות מחשוב מתקדמות, במטרה למנוע מסין וממדינות נוספות הכפופות למגבלות ייצוא לעקוף את הבקרות באמצעות גישה מרחוק לשבבים אמריקאיים, לפי Kobeissi Letter. עד כה כיסו הבקרות משלוח פיזי של שבבים מוגבלים אך לא השכרת גישה אליהם - פרצה שאפשרה לחברות AI סיניות להשתמש בשבבי אנבידיה מתקדמים דרך הענן, לפי unusual_whales ב-{{time:rule-detail}}.",
+        "en": "The US Commerce Department issued at {{time:rule}} an interim rule restricting remote access to advanced AI chips and computing infrastructure, aiming to stop China and other export-restricted countries from circumventing controls by accessing American chips remotely, per Kobeissi Letter. Until now the controls covered physically shipping restricted chips but not renting access to them - a loophole that let Chinese AI firms use advanced Nvidia chips through the cloud, per unusual_whales at {{time:rule-detail}}."
+      },
+      "bullets": {
+        "he": [
+          "הכלל החדש מחייב רישיון אמריקאי לייצוא-חוזר של שבבים מתקדמים לסינגפור, ברזיל, אינדונזיה, מלזיה ותאילנד, לפי FirstSquawk ב-{{time:reexport}}.",
+          "הסנאטורית מריה קנטוול האשימה את שר המסחר הווארד לוטניק בכישלון למנוע הגעת שבבי AI מתקדמים לסין, לפי Reuters דרך unusual_whales ב-{{time:cantwell}}.",
+          "טראמפ אמר שייתכן שלוטניק עיכב את הכנסת חברת Megaspeed לרשימת הייצוא כדי לא לכעוס את סין, לפי zerohedge ב-{{time:megaspeed-delay}}; משטרת אינדונזיה פשטה מוקדם יותר השנה על משרד מקומי של Megaspeed ומצאה מתלהי שרתים ריקים ללא מעבדי אנבידיה, לפי unusual_whales ב-{{time:megaspeed}}."
+        ],
+        "en": [
+          "The new rule requires a US license to re-export advanced chips to Singapore, Brazil, Indonesia, Malaysia and Thailand, per FirstSquawk at {{time:reexport}}.",
+          "Senator Maria Cantwell accused Commerce Secretary Howard Lutnick of failing to stop advanced AI chips from reaching China, per Reuters via unusual_whales at {{time:cantwell}}.",
+          "Trump said Lutnick may have delayed putting Megaspeed on the export list to avoid angering China, per zerohedge at {{time:megaspeed-delay}}; Indonesian police raided a local Megaspeed office earlier this year and found empty server racks with no Nvidia GPUs, per unusual_whales at {{time:megaspeed}}."
+        ]
+      },
+      "source": {
+        "name": "@KobeissiLetter · {{time:rule}}",
+        "url": "https://x.com/KobeissiLetter/status/2122322912086536623"
+      },
+      "secondarySources": [
+        {
+          "name": "@unusual_whales · {{time:rule-detail}}",
+          "url": "https://x.com/unusual_whales/status/2122332271231320113"
+        },
+        {
+          "name": "@FirstSquawk · {{time:reexport}}",
+          "url": "https://x.com/FirstSquawk/status/2122322241161666756"
+        },
+        {
+          "name": "@unusual_whales · {{time:cantwell}}",
+          "url": "https://x.com/unusual_whales/status/2122315939370725640"
+        },
+        {
+          "name": "@unusual_whales · {{time:megaspeed}}",
+          "url": "https://x.com/unusual_whales/status/2122303943292395664"
+        },
+        {
+          "name": "@zerohedge · {{time:megaspeed-delay}}",
+          "url": "https://x.com/zerohedge/status/2122339575528100203"
+        }
+      ],
+      "timeRefs": {
+        "megaspeed": {
+          "at": "2026-11-16T12:21:05+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "cantwell": {
+          "at": "2026-11-16T13:08:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "reexport": {
+          "at": "2026-11-16T13:33:47+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "rule": {
+          "at": "2026-11-16T13:36:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "rule-detail": {
+          "at": "2026-11-16T14:13:39+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "megaspeed-delay": {
+          "at": "2026-11-16T14:42:40+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "summit-shenzhen",
+      "section": "geopolitics",
+      "priority": 4,
+      "kicker": {
+        "he": "גיאופוליטיקה · פסגה",
+        "en": "Geopolitics · summit"
+      },
+      "headline": {
+        "he": "אושר: פסגה משולשת טראמפ-שי-פוטין ביום חמישי בשנזן; הקרמלין מודיע על סבב נוסף של שיחות שלום על אוקראינה",
+        "en": "Confirmed: a three-way Trump-Xi-Putin summit on Thursday in Shenzhen; the Kremlin announces another round of Ukraine peace talks"
+      },
+      "summary": {
+        "he": "הקרמלין אישר ב-{{time:summit}} כי נשיא ארה\"ב דונלד טראמפ, נשיא סין שי ג'ינפינג ונשיא רוסיה ולדימיר פוטין יקיימו פסגה משולשת ב-19 בנובמבר (יום חמישי) במסגרת פסגת APEC; ב-18 בנובמבר ייפגשו פוטין ושי בנפרד לדיון בשיתוף פעולה כלכלי, באוקראינה ובחצי האי הקוריאני, לפי @DeItaone. לפי בייג'ינג, שלושת המנהיגים ידונו ב״שלום עולמי״ בפסגה המשולשת הראשונה מסוגה, שתתקיים בשנזן, לפי unusual_whales ב-{{time:shenzhen}}.",
+        "en": "The Kremlin confirmed at {{time:summit}} that US President Donald Trump, China's President Xi Jinping and Russia's President Vladimir Putin will hold a three-way summit on November 19 (Thursday) during the APEC summit; on November 18, Putin and Xi will meet separately to discuss economic cooperation, Ukraine and the Korean Peninsula, per @DeItaone. According to Beijing, the three leaders will discuss 'world peace' at their first trilateral summit, to be held in Shenzhen, per unusual_whales at {{time:shenzhen}}."
+      },
+      "bullets": {
+        "he": [
+          "טראמפ אמר שייתכן שייפגש גם עם מנהיג צפון קוריאה קים ג'ונג-און במהלך הביקור בסין, לפי @DeItaone ב-{{time:kim}}.",
+          "הקרמלין אישר סבב נוסף של שיחות שלום בין ארה\"ב, רוסיה ואוקראינה, שצפוי להתקיים באבו דאבי מבלי שנקבע מועד, ודחה השתתפות אירופית בשיחות, לפי @DeItaone ב-{{time:ukraine-talks}}.",
+          "טראמפ אמר שפוטין ״נסוג קצת״ בעניין אוקראינה אך ״יכול להיות קשוח יותר״, לפי @DeItaone ב-{{time:trump-putin}}."
+        ],
+        "en": [
+          "Trump said he may also meet North Korean leader Kim Jong Un during the China trip, per @DeItaone at {{time:kim}}.",
+          "The Kremlin confirmed another round of US-Russia-Ukraine peace talks, expected in Abu Dhabi with no date set, and rejected European participation, per @DeItaone at {{time:ukraine-talks}}.",
+          "Trump said Putin is 'backing down a bit' on Ukraine but 'could be tougher', per @DeItaone at {{time:trump-putin}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:summit}}",
+        "url": "https://x.com/DeItaone/status/2122329133845709251"
+      },
+      "secondarySources": [
+        {
+          "name": "@unusual_whales · {{time:shenzhen}}",
+          "url": "https://x.com/unusual_whales/status/2122320531772842024"
+        },
+        {
+          "name": "@DeItaone · {{time:kim}}",
+          "url": "https://x.com/DeItaone/status/2122335701677351174"
+        },
+        {
+          "name": "@DeItaone · {{time:trump-putin}}",
+          "url": "https://x.com/DeItaone/status/2122338807592976837"
+        },
+        {
+          "name": "@DeItaone · {{time:ukraine-talks}}",
+          "url": "https://x.com/DeItaone/status/2122344072337617157"
+        }
+      ],
+      "timeRefs": {
+        "shenzhen": {
+          "at": "2026-11-16T13:27:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "summit": {
+          "at": "2026-11-16T14:01:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "kim": {
+          "at": "2026-11-16T14:27:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trump-putin": {
+          "at": "2026-11-16T14:39:37+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ukraine-talks": {
+          "at": "2026-11-16T15:00:32+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "lilly-calytrix",
+      "section": "tech",
+      "priority": 5,
+      "kicker": {
+        "he": "עסקאות · פארמה",
+        "en": "Deals · pharma"
+      },
+      "headline": {
+        "he": "Eli Lilly רוכשת את חברת הביוטק Calytrix Bio תמורת עד 1.5 מיליארד דולר במזומן",
+        "en": "Eli Lilly is buying biotech Calytrix Bio for up to $1.5 billion in cash"
+      },
+      "summary": {
+        "he": "תאגיד התרופות Eli Lilly רוכש את חברת הביוטק Calytrix Bio תמורת עד 1.5 מיליארד דולר במזומן - תשלום ראשוני שלא פורסם ותשלומים נוספים המותנים באבני דרך קליניות ורגולטוריות, לפי wallstengine ב-{{time:lilly}}. Calytrix מפתחת טיפול המכוון למוטציות הגנטיות שמאחורי שני סוגים נדירים של סרטן הדם, לפי StockMKTNewz ב-{{time:lilly-detail}}.",
+        "en": "Pharmaceutical giant Eli Lilly is buying biotech Calytrix Bio for up to $1.5 billion in cash - an undisclosed upfront payment plus additional payments tied to clinical and regulatory milestones, per wallstengine at {{time:lilly}}. Calytrix is developing a treatment targeting the genetic mutations behind two rare blood cancers, per StockMKTNewz at {{time:lilly-detail}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:lilly}}",
+        "url": "https://x.com/wallstengine/status/2122297690046529704"
+      },
+      "secondarySources": [
+        {
+          "name": "@StockMKTNewz · {{time:lilly-detail}}",
+          "url": "https://x.com/StockMKTNewz/status/2122347256053412115"
+        }
+      ],
+      "timeRefs": {
+        "lilly": {
+          "at": "2026-11-16T11:56:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "lilly-detail": {
+          "at": "2026-11-16T15:13:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "blackstone-amazon-datacenters",
+      "section": "tech",
+      "priority": 6,
+      "kicker": {
+        "he": "עסקאות · תשתיות AI",
+        "en": "Deals · AI infrastructure"
+      },
+      "headline": {
+        "he": "בלאקסטון רוכשת 75% מחוות שרתים של אמזון בכ-5 מיליארד דולר - ומשכירה אותן בחזרה",
+        "en": "Blackstone buys 75% of two Amazon data center campuses for about $5 billion - and leases them back"
+      },
+      "summary": {
+        "he": "קרן חדשה של בלאקסטון רוכשת 75.1% משני קמפוסים של חוות שרתים חדשות של אמזון, בשווי כולל של כ-5 מיליארד דולר, ומשכירה אותם בחזרה לחברה, לפי wallstengine ב-{{time:blackstone}} ו-FirstSquawk ב-{{time:blackstone-brief}}. הקמפוסים כוללים 13 מבנים בהספק כולל של 647 מגה-וואט, תשעה מהם בצפון וירג'יניה, עם שיעור תשואה התחלתי של 7.0% והצמדות שכירות שנתיות של 2.75%. הפרט על צפון וירג׳יניה לפי wallstengine ב-{{time:blackstone-detail}}.",
+        "en": "A new Blackstone trust is buying 75.1% of two newly built Amazon data center campuses, valued at about $5 billion in total, and leasing them straight back to the company, per wallstengine at {{time:blackstone}} and FirstSquawk at {{time:blackstone-brief}}. The campuses comprise 13 buildings with 647 megawatts of capacity, nine of them in northern Virginia, at an initial cap rate of 7.0% with 2.75% annual rent escalators. The northern Virginia detail is per wallstengine at {{time:blackstone-detail}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:blackstone}}",
+        "url": "https://x.com/wallstengine/status/2122296683316773181"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:blackstone-brief}}",
+          "url": "https://x.com/FirstSquawk/status/2122297309283405979"
+        },
+        {
+          "name": "@wallstengine · {{time:blackstone-detail}}",
+          "url": "https://x.com/wallstengine/status/2122305245426680256"
+        }
+      ],
+      "timeRefs": {
+        "blackstone": {
+          "at": "2026-11-16T11:52:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "blackstone-brief": {
+          "at": "2026-11-16T11:54:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "blackstone-detail": {
+          "at": "2026-11-16T12:26:15+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "tesla-grunheide",
+      "section": "tech",
+      "priority": 7,
+      "kicker": {
+        "he": "טסלה · גרמניה",
+        "en": "Tesla · Germany"
+      },
+      "headline": {
+        "he": "דיווח: טסלה תשקיע כ-3 מיליארד יורו בהרחבת מפעל גרינהיידה; ייצור רובוטקסים מ-2029",
+        "en": "Report: Tesla to invest about 3 billion euros expanding the Grünheide plant; robotaxi output from 2029"
+      },
+      "summary": {
+        "he": "טסלה מתכננת להשקיע כ-3 מיליארד יורו בהרחבת מפעל גרינהיידה (Gigafactory Berlin) בגרמניה ולייצר בו רובוטקסים מדגם Cybercab החל מ-2029, לפי דיווח של העיתון הגרמני FAZ דרך @DeItaone ב-{{time:tesla}} ו-StockMKTNewz ב-{{time:tesla-faz}}.",
+        "en": "Tesla plans to invest about 3 billion euros in expanding its Grünheide plant (Gigafactory Berlin) in Germany and to build Cybercab robotaxis there starting in 2029, per a report by the German newspaper FAZ via @DeItaone at {{time:tesla}} and StockMKTNewz at {{time:tesla-faz}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:tesla}}",
+        "url": "https://x.com/DeItaone/status/2122327120911487394"
+      },
+      "secondarySources": [
+        {
+          "name": "@StockMKTNewz · {{time:tesla-faz}}",
+          "url": "https://x.com/StockMKTNewz/status/2122329952595194143"
+        }
+      ],
+      "timeRefs": {
+        "tesla": {
+          "at": "2026-11-16T13:53:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tesla-faz": {
+          "at": "2026-11-16T14:04:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "uber-zoox",
+      "section": "tech",
+      "priority": 8,
+      "kicker": {
+        "he": "רכב אוטונומי",
+        "en": "Autonomous driving"
+      },
+      "headline": {
+        "he": "אובר משלבת את הרובוטקסים של Zoox מבית אמזון באפליקציה שלה בלאס וגאס",
+        "en": "Uber adds Amazon's Zoox robotaxis to its app in Las Vegas"
+      },
+      "summary": {
+        "he": "אובר שילבה החל מהיום את הרובוטקסים של Zoox מבית אמזון באפליקציה שלה בלאס וגאס: נוסעים שיבקשו נסיעה רגילה, לרבות UberX, Comfort ו-Electric, עשויים להתאמת לרכב אוטונומי ללא הגה ללא עלות נוספת, לפי wallstengine ב-{{time:uber-zoox}}. זוהי העיר הראשונה במסגרת שיתוף הפעולה בין שתי החברות, לפי Bloomberg דרך StockMKTNewz ב-{{time:uber-bloomberg}}.",
+        "en": "Uber has added Amazon's steering-wheel-free Zoox robotaxis to its app in Las Vegas starting today: riders booking eligible rides, including UberX, Comfort and Electric, may be matched with an autonomous vehicle at no extra cost, per wallstengine at {{time:uber-zoox}}. It is the first city under the two companies' partnership, per Bloomberg via StockMKTNewz at {{time:uber-bloomberg}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:uber-zoox}}",
+        "url": "https://x.com/wallstengine/status/2122300960320205216"
+      },
+      "secondarySources": [
+        {
+          "name": "@StockMKTNewz · {{time:uber-bloomberg}}",
+          "url": "https://x.com/StockMKTNewz/status/2122331623211368891"
+        }
+      ],
+      "timeRefs": {
+        "uber-zoox": {
+          "at": "2026-11-16T12:09:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "uber-bloomberg": {
+          "at": "2026-11-16T14:11:04+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "openai-goodfire",
+      "section": "tech",
+      "priority": 9,
+      "kicker": {
+        "he": "בינה מלאכותית · עסקאות",
+        "en": "AI · deals"
+      },
+      "headline": {
+        "he": "OpenAI בחנה רכישת הסטארטאפ Goodfire, המגובה על ידי אנתרופיק, תמורת 5 מיליארד דולר לפחות",
+        "en": "OpenAI explored acquiring Anthropic-backed startup Goodfire for at least $5 billion"
+      },
+      "summary": {
+        "he": "OpenAI קיימה בקיץ מספר דיונים על רכישת הסטארטאפ Goodfire, המגובה על ידי אנתרופיק, תמורת 5 מיליארד דולר לפחות; השיחות כללו את סם אלטמן והתקיימו על רקע המאמץ להבין ולמנוע התנהגות מסוכנת של מודלי הבינה המלאכותית של החברה, לפי The Information דרך @DeItaone ב-{{time:goodfire}} ו-wallstengine ב-{{time:goodfire-detail}}.",
+        "en": "OpenAI held multiple discussions this summer about acquiring Anthropic-backed startup Goodfire for at least $5 billion; the talks involved Sam Altman and came as the company scrambled to understand and prevent dangerous behavior by its AI models, per The Information via @DeItaone at {{time:goodfire}} and wallstengine at {{time:goodfire-detail}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:goodfire}}",
+        "url": "https://x.com/DeItaone/status/2122329498267901963"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:goodfire-detail}}",
+          "url": "https://x.com/wallstengine/status/2122331558120206640"
+        }
+      ],
+      "timeRefs": {
+        "goodfire": {
+          "at": "2026-11-16T14:02:38+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "goodfire-detail": {
+          "at": "2026-11-16T14:10:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "faa-router-followup",
+      "section": "geopolitics",
+      "priority": 10,
+      "kicker": {
+        "he": "ארה\"ב · בקרה אווירית",
+        "en": "US · air traffic control"
+      },
+      "headline": {
+        "he": "עצירת ההמראות מיום שישי: הנתב התקול הועבר למעבדת L3Harris בפלורידה; טראמפ: ״הציוד ישן מאוד״",
+        "en": "Friday's ground stop: the faulty router was taken to an L3Harris lab in Florida; Trump: 'we have very old equipment'"
+      },
+      "summary": {
+        "he": "שר התחבורה האמריקאי שון דאפי מסר ב-{{time:duffy}} שהנתב התקול שגרם לעצירת ההמראות הארצית ביום שישי הועבר למעבדה של L3Harris בפלורידה, לפי FirstSquawk. הנשיא טראמפ התייחס לתקלה במערכת הבקרה האווירית ואמר ש״יש לנו ציוד ישן מאוד״, לפי @DeItaone ב-{{time:trump-atc}}. רקע: ביום שישי הושבתה מערכת הבקרה האווירית הארצית וכ-7,000 טיסות עוכבו או בוטלו, כפי שדווח במהדורת הסגירה האחרונה.",
+        "en": "US Transportation Secretary Sean Duffy said at {{time:duffy}} that the faulty router that caused Friday's nationwide ground stop has been taken to an L3Harris lab in Florida, per FirstSquawk. President Trump addressed the air traffic control failure and said 'we have very old equipment', per @DeItaone at {{time:trump-atc}}. Background: on Friday the national air traffic control system went down and about 7,000 flights were delayed or cancelled, as reported in the last close edition."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:duffy}}",
+        "url": "https://x.com/FirstSquawk/status/2122326081193865462"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:trump-atc}}",
+          "url": "https://x.com/DeItaone/status/2122336022390517941"
+        }
+      ],
+      "timeRefs": {
+        "duffy": {
+          "at": "2026-11-16T13:49:03+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trump-atc": {
+          "at": "2026-11-16T14:28:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "bank-forecasts",
+      "section": "markets",
+      "priority": 11,
+      "kicker": {
+        "he": "תחזיות · בנקי השקעות",
+        "en": "Forecasts · investment banks"
+      },
+      "headline": {
+        "he": "ברקליס ומורגן סטנלי מכוונים ל-8,700 נקודות ב-S&P 500 לסוף 2027; הזהב צפוי להגיע ל-5,250 דולר",
+        "en": "Barclays and Morgan Stanley converge on 8,700 points for the S&P 500 at end-2027; gold seen at $5,250"
+      },
+      "summary": {
+        "he": "ברקליס הורידה את יעד ה-S&P 500 לסוף 2027 מ-8,800 ל-8,700 נקודות, אף שהסטרטג ונו קרישנה העלה את תחזית הרווח למניה ל-434 דולר; הבנק מצפה שתנאים פיננסיים מחמירים והעלאות ריבית של הפד ילחצו על המכפילים, לפי @DeItaone ב-{{time:barclays}} ו-wallstengine ב-{{time:barclays-detail}}. מורגן סטנלי צופה 8,700 נקודות עד הרבעון הרביעי של 2027, לפי FirstSquawk ב-{{time:ms-target}}, וזהב ב-5,250 דולר לאונקיה באותה תקופה, לפי FirstSquawk ב-{{time:ms-gold}}.",
+        "en": "Barclays cut its end-2027 S&P 500 target from 8,800 to 8,700 points even as strategist Venu Krishna raised his 2027 EPS forecast to $434; the bank expects tighter financial conditions and Fed rate hikes to pressure valuations, per @DeItaone at {{time:barclays}} and wallstengine at {{time:barclays-detail}}. Morgan Stanley sees 8,700 points by the fourth quarter of 2027, per FirstSquawk at {{time:ms-target}}, and gold at $5,250 an ounce over the same period, per FirstSquawk at {{time:ms-gold}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:barclays}}",
+        "url": "https://x.com/DeItaone/status/2122341082386289005"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:barclays-detail}}",
+          "url": "https://x.com/wallstengine/status/2122342275900674260"
+        },
+        {
+          "name": "@FirstSquawk · {{time:ms-target}}",
+          "url": "https://x.com/FirstSquawk/status/2122217120264225120"
+        },
+        {
+          "name": "@FirstSquawk · {{time:ms-gold}}",
+          "url": "https://x.com/FirstSquawk/status/2122218279800590803"
+        }
+      ],
+      "timeRefs": {
+        "ms-target": {
+          "at": "2026-11-16T06:36:05+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ms-gold": {
+          "at": "2026-11-16T06:40:41+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "barclays": {
+          "at": "2026-11-16T14:48:39+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "barclays-detail": {
+          "at": "2026-11-16T14:53:24+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "buffett-donation",
+      "section": "markets",
+      "priority": 12,
+      "kicker": {
+        "he": "וורן באפט",
+        "en": "Warren Buffett"
+      },
+      "headline": {
+        "he": "וורן באפט תורם עוד 5.5 מיליארד דולר ממניות ברקשייר האת'וויי",
+        "en": "Warren Buffett donates another $5.5 billion of Berkshire Hathaway stock"
+      },
+      "summary": {
+        "he": "וורן באפט יתרום עוד 5.5 מיליארד דולר ממניות ברקשייר האת'וויי, ובמכתבו השנתי לחג ההודיה כתב שטוב-לב ״מצטבר״, לפי CNBC דרך unusual_whales ב-{{time:buffett}}. באפט המיר 6,150 מניות A ל-9,225,000 מניות B, ומתוכן העביר 3,690,000 לקרן על שם אשתו המנוחה.",
+        "en": "Warren Buffett is giving away another $5.5 billion of Berkshire Hathaway stock, writing in his annual Thanksgiving letter that kindness 'compounds', per CNBC via unusual_whales at {{time:buffett}}. Buffett converted 6,150 Class A shares into 9,225,000 Class B shares and gave 3,690,000 of them to the foundation named for his late wife."
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:buffett}}",
+        "url": "https://x.com/unusual_whales/status/2122310465539789260"
+      },
+      "timeRefs": {
+        "buffett": {
+          "at": "2026-11-16T12:47:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "macklem-boc",
+      "section": "markets",
+      "priority": 13,
+      "kicker": {
+        "he": "בנקים מרכזיים",
+        "en": "Central banks"
+      },
+      "headline": {
+        "he": "נגיד בנק קנדה טיף מקלם יפרוש מתפקידו ביוני 2027",
+        "en": "Bank of Canada Governor Tiff Macklem to step down in June 2027"
+      },
+      "summary": {
+        "he": "נגיד בנק קנדה טיף מקלם הודיע שיפרוש מתפקידו ביוני 2027, לפי LiveSquawk ב-{{time:macklem-2027}} ו-zerohedge ב-{{time:macklem}}.",
+        "en": "Bank of Canada Governor Tiff Macklem announced he will step down in June 2027, per LiveSquawk at {{time:macklem-2027}} and zerohedge at {{time:macklem}}."
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:macklem-2027}}",
+        "url": "https://x.com/LiveSquawk/status/2122344732521029892"
+      },
+      "secondarySources": [
+        {
+          "name": "@zerohedge · {{time:macklem}}",
+          "url": "https://x.com/zerohedge/status/2122344249458864183"
+        }
+      ],
+      "timeRefs": {
+        "macklem": {
+          "at": "2026-11-16T15:01:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "macklem-2027": {
+          "at": "2026-11-16T15:03:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "gold-silver",
+      "section": "markets",
+      "priority": 14,
+      "kicker": {
+        "he": "מתכות יקרות",
+        "en": "Precious metals"
+      },
+      "headline": {
+        "he": "הזהב ירד ב-{{move:-1%}} ל-3,840.89 דולר לאונקיה; הכסף צלל ב-{{move:-3%}}",
+        "en": "Gold fell {{move:-1%}} to $3,840.89 an ounce; silver slid {{move:-3%}}"
+      },
+      "summary": {
+        "he": "מחיר הזהב ירד ב-{{move:-1%}} ל-3,840.89 דולר לאונקיה במסחר הבוקר, לפי FirstSquawk ב-{{time:gold}}, ומחיר הכסף צלל ב-{{move:-3%}} ל-47.25 דולר לאונקיה, לפי FirstSquawk ב-{{time:silver}}.",
+        "en": "Gold fell {{move:-1%}} to $3,840.89 an ounce in morning trading, per FirstSquawk at {{time:gold}}, and silver slid {{move:-3%}} to $47.25 an ounce, per FirstSquawk at {{time:silver}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:gold}}",
+        "url": "https://x.com/FirstSquawk/status/2122206664891994212"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:silver}}",
+          "url": "https://x.com/FirstSquawk/status/2122206967557202131"
+        }
+      ],
+      "timeRefs": {
+        "gold": {
+          "at": "2026-11-16T05:54:32+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "silver": {
+          "at": "2026-11-16T05:55:44+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "oil-surplus",
+      "section": "markets",
+      "priority": 15,
+      "kicker": {
+        "he": "אנרגיה · נפט",
+        "en": "Energy · oil"
+      },
+      "headline": {
+        "he": "סוכנות האנרגיה הבינלאומית: שוק הנפט עבר לעודף היצע לראשונה מאז מלחמת איראן; ברנט ירד ב-{{move:-2%}}",
+        "en": "IEA: the oil market flipped to surplus for the first time since the Iran war; Brent fell {{move:-2%}}"
+      },
+      "summary": {
+        "he": "סוכנות האנרגיה הבינלאומית (IEA) קבעה ששוק הנפט עבר לעודף היצע לראשונה מאז מלחמת איראן, לפי zerohedge ב-{{time:iea}}. חוזי הברנט ירדו ב-{{move:-2%}} ל-93.92 דולר לחבית על רקע התאוששות זרימות האספקה מהמזרח התיכון, לפי FirstSquawk ב-{{time:brent}}.",
+        "en": "The International Energy Agency said the oil market flipped to surplus for the first time since the Iran war, per zerohedge at {{time:iea}}. Brent futures fell {{move:-2%}} to $93.92 a barrel on recovering flows from the Middle East, per FirstSquawk at {{time:brent}}."
+      },
+      "source": {
+        "name": "@zerohedge · {{time:iea}}",
+        "url": "https://x.com/zerohedge/status/2122317623585059205"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:brent}}",
+          "url": "https://x.com/FirstSquawk/status/2122334472679080337"
+        }
+      ],
+      "timeRefs": {
+        "iea": {
+          "at": "2026-11-16T13:15:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "brent": {
+          "at": "2026-11-16T14:22:24+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "strategy-bitcoin",
+      "section": "markets",
+      "priority": 16,
+      "kicker": {
+        "he": "ביטקוין",
+        "en": "Bitcoin"
+      },
+      "headline": {
+        "he": "Strategy גייסה 244.7 מיליון דולר ממכירת מניות וקנתה עוד 485 ביטקוין",
+        "en": "Strategy raised $244.7 million from a share sale and bought another 485 bitcoin"
+      },
+      "summary": {
+        "he": "חברת Strategy גייסה 244.7 מיליון דולר נטו ממכירת 2.09 מיליון מניות מחלקה A ורכשה 485 ביטקוין תמורת 33.4 מיליון דולר, לפי דיווח לרשות ניירות הערך האמריקאית דרך @DeItaone ב-{{time:strategy}}. הביטקוין נחת על קו תמיכה ארוך-טווח סביב 64 אלף דולר, אמר מיכה סטוקס בלייב הפתיחה; לדבריו, אם קו התמיכה לא יחזיק - הירידה צפויה להימשך.",
+        "en": "Strategy raised $244.7 million in net proceeds from selling 2.09 million Class A shares and bought 485 bitcoin for $33.4 million, per an SEC filing via @DeItaone at {{time:strategy}}. Bitcoin has landed on a long-term support line around $64,000, Micha Stocks said in his open livestream; if the support does not hold, he expects the decline to continue."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:strategy}}",
+        "url": "https://x.com/DeItaone/status/2122314827112538221"
+      },
+      "secondarySources": [
+        {
+          "name": "Micha Stocks · live",
+          "url": "https://www.youtube.com/watch?v=9zc4adVZL10"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "BITSTAMP:BTCUSD",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "strategy": {
+          "at": "2026-11-16T13:04:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "isracard-layoffs",
+      "section": "israel",
+      "priority": 17,
+      "kicker": {
+        "he": "ישראל · פיטורים",
+        "en": "Israel · layoffs"
+      },
+      "headline": {
+        "he": "ישראכרט מפטרת 370 עובדים אחרי שהרווח הרבעוני צנח ב-43%",
+        "en": "Isracard lays off 370 employees after quarterly profit plunged 43%"
+      },
+      "summary": {
+        "he": "ישראכרט תפטר 370 עובדים לאחר שהרווח הרבעוני צנח ב-43%, לפי כלכליסט ב-{{time:isracard}}; כפי שדיווח גלובס ב-{{time:isracard-globes}}.",
+        "en": "Isracard is laying off 370 employees after quarterly profit plunged 43%, per Calcalist at {{time:isracard}} and Globes at {{time:isracard-globes}}."
+      },
+      "source": {
+        "name": "כלכליסט · {{time:isracard}}",
+        "url": "https://x.com/calcalist/status/2122213090418676042"
+      },
+      "secondarySources": [
+        {
+          "name": "גלובס · {{time:isracard-globes}}",
+          "url": "https://x.com/globesnews/status/2122206883914150274"
+        }
+      ],
+      "timeRefs": {
+        "isracard-globes": {
+          "at": "2026-11-16T05:55:24+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "isracard": {
+          "at": "2026-11-16T06:20:04+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "hapoalim-profit",
+      "section": "israel",
+      "priority": 18,
+      "kicker": {
+        "he": "ישראל · בנקאות",
+        "en": "Israel · banking"
+      },
+      "headline": {
+        "he": "רווח בנק הפועלים ירד ב-14% ל-2.36 מיליארד שקל; דיבידנד של מעל מיליארד שקל",
+        "en": "Bank Hapoalim's profit fell 14% to 2.36 billion shekels; a dividend of over one billion shekels"
+      },
+      "summary": {
+        "he": "רווח בנק הפועלים ירד ב-14% ל-2.36 מיליארד שקל ברבעון השלישי, והבנק יחלק דיבידנד של מעל מיליארד שקל, לפי גלובס ב-{{time:hapoalim}}. הבנק מייחס את הירידה ברווח לסביבת ריבית נמוכה יותר ולשינויים במדד המחירים לצרכן, ויחזיר לבעלי המניות 50% מהרווח באמצעות דיבידנד ורכישה עצמית, לפי כלכליסט ב-{{time:hapoalim-cal}}.",
+        "en": "Bank Hapoalim's profit fell 14% to 2.36 billion shekels in the third quarter, and the bank will distribute a dividend of over one billion shekels, per Globes at {{time:hapoalim}}. The bank attributes the profit decline to a lower interest rate environment and changes in the consumer price index, and will return 50% of the profit to shareholders through dividends and buybacks, per Calcalist at {{time:hapoalim-cal}}."
+      },
+      "source": {
+        "name": "גלובס · {{time:hapoalim}}",
+        "url": "https://x.com/globesnews/status/2122218320002793702"
+      },
+      "secondarySources": [
+        {
+          "name": "כלכליסט · {{time:hapoalim-cal}}",
+          "url": "https://x.com/calcalist/status/2122220748727300322"
+        }
+      ],
+      "timeRefs": {
+        "hapoalim": {
+          "at": "2026-11-16T06:40:51+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "hapoalim-cal": {
+          "at": "2026-11-16T06:50:30+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "cellebrite-layoffs",
+      "section": "israel",
+      "priority": 19,
+      "kicker": {
+        "he": "ישראל · הייטק",
+        "en": "Israel · tech"
+      },
+      "headline": {
+        "he": "סלברייט צפויה לפטר עשרות עובדים - למרות צמיחה של 18% בהכנסות",
+        "en": "Cellebrite is expected to lay off dozens of employees - despite 18% revenue growth"
+      },
+      "summary": {
+        "he": "חברת הסייבר והמודיעין הדיגיטלי סלברייט צפויה לפטר עשרות עובדים במסגרת מהלך של ארגון מחדש והתייעלות; המהלך יוצא לפועל למרות צמיחה של 18% בהכנסות הרבעון השלישי ועלייה בתחזית הרווח השנתית של החברה, לפי כלכליסט ב-{{time:cellebrite}}.",
+        "en": "Digital intelligence company Cellebrite is expected to lay off dozens of employees as part of a reorganization and efficiency drive; the move comes despite 18% revenue growth in the third quarter and a raised annual profit forecast, per Calcalist at {{time:cellebrite}}."
+      },
+      "source": {
+        "name": "כלכליסט · {{time:cellebrite}}",
+        "url": "https://x.com/calcalist/status/2122223167401787655"
+      },
+      "timeRefs": {
+        "cellebrite": {
+          "at": "2026-11-16T07:00:06+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "israel-gdp",
+      "section": "israel",
+      "priority": 20,
+      "kicker": {
+        "he": "ישראל · מאקרו",
+        "en": "Israel · macro"
+      },
+      "headline": {
+        "he": "אפקט אנבידיה: כלכלת ישראל צמחה ב-8% ברבעון השלישי",
+        "en": "The Nvidia effect: Israel's economy grew 8% in the third quarter"
+      },
+      "summary": {
+        "he": "כלכלת ישראל צמחה ב-8% ברבעון השלישי, בעקבות פעילות אנבידיה בישראל, לפי גלובס ב-{{time:gdp}}.",
+        "en": "Israel's economy grew 8% in the third quarter on the back of Nvidia's activity in the country, per Globes at {{time:gdp}}."
+      },
+      "source": {
+        "name": "גלובס · {{time:gdp}}",
+        "url": "https://x.com/globesnews/status/2122284555444892014"
+      },
+      "timeRefs": {
+        "gdp": {
+          "at": "2026-11-16T11:04:02+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    }
+  ]
+}
