@@ -1,0 +1,951 @@
+{
+  "schemaVersion": "2.0",
+  "date": "2026-11-18",
+  "editionSlug": "0016-close",
+  "editionType": "close",
+  "editionNumber": 7,
+  "publishedAt": "2026-11-18T00:16:02+02:00",
+  "editorialLead": {
+    "he": "אנבידיה הכתה את הציפיות בדוח הראשון מאז עזיבת הואנג; המניה זינקה במסחר המאוחר",
+    "en": "Nvidia tops expectations in its first report since Huang's exit; the stock jumps after hours"
+  },
+  "topSummary": {
+    "he": "אנבידיה הכתה את התחזיות בדוחות הראשונים מאז עזיבת ג'נסן הואנג, עם הכנסות שיא של כ-116 מיליארד דולר ותחזית מעל הקונצנזוס - והמניה זינקה במסחר המאוחר. קודם לכן נסגרה וול סטריט בירידות חדות לקראת הדוחות, והדאו ירד לשפל של שלושה חודשים.",
+    "en": "Nvidia beat estimates in its first report since Jensen Huang's exit, with record revenue of about $116 billion and above-consensus guidance - and the stock jumped after hours. Earlier, Wall Street closed sharply lower ahead of the report, with the Dow at a three-month low."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "NASDAQ:NVDA",
+    "^IXIC",
+    "NKE",
+    "CRM"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "NASDAQ:NVDA",
+      "range": "1d",
+      "label": {
+        "he": "אנבידיה",
+        "en": "Nvidia"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "nvidia-earnings-q3",
+      "section": "tech",
+      "isLead": true,
+      "priority": 1,
+      "kicker": {
+        "he": "אנבידיה · דוחות רבעון שלישי",
+        "en": "Nvidia · Q3 earnings"
+      },
+      "headline": {
+        "he": "אנבידיה הכתה את התחזיות בדוח הראשון מאז עזיבת הואנג: הכנסות שיא של 115.8 מיליארד דולר, והמניה זינקה במסחר המאוחר",
+        "en": "Nvidia beats estimates in its first report since Huang's exit: record revenue of $115.8 billion, and the stock jumps after hours"
+      },
+      "summary": {
+        "he": "אנבידיה פרסמה ב-{{time:release}} את דוחותיה לרבעון השלישי של שנת הכספים 2027 - הראשונים מאז עזיבת ג'נסן הואנג: רווח מתואם של 2.68 דולר למניה מול תחזית של 2.47 דולר, והכנסות שיא של 115.8 מיליארד דולר מול תחזית של 109.33 מיליארד דולר - צמיחה של 103% לעומת הרבעון המקביל, לפי wallstengine ב-{{time:main}} ו-zerohedge ב-{{time:release}}. הכנסות מרכזי הנתונים הגיעו לשיא של 107.6 מיליארד דולר - בפעם הראשונה מעל 100 מיליארד - מול תחזית של 101.87 מיליארד דולר, לפי FirstSquawk ב-{{time:dc}}. מניית החברה זינקה במסחר המאוחר בתגובה הראשונית לדוחות; zerohedge דיווח ב-{{time:ah}} על זינוק אחרי תוצאות חזקות במיוחד. המחיר במסחר המאוחר עודנו בתנועה ואינו סופי.",
+        "en": "Nvidia reported at {{time:release}} its fiscal third-quarter 2027 results - the first since Jensen Huang's exit: adjusted EPS of $2.68 versus a $2.47 estimate, and record revenue of $115.8 billion versus a $109.33 billion estimate - up 103% year over year, per wallstengine at {{time:main}} and zerohedge at {{time:release}}. Data-center revenue hit a record $107.6 billion - the first time above $100 billion - versus a $101.87 billion estimate, per FirstSquawk at {{time:dc}}. The stock jumped after hours in the initial reaction to the report; zerohedge reported at {{time:ah}} a surge after a 'blowout quarter'. After-hours pricing is still moving and is not final."
+      },
+      "bullets": {
+        "he": [
+          "התחזית לרבעון הרביעי: הכנסות של 127.4 עד 132.6 מיליארד דולר (נקודת אמצע של 130 מיליארד, הכוללת שבוע נוסף ברבעון) מול תחזית של 125.25 מיליארד דולר; שולי הרווח הגולמי המתואמים ברבעון השלישי עמדו על 74.9%, ולרבעון הרביעי החברה מכוונת ל-71-72% על רקע תחילת המעבר ל-Rubin, לפי wallstengine.",
+          "הדירקטוריון אישר הגדלה של 150 מיליארד דולר בתוכנית רכישת המניות העצמית, ולחברה נותרה הרשאה של 227.3 מיליארד דולר עד שנת הכספים 2028, לפי DeItaone ב-{{time:buyback}}. התזרים החופשי ברבעון הסתכם ב-43.8 מיליארד דולר - כפול מהרבעון הקודם - והחברה החזירה שיא של 28.1 מיליארד דולר לבעלי המניות, לפי wallstengine.",
+          "ההתחייבויות העתידיות של החברה טיפסו ל-518 מיליארד דולר מ-366 מיליארד ברבעון הקודם, התחייבויות האספקה ל-390 מיליארד מ-279 מיליארד, והסכמי ה-Neocloud המותנים עומדים על 32 מיליארד דולר, לפי wallstengine. קרס אמרה בשיחת הדוחות שה-Neoclouds צומחים מהר יותר מהמאזנים שלהם ושאנבידיה מסייעת במימון ההקמות, ב-{{time:neocloud}}.",
+          "הכנסות מלקוחות Hyperscale הסתכמו ב-60.1 מיליארד דולר - צמיחה של 71% ומעל התחזית של 54.1 מיליארד דולר; ענני ה-AI, התעשייה והמגזר הארגוני תרמו 47.5 מיליארד דולר, צמיחה של 195%, לפי wallstengine.",
+          "אנבידיה לא צופה הכנסות ממרכזי נתונים מסין ברבעון הקרוב; ברבעון השלישי מכרה החברה שבבי Hopper לסין ב-2.4 מיליארד דולר, לפי FirstSquawk.",
+          "המנכ\"לית הזמנית קולט קרס אמרה בשיחת הדוחות: ״המומנטום שלנו אמיתי״, לפי wallstengine ב-{{time:kress}}. זהו הרבעון ה-17 ברציפות שאנבידיה מכה את תחזית ההכנסות, לפי zerohedge ב-{{time:beat17}}, והרבעון ה-15 ברציפות שההכנסות עולות על הקצה העליון של התחזית, לפי wallstengine ב-{{time:high-end}}."
+        ],
+        "en": [
+          "Fourth-quarter guidance: revenue of $127.4 to $132.6 billion (a $130 billion midpoint, including an extra week in the quarter) versus a $125.25 billion estimate; adjusted gross margin was 74.9% in Q3, and the company guides to 71-72% in Q4 as the Rubin ramp begins, per wallstengine.",
+          "The board approved a $150 billion increase to the share buyback program, leaving a $227.3 billion authorization through fiscal 2028, per DeItaone at {{time:buyback}}. Free cash flow was $43.8 billion in the quarter - double the prior quarter - and the company returned a record $28.1 billion to shareholders, per wallstengine.",
+          "Future commitments rose to $518 billion from $366 billion last quarter, supply commitments to $390 billion from $279 billion, and conditional neocloud agreements stand at $32 billion, per wallstengine. Kress said on the call that neoclouds are growing faster than their balance sheets and that Nvidia is helping finance the buildouts, at {{time:neocloud}}.",
+          "Revenue from hyperscale customers was $60.1 billion - up 71% and above the $54.1 billion estimate; AI clouds, industrial and enterprise contributed $47.5 billion, up 195%, per wallstengine.",
+          "Nvidia does not expect data-center revenue from China next quarter; in Q3 it sold $2.4 billion of Hopper chips to China, per FirstSquawk.",
+          "Interim CEO Colette Kress said on the earnings call: 'Our momentum is real', per wallstengine at {{time:kress}}. This is the 17th consecutive quarter Nvidia beats the revenue estimate, per zerohedge at {{time:beat17}}, and the 15th straight quarter revenue tops the high end of guidance, per wallstengine at {{time:high-end}}."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:main}}",
+        "url": "https://x.com/wallstengine/status/2122802301182017948"
+      },
+      "secondarySources": [
+        {
+          "name": "@zerohedge · {{time:release}}",
+          "url": "https://x.com/zerohedge/status/2122802014270677055"
+        },
+        {
+          "name": "@FirstSquawk · {{time:dc}}",
+          "url": "https://x.com/FirstSquawk/status/2122804145816301645"
+        },
+        {
+          "name": "@zerohedge · {{time:ah}}",
+          "url": "https://x.com/zerohedge/status/2122806847778291712"
+        },
+        {
+          "name": "@DeItaone · {{time:buyback}}",
+          "url": "https://x.com/DeItaone/status/2122802516610179569"
+        },
+        {
+          "name": "@wallstengine · {{time:kress}}",
+          "url": "https://x.com/wallstengine/status/2122802911201661160"
+        },
+        {
+          "name": "@wallstengine · {{time:neocloud}}",
+          "url": "https://x.com/wallstengine/status/2122805859168526388"
+        },
+        {
+          "name": "@zerohedge · {{time:beat17}}",
+          "url": "https://x.com/zerohedge/status/2122807863068561572"
+        },
+        {
+          "name": "@wallstengine · {{time:high-end}}",
+          "url": "https://x.com/wallstengine/status/2122802845573390671"
+        },
+        {
+          "name": "@zerohedge",
+          "url": "https://x.com/zerohedge/status/2122802230944555382"
+        },
+        {
+          "name": "@wallstengine",
+          "url": "https://x.com/wallstengine/status/2122803831365152843"
+        },
+        {
+          "name": "@wallstengine",
+          "url": "https://x.com/wallstengine/status/2122805938335965382"
+        },
+        {
+          "name": "@wallstengine",
+          "url": "https://x.com/wallstengine/status/2122807769543946581"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-revenue-doubles-115-8-213800805.html"
+        },
+        {
+          "name": "Investopedia",
+          "url": "https://www.investopedia.com/nvidia-stock-rises-after-fy27-q3-revenue-net-profit-beat-expectations-nvda-earnings-12258779"
+        }
+      ],
+      "socialPost": {
+        "id": "2122802301182017948",
+        "url": "https://x.com/wallstengine/status/2122802301182017948"
+      },
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "release": {
+          "at": "2026-11-17T21:20:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "main": {
+          "at": "2026-11-17T21:21:23+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "dc": {
+          "at": "2026-11-17T21:28:42+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ah": {
+          "at": "2026-11-17T21:39:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "buyback": {
+          "at": "2026-11-17T21:22:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "kress": {
+          "at": "2026-11-17T21:23:48+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "neocloud": {
+          "at": "2026-11-17T21:35:31+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "beat17": {
+          "at": "2026-11-17T21:43:29+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "high-end": {
+          "at": "2026-11-17T21:23:32+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "nvidia-huang-sec",
+      "section": "tech",
+      "priority": 2,
+      "kicker": {
+        "he": "סאגת הואנג",
+        "en": "The Huang saga"
+      },
+      "headline": {
+        "he": "ה-SEC פתח בחקירה אזרחית נגד אנבידיה בעקבות עזיבת הואנג; הואנג שבר את שתיקתו: ״אתכבד לחזור אם הדירקטוריון יחליט כך״",
+        "en": "The SEC opens a civil probe into Nvidia over Huang's exit; Huang breaks his silence: 'I would be honored to return if the board so decides'"
+      },
+      "summary": {
+        "he": "רשות ניירות הערך האמריקאית (SEC) פתחה בחקירה אזרחית נגד אנבידיה בשאלה אם החברה הפרה חוקי גילוי למשקיעים בעקבות עזיבתו של ג'נסן הואנג, לפי הוול סטריט ג'ורנל דרך DeItaone ב-{{time:sec}}. הואנג שבר את שתיקתו במהלך 17 בנובמבר ומסר שיתכבד לחזור לתפקיד המנכ\"ל אם הדירקטוריון יחליט כך: ״יצרתי בעיות לדירקטוריון שאני מצטער עליהן עמוקות, ואני לוקח אחריות מלאה על הטעויות שלי״, לפי הוול סטריט ג'ורנל דרך wallstengine ב-{{time:huang}}.",
+        "en": "The US Securities and Exchange Commission has opened a civil probe into Nvidia over whether the company violated investor-disclosure laws following Jensen Huang's exit, per the Wall Street Journal via DeItaone at {{time:sec}}. Huang broke his silence during November 17 and said he would be honored to return as CEO if the board so decides: 'I created problems for the board that I deeply regret, and I take full responsibility for my mistakes', per the Wall Street Journal via wallstengine at {{time:huang}}."
+      },
+      "bullets": {
+        "he": [
+          "דירקטוריון אנבידיה אינו שוקל, נכון ל-17 בנובמבר, את החזרתו של הואנג לתפקיד, לפי בלומברג דרך wallstengine ב-{{time:board}}.",
+          "החברה שכרה את חברת ההשמה Heidrick & Struggles לחיפוש אחר מנכ\"ל קבוע, לפי הוול סטריט ג'ורנל דרך LiveSquawk ב-{{time:search}}.",
+          "הואנג ואשתו העבירו במארס 2026 מניות אנבידיה בשווי של יותר מ-10.5 מיליארד דולר לנאמנות משפחתית - חודשים לפני נפילתו, לפי Barron's דרך Yahoo Finance."
+        ],
+        "en": [
+          "Nvidia's board is not considering, as of November 17, bringing Huang back to the role, per Bloomberg via wallstengine at {{time:board}}.",
+          "The company has hired executive-search firm Heidrick & Struggles to find a permanent CEO, per the Wall Street Journal via LiveSquawk at {{time:search}}.",
+          "Huang and his wife transferred more than $10.5 billion of Nvidia stock to a family trust in March 2026 - months before his downfall, per Barron's via Yahoo Finance."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:sec}}",
+        "url": "https://x.com/DeItaone/status/2122798435015536699"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:huang}}",
+          "url": "https://x.com/wallstengine/status/2122721520070095352"
+        },
+        {
+          "name": "@wallstengine",
+          "url": "https://x.com/wallstengine/status/2122723172005126309"
+        },
+        {
+          "name": "@wallstengine · {{time:board}}",
+          "url": "https://x.com/wallstengine/status/2122742385687847178"
+        },
+        {
+          "name": "@LiveSquawk · {{time:search}}",
+          "url": "https://x.com/LiveSquawk/status/2122741910985220166"
+        },
+        {
+          "name": "@FirstSquawk",
+          "url": "https://x.com/FirstSquawk/status/2122796682060747253"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/jensen-huang-return-nvidia-0f6d83fc6d97a30fc54bd66b5ac42eda"
+        },
+        {
+          "name": "Yahoo Finance · Barron's",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-wife-transferred-more-232221819.html"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/"
+        }
+      ],
+      "timeRefs": {
+        "sec": {
+          "at": "2026-11-17T21:06:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "huang": {
+          "at": "2026-11-17T16:00:23+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "board": {
+          "at": "2026-11-17T17:23:18+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "search": {
+          "at": "2026-11-17T17:21:24+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "wall-street-close",
+      "section": "markets",
+      "priority": 3,
+      "kicker": {
+        "he": "וול סטריט · הסגירה",
+        "en": "Wall Street · the close"
+      },
+      "headline": {
+        "he": "סגירה שלילית חדה לקראת דוחות אנבידיה: הדאו ירד {{move:-1.64%}} לשפל של שלושה חודשים, וה-VIX זינק {{move:+11.09%}}",
+        "en": "A sharply lower close ahead of Nvidia earnings: the Dow fell {{move:-1.64%}} to a three-month low, and the VIX jumped {{move:+11.09%}}"
+      },
+      "summary": {
+        "he": "מדד דאו ג'ונס ירד {{move:-1.64%}} ב-17 בנובמבר - כ-848 נקודות לפי AP - לשפל של שלושה חודשים; מדד S&P 500 ירד {{move:-1.02%}} והנאסד\"ק {{move:-0.74%}}, לפי AP ו-Investing.com. מדד התנודתיות VIX זינק {{move:+11.09%}} ל-25.45. מניית אנבידיה נדדה לשני הכיוונים לקראת הדוחות וצללה עד 3.7% תוך-יומית לפני שמתנה את הירידה, לפי AP.",
+        "en": "The Dow Jones fell {{move:-1.64%}} on November 17 - about 848 points, per AP - to a three-month low; the S&P 500 lost {{move:-1.02%}} and the Nasdaq Composite {{move:-0.74%}}, per AP and Investing.com. The VIX volatility index jumped {{move:+11.09%}} to 25.45. Nvidia swung both ways ahead of its report, dropping as much as 3.7% intraday before paring losses, per AP."
+      },
+      "bullets": {
+        "he": [
+          "סיילספורס הובילה את הירידות בדאו עם {{move:-9.45%}} ל-194.52 דולר; נייקי ירדה {{move:-6.30%}} ל-35.85 דולר אחרי שהזהירה משנת 2028 מאתגרת, ויונייטדהלת' איבדה {{move:-5.42%}}. ברודקום בלטה בעליות עם {{move:+2.46%}} ל-341.60 דולר, לפי Investing.com.",
+          "מדד S&P 500 נמצא 7% מתחת לשיא של 6 באוקטובר - התיקון השלישי השנה, לפי charliebilello ב-{{time:pullback}}.",
+          "הזהב (חוזי דצמבר) התחזק 0.10% ל-3,856.67 דולר; הנפט מסוג WTI (חוזי ינואר) ירד 0.24% ל-84.27 דולר והברנט עלה 0.50% ל-92.90 דולר; מדד הדולר נחלש 0.03% ל-103.44, לפי Investing.com. מלאי הנפט הגולמי בארה\"ב עלו ב-5.3 מיליון חביות בשבוע החולף - יותר מכפול מהתחזית, לפי סקר ה-API דרך FirstSquawk ב-{{time:api}}."
+        ],
+        "en": [
+          "Salesforce led the Dow lower with {{move:-9.45%}} to $194.52; Nike fell {{move:-6.30%}} to $35.85 after warning of a challenging fiscal 2028, and UnitedHealth lost {{move:-5.42%}}. Broadcom led the gainers with {{move:+2.46%}} to $341.60, per Investing.com.",
+          "The S&P 500 is 7% below its October 6 peak - the third pullback this year, per charliebilello at {{time:pullback}}.",
+          "Gold (December contracts) edged up 0.10% to $3,856.67; WTI (January contracts) fell 0.24% to $84.27 and Brent rose 0.50% to $92.90; the dollar index slipped 0.03% to 103.44, per Investing.com. US crude inventories rose 5.3 million barrels last week - more than double the estimate, per the API survey via FirstSquawk at {{time:api}}."
+        ]
+      },
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-ff6caef4d9289cf7f1e6ee48a706eddc"
+      },
+      "secondarySources": [
+        {
+          "name": "Investing.com · finwire",
+          "url": "https://finwire.io/news/stock-markets-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-164-1"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-4d5a35288288389d894e63e6bebe8240"
+        },
+        {
+          "name": "@charliebilello · {{time:pullback}}",
+          "url": "https://x.com/charliebilello/status/2122731991810539990"
+        },
+        {
+          "name": "@FirstSquawk · {{time:api}}",
+          "url": "https://x.com/FirstSquawk/status/2122809725319143621"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "pullback": {
+          "at": "2026-11-17T16:41:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "api": {
+          "at": "2026-11-17T21:50:53+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "anthropic-ipo-pricing",
+      "section": "tech",
+      "priority": 4,
+      "kicker": {
+        "he": "אנתרופיק · ההנפקה",
+        "en": "Anthropic · the IPO"
+      },
+      "headline": {
+        "he": "אנתרופיק מתכננת לתמחר את ההנפקה מעל 80 דולר למניה - מעל הטווח המקורי; המסחר צפוי להיפתח בנאסד\"ק עד סוף השבוע",
+        "en": "Anthropic plans to price the IPO above $80 a share - above the original range; trading expected to open on Nasdaq by the end of the week"
+      },
+      "summary": {
+        "he": "אנתרופיק מתכננת לתמחר את ההנפקה הראשונית שלה מעל 80 דולר למניה - מעל הטווח המקורי של 70-78 דולר - בשווי של 1.5-1.6 טריליון דולר, לפי הוול סטריט ג'ורנל דרך wallstengine ב-{{time:pricing}}; גם CNBC דיווח ממקורות שהתמחור צפוי מעל הטווח. המניה צפויה להתחיל להיסחר בנאסד\"ק עד סוף השבוע, לפי wallstengine ב-{{time:week}}, וחברת Tuttle מתכננת תעודות סל ממונפות על המניה (ANTT ו-ANTZ).",
+        "en": "Anthropic plans to price its initial public offering above $80 a share - above the original $70-78 range - at a valuation of $1.5-1.6 trillion, per the Wall Street Journal via wallstengine at {{time:pricing}}; CNBC also reported from sources that pricing is expected above the range. The stock is expected to begin trading on Nasdaq by the end of the week, per wallstengine at {{time:week}}, and Tuttle is planning leveraged ETFs on the stock (ANTT and ANTZ)."
+      },
+      "bullets": {
+        "he": [
+          "New Street Research כינתה את ההנפקה ״דורית״ והעניקה המלצת קנייה עם מחיר יעד של 105 דולר, לפי wallstengine ב-{{time:newstreet}}. הביקושים להנפקה הגיעו לכשבעה מונים מההיצע, כפי שדווח מוקדם יותר ב-17 בנובמבר."
+        ],
+        "en": [
+          "New Street Research called the IPO 'generational' with a Buy rating and a $105 price target, per wallstengine at {{time:newstreet}}. Demand for the offering ran at about seven times the shares on offer, as reported earlier on November 17."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:pricing}}",
+        "url": "https://x.com/wallstengine/status/2122738024593412537"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:week}}",
+          "url": "https://x.com/wallstengine/status/2122730728484143205"
+        },
+        {
+          "name": "@wallstengine · {{time:newstreet}}",
+          "url": "https://x.com/wallstengine/status/2122675766098092094"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
+        }
+      ],
+      "timeRefs": {
+        "pricing": {
+          "at": "2026-11-17T17:05:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "week": {
+          "at": "2026-11-17T16:36:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "newstreet": {
+          "at": "2026-11-17T12:58:34+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "ai-financing-voices",
+      "section": "markets",
+      "priority": 5,
+      "kicker": {
+        "he": "סיכוני הבינה המלאכותית",
+        "en": "AI risk voices"
+      },
+      "headline": {
+        "he": "גולדמן זאקס: 545 מיליארד דולר של מימון פרויקטי AI בשנה הבאה, מהם 320 מיליארד יזדקקו לערב; דרוקנמילר במצב ״שימור הון״",
+        "en": "Goldman Sachs: $545 billion of AI project financing next year, $320 billion of it needing a guarantor; Druckenmiller in 'capital preservation' mode"
+      },
+      "summary": {
+        "he": "גולדמן זאקס מעריכה שהיקף המימון לפרויקטי בינה מלאכותית יגיע בשנה הבאה ל-545 מיליארד דולר, וש-320 מיליארד דולר מתוכם יזדקקו לערב, לפי zerohedge ב-{{time:goldman}}. מנכ\"ל אפולו מארק רואן אמר שאנבידיה הייתה ״הבנק או הערב״ של כל האקוסיסטם של הבינה המלאכותית, לפי wallstengine ב-{{time:rowan}}; המשקיע סטנלי דרוקנמילר אמר שהוא כמעט מחוץ לשוק ובמצב של ״שימור הון״ - לא בלונג ולא בשורט, לפי StockMKTNewz ב-{{time:druck}}. יו\"ר ה-SEC לשעבר גארי גנסלר אמר בראיון ל-CNN שבועת הבינה המלאכותית תתפוצץ ותגרום למיתון לפני הבחירות ב-2028, לפי CNN דרך New York Post.",
+        "en": "Goldman Sachs estimates AI project financing will reach $545 billion next year, with $320 billion of it needing a guarantor, per zerohedge at {{time:goldman}}. Apollo CEO Marc Rowan said Nvidia has been 'the bank or the guarantor' of the entire AI ecosystem, per wallstengine at {{time:rowan}}; investor Stanley Druckenmiller said he is nearly out of the market and in 'capital preservation' mode - neither long nor short, per StockMKTNewz at {{time:druck}}. Former SEC chair Gary Gensler told CNN the AI bubble will burst and cause a recession before the 2028 election, per CNN via the New York Post."
+      },
+      "source": {
+        "name": "@zerohedge · {{time:goldman}}",
+        "url": "https://x.com/zerohedge/status/2122723757822845071"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:rowan}}",
+          "url": "https://x.com/wallstengine/status/2122732312394224065"
+        },
+        {
+          "name": "@StockMKTNewz · {{time:druck}}",
+          "url": "https://x.com/StockMKTNewz/status/2122742486034190351"
+        },
+        {
+          "name": "New York Post · CNN",
+          "url": "https://nypost.com/2026/11/16/business/former-sec-chair-gary-gensler-says-ai-bubble-will-burst-trigger-recession-by-2028-election/"
+        }
+      ],
+      "timeRefs": {
+        "goldman": {
+          "at": "2026-11-17T16:09:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "rowan": {
+          "at": "2026-11-17T16:43:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "druck": {
+          "at": "2026-11-17T17:23:41+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "homebuilder-sentiment",
+      "section": "markets",
+      "priority": 6,
+      "kicker": {
+        "he": "כלכלה אמריקאית",
+        "en": "US economy"
+      },
+      "headline": {
+        "he": "סנטימנט בוני הבתים בארה\"ב בשפל מאז 2012: 46% מהבונים מורידים מחירים, בהנחה ממוצעת של 8%",
+        "en": "US homebuilder sentiment at its lowest since 2012: 46% of builders are cutting prices, by an average of 8%"
+      },
+      "summary": {
+        "he": "מדד הסנטימנט של בוני הבתים בארה\"ב ירד לרמה הנמוכה ביותר מאז 2012; 46% מהבונים מורידים מחירים, בהנחה ממוצעת של 8%, לפי KobeissiLetter ב-{{time:nahb}}.",
+        "en": "US homebuilder sentiment fell to its lowest level since 2012; 46% of builders are cutting prices, by an average of 8%, per KobeissiLetter at {{time:nahb}}."
+      },
+      "source": {
+        "name": "@KobeissiLetter · {{time:nahb}}",
+        "url": "https://x.com/KobeissiLetter/status/2122769151330845153"
+      },
+      "timeRefs": {
+        "nahb": {
+          "at": "2026-11-17T19:09:39+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "nike-fy28",
+      "section": "markets",
+      "priority": 7,
+      "kicker": {
+        "he": "נייקי",
+        "en": "Nike"
+      },
+      "headline": {
+        "he": "נייקי צנחה {{move:-6.30%}}: שנת הכספים 2028 תהיה ״מאתגרת״, והרווח למניה ימשיך לרדת",
+        "en": "Nike sank {{move:-6.30%}}: fiscal 2028 will be 'challenging', and EPS will keep declining"
+      },
+      "summary": {
+        "he": "נייקי מסרה ששנת הכספים 2028 תהיה ״מאתגרת״ ושהרווח למניה ירד בצורה מתונה מתחזית 2027 של 1.15-1.35 דולר; נקודת המפנה צפויה בשנת הכספים 2029, עם יעד של 3-3.50 דולר למניה עד 2031, לפי wallstengine ב-{{time:nike}}. המניה נסגרה בירידה של {{move:-6.30%}} ל-35.85 דולר, לפי Investing.com. מוקדם יותר באותו יום הציגה החברה תוכנית לחזרה לצמיחה עד 2031.",
+        "en": "Nike said fiscal 2028 will be 'challenging' and that EPS will decline modestly from the fiscal 2027 outlook of $1.15-1.35; the inflection point is expected in fiscal 2029, with a target of $3-3.50 per share by 2031, per wallstengine at {{time:nike}}. The stock closed down {{move:-6.30%}} at $35.85, per Investing.com. Earlier the same day the company presented a plan to return to growth by 2031."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:nike}}",
+        "url": "https://x.com/wallstengine/status/2122799434727895402"
+      },
+      "secondarySources": [
+        {
+          "name": "Investing.com · finwire",
+          "url": "https://finwire.io/news/stock-markets-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-164-1"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "NKE",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "nike": {
+          "at": "2026-11-17T21:09:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "tpg-bill",
+      "section": "markets",
+      "priority": 8,
+      "kicker": {
+        "he": "מיזוגים ורכישות",
+        "en": "Deals"
+      },
+      "headline": {
+        "he": "קרן TPG מתקרבת לעסקה להפרטת BILL Holdings בפרמיה, לפי ה-Financial Times",
+        "en": "TPG nears a deal to take BILL Holdings private at a premium, per the Financial Times"
+      },
+      "summary": {
+        "he": "קרן ההשקעות TPG מתקרבת לעסקה להפרטת חברת התשלומים BILL Holdings בפרמיה על מחיר המניה, לפי ה-Financial Times דרך wallstengine ב-{{time:tpg}}.",
+        "en": "Investment firm TPG is nearing a deal to take payments company BILL Holdings private at a premium to the share price, per the Financial Times via wallstengine at {{time:tpg}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:tpg}}",
+        "url": "https://x.com/wallstengine/status/2122753520234344580"
+      },
+      "timeRefs": {
+        "tpg": {
+          "at": "2026-11-17T18:07:32+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "gm-succession",
+      "section": "markets",
+      "priority": 9,
+      "kicker": {
+        "he": "ג'נרל מוטורס",
+        "en": "General Motors"
+      },
+      "headline": {
+        "he": "ג'נרל מוטורס בוחנת מועמדים חיצוניים להחלפת המנכ\"לית מרי בארה, לפי הוול סטריט ג'ורנל",
+        "en": "General Motors weighs outside candidates to succeed CEO Mary Barra, per the Wall Street Journal"
+      },
+      "summary": {
+        "he": "ג'נרל מוטורס בוחנת מועמדים חיצוניים להחלפת המנכ\"לית מרי בארה, לפי הוול סטריט ג'ורנל דרך zerohedge ב-{{time:gm}}.",
+        "en": "General Motors is weighing outside candidates to succeed CEO Mary Barra, per the Wall Street Journal via zerohedge at {{time:gm}}."
+      },
+      "source": {
+        "name": "@zerohedge · {{time:gm}}",
+        "url": "https://x.com/zerohedge/status/2122776700192366871"
+      },
+      "timeRefs": {
+        "gm": {
+          "at": "2026-11-17T19:39:39+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "openai-microsoft-models",
+      "section": "tech",
+      "priority": 10,
+      "kicker": {
+        "he": "בינה מלאכותית",
+        "en": "Artificial intelligence"
+      },
+      "headline": {
+        "he": "OpenAI השיקה את GPT-6.2 Astra ו-Sol; מיקרוסופט הציגה שישה מודלי MAI חדשים בכנס Ignite",
+        "en": "OpenAI released GPT-6.2 Astra and Sol; Microsoft unveiled six new MAI models at Ignite"
+      },
+      "summary": {
+        "he": "OpenAI השיקה את המודלים GPT-6.2 Astra ו-Sol, לפי wallstengine ב-{{time:gpt}}, ומיקרוסופט הציגה שישה מודלי MAI חדשים בכנס Ignite, לפי wallstengine ב-{{time:mai}}.",
+        "en": "OpenAI released the GPT-6.2 Astra and Sol models, per wallstengine at {{time:gpt}}, and Microsoft unveiled six new MAI models at its Ignite conference, per wallstengine at {{time:mai}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:gpt}}",
+        "url": "https://x.com/wallstengine/status/2122775423232024720"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:mai}}",
+          "url": "https://x.com/wallstengine/status/2122745804944113990"
+        }
+      ],
+      "timeRefs": {
+        "gpt": {
+          "at": "2026-11-17T19:34:34+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "mai": {
+          "at": "2026-11-17T17:36:53+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "spacex-ai-infra",
+      "section": "tech",
+      "priority": 11,
+      "kicker": {
+        "he": "SpaceX",
+        "en": "SpaceX"
+      },
+      "headline": {
+        "he": "סמנכ\"ל הכספים של SpaceX: החברה עשויה להיות שחקנית תשתית ה-AI הגדולה בעולם בשנה הבאה",
+        "en": "SpaceX CFO: the company could be the world's largest AI infrastructure player next year"
+      },
+      "summary": {
+        "he": "סמנכ\"ל הכספים של SpaceX אמר שהחברה עשויה להפוך בשנה הבאה לשחקנית תשתית ה-AI הגדולה בעולם, לפי wallstengine ב-{{time:spacex}}.",
+        "en": "SpaceX's CFO said the company could become the world's largest AI infrastructure player next year, per wallstengine at {{time:spacex}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:spacex}}",
+        "url": "https://x.com/wallstengine/status/2122804799588704491"
+      },
+      "timeRefs": {
+        "spacex": {
+          "at": "2026-11-17T21:31:18+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "hormuz-qeshm",
+      "section": "geopolitics",
+      "priority": 12,
+      "kicker": {
+        "he": "המפרץ הפרסי",
+        "en": "The Persian Gulf"
+      },
+      "headline": {
+        "he": "איראן מסרה שארה\"ב תקפה באי קשם; דיווחים על חמש מכליות שנפגעו סביב מצר הורמוז ב-17 בנובמבר",
+        "en": "Iran says the US attacked Qeshm Island; five tankers reported hit around the Strait of Hormuz on November 17"
+      },
+      "summary": {
+        "he": "איראן מסרה שארה\"ב תקפה באי קשם, ללא נפגעים לפי הדיווחים האיראניים, לפי TASE_IL ב-{{time:qeshm}}. סביב מצר הורמוז דווחו במהלך 17 בנובמבר חמש מכליות כפגועות, לפי zerohedge ב-{{time:tankers}} - לאחר שמוקדם יותר באותו יום דווח על מכליות נוספות במצר, ב-{{time:tankers-earlier}}.",
+        "en": "Iran said the US attacked Qeshm Island, with no casualties per the Iranian reports, per TASE_IL at {{time:qeshm}}. Around the Strait of Hormuz, five tankers were reported hit during November 17, per zerohedge at {{time:tankers}} - after additional tankers were reported in the strait earlier the same day, at {{time:tankers-earlier}}."
+      },
+      "source": {
+        "name": "@zerohedge · {{time:tankers}}",
+        "url": "https://x.com/zerohedge/status/2122802322497515711"
+      },
+      "secondarySources": [
+        {
+          "name": "@zerohedge · {{time:tankers-earlier}}",
+          "url": "https://x.com/zerohedge/status/2122715030113772324"
+        },
+        {
+          "name": "@TASE_IL · {{time:qeshm}}",
+          "url": "https://x.com/TASE_IL/status/2122721133577240786"
+        }
+      ],
+      "timeRefs": {
+        "qeshm": {
+          "at": "2026-11-17T15:58:51+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tankers": {
+          "at": "2026-11-17T21:21:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tankers-earlier": {
+          "at": "2026-11-17T15:34:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "dni-outages",
+      "section": "tech",
+      "priority": 13,
+      "kicker": {
+        "he": "סייבר",
+        "en": "Cyber"
+      },
+      "headline": {
+        "he": "ה-DNI האמריקאי: גל התקלות הטכנולוגיות האחרון אינו מתקפת סייבר; מערכת מודיעין סודית קרסה",
+        "en": "The US DNI: the recent wave of tech outages is not a cyber attack; a classified intelligence system went down"
+      },
+      "summary": {
+        "he": "מנהל המודיעין הלאומי של ארה\"ב (DNI) קלייטון מסר שגל התקלות הטכנולוגיות האחרון אינו מתקפת סייבר, לפי FirstSquawk ב-{{time:dni}}. במקביל דווח על קריסתה של מערכת מודיעין אמריקאית מסווגת, לפי הוול סטריט ג'ורנל דרך LiveSquawk ב-{{time:classified}}.",
+        "en": "US Director of National Intelligence Clayton said the recent wave of tech outages is not a cyber attack, per FirstSquawk at {{time:dni}}. Separately, a classified US intelligence system was reported down, per the Wall Street Journal via LiveSquawk at {{time:classified}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:dni}}",
+        "url": "https://x.com/FirstSquawk/status/2122793867484483868"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:classified}}",
+          "url": "https://x.com/LiveSquawk/status/2122738027193942424"
+        }
+      ],
+      "timeRefs": {
+        "dni": {
+          "at": "2026-11-17T20:47:52+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "classified": {
+          "at": "2026-11-17T17:05:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "faa-routers",
+      "section": "tech",
+      "priority": 14,
+      "kicker": {
+        "he": "תעופה",
+        "en": "Aviation"
+      },
+      "headline": {
+        "he": "ה-FAA השהה התקנת נתבים חדשים בעקבות עצירת ההמראות הארצית ב-13 בנובמבר",
+        "en": "The FAA paused new router installations following the November 13 nationwide ground stop"
+      },
+      "summary": {
+        "he": "רשות התעופה הפדרלית של ארה\"ב (FAA) השהתה התקנת נתבים חדשים בעקבות עצירת ההמראות הארצית ב-13 בנובמבר, לפי הוול סטריט ג'ורנל דרך zerohedge ב-{{time:faa}}.",
+        "en": "The US Federal Aviation Administration paused new router installations following the nationwide ground stop on November 13, per the Wall Street Journal via zerohedge at {{time:faa}}."
+      },
+      "source": {
+        "name": "@zerohedge · {{time:faa}}",
+        "url": "https://x.com/zerohedge/status/2122726826443440469"
+      },
+      "timeRefs": {
+        "faa": {
+          "at": "2026-11-17T16:21:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "kuwait-whistleblower",
+      "section": "geopolitics",
+      "priority": 15,
+      "kicker": {
+        "he": "ארה\"ב · צבא",
+        "en": "US · military"
+      },
+      "headline": {
+        "he": "חושף שרשרת ל-60 Minutes: הצבא האמריקאי התעלם מאזהרות לפני שמל\"ט איראני הרג שישה חיילים בכווית",
+        "en": "60 Minutes whistleblower: the US Army ignored warnings before an Iranian drone killed six soldiers in Kuwait"
+      },
+      "summary": {
+        "he": "חושף שרשרת אמר לתוכנית 60 Minutes שהצבא האמריקאי התעלם מאזהרות לפני שמל\"ט איראני הרג שישה חיילים בכווית, לפי zerohedge ב-{{time:kuwait}}.",
+        "en": "A whistleblower told 60 Minutes that the US Army ignored warnings before an Iranian drone killed six soldiers in Kuwait, per zerohedge at {{time:kuwait}}."
+      },
+      "source": {
+        "name": "@zerohedge · {{time:kuwait}}",
+        "url": "https://x.com/zerohedge/status/2122802075671081286"
+      },
+      "timeRefs": {
+        "kuwait": {
+          "at": "2026-11-17T21:20:29+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "tase-close",
+      "section": "israel",
+      "priority": 16,
+      "kicker": {
+        "he": "בורסת תל אביב",
+        "en": "Tel Aviv Stock Exchange"
+      },
+      "headline": {
+        "he": "בורסת ת\"א ננעלה ללא שינוי במדדי הדגל; מניות נפט וגז וקמעונאות הובילו עליות",
+        "en": "The TASE closed flat in benchmark indices; oil and gas and retail stocks led gains"
+      },
+      "summary": {
+        "he": "בורסת תל אביב ננעלה ב-17 בנובמבר ללא שינוי במדדי הדגל ובחלוקה מעורבת בין הסקטורים; מניות הנפט והגז והקמעונאות הובילו את העליות, לפי הבורסה לניירות ערך בתל אביב ב-{{time:tase}}.",
+        "en": "The Tel Aviv Stock Exchange closed on November 17 with benchmark indices unchanged and a mixed sector split; oil and gas and retail stocks led the gains, per the Tel Aviv Stock Exchange at {{time:tase}}."
+      },
+      "source": {
+        "name": "@TASE_IL · {{time:tase}}",
+        "url": "https://x.com/TASE_IL/status/2122725114550587433"
+      },
+      "timeRefs": {
+        "tase": {
+          "at": "2026-11-17T16:14:40+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "ramon-space",
+      "section": "israel",
+      "priority": 17,
+      "kicker": {
+        "he": "הייטק ישראלי",
+        "en": "Israeli tech"
+      },
+      "headline": {
+        "he": "Ramon.Space הישראלית גייסה 124 מיליון דולר לבניית תשתית מחשוב בחלל",
+        "en": "Israel's Ramon.Space raised $124 million to build computing infrastructure in space"
+      },
+      "summary": {
+        "he": "חברת Ramon.Space הישראלית גייסה 124 מיליון דולר לבניית תשתית מחשוב בחלל, לפי כלכליסט ב-{{time:ramon}} וגלובס.",
+        "en": "Israeli company Ramon.Space raised $124 million to build computing infrastructure in space, per Calcalist at {{time:ramon}} and Globes."
+      },
+      "source": {
+        "name": "@calcalist · {{time:ramon}}",
+        "url": "https://x.com/calcalist/status/2122676960048333201"
+      },
+      "secondarySources": [
+        {
+          "name": "@globesnews",
+          "url": "https://x.com/globesnews/status/2122678080510587121"
+        }
+      ],
+      "timeRefs": {
+        "ramon": {
+          "at": "2026-11-17T13:03:19+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "chevron-shenandoah",
+      "section": "israel",
+      "priority": 18,
+      "kicker": {
+        "he": "אנרגיה",
+        "en": "Energy"
+      },
+      "headline": {
+        "he": "שברון רוכשת את השותפה של נוויטס בשדה הנפט שננדואה",
+        "en": "Chevron is acquiring Navitas's partner in the Shenandoah oil field"
+      },
+      "summary": {
+        "he": "שברון רוכשת את השותפה של נוויטס פטרוליום בשדה הנפט שננדואה, לפי גלובס ב-{{time:chevron}}.",
+        "en": "Chevron is acquiring Navitas Petroleum's partner in the Shenandoah oil field, per Globes at {{time:chevron}}."
+      },
+      "source": {
+        "name": "@globesnews · {{time:chevron}}",
+        "url": "https://x.com/globesnews/status/2122687399641661943"
+      },
+      "timeRefs": {
+        "chevron": {
+          "at": "2026-11-17T13:44:48+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "leumi-financing",
+      "section": "israel",
+      "priority": 19,
+      "kicker": {
+        "he": "בנקאות",
+        "en": "Banking"
+      },
+      "headline": {
+        "he": "מנכ\"ל בנק לאומי: חברות ישראליות מתקשות לקבל מימון מבנקים זרים",
+        "en": "Bank Leumi CEO: Israeli companies struggle to obtain financing from banks abroad"
+      },
+      "summary": {
+        "he": "מנכ\"ל בנק לאומי אמר שחברות ישראליות מתקשות לקבל מימון מבנקים מחוץ לישראל, לפי TheMarker ב-{{time:leumi}}. על רקע עונת הדוחות במשק: מכת השער של גלובס - מכונת הרווחים של הבנקים האטה, ורק לאומי ממשיך לטפס, ב-{{time:banks}}.",
+        "en": "Bank Leumi's CEO said Israeli companies are struggling to obtain financing from banks outside Israel, per TheMarker at {{time:leumi}}. Against the local earnings season, the Globes front page reads: the banks' profit machine has slowed, and only Leumi keeps soaring, at {{time:banks}}."
+      },
+      "source": {
+        "name": "@TheMarker · {{time:leumi}}",
+        "url": "https://x.com/TheMarker/status/2122751757713305859"
+      },
+      "secondarySources": [
+        {
+          "name": "@globesnews · {{time:banks}}",
+          "url": "https://x.com/globesnews/status/2122745422384943595"
+        }
+      ],
+      "timeRefs": {
+        "leumi": {
+          "at": "2026-11-17T18:00:32+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "banks": {
+          "at": "2026-11-17T17:35:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "finance-committee",
+      "section": "israel",
+      "priority": 20,
+      "kicker": {
+        "he": "הכנסת",
+        "en": "The Knesset"
+      },
+      "headline": {
+        "he": "ועדת הכספים לממשלה: ״לא נאשר תקציבים שלא מוסכמים עלינו״",
+        "en": "The Finance Committee to the government: 'We will not approve budgets we do not agree with'"
+      },
+      "summary": {
+        "he": "ועדת הכספים של הכנסת הודיעה לממשלה שלא תאשר תקציבים שלא מוסכמים עליה, לפי TheMarker ב-{{time:committee}}.",
+        "en": "The Knesset Finance Committee told the government it will not approve budgets it does not agree with, per TheMarker at {{time:committee}}."
+      },
+      "source": {
+        "name": "@TheMarker · {{time:committee}}",
+        "url": "https://x.com/TheMarker/status/2122812098392559657"
+      },
+      "timeRefs": {
+        "committee": {
+          "at": "2026-11-17T22:00:18+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    }
+  ]
+}
