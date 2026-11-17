@@ -1,0 +1,1446 @@
+{
+  "schemaVersion": "2.0",
+  "date": "2026-11-17",
+  "editionSlug": "1725-open",
+  "editionType": "open",
+  "editionNumber": 6,
+  "publishedAt": "2026-11-17T17:25:27+02:00",
+  "editorialLead": {
+    "he": "יום הדוחות של אנבידיה: קרס על הקו, הואנג זומן לקונגרס",
+    "en": "Nvidia earnings day: Kress on the call, Huang summoned to Congress"
+  },
+  "topSummary": {
+    "he": "אנבידיה מפרסמת ב-17 בנובמבר אחרי הסגירה את הדוחות הראשונים מאז התפטרות ג'נסן הואנג, בשיא המתח: ועדת ביטחון לאומי חדשה בדירקטוריון וזימון של הואנג לחקירה בקונגרס. במקביל, הביקושים להנפקת אנתרופיק מגיעים לכשבעה מונים מההיצע, והתמחור צפוי בראש הטווח או מעליו.",
+    "en": "Nvidia reports after the close on November 17, its first results since Jensen Huang's resignation, at peak tension: a new board national-security committee and Huang summoned to testify in Congress. Meanwhile, demand for Anthropic's IPO is running at about seven times the shares on offer, with pricing guided to the top of the range or above."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "NASDAQ:NVDA",
+    "^IXIC",
+    "DIS",
+    "NKE"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "NASDAQ:NVDA",
+      "range": "1d",
+      "label": {
+        "he": "אנבידיה",
+        "en": "Nvidia"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "nvidia-earnings-day",
+      "section": "tech",
+      "isLead": true,
+      "priority": 1,
+      "kicker": {
+        "he": "אנבידיה · יום הדוחות",
+        "en": "Nvidia · earnings day"
+      },
+      "headline": {
+        "he": "אנבידיה מדווחת אחרי הסגירה: הדוחות הראשונים בלעדי הואנג, קולט קרס על הקו",
+        "en": "Nvidia reports after the close: the first results without Huang, Colette Kress on the call"
+      },
+      "summary": {
+        "he": "אנבידיה תפרסם ב-17 בנובמבר, אחרי הסגירה בוול סטריט, את הדוחות הרבעוניים הראשונים מאז התפטרות ג'נסן הואנג; המנכ\"לית הזמנית קולט קרס תופיע בפעם הראשונה בתפקיד בשיחת הדוחות, לפי ה-Financial Times דרך FirstSquawk ב-{{time:kress-ft}}. לפי KobeissiLetter ב-{{time:earnings-day}}, זה צפוי להיות אירוע הדוחות הנצפה בהיסטוריה, ושתי שאלות יעמדו במרכז: האם ההנהלה תביע נכונות להחזיר את הואנג, ומה השתנה עסקית.",
+        "en": "Nvidia reports after the Wall Street close on November 17, its first quarterly results since Jensen Huang's resignation; interim CEO Colette Kress makes her first appearance in the role on the earnings call, per the Financial Times via FirstSquawk at {{time:kress-ft}}. Per KobeissiLetter at {{time:earnings-day}}, this is likely the most-watched earnings event in history, hinging on two questions: any willingness to reinstate Huang, and what has changed in the business."
+      },
+      "bullets": {
+        "he": [
+          "אנבידיה נסחרת במכפיל רווח של 19.6 - נמוך ב-25% מפרוקטר אנד גמבל (מכפיל 26), לפי charliebilello ב-{{time:pe}}.",
+          "AMD וגוגל מנצלות את עזיבת הואנג כדי לקחת לקוחות מאנבידיה, לפי The Information דרך @DeItaone ב-{{time:amd-google}}.",
+          "חקירת הוול סטריט ג'ורנל מתארת תרבות של השפלות ומסיבות ו״משפחה מלכותית״ מאחורי עלייתה של אנבידיה ל-5 טריליון דולר, לפי unusual_whales ב-{{time:culture}}."
+        ],
+        "en": [
+          "Nvidia trades at 19.6 times earnings - 25% below Procter & Gamble (26x), per charliebilello at {{time:pe}}.",
+          "AMD and Google are exploiting Huang's exit to win customers from Nvidia, per The Information via @DeItaone at {{time:amd-google}}.",
+          "A Wall Street Journal investigation describes a culture of put-downs, parties and a 'royal family' behind Nvidia's rise to $5 trillion, per unusual_whales at {{time:culture}}."
+        ]
+      },
+      "source": {
+        "name": "@KobeissiLetter · {{time:earnings-day}}",
+        "url": "https://x.com/KobeissiLetter/status/2122681159071179016"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:kress-ft}}",
+          "url": "https://x.com/FirstSquawk/status/2122562230390857926"
+        },
+        {
+          "name": "@charliebilello · {{time:pe}}",
+          "url": "https://x.com/charliebilello/status/2122706401973956854"
+        },
+        {
+          "name": "@DeItaone · {{time:amd-google}}",
+          "url": "https://x.com/DeItaone/status/2122692008477114433"
+        },
+        {
+          "name": "@unusual_whales · {{time:culture}}",
+          "url": "https://x.com/unusual_whales/status/2122649449331646567"
+        }
+      ],
+      "socialPost": {
+        "id": "2122681159071179016",
+        "url": "https://x.com/KobeissiLetter/status/2122681159071179016"
+      },
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "kress-ft": {
+          "at": "2026-11-17T05:27:25+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "earnings-day": {
+          "at": "2026-11-17T13:20:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "amd-google": {
+          "at": "2026-11-17T14:03:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "pe": {
+          "at": "2026-11-17T15:00:18+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "culture": {
+          "at": "2026-11-17T11:14:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "anthropic-ipo-books",
+      "section": "tech",
+      "priority": 2,
+      "kicker": {
+        "he": "אנתרופיק · ההנפקה",
+        "en": "Anthropic · the IPO"
+      },
+      "headline": {
+        "he": "ביקוש של כשבעה מונים מההיצע להנפקת אנתרופיק; התמחור צפוי בראש הטווח או מעליו",
+        "en": "Anthropic IPO demand at roughly seven times the shares on offer; pricing guided to the top of the range or above"
+      },
+      "summary": {
+        "he": "ההנפקה של אנתרופיק משכה מספר הזמנות של 10 מיליארד דולר ומעלה כל אחת, והביקוש הכולל מגיע לכשבעה מונים מהמניות המוצעות, לפי בלומברג דרך unusual_whales ב-{{time:orders}}. החברה מכוונת לתמחר בראש טווח ה-70-78 דולר או מעליו, לפי wallstengine ב-{{time:guide-top}}, וספר ההזמנות צפוי להיסגר ב-{{time:orders-deadline}} ב-17 בנובמבר, לפי LiveSquawk ב-{{time:books-close}}; מוקדם יותר הודיעה החברה שאין שינוי בטווח התמחור, לפי unusual_whales ב-{{time:pricing}}.",
+        "en": "Anthropic's IPO has drawn multiple orders of $10 billion or more, with total demand at roughly seven times the shares on offer, per Bloomberg via unusual_whales at {{time:orders}}. The company is guiding to price at the top of its $70-78 range or above, per wallstengine at {{time:guide-top}}, and the books are scheduled to close at {{time:orders-deadline}} on November 17, per LiveSquawk at {{time:books-close}}; earlier, Anthropic said its $70-78 pricing was unchanged, per unusual_whales at {{time:pricing}}."
+      },
+      "bullets": {
+        "he": [
+          "בית המחקר New Street Research (האנליסט פייר פראגו) יזם כיסוי באנתרופיק בהמלצת קנייה ומחיר יעד של 105 דולר וכינה אותה ״הנפקה דורית״, לפי wallstengine ב-{{time:newstreet}}; KGI Securities נתנה המלצת Outperform עם יעד של 100 דולר - דירוג חיובי שני, לפי @DeItaone ב-{{time:kgi}}.",
+          "אמזון תחזיק 23.8% מהון המניות של אנתרופיק, לפי FirstSquawk ב-{{time:amazon}}.",
+          "מייקל בארי אמר שאנתרופיק ״מהמרת על כל קיומה״ על אופטימיות, ושאין לו כוונה להחזיק במניה, לפי unusual_whales ב-{{time:burry}}.",
+          "ההנפקה תהפוך את 4,000 עובדי החברה למולטי-מיליונרים: כ-1,000 ותיקים יקבלו מניות בשווי 100 מיליון דולר ומעלה כל אחד, וכ-3,000 שהצטרפו בשנתיים האחרונות יקבלו כ-20 מיליון דולר כל אחד, לפי כלכליסט ב-{{time:employees}}."
+        ],
+        "en": [
+          "New Street Research (analyst Pierre Ferragu) initiated Anthropic at Buy with a $105 price target, calling it a 'generational IPO', per wallstengine at {{time:newstreet}}; KGI Securities went Outperform with a $100 target - a second bullish rating, per @DeItaone at {{time:kgi}}.",
+          "Amazon would hold 23.8% of Anthropic's outstanding capital stock, per FirstSquawk at {{time:amazon}}.",
+          "Michael Burry said Anthropic is 'betting its entire existence' on optimism and he has no plans to own the stock, per unusual_whales at {{time:burry}}.",
+          "The IPO will make the company's 4,000 employees multimillionaires: about 1,000 veterans get shares worth $100 million or more each, and roughly 3,000 who joined in the past two years get about $20 million each, per Calcalist at {{time:employees}}."
+        ]
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:orders}}",
+        "url": "https://x.com/unusual_whales/status/2122709617465807132"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:guide-top}}",
+          "url": "https://x.com/wallstengine/status/2122691014229950844"
+        },
+        {
+          "name": "@LiveSquawk · {{time:books-close}}",
+          "url": "https://x.com/LiveSquawk/status/2122690979945926920"
+        },
+        {
+          "name": "@unusual_whales · {{time:pricing}}",
+          "url": "https://x.com/unusual_whales/status/2122682140936769550"
+        },
+        {
+          "name": "@wallstengine · {{time:newstreet}}",
+          "url": "https://x.com/wallstengine/status/2122675766098092094"
+        },
+        {
+          "name": "@DeItaone · {{time:kgi}}",
+          "url": "https://x.com/DeItaone/status/2122682973736571214"
+        },
+        {
+          "name": "@FirstSquawk · {{time:amazon}}",
+          "url": "https://x.com/FirstSquawk/status/2122657548566470932"
+        },
+        {
+          "name": "@unusual_whales · {{time:burry}}",
+          "url": "https://x.com/unusual_whales/status/2122705568884515253"
+        },
+        {
+          "name": "@calcalist · {{time:employees}}",
+          "url": "https://x.com/calcalist/status/2122638014383874189"
+        }
+      ],
+      "socialPost": {
+        "id": "2122709617465807132",
+        "url": "https://x.com/unusual_whales/status/2122709617465807132"
+      },
+      "timeRefs": {
+        "amazon": {
+          "at": "2026-11-17T11:46:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "newstreet": {
+          "at": "2026-11-17T12:58:34+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "pricing": {
+          "at": "2026-11-17T13:23:54+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "kgi": {
+          "at": "2026-11-17T13:27:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "books-close": {
+          "at": "2026-11-17T13:59:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "guide-top": {
+          "at": "2026-11-17T13:59:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "burry": {
+          "at": "2026-11-17T14:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "orders": {
+          "at": "2026-11-17T15:13:05+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "employees": {
+          "at": "2026-11-17T10:28:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "orders-deadline": {
+          "at": "2026-11-17T16:00:00-05:00",
+          "timeZone": "America/New_York",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "wall-street-open",
+      "section": "markets",
+      "priority": 3,
+      "kicker": {
+        "he": "וול סטריט · פתיחה",
+        "en": "Wall Street · open"
+      },
+      "headline": {
+        "he": "פתיחה חלשה ביום הדוחות של אנבידיה: דאו ג'ונס ירד {{move:-0.6%}}, S&P 500 איבד {{move:-0.2%}}",
+        "en": "A weak open on Nvidia earnings day: the Dow fell {{move:-0.6%}}, the S&P 500 lost {{move:-0.2%}}"
+      },
+      "summary": {
+        "he": "המדדים נפתחו בירידות מתונות לקראת דוחות אנבידיה: דאו ג'ונס ירד {{move:-0.6%}} (כ-332 נקודות), מדד S&P 500 איבד {{move:-0.2%}} והנאסד\"ק {{move:-0.1%}}, ומניית אנבידיה ירדה {{move:-0.2%}} אחרי הצלילה של 4.1% ב-16 בנובמבר - נכון לכ-9:40 בבוקר שעון ארה\"ב, לפי AP. ברקע, מדד הקוספי בדרום קוריאה נסגר מתחת ל-5,000 נקודות בפעם הראשונה מאז פברואר, לפי wallstengine ב-{{time:kospi}}.",
+        "en": "Stocks opened modestly lower ahead of Nvidia's earnings: the Dow fell {{move:-0.6%}} (about 332 points), the S&P 500 lost {{move:-0.2%}} and the Nasdaq {{move:-0.1%}}, while Nvidia shares slipped {{move:-0.2%}} after their 4.1% plunge on November 16 - as of about 9:40 a.m. ET, per AP. In the background, South Korea's Kospi closed below 5,000 for the first time since February, per wallstengine at {{time:kospi}}."
+      },
+      "bullets": {
+        "he": [
+          "חברות ה-S&P 500 דיווחו עד כה על צמיחת רווח של 31.9% לעומת השנה ברבעון השלישי - הקצב החזק ביותר מזה ארבע שנים לפחות, לפי KobeissiLetter ב-{{time:eps}}."
+        ],
+        "en": [
+          "S&P 500 companies have so far reported 31.9% year-over-year earnings growth for the third quarter - the strongest pace in at least four years, per KobeissiLetter at {{time:eps}}."
+        ]
+      },
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-4d5a35288288389d894e63e6bebe8240"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:kospi}}",
+          "url": "https://x.com/wallstengine/status/2122625201326403804"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:eps}}",
+          "url": "https://x.com/KobeissiLetter/status/2122694999695651222"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "kospi": {
+          "at": "2026-11-17T09:37:39+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "eps": {
+          "at": "2026-11-17T14:15:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "us-macro-data",
+      "section": "markets",
+      "priority": 4,
+      "kicker": {
+        "he": "מאקרו ארה\"ב",
+        "en": "US macro"
+      },
+      "headline": {
+        "he": "נתונים מעורבים: מכירות הקמעונאות מעל התחזית, הייצור התעשייתי ירד, ביטחון בוני הבתים בשפל של 2012",
+        "en": "Mixed data: retail sales beat, industrial production fell, homebuilder confidence at a 2012 low"
+      },
+      "summary": {
+        "he": "מכירות הקמעונאות בארה\"ב עלו ב-0.2% באוקטובר, מעל תחזית של 0.1%, לפי LiveSquawk ב-{{time:retail}}. בצד השני, הייצור התעשייתי ירד ב-0.4% מול תחזית לעלייה של 0.1%, לפי FirstSquawk ב-{{time:ip}}, ומדד הביטחון של בוני הבתים NAHB צנח ל-25 נקודות - הרמה הנמוכה מאז אפריל 2012, מול תחזית ל-29, לפי @DeItaone ב-{{time:nahb}}.",
+        "en": "US retail sales rose 0.2% in October, above the 0.1% forecast, per LiveSquawk at {{time:retail}}. On the other side, industrial production fell 0.4% against a forecast 0.1% gain, per FirstSquawk at {{time:ip}}, and the NAHB homebuilder sentiment index plunged to 25 - the lowest since April 2012, missing the 29 consensus, per @DeItaone at {{time:nahb}}."
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:retail}}",
+        "url": "https://x.com/LiveSquawk/status/2122684420352295050"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:ip}}",
+          "url": "https://x.com/FirstSquawk/status/2122695457495544038"
+        },
+        {
+          "name": "@DeItaone · {{time:nahb}}",
+          "url": "https://x.com/DeItaone/status/2122706572342174152"
+        }
+      ],
+      "timeRefs": {
+        "retail": {
+          "at": "2026-11-17T13:32:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ip": {
+          "at": "2026-11-17T14:16:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nahb": {
+          "at": "2026-11-17T15:00:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "fed-hike-outlook",
+      "section": "markets",
+      "priority": 5,
+      "kicker": {
+        "he": "הפד",
+        "en": "The Fed"
+      },
+      "headline": {
+        "he": "מוסאלם: ככל הנראה יידרשו מספר העלאות ריבית עד אביב 2027; האמאק: רכישות אג\"ח יישקלו אם הריפו לא יספיק",
+        "en": "Musalem: several rate hikes likely needed before spring 2027; Hammack: Treasury purchases considered if repo is not enough"
+      },
+      "summary": {
+        "he": "נגיד הפד של סנט לואיס אלברטו מוסאלם אמר שהכלכלה ככל הנראה זקוקה למספר העלאות ריבית עד אביב 2027, לפי @DeItaone ב-{{time:musalem}}; הוא העריך שהריבית הריאלית צריכה לעלות בכנקודת אחוז, לפי FirstSquawk ב-{{time:musalem-detail}}. נשיאת הפד של קליבלנד בת' האמאק אמרה בנאום במכון ברוקינגס שהפד צריך להיערך להתערבות אפשרית בשוק האג\"ח הממשלתיות, ושרכישות אג\"ח יישקלו אם הליכי הריפו לא יספיקו, לפי zerohedge ב-{{time:hammack}} ו-LiveSquawk ב-{{time:hammack-speech}}.",
+        "en": "St. Louis Fed President Alberto Musalem said the economy likely needs several rate hikes before spring 2027, per @DeItaone at {{time:musalem}}, and estimated the real policy rate needs to rise about one percentage point, per FirstSquawk at {{time:musalem-detail}}. Cleveland Fed President Beth Hammack said in a Brookings Institution speech that the Fed should prepare for possible Treasury market intervention, with purchases considered if repo operations prove insufficient, per zerohedge at {{time:hammack}} and LiveSquawk at {{time:hammack-speech}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:musalem}}",
+        "url": "https://x.com/DeItaone/status/2122674892353220728"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:musalem-detail}}",
+          "url": "https://x.com/FirstSquawk/status/2122672899597508714"
+        },
+        {
+          "name": "@zerohedge · {{time:hammack}}",
+          "url": "https://x.com/zerohedge/status/2122702049615716621"
+        },
+        {
+          "name": "@LiveSquawk · {{time:hammack-speech}}",
+          "url": "https://x.com/LiveSquawk/status/2122702736500183270"
+        }
+      ],
+      "timeRefs": {
+        "musalem-detail": {
+          "at": "2026-11-17T12:47:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "musalem": {
+          "at": "2026-11-17T12:55:06+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "hammack": {
+          "at": "2026-11-17T14:43:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "hammack-speech": {
+          "at": "2026-11-17T14:45:44+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "bofa-fund-survey",
+      "section": "markets",
+      "priority": 6,
+      "kicker": {
+        "he": "סקר מנהלי קרנות",
+        "en": "Fund manager survey"
+      },
+      "headline": {
+        "he": "סקר בנק אוף אמריקה: קיצוץ החשיפה לטכנולוגיה הגדול מאז 2006; ״בועת AI״ בראש הסיכונים",
+        "en": "BofA survey: the biggest tech allocation cut since 2006; 'AI bubble' tops the risk list"
+      },
+      "summary": {
+        "he": "מנהלי הקרנות קיצצו את החשיפה לטכנולוגיה בקצב החודשי הגבוה ביותר מאז יוני 2006 - משקל-יתר נטו שהתרסק מ-37% ל-12%, לפי סקר מנהלי הקרנות של בנק אוף אמריקה דרך @DeItaone ב-{{time:tech-cut}}. בועת הבינה המלאכותית מובילה את רשימת הסיכונים הקיצוניים (34% מהמשיבים), לפי @DeItaone ב-{{time:bubble}}, ו-52% מצפים שענקית ענן תכריז על קיצוץ בהשקעות, לפי @DeItaone ב-{{time:capex-cut}}. רמת המזומן ירדה ל-3.6% ורק 3% צופים מיתון, לפי LiveSquawk ב-{{time:fms-detail}}.",
+        "en": "Fund managers cut tech exposure at the fastest monthly pace since June 2006 - net overweight plunging from 37% to 12%, per BofA's fund manager survey via @DeItaone at {{time:tech-cut}}. An AI bubble tops the tail-risk list (34% of respondents), per @DeItaone at {{time:bubble}}, and 52% expect a major hyperscaler to announce a capex cut, per @DeItaone at {{time:capex-cut}}. Cash levels fell to 3.6% and only 3% predict recession, per LiveSquawk at {{time:fms-detail}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:tech-cut}}",
+        "url": "https://x.com/DeItaone/status/2122656238332707058"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:bubble}}",
+          "url": "https://x.com/DeItaone/status/2122659423558537688"
+        },
+        {
+          "name": "@DeItaone · {{time:capex-cut}}",
+          "url": "https://x.com/DeItaone/status/2122664670314017239"
+        },
+        {
+          "name": "@LiveSquawk · {{time:fms-detail}}",
+          "url": "https://x.com/LiveSquawk/status/2122644303851762028"
+        }
+      ],
+      "timeRefs": {
+        "fms-detail": {
+          "at": "2026-11-17T10:53:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tech-cut": {
+          "at": "2026-11-17T11:40:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bubble": {
+          "at": "2026-11-17T11:53:38+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "capex-cut": {
+          "at": "2026-11-17T12:14:29+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "citi-longs-underwater",
+      "section": "markets",
+      "priority": 7,
+      "kicker": {
+        "he": "סיטי · פוזיציות",
+        "en": "Citi · positioning"
+      },
+      "headline": {
+        "he": "סיטי מזהירה: 95% מהפוזיציות הלונג על חוזי ה-S&P 500 בהפסד, 45.9 מיליארד דולר בסיכון לחיסול",
+        "en": "Citi warns: 95% of S&P 500 futures longs are underwater, $45.9B at risk of liquidation"
+      },
+      "summary": {
+        "he": "סיטי מזהירה ש-95% מהפוזיציות הלונג על חוזי ה-S&P 500 נמצאות בהפסד, ושפוזיציות לונג בהיקף 45.9 מיליארד דולר חשופות לסיכון חיסול אם המדד לא יחזיק במתיחה; רמת הכניסה הממוצעת היא 7,768 מול רמה נוכחית של 7,573, לפי @DeItaone ב-{{time:citi}} ו-wallstengine ב-{{time:citi-detail}}.",
+        "en": "Citi warns that 95% of S&P 500 futures long positions are underwater and that $45.9 billion of longs face liquidation risk if the index fails to hold its rebound; the average entry is 7,768 versus a current level of 7,573, per @DeItaone at {{time:citi}} and wallstengine at {{time:citi-detail}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:citi}}",
+        "url": "https://x.com/DeItaone/status/2122670327394140451"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:citi-detail}}",
+          "url": "https://x.com/wallstengine/status/2122673452335366497"
+        }
+      ],
+      "timeRefs": {
+        "citi": {
+          "at": "2026-11-17T12:36:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "citi-detail": {
+          "at": "2026-11-17T12:49:23+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "nvidia-governance",
+      "section": "tech",
+      "priority": 8,
+      "kicker": {
+        "he": "אנבידיה · ממשל תאגידי",
+        "en": "Nvidia · governance"
+      },
+      "headline": {
+        "he": "הדירקטוריון הקים ועדת ביטחון לאומי; הואנג יתייצב לחקירה בקונגרס ב-1 בדצמבר",
+        "en": "The board set up a national security committee; Huang will testify in Congress on December 1"
+      },
+      "summary": {
+        "he": "דירקטוריון אנבידיה הודיע על הקמת ועדת פיקוח לביטחון לאומי ולבקרת יצוא, בראשות הדירקטורית סוזן נורה ג'ונסון, לפי הודעת החברה דרך StockMKTNewz ב-{{time:committee}} ו-wallstengine ב-{{time:committee-detail}}; הנשיא טראמפ שיבח את המהלך וקרא לו ״רעיון טוב״, לפי wallstengine ב-{{time:trump-praise}}. במקביל, ג'נסן הואנג יתייצב לחקירה בפני ועדות בבית הנבחרים ב-1 בדצמבר, והיועץ המשפטי של החברה ב-2 בדצמבר, לפי KobeissiLetter ב-{{time:testify}} ו-zerohedge ב-{{time:gc-testify}}.",
+        "en": "Nvidia's board announced a National Security and Export Control Oversight Committee, chaired by director Suzanne Nora Johnson, per the company announcement via StockMKTNewz at {{time:committee}} and wallstengine at {{time:committee-detail}}; President Trump praised the move as 'a good idea', per wallstengine at {{time:trump-praise}}. Meanwhile, Jensen Huang will testify before House panels on December 1 and the company's general counsel on December 2, per KobeissiLetter at {{time:testify}} and zerohedge at {{time:gc-testify}}."
+      },
+      "bullets": {
+        "he": [
+          "עובדים בכירים שלחו מכתב לדירקטוריון המזהיר שאי-החזרתו של הואנג עלולה לעלות באובדן ״כישרון בלתי ניתן להחלפה״, וחלקם שוקלים עצרת מחאה בקמפוס בסנטה קלרה, לפי הוול סטריט ג'ורנל דרך KobeissiLetter ב-{{time:letter}} ו-wallstengine ב-{{time:demo}}.",
+          "אנבידיה הודיעה שלא תמכור שבבים ללקוחות המשכירים יותר מ-50% מכוח ה-GPU שלהם לחברות סיניות, לפי CNBC דרך unusual_whales ב-{{time:gpu-rule}}.",
+          "משרדי המסחר והמשפט פרסמו ציר זמן של חקירת Megaspeed: אנבידיה הפסיקה למכור לחברת מרכזי הנתונים הסינגפורית ביוני 2025, לפי wallstengine ב-{{time:megaspeed}}."
+        ],
+        "en": [
+          "Senior employees sent the board a letter warning that failing to reinstate Huang could cost 'irreplaceable talent', and some are discussing a demonstration at the Santa Clara campus, per the Wall Street Journal via KobeissiLetter at {{time:letter}} and wallstengine at {{time:demo}}.",
+          "Nvidia said it will not sell chips to customers renting more than 50% of their GPU capacity to Chinese companies, per CNBC via unusual_whales at {{time:gpu-rule}}.",
+          "The Commerce and Justice Departments released a timeline of the Megaspeed investigation: Nvidia stopped selling to the Singapore data-center company in June 2025, per wallstengine at {{time:megaspeed}}."
+        ]
+      },
+      "source": {
+        "name": "@StockMKTNewz · {{time:committee}}",
+        "url": "https://x.com/StockMKTNewz/status/2122705102901297162"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:committee-detail}}",
+          "url": "https://x.com/wallstengine/status/2122633076207718840"
+        },
+        {
+          "name": "@wallstengine · {{time:trump-praise}}",
+          "url": "https://x.com/wallstengine/status/2122644872566047074"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:testify}}",
+          "url": "https://x.com/KobeissiLetter/status/2122710310171668717"
+        },
+        {
+          "name": "@zerohedge · {{time:gc-testify}}",
+          "url": "https://x.com/zerohedge/status/2122709197070512592"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:letter}}",
+          "url": "https://x.com/KobeissiLetter/status/2122665555299795264"
+        },
+        {
+          "name": "@wallstengine · {{time:demo}}",
+          "url": "https://x.com/wallstengine/status/2122618691515032057"
+        },
+        {
+          "name": "@unusual_whales · {{time:gpu-rule}}",
+          "url": "https://x.com/unusual_whales/status/2122670336680608127"
+        },
+        {
+          "name": "@wallstengine · {{time:megaspeed}}",
+          "url": "https://x.com/wallstengine/status/2122621372635771363"
+        }
+      ],
+      "timeRefs": {
+        "demo": {
+          "at": "2026-11-17T09:11:47+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "megaspeed": {
+          "at": "2026-11-17T09:22:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "committee-detail": {
+          "at": "2026-11-17T10:08:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trump-praise": {
+          "at": "2026-11-17T10:55:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "letter": {
+          "at": "2026-11-17T12:18:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "gpu-rule": {
+          "at": "2026-11-17T12:37:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "committee": {
+          "at": "2026-11-17T14:55:09+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "gc-testify": {
+          "at": "2026-11-17T15:11:25+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "testify": {
+          "at": "2026-11-17T15:15:50+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "deutsche-bank-leak",
+      "section": "markets",
+      "priority": 9,
+      "kicker": {
+        "he": "דויטשה בנק · הדלפה",
+        "en": "Deutsche Bank · leak"
+      },
+      "headline": {
+        "he": "הדלפה של 15 מיליון מסמכים חושפת כשלים בדויטשה בנק; המניה צללה {{move:-6.2%}}",
+        "en": "A 15-million-file leak exposes failures at Deutsche Bank; the stock plunged {{move:-6.2%}}"
+      },
+      "summary": {
+        "he": "יותר מ-15 מיליון מסמכים פנימיים של דויטשה בנק הודלפו על ידי חושפי שחיתות, וחושפים כשלים לכאורה בניהול סיכונים, בבקרות פשיעה פיננסית ובממשל התאגידי לאורך כמעט שני עשורים; החומר נחקר על ידי יותר מ-200 עיתונאים, לפי wallstengine ב-{{time:leak}}. המניה צללה {{move:-6.2%}} אחרי דיווח על תשלומים הקשורים לאפשטיין, לפי FirstSquawk ב-{{time:stock}}.",
+        "en": "More than 15 million internal Deutsche Bank files were leaked by whistleblowers, exposing alleged failures in risk management, financial-crime controls and governance spanning nearly two decades; the material was investigated by over 200 journalists, per wallstengine at {{time:leak}}. The stock plunged {{move:-6.2%}} after a report on Epstein-tied payments, per FirstSquawk at {{time:stock}}."
+      },
+      "bullets": {
+        "he": [
+          "לפי ה-Financial Times דרך unusual_whales ב-{{time:ft-tax}}, מנהל תיקים בבנק שלח בטעות את דוחות המס של 1,586 חשבונות בנק פרטיים - כולל של טראמפ - לרואה חשבון של לקוח אחד, והטעות הוסתרה מהבית הלבן.",
+          "טראמפ הגיב לדיווחים: ״זה לא חוקי״, לפי zerohedge ב-{{time:trump-illegal}}."
+        ],
+        "en": [
+          "Per the Financial Times via unusual_whales at {{time:ft-tax}}, a relationship manager mistakenly sent year-end tax statements for 1,586 private bank accounts - including Trump's - to a single client's accountant, and the mistake was kept secret from the White House.",
+          "Trump fired back at the reports: 'It's illegal', per zerohedge at {{time:trump-illegal}}."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:leak}}",
+        "url": "https://x.com/wallstengine/status/2122637869517050145"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:stock}}",
+          "url": "https://x.com/FirstSquawk/status/2122603184590045530"
+        },
+        {
+          "name": "@unusual_whales · {{time:ft-tax}}",
+          "url": "https://x.com/unusual_whales/status/2122635991316127920"
+        },
+        {
+          "name": "@zerohedge · {{time:trump-illegal}}",
+          "url": "https://x.com/zerohedge/status/2122668688130068937"
+        }
+      ],
+      "timeRefs": {
+        "stock": {
+          "at": "2026-11-17T08:10:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ft-tax": {
+          "at": "2026-11-17T10:20:31+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "leak": {
+          "at": "2026-11-17T10:27:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trump-illegal": {
+          "at": "2026-11-17T12:30:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "DB",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "disney-q4",
+      "section": "markets",
+      "priority": 10,
+      "kicker": {
+        "he": "דיסני · דוחות",
+        "en": "Disney · earnings"
+      },
+      "headline": {
+        "he": "דיסני הכתה את התחזיות ברבעון הרביעי - אבל מזהירה מחולשה מתמשכת בפארקים באסיה",
+        "en": "Disney beat Q4 estimates - but warns of continued weakness at its Asia parks"
+      },
+      "summary": {
+        "he": "דיסני דיווחה על רווח מתואם של 1.77 דולר למניה ברבעון הרביעי מול תחזית ל-1.67, ועל הכנסות של 25.95 מיליארד דולר מול תחזית ל-25.18 מיליארד; החברה אישרה צמיחה דו-ספרתית ברווח למניה בשנת הכספים 2027 והכריזה על דיבידנד של 2 דולר למניה, לפי @DeItaone ב-{{time:earnings}} ו-FirstSquawk ב-{{time:earnings-detail}}. במקביל, דיסני מסרה שהחולשה בפארקים באסיה צפויה להימשך ב-2027, לפי zerohedge ב-{{time:asia-parks}}.",
+        "en": "Disney reported adjusted EPS of $1.77 in the fourth quarter versus the $1.67 estimate, on revenue of $25.95 billion versus $25.18 billion expected; it reaffirmed double-digit EPS growth for fiscal 2027 and declared a $2.00-a-share dividend, per @DeItaone at {{time:earnings}} and FirstSquawk at {{time:earnings-detail}}. At the same time, Disney said weakness at its Asia parks would continue in 2027, per zerohedge at {{time:asia-parks}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:earnings}}",
+        "url": "https://x.com/DeItaone/status/2122655041211269429"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:earnings-detail}}",
+          "url": "https://x.com/FirstSquawk/status/2122654982470263003"
+        },
+        {
+          "name": "@zerohedge · {{time:asia-parks}}",
+          "url": "https://x.com/zerohedge/status/2122689449792618665"
+        }
+      ],
+      "timeRefs": {
+        "earnings-detail": {
+          "at": "2026-11-17T11:35:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "earnings": {
+          "at": "2026-11-17T11:36:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "asia-parks": {
+          "at": "2026-11-17T13:52:57+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "DIS",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "home-depot-q3",
+      "section": "markets",
+      "priority": 11,
+      "kicker": {
+        "he": "הום דיפו · דוחות",
+        "en": "Home Depot · earnings"
+      },
+      "headline": {
+        "he": "הום דיפו מעל התחזיות ברבעון השלישי; ריצ'רד מקפייל יהיה המנכ\"ל הבא",
+        "en": "Home Depot beats Q3 estimates; Richard McPhail named incoming CEO"
+      },
+      "summary": {
+        "he": "הום דיפו דיווחה על רווח מתואם של 3.86 דולר למניה מול תחזית ל-3.85, מכירות נטו של 43.4 מיליארד דולר מול תחזית ל-42.83 מיליארד, ומכירות חנויות comparable שעלו ב-2.2%; החברה מצפה כעת לצמיחת מכירות שנתית של כ-4.5%, לפי FirstSquawk ב-{{time:earnings}}. ריצ'רד מקפייל הוכרז כמנכ\"ל הנכנס, לפי wallstengine ב-{{time:mcphail}}.",
+        "en": "Home Depot reported adjusted EPS of $3.86 versus the $3.85 estimate, net sales of $43.4 billion versus $42.83 billion expected, and comparable sales up 2.2%; it now sees full-year sales growth of about 4.5%, per FirstSquawk at {{time:earnings}}. Richard McPhail was announced as incoming CEO, per wallstengine at {{time:mcphail}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:earnings}}",
+        "url": "https://x.com/FirstSquawk/status/2122646742198014426"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:mcphail}}",
+          "url": "https://x.com/wallstengine/status/2122649043075473881"
+        }
+      ],
+      "timeRefs": {
+        "earnings": {
+          "at": "2026-11-17T11:03:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "mcphail": {
+          "at": "2026-11-17T11:12:23+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "nike-2031",
+      "section": "markets",
+      "priority": 12,
+      "kicker": {
+        "he": "נייקי · אסטרטגיה",
+        "en": "Nike · strategy"
+      },
+      "headline": {
+        "he": "נייקי הציגה תוכנית לחזרה לצמיחה עד 2031 ותחזיר 12 מיליארד דולר בדיבידנדים; המניה עלתה {{move:+3%}}",
+        "en": "Nike laid out a plan to return to growth by 2031 and will return $12B in dividends; shares rose {{move:+3%}}"
+      },
+      "summary": {
+        "he": "נייקי הציגה ביום המשקיעים תוכנית לחזרה לצמיחה עד 2031: הוספת כ-5 מיליארד דולר להכנסות, מרווח תפעולי של 12%-14% ורווח מתואם של 3.00-3.50 דולר למניה, לצד החזרת 12 מיליארד דולר לבעלי המניות בדיבידנדים, לפי StockMKTNewz ב-{{time:plan}} ו-wallstengine ב-{{time:dividends}}. לשנת הכספים 2027 צופה החברה ירידה חד-ספרתית גבוהה בהכנסות ואישרה את תחזית הרווח, לפי FirstSquawk ב-{{time:guidance}}; המניה עלתה {{move:+3%}}, לפי zerohedge ב-{{time:shares}}.",
+        "en": "Nike laid out a plan to return to growth by 2031 at its investor day: about $5 billion in added revenue, 12-14% operating margins and adjusted EPS of $3.00-3.50, while returning $12 billion to shareholders through dividends, per StockMKTNewz at {{time:plan}} and wallstengine at {{time:dividends}}. For fiscal 2027 it sees a high-single-digit revenue decline and reaffirmed its EPS outlook, per FirstSquawk at {{time:guidance}}; shares rose {{move:+3%}}, per zerohedge at {{time:shares}}."
+      },
+      "bullets": {
+        "he": [
+          "לראשונה מזה 25 שנה לפחות, יותר אנליסטים ממליצים למכור את נייקי מאשר לקנות אותה, לפי eWhispers ב-{{time:analysts}}."
+        ],
+        "en": [
+          "For the first time in at least 25 years, more analysts recommend selling Nike than buying it, per eWhispers at {{time:analysts}}."
+        ]
+      },
+      "source": {
+        "name": "@StockMKTNewz · {{time:plan}}",
+        "url": "https://x.com/StockMKTNewz/status/2122702352918401304"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:dividends}}",
+          "url": "https://x.com/wallstengine/status/2122692356558209330"
+        },
+        {
+          "name": "@FirstSquawk · {{time:guidance}}",
+          "url": "https://x.com/FirstSquawk/status/2122692608720085254"
+        },
+        {
+          "name": "@zerohedge · {{time:shares}}",
+          "url": "https://x.com/zerohedge/status/2122692427412832717"
+        },
+        {
+          "name": "@eWhispers · {{time:analysts}}",
+          "url": "https://x.com/eWhispers/status/2122697753520431352"
+        }
+      ],
+      "timeRefs": {
+        "dividends": {
+          "at": "2026-11-17T14:04:30+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "shares": {
+          "at": "2026-11-17T14:04:47+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "guidance": {
+          "at": "2026-11-17T14:05:30+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "analysts": {
+          "at": "2026-11-17T14:25:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "plan": {
+          "at": "2026-11-17T14:44:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "NKE",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "spacex-abs",
+      "section": "markets",
+      "priority": 13,
+      "kicker": {
+        "he": "ספייסאקס · מימון",
+        "en": "SpaceX · financing"
+      },
+      "headline": {
+        "he": "גולדמן ואפולו יובילו מימון ABS ענק של 40.2 מיליארד דולר לספייסאקס",
+        "en": "Goldman and Apollo to lead a $40.2B ABS financing for SpaceX"
+      },
+      "summary": {
+        "he": "גולדמן זאקס ואפולו יובילו מימון בהיקף 40.2 מיליארד דולר באג\"ח מגובות נכסים (ABS) עבור ספייסאקס, לפי FirstSquawk ב-{{time:spacex}} ו-zerohedge ב-{{time:spacex-zh}}.",
+        "en": "Goldman Sachs and Apollo will lead a $40.2 billion asset-backed securities (ABS) financing for SpaceX, per FirstSquawk at {{time:spacex}} and zerohedge at {{time:spacex-zh}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:spacex}}",
+        "url": "https://x.com/FirstSquawk/status/2122698665227944176"
+      },
+      "secondarySources": [
+        {
+          "name": "@zerohedge · {{time:spacex-zh}}",
+          "url": "https://x.com/zerohedge/status/2122701612275904772"
+        }
+      ],
+      "timeRefs": {
+        "spacex": {
+          "at": "2026-11-17T14:29:34+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "spacex-zh": {
+          "at": "2026-11-17T14:41:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "china-chip-response",
+      "section": "geopolitics",
+      "priority": 14,
+      "kicker": {
+        "he": "סין · מלחמת השבבים",
+        "en": "China · chip war"
+      },
+      "headline": {
+        "he": "סין ״מתנגדת בתוקף״ להגבלות השבבים החדשות ומבטיחה צעדים נגדיים",
+        "en": "China 'strongly opposes' the new US chip curbs and promises countermeasures"
+      },
+      "summary": {
+        "he": "משרד המסחר הסיני מסר שהוא ״מתנגד בתוקף״ להגבלות היצוא האמריקאיות החדשות על שבבים וינקוט צעדים נגדיים אם ארה\"ב תתעקש, לפי @DeItaone ב-{{time:mofcom}} ו-FirstSquawk ב-{{time:countermeasures}}. ברקע, ממשל טראמפ מקדם איסור על טכנולוגיית מרכזי נתונים סינית למרות לובי של אמזון, גוגל, מטה, סיסקו ו-CoreWeave, לפי רויטרס דרך LiveSquawk ב-{{time:datacenter-ban}}, ואיסור יבוא מוצע על מקשרים אופטיים סיניים, לפי wallstengine ב-{{time:optical}}. בנקים השהו הלוואת שבבים של 480 מיליון דולר הקשורה ל-ByteDance הסינית, לפי @DeItaone ב-{{time:bytedance-loan}}.",
+        "en": "China's commerce ministry said it 'strongly opposes' the new US chip export curbs and will take countermeasures if the US insists, per @DeItaone at {{time:mofcom}} and FirstSquawk at {{time:countermeasures}}. In the background, the Trump administration is pressing ahead with a ban on Chinese data-center technology despite lobbying by Amazon, Google, Meta, Cisco and CoreWeave, per Reuters via LiveSquawk at {{time:datacenter-ban}}, and with a proposed import ban on Chinese optical transceivers, per wallstengine at {{time:optical}}. Banks paused a $480 million chip loan tied to China's ByteDance, per @DeItaone at {{time:bytedance-loan}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:mofcom}}",
+        "url": "https://x.com/DeItaone/status/2122668368071422041"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:countermeasures}}",
+          "url": "https://x.com/FirstSquawk/status/2122668548141306251"
+        },
+        {
+          "name": "@LiveSquawk · {{time:datacenter-ban}}",
+          "url": "https://x.com/LiveSquawk/status/2122646170887422044"
+        },
+        {
+          "name": "@wallstengine · {{time:optical}}",
+          "url": "https://x.com/wallstengine/status/2122672691736105377"
+        },
+        {
+          "name": "@DeItaone · {{time:bytedance-loan}}",
+          "url": "https://x.com/DeItaone/status/2122703855355859388"
+        }
+      ],
+      "timeRefs": {
+        "datacenter-ban": {
+          "at": "2026-11-17T11:00:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "mofcom": {
+          "at": "2026-11-17T12:29:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "countermeasures": {
+          "at": "2026-11-17T12:29:53+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "optical": {
+          "at": "2026-11-17T12:46:21+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bytedance-loan": {
+          "at": "2026-11-17T14:50:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "hormuz-escalation",
+      "section": "geopolitics",
+      "priority": 15,
+      "kicker": {
+        "he": "המפרץ · הסלמה",
+        "en": "The Gulf · escalation"
+      },
+      "headline": {
+        "he": "איראן מדווחת על מכלית שלישית שפגעה במוקש בהורמוז; בחריין יירטה מתקפות אוויריות מאיראן",
+        "en": "Iran reports a third tanker hitting a mine in Hormuz; Bahrain intercepted aerial attacks from Iran"
+      },
+      "summary": {
+        "he": "צי איראן מסר שמכלית שלישית פגעה במוקש ימי מזרחית למצר הורמוז ועלתה בלהבות, לפי סוכנות IRNA דרך FirstSquawk ב-{{time:tanker3}} ו-DeItaone ב-{{time:tanker3-d}}. בחריין הודיעה שיירטה מספר מתקפות אוויריות מאיראן, לפי FirstSquawk ב-{{time:bahrain-intercept}}, והפנטגון מסר שטילי משמרות המהפכה ששוגרו לעבר בסיס בבחריין יורטו, לפי zerohedge ב-{{time:bahrain}}. מוקדם יותר דווח על פיצוץ באי קשם שבאיראן, לפי @DeItaone ב-{{time:qeshm}}, ועל ירי איראני לעבר ספינות מלחמה ליד האי, לפי @DeItaone ב-{{time:warships}}.",
+        "en": "Iran's navy said a third tanker hit a sea mine east of the Strait of Hormuz and caught fire, per IRNA via FirstSquawk at {{time:tanker3}} and @DeItaone at {{time:tanker3-d}}. Bahrain said it intercepted several aerial attacks from Iran, per FirstSquawk at {{time:bahrain-intercept}}, and the Pentagon said IRGC missiles fired at a base in Bahrain were intercepted, per zerohedge at {{time:bahrain}}. Earlier, an explosion was reported on Iran's Qeshm island, per @DeItaone at {{time:qeshm}}, along with Iranian fire at warships near the island, per @DeItaone at {{time:warships}}."
+      },
+      "bullets": {
+        "he": [
+          "סוכנות הפעולות הימיות הבריטית UKMTO מסרה שכלי השיט שנפגע צפונית לחסאב ב-16 בנובמבר ספג פגיעה שנייה, ומיקום הצוות אינו ידוע, לפי FirstSquawk ב-{{time:ukmto}}."
+        ],
+        "en": [
+          "The UK's Maritime Trade Operations agency said the vessel struck north of Khasab on November 16 sustained a second strike, with the crew unaccounted for, per FirstSquawk at {{time:ukmto}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:tanker3}}",
+        "url": "https://x.com/FirstSquawk/status/2122687090425319565"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:tanker3-d}}",
+          "url": "https://x.com/DeItaone/status/2122687126034579636"
+        },
+        {
+          "name": "@zerohedge · {{time:bahrain}}",
+          "url": "https://x.com/zerohedge/status/2122689325913592104"
+        },
+        {
+          "name": "@FirstSquawk · {{time:bahrain-intercept}}",
+          "url": "https://x.com/FirstSquawk/status/2122612029508964668"
+        },
+        {
+          "name": "@DeItaone · {{time:qeshm}}",
+          "url": "https://x.com/DeItaone/status/2122681337932890225"
+        },
+        {
+          "name": "@DeItaone · {{time:warships}}",
+          "url": "https://x.com/DeItaone/status/2122686301979709804"
+        },
+        {
+          "name": "@FirstSquawk · {{time:ukmto}}",
+          "url": "https://x.com/FirstSquawk/status/2122619654342652237"
+        },
+        {
+          "name": "@FirstSquawk · {{time:crew}}",
+          "url": "https://x.com/FirstSquawk/status/2122619677373497748"
+        }
+      ],
+      "timeRefs": {
+        "bahrain-intercept": {
+          "at": "2026-11-17T08:45:18+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ukmto": {
+          "at": "2026-11-17T09:15:36+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "qeshm": {
+          "at": "2026-11-17T13:20:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "warships": {
+          "at": "2026-11-17T13:40:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tanker3": {
+          "at": "2026-11-17T13:43:34+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tanker3-d": {
+          "at": "2026-11-17T13:43:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bahrain": {
+          "at": "2026-11-17T13:52:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "crew": {
+          "at": "2026-11-17T09:15:42+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "thailand-trade",
+      "section": "geopolitics",
+      "priority": 16,
+      "kicker": {
+        "he": "סחר · תאילנד",
+        "en": "Trade · Thailand"
+      },
+      "headline": {
+        "he": "טראמפ חתם על עסקת סחר עם תאילנד: ביטול כל המכסים על יצוא אמריקאי",
+        "en": "Trump signed a trade deal with Thailand: all tariffs on US exports eliminated"
+      },
+      "summary": {
+        "he": "נשיא ארה\"ב דונלד טראמפ השתתף בטקס חתימת עסקת סחר עם תאילנד במנילה, לפי LiveSquawk ב-{{time:signing}}, ואמר שתאילנד תבטל את כל המכסים על יצוא אמריקאי ותסיר מחסומים לא-מכסיים משמעותיים, לפי @DeItaone ב-{{time:deal}}; הוא כינה את ההסכם ״עסקה נפלאה״, לפי @DeItaone ב-{{time:trump-deal}}.",
+        "en": "President Trump attended a US-Thailand trade deal signing in Manila, per LiveSquawk at {{time:signing}}, and said Thailand will eliminate all tariffs on US exports and remove substantial non-tariff barriers, per @DeItaone at {{time:deal}}; he called it a 'wonderful deal', per @DeItaone at {{time:trump-deal}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:deal}}",
+        "url": "https://x.com/DeItaone/status/2122667967364092031"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:signing}}",
+          "url": "https://x.com/LiveSquawk/status/2122659520803697099"
+        },
+        {
+          "name": "@DeItaone · {{time:trump-deal}}",
+          "url": "https://x.com/DeItaone/status/2122667506921800039"
+        }
+      ],
+      "timeRefs": {
+        "signing": {
+          "at": "2026-11-17T11:54:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trump-deal": {
+          "at": "2026-11-17T12:25:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "deal": {
+          "at": "2026-11-17T12:27:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "outages-response",
+      "section": "tech",
+      "priority": 17,
+      "kicker": {
+        "he": "גל התקלות · תגובות",
+        "en": "Outage wave · reactions"
+      },
+      "headline": {
+        "he": "טראמפ ממעיט בגל התקלות: ״זה החיים״; בכיר בביטחון הפנים: טכנולוגיה חדשה על מערכות ישנות",
+        "en": "Trump downplays the outage wave: 'It's life'; a homeland security official points to new tech on old systems"
+      },
+      "summary": {
+        "he": "הנשיא טראמפ ממעיט בחששות סביב התקלות שפגעו במיקרוסופט, בג'יי פי מורגן צ'ייס ובמערכות התעופה, ואמר שהאמריקאים בטוחים, לפי @DeItaone ב-{{time:trump-downplay}}; בתשובה לשאלת כתב הוא אמר: ״זה החיים. כשאתה גדול וחזק ויש לך את כל הכסף, דברים כאלה קורים״, לפי unusual_whales ב-{{time:trump}}. בכיר בביטחון הפנים, מרקווין מאלין, ייחס את התקלות ל״טכנולוגיה חדשה שנדחפת מעל מערכות מחשוב ישנות״, לפי @DeItaone ב-{{time:mullin}}.",
+        "en": "President Trump downplayed concerns over the disruptions hitting Microsoft, JPMorgan Chase and US aviation systems, saying Americans are safe, per @DeItaone at {{time:trump-downplay}}; asked about the outages he said 'It's life. When you're big and powerful and have all the money, things like that happen', per unusual_whales at {{time:trump}}. Homeland security official Markwayne Mullin attributed the failures to 'new technology being pushed on top of old computer systems', per @DeItaone at {{time:mullin}}."
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:trump}}",
+        "url": "https://x.com/unusual_whales/status/2122673841994703301"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:trump-downplay}}",
+          "url": "https://x.com/DeItaone/status/2122674483639046436"
+        },
+        {
+          "name": "@DeItaone · {{time:mullin}}",
+          "url": "https://x.com/DeItaone/status/2122688426269184361"
+        }
+      ],
+      "timeRefs": {
+        "trump": {
+          "at": "2026-11-17T12:50:55+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trump-downplay": {
+          "at": "2026-11-17T12:53:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "mullin": {
+          "at": "2026-11-17T13:48:53+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "faa-juniper-senators",
+      "section": "tech",
+      "priority": 18,
+      "kicker": {
+        "he": "FAA · תקלת ג'וניפר",
+        "en": "FAA · Juniper failure"
+      },
+      "headline": {
+        "he": "סנאטורים דמוקרטים דורשים מה-FAA להשהות פריסת מכשירי Juniper נוספים",
+        "en": "Democratic senators urge the FAA to pause further Juniper device deployments"
+      },
+      "summary": {
+        "he": "סנאטורים דמוקרטים דורשים מרשות התעופה הפדרלית (FAA) להשהות באופן מיידי את פריסת מכשירי Juniper נוספים עד להשלמת בדיקות, לפי FirstSquawk ב-{{time:senators}} - בעקבות תקלת המכשירים שהובילה לעצירת המראות ב-13 בנובמבר, שכיסינו במהדורות הקודמות.",
+        "en": "Democratic senators are urging the Federal Aviation Administration to immediately pause deployment of additional Juniper devices until further testing is completed, per FirstSquawk at {{time:senators}} - following the device failure that grounded departures on November 13, covered in earlier editions."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:senators}}",
+        "url": "https://x.com/FirstSquawk/status/2122665663923994635"
+      },
+      "timeRefs": {
+        "senators": {
+          "at": "2026-11-17T12:18:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "malware-optimizely",
+      "section": "tech",
+      "priority": 19,
+      "kicker": {
+        "he": "סייבר",
+        "en": "Cyber"
+      },
+      "headline": {
+        "he": "האקרים הפיצו תוכנות זדוניות לאתרים של לפחות 178 ארגונים גדולים דרך פרצה ב-Optimizely",
+        "en": "Hackers spread malware to at least 178 major organizations' websites via an Optimizely flaw"
+      },
+      "summary": {
+        "he": "האקרים הפיצו תוכנות זדוניות לאתרים של לפחות 178 ארגונים גדולים - בהם Zoom, CNN, BBC, Fox News, HSBC, Equifax, Salesforce, IKEA ו-Air France-KLM - לאחר שמנצלו פרצה בפלטפורמת בדיקות האתרים Optimizely, לפי חברת האבטחה Report URI דרך unusual_whales ב-{{time:malware}} ו-zerohedge ב-{{time:zh}}.",
+        "en": "Hackers spread malware to websites run by at least 178 major organizations - including Zoom, CNN, BBC, Fox News, HSBC, Equifax, Salesforce, IKEA and Air France-KLM - by exploiting a flaw in the Optimizely website-testing platform, per security firm Report URI via unusual_whales at {{time:malware}} and zerohedge at {{time:zh}}."
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:malware}}",
+        "url": "https://x.com/unusual_whales/status/2122652720788349419"
+      },
+      "secondarySources": [
+        {
+          "name": "@zerohedge · {{time:zh}}",
+          "url": "https://x.com/zerohedge/status/2122706693830091203"
+        }
+      ],
+      "timeRefs": {
+        "malware": {
+          "at": "2026-11-17T11:27:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "zh": {
+          "at": "2026-11-17T15:01:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "california-openai",
+      "section": "tech",
+      "priority": 20,
+      "kicker": {
+        "he": "OpenAI · תביעה",
+        "en": "OpenAI · lawsuit"
+      },
+      "headline": {
+        "he": "קליפורניה תובעת את OpenAI: סיכנה את הציבור בפיתוח AI ללא אמצעי בטיחות",
+        "en": "California sues OpenAI: it endangered the public by developing AI without safeguards"
+      },
+      "summary": {
+        "he": "מדינת קליפורניה הגישה תביעה נגד OpenAI בטענה שהחברה סיכנה את הציבור בפיתוח בינה מלאכותית ללא אמצעי בטיחות, לפי הלוס אנג'לס טיימס דרך unusual_whales ב-{{time:suit}}.",
+        "en": "The state of California has sued OpenAI, alleging it endangered the public by developing AI without safeguards, per the Los Angeles Times via unusual_whales at {{time:suit}}."
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:suit}}",
+        "url": "https://x.com/unusual_whales/status/2122675369840926783"
+      },
+      "timeRefs": {
+        "suit": {
+          "at": "2026-11-17T12:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "isomorphic-labs",
+      "section": "tech",
+      "priority": 21,
+      "kicker": {
+        "he": "אלפאבית · גיוס",
+        "en": "Alphabet · funding"
+      },
+      "headline": {
+        "he": "Isomorphic Labs של אלפאבית גייסה 5 מיליארד דולר בסבב ג'",
+        "en": "Alphabet's Isomorphic Labs raised $5 billion in a Series C round"
+      },
+      "summary": {
+        "he": "חברת גילוי התרופות Isomorphic Labs של אלפאבית גייסה 5 מיליארד דולר בסבב ג' בהובלת Sequoia Capital ו-Greenoaks, כש-Andreessen Horowitz מצטרפת כמשקיעה חדשה, לפי wallstengine ב-{{time:raise}}.",
+        "en": "Alphabet's AI drug-discovery company Isomorphic Labs raised $5 billion in a Series C round led by Sequoia Capital and Greenoaks, with Andreessen Horowitz joining as a new investor, per wallstengine at {{time:raise}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:raise}}",
+        "url": "https://x.com/wallstengine/status/2122663092597453174"
+      },
+      "timeRefs": {
+        "raise": {
+          "at": "2026-11-17T12:08:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "google-quaise",
+      "section": "tech",
+      "priority": 22,
+      "kicker": {
+        "he": "גוגל · אנרגיה",
+        "en": "Google · energy"
+      },
+      "headline": {
+        "he": "גוגל חתמה על עסקת חשמל גיאותרמי של מעל 500 מיליון דולר עם Quaise Energy",
+        "en": "Google signed a $500M+ geothermal power deal with Quaise Energy"
+      },
+      "summary": {
+        "he": "גוגל תרכוש 50 מגה-וואט חשמל ממתקן גיאותרמי מתוכנן של Quaise Energy במרכז אורגון, בעסקה של מעל 500 מיליון דולר; האספקה עשויה להתחיל ב-2030 ותשמש את מרכזי הנתונים הקיימים של גוגל במדינה, לפי הוול סטריט ג'ורנל דרך wallstengine ב-{{time:deal}} ו-FirstSquawk ב-{{time:wsj}}.",
+        "en": "Google will buy 50 megawatts of power from Quaise Energy's planned geothermal plant in central Oregon in a deal worth over $500 million; deliveries could start in 2030 and will serve Google's existing data centers in the state, per the Wall Street Journal via wallstengine at {{time:deal}} and FirstSquawk at {{time:wsj}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:deal}}",
+        "url": "https://x.com/wallstengine/status/2122655688036139205"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:wsj}}",
+          "url": "https://x.com/FirstSquawk/status/2122653769553027539"
+        }
+      ],
+      "timeRefs": {
+        "wsj": {
+          "at": "2026-11-17T11:31:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "deal": {
+          "at": "2026-11-17T11:38:47+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "leumi-q3",
+      "section": "israel",
+      "priority": 23,
+      "kicker": {
+        "he": "בנק לאומי · דוחות",
+        "en": "Bank Leumi · earnings"
+      },
+      "headline": {
+        "he": "בנק לאומי הציג רווח שיא של 3 מיליארד שקל ברבעון ויחלק 1.5 מיליארד דיבידנד",
+        "en": "Bank Leumi posted a record NIS 3 billion quarterly profit and will distribute NIS 1.5 billion"
+      },
+      "summary": {
+        "he": "בנק לאומי הרוויח 3 מיליארד שקל ברבעון השלישי - עלייה של כ-11% לעומת הרבעון המקביל - ויחלק 1.5 מיליארד שקל לבעלי המניות, לפי גלובס ב-{{time:leumi}} וכלכליסט ב-{{time:leumi-calc}}. ברקע, מדד הבנקים בבורסת ת\"א מטפס והדולר מתחזק סביב 3.25 שקלים, לפי TheMarker ב-{{time:tase}}.",
+        "en": "Bank Leumi earned NIS 3 billion in the third quarter - up about 11% from a year earlier - and will distribute NIS 1.5 billion to shareholders, per Globes at {{time:leumi}} and Calcalist at {{time:leumi-calc}}. Against that, the Tel Aviv banks index is climbing and the dollar is strengthening around NIS 3.25, per TheMarker at {{time:tase}}."
+      },
+      "source": {
+        "name": "@globesnews · {{time:leumi}}",
+        "url": "https://x.com/globesnews/status/2122566244515676174"
+      },
+      "secondarySources": [
+        {
+          "name": "@calcalist · {{time:leumi-calc}}",
+          "url": "https://x.com/calcalist/status/2122567656494526492"
+        },
+        {
+          "name": "@TheMarker · {{time:tase}}",
+          "url": "https://x.com/TheMarker/status/2122706451818836240"
+        }
+      ],
+      "timeRefs": {
+        "leumi": {
+          "at": "2026-11-17T05:43:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "leumi-calc": {
+          "at": "2026-11-17T05:48:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tase": {
+          "at": "2026-11-17T15:00:30+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "elbit-q3",
+      "section": "israel",
+      "priority": 24,
+      "kicker": {
+        "he": "אלביט · דוחות",
+        "en": "Elbit · earnings"
+      },
+      "headline": {
+        "he": "אלביט מערכות הכתה את תחזיות האנליסטים; צבר ההזמנות טיפס לשיא חדש",
+        "en": "Elbit Systems beat analyst expectations; the order backlog hit a new high"
+      },
+      "summary": {
+        "he": "אלביט מערכות הכתה את תחזיות האנליסטים ברבעון השלישי, וצבר ההזמנות שלה טיפס לשיא חדש, לפי גלובס ב-{{time:elbit}}.",
+        "en": "Elbit Systems beat analyst expectations in the third quarter and its order backlog climbed to a new record, per Globes at {{time:elbit}}."
+      },
+      "source": {
+        "name": "@globesnews · {{time:elbit}}",
+        "url": "https://x.com/globesnews/status/2122586817790668849"
+      },
+      "timeRefs": {
+        "elbit": {
+          "at": "2026-11-17T07:05:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "uk-settlement-sanctions",
+      "section": "israel",
+      "priority": 25,
+      "kicker": {
+        "he": "בריטניה · סנקציות",
+        "en": "UK · sanctions"
+      },
+      "headline": {
+        "he": "בריטניה הטילה סנקציות על חברות הבונות בהתנחלויות בגדה המערבית",
+        "en": "Britain imposed sanctions on companies building settlements in the West Bank"
+      },
+      "summary": {
+        "he": "הממשלה הבריטית הטילה סנקציות על חברות הבונות בהתנחלויות בגדה המערבית, לפי FirstSquawk ב-{{time:uk}} וגלובס ב-{{time:globes}}.",
+        "en": "The British government imposed sanctions on companies building settlements in the West Bank, per FirstSquawk at {{time:uk}} and Globes at {{time:globes}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:uk}}",
+        "url": "https://x.com/FirstSquawk/status/2122633171678474362"
+      },
+      "secondarySources": [
+        {
+          "name": "@globesnews · {{time:globes}}",
+          "url": "https://x.com/globesnews/status/2122637301498921374"
+        }
+      ],
+      "timeRefs": {
+        "uk": {
+          "at": "2026-11-17T10:09:19+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "globes": {
+          "at": "2026-11-17T10:25:44+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    }
+  ]
+}
