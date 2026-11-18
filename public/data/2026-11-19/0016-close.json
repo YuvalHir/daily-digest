@@ -1,0 +1,1159 @@
+{
+  "schemaVersion": "2.0",
+  "editionNumber": 9,
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-19T00:16:24+02:00",
+  "editionType": "close",
+  "editionSlug": "0016-close",
+  "editorialLead": {
+    "he": "סגירה מעורבת בצל פד ניצי: הדאו בשפל שלושה חודשים; אנתרופיק תומחרה ב-83 דולר",
+    "en": "A mixed close under a hawkish Fed: the Dow at a three-month low; Anthropic priced at $83"
+  },
+  "topSummary": {
+    "he": "וול סטריט ננעלה ב-18 בנובמבר במעורב: הדאו ירד 1.11% לשפל שלושה חודשים וה-S&P רשם ירידה חמישית ברציפות, בעוד הנאסד\"ק עלה 0.42%, על רקע פרוטוקול פד ניצי שהוריד זהב ונפט. אנתרופיק תומחרה ב-83 דולר למניה בשווי 1.5 טריליון דולר ותתחיל להיסחר ביום חמישי בנאסד\"ק.",
+    "en": "Wall Street closed mixed on November 18: the Dow fell 1.11% to a three-month low and the S&P logged a fifth straight decline, while the Nasdaq rose 0.42%, against hawkish Fed minutes that sent gold and oil lower. Anthropic priced at $83 a share at a $1.5 trillion valuation and begins trading Thursday on Nasdaq."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "^IXIC",
+    "NASDAQ:NVDA",
+    "PANW",
+    "UNH",
+    "INTC",
+    "TTWO"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "^IXIC",
+      "range": "1d",
+      "label": {
+        "he": "נאסד\"ק",
+        "en": "Nasdaq"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "close-indexes",
+      "section": "markets",
+      "isLead": true,
+      "priority": 1,
+      "kicker": {
+        "he": "וול סטריט · סגירה",
+        "en": "Wall Street · close"
+      },
+      "headline": {
+        "he": "סגירה מעורבת: הדאו ירד 1.11% לשפל של שלושה חודשים, ה-S&P רשם ירידה חמישית ברציפות והנאסד\"ק עלה 0.42%",
+        "en": "A mixed close: the Dow fell 1.11% to a three-month low, the S&P logged a fifth straight decline and the Nasdaq rose 0.42%"
+      },
+      "summary": {
+        "he": "מדד דאו ג'ונס ירד 1.11% ב-18 בנובמבר לשפל של שלושה חודשים, מדד S&P 500 ירד 0.23% ורשם ירידה חמישית ברציפות, ולפי AP המדד נע בין עליות לירידות לאורך כל היום; מדד הנאסד\"ק עלה 0.42%. מדד ה-VIX ירד 3.53% ל-24.56, לפי Investing.com.",
+        "en": "The Dow Jones fell 1.11% on November 18 to a three-month low, the S&P 500 slipped 0.23% for a fifth consecutive daily decline, and per AP the index flipped between gains and losses all day; the Nasdaq Composite rose 0.42%. The VIX fell 3.53% to 24.56, per Investing.com."
+      },
+      "bullets": {
+        "he": [
+          "בתחתית הדאו: יונייטדהלת' צנחה 10.21% ל-349.91 דולר, שברון ירדה 4.74% ומרק 3.90%; בחלקו העליון: דיסני זינקה 4.63% לשיא 52 שבועות של 122.36 דולר, אמזון עלתה 3.82% וסיסקו 2.18%, לפי Investing.com.",
+          "בראש ה-S&P: פאלו אלטו נטוורקס זינקה 9.90% ל-339.92 דולר לקראת הדוחות שפורסמו אחרי הסגירה; בתחתית: יומאנה צנחה 12.98%, לפי Investing.com."
+        ],
+        "en": [
+          "At the bottom of the Dow: UnitedHealth tumbled 10.21% to $349.91, Chevron fell 4.74% and Merck 3.90%; on top: Disney jumped 4.63% to a 52-week high of $122.36, Amazon rose 3.82% and Cisco 2.18%, per Investing.com.",
+          "Topping the S&P: Palo Alto Networks jumped 9.90% to $339.92 ahead of its after-close report; at the bottom: Humana plunged 12.98%, per Investing.com."
+        ]
+      },
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-990749d3d269f7ef05b9f6c089713a58"
+      },
+      "secondarySources": [
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-down-111-5037118"
+        },
+        {
+          "name": "Yahoo Finance live blog",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {}
+    },
+    {
+      "id": "fed-minutes",
+      "section": "markets",
+      "priority": 2,
+      "kicker": {
+        "he": "הפד · פרוטוקול אוקטובר",
+        "en": "The Fed · October minutes"
+      },
+      "headline": {
+        "he": "פרוטוקול הפד חושף נימה ניצית: כמעט כל החברים ראו העלאות ריבית נוספות כמתאימות, וכמה שקלו יותר מ-25 נקודות בסיס בדצמבר",
+        "en": "Fed minutes reveal a hawkish tilt: almost all participants saw further rate hikes as appropriate, and a couple eyed more than 25bp in December"
+      },
+      "summary": {
+        "he": "כמעט כל חברי הפד ראו בישיבת אוקטובר העלאות ריבית נוספות כמתאימות, לפי פרוטוקול הישיבה שפורסם ב-18 בנובמבר, דרך FirstSquawk ב-{{time:minutes}}, וכמה מהם אמרו שהעלאה של יותר מ-25 נקודות בסיס בדצמבר עשויה להישקל אם נתוני האינפלציה לא יהיו מעודדים, ב-{{time:couple25}}. רוב החברים תמכו בהשארת הריבית באוקטובר, אך כמה מהם היו קרובים להצביע בעד העלאה מיידית של 25 נקודות בסיס, ב-{{time:closecall}}.",
+        "en": "Almost all Fed participants saw further rate hikes as likely appropriate at the October meeting, per the minutes released on November 18, via FirstSquawk at {{time:minutes}}, and a couple said a hike of more than 25bp in December could warrant consideration if inflation data are unfavorable, at {{time:couple25}}. Most participants supported holding rates in October, but a few were close to voting for an immediate 25bp hike, at {{time:closecall}}."
+      },
+      "bullets": {
+        "he": [
+          "הפרוטוקול חושף דיון נרחב בסיכוני מימון הבינה המלאכותית: החוב הקשור ל-AI גדל במהירות דרך מבני מימון מורכבים ואטומים, לפי wallstengine ב-{{time:aidebt}}.",
+          "נגיד הפד קשקארי אמר שהפד כושל באופן ברור בצד האינפלציה, ושלבניית תשתיות ה-AI יש השפעה אינפלציונית אמיתית, לפי wallstengine ב-{{time:kashkari}}.",
+          "מרי דיילי אמרה שהיא תומכת בגישה מדודה ושהאינפלציה גבוהה מדי זמן רב מדי, לפי FirstSquawk ב-{{time:daly}}.",
+          "zerohedge כינה מראש את ישיבת אוקטובר ״החזקה סוערת״: הניצים קרובים לניצחון יותר ממה שרמזה הצבעת 10-2, ב-{{time:preread}}."
+        ],
+        "en": [
+          "The minutes reveal an extensive discussion of AI financing risks: AI-related debt is growing rapidly through complex and opaque financing structures, per wallstengine at {{time:aidebt}}.",
+          "Fed president Kashkari said the Fed is clearly missing on inflation and that the AI buildout has a real inflationary effect, per wallstengine at {{time:kashkari}}.",
+          "Mary Daly said she supports a measured approach and that inflation has been too high for too long, per FirstSquawk at {{time:daly}}.",
+          "zerohedge had previewed the meeting as a heated hold: the hawks are closer to winning than the 10-2 vote suggested, at {{time:preread}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:minutes}}",
+        "url": "https://x.com/FirstSquawk/status/2123131256586265035"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:closecall}}",
+          "url": "https://x.com/FirstSquawk/status/2123131272423997730"
+        },
+        {
+          "name": "@FirstSquawk · {{time:couple25}}",
+          "url": "https://x.com/FirstSquawk/status/2123131306414604351"
+        },
+        {
+          "name": "@wallstengine · {{time:aidebt}}",
+          "url": "https://x.com/wallstengine/status/2123132194143215863"
+        },
+        {
+          "name": "@wallstengine · {{time:kashkari}}",
+          "url": "https://x.com/wallstengine/status/2123168027302932535"
+        },
+        {
+          "name": "@FirstSquawk · {{time:daly}}",
+          "url": "https://x.com/FirstSquawk/status/2123114195483017537"
+        },
+        {
+          "name": "@zerohedge · {{time:preread}}",
+          "url": "https://x.com/zerohedge/status/2123110348018393147"
+        }
+      ],
+      "socialPost": {
+        "id": "2123131256586265035",
+        "url": "https://x.com/FirstSquawk/status/2123131256586265035"
+      },
+      "timeRefs": {
+        "minutes": {
+          "at": "2026-11-18T19:08:32+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "closecall": {
+          "at": "2026-11-18T19:08:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "couple25": {
+          "at": "2026-11-18T19:08:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "aidebt": {
+          "at": "2026-11-18T19:12:15+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "kashkari": {
+          "at": "2026-11-18T21:34:38+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "daly": {
+          "at": "2026-11-18T18:00:44+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "preread": {
+          "at": "2026-11-18T17:45:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "anthropic-priced",
+      "section": "tech",
+      "priority": 3,
+      "kicker": {
+        "he": "אנתרופיק · ההנפקה",
+        "en": "Anthropic · the IPO"
+      },
+      "headline": {
+        "he": "אנתרופיק תומחרה ב-83 דולר למניה, מעל הטווח, בשווי 1.5 טריליון דולר - ותתחיל להיסחר ביום חמישי בנאסד\"ק",
+        "en": "Anthropic priced at $83 a share, above range, at a $1.5 trillion valuation - and begins trading Thursday on Nasdaq"
+      },
+      "summary": {
+        "he": "אנתרופיק תימחרה ב-18 בנובמבר את ההנפקה הראשונית ב-83 דולר למניה, מעל הטווח המקורי של 70-78 דולר, בשווי של 1.5 טריליון דולר, עם ביקושים של כמעט 500 מיליארד דולר, לפי בלומברג דרך KobeissiLetter ב-{{time:priced}}; קודם לכן דווח שהחברה שקלה תמחור של עד 85 דולר, לפי wallstengine ב-{{time:considering}}. המסחר במניה צפוי להיפתח ביום חמישי, 19 בנובמבר, בנאסד\"ק, ו-Cboe מתכננת להנפיק אופציות על המניה כבר ביום שני, לפי wallstengine ב-{{time:debut}}.",
+        "en": "Anthropic priced its IPO on November 18 at $83 a share, above the original $70-78 range, at a $1.5 trillion valuation, with nearly $500 billion of demand, per Bloomberg via KobeissiLetter at {{time:priced}}; earlier it was reported the company considered pricing of up to $85, per wallstengine at {{time:considering}}. Trading is expected to begin on Thursday, November 19, on Nasdaq, and Cboe plans to list options on the stock as soon as Monday, per wallstengine at {{time:debut}}."
+      },
+      "bullets": {
+        "he": [
+          "הביקושים של כמעט 500 מיליארד דולר מורכבים מכ-400 מיליארד מוסדי וכ-100 מיליארד קמעונאי, לפי CNBC דרך wallstengine ב-{{time:orders}}.",
+          "קרן Harbor Capital השיקה תעודת סל חדשה על מערכת אנתרופיק, ANTW, לפי unusual_whales ב-{{time:antw}}.",
+          "zerohedge מצביע על אזהרה ששתלו מייסדי אנתרופיק במכתב ההנפקה, ב-{{time:letter}}."
+        ],
+        "en": [
+          "The nearly $500 billion of demand breaks down to about $400 billion institutional and about $100 billion retail, per CNBC via wallstengine at {{time:orders}}.",
+          "Harbor Capital launched a new Anthropic ecosystem ETF, ANTW, per unusual_whales at {{time:antw}}.",
+          "zerohedge points to a warning Anthropic's founders slipped into the IPO letter, at {{time:letter}}."
+        ]
+      },
+      "source": {
+        "name": "@KobeissiLetter · {{time:priced}}",
+        "url": "https://x.com/KobeissiLetter/status/2123168870429274123"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone",
+          "url": "https://x.com/DeItaone/status/2123161153954099608"
+        },
+        {
+          "name": "@wallstengine · {{time:considering}}",
+          "url": "https://x.com/wallstengine/status/2123155707990319562"
+        },
+        {
+          "name": "@wallstengine · {{time:debut}}",
+          "url": "https://x.com/wallstengine/status/2123173654209212608"
+        },
+        {
+          "name": "@wallstengine · {{time:orders}}",
+          "url": "https://x.com/wallstengine/status/2123075239991005435"
+        },
+        {
+          "name": "@unusual_whales · {{time:antw}}",
+          "url": "https://x.com/unusual_whales/status/2123094488067285140"
+        },
+        {
+          "name": "@zerohedge · {{time:letter}}",
+          "url": "https://x.com/zerohedge/status/2123083926080041136"
+        }
+      ],
+      "socialPost": {
+        "id": "2123168870429274123",
+        "url": "https://x.com/KobeissiLetter/status/2123168870429274123"
+      },
+      "timeRefs": {
+        "priced": {
+          "at": "2026-11-18T21:37:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "considering": {
+          "at": "2026-11-18T20:45:41+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "debut": {
+          "at": "2026-11-18T21:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "orders": {
+          "at": "2026-11-18T15:25:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "antw": {
+          "at": "2026-11-18T16:42:25+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "letter": {
+          "at": "2026-11-18T16:00:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "nvda-ceo-search",
+      "section": "tech",
+      "priority": 4,
+      "kicker": {
+        "he": "אנבידיה · הדירקטוריון",
+        "en": "Nvidia · the board"
+      },
+      "headline": {
+        "he": "דירקטוריון אנבידיה פנה למנכ\"ל ARM רנה האס כמועמד למנכ\"לות; העתירה להחזרת הואנג עברה 200 אלף חתימות",
+        "en": "Nvidia's board approached ARM CEO Rene Haas as a CEO candidate; the petition to reinstate Huang passed 200,000 signatures"
+      },
+      "summary": {
+        "he": "דירקטוריון אנבידיה וחברת ההשמה Heidrick & Struggles פנו למנכ\"ל ARM רנה האס כמועמד לתפקיד המנכ\"ל, לפי בלומברג דרך wallstengine ב-{{time:haas}}. במקביל, העתירה להחזרת ג'נסן הואנג לתפקיד עברה את רף 200 אלף החתימות, לפי KobeissiLetter ב-{{time:petition}}, והמנכ\"לית הזמנית של אנבידיה קולט קרס הודיעה לעובדים על העלאות שכר ומניות נוספות בדצמבר, מוקדם מהמתוכנן, ואמרה להם \"We've got this\", לפי ה-Financial Times דרך wallstengine ב-{{time:kress}}.",
+        "en": "Nvidia's board and search firm Heidrick & Struggles approached ARM CEO Rene Haas as a candidate for the CEO role, per Bloomberg via wallstengine at {{time:haas}}. Meanwhile, the petition to reinstate Jensen Huang passed 200,000 signatures, per KobeissiLetter at {{time:petition}}, and interim CEO Colette Kress told employees of pay raises and additional equity in December, ahead of schedule, telling them 'We've got this', per the Financial Times via wallstengine at {{time:kress}}."
+      },
+      "bullets": {
+        "he": [
+          "ועדת האנרגיה והמסחר של בית הנבחרים הרחיבה את החקירה נגד אנבידיה בנושא ייצוא שבבים וסיכוני ביטחון וביקשה תדריך, לפי הוול סטריט ג'ורנל דרך DeItaone ב-{{time:house}}.",
+          "ג'ף בזוס אמר שאם הואנג לא חוזר, הוא לא היה שוכר מנכ\"ל חיצוני לאנבידיה, לפי unusual_whales ב-{{time:bezos}}.",
+          "אייל וולדמן אמר שאנבידיה צריכה לשקול להחזיר את ג'נסן הואנג לתפקיד המנכ\"ל, לפי גלובס ב-{{time:waldman}}."
+        ],
+        "en": [
+          "The House Energy and Commerce Committee expanded its scrutiny of Nvidia over chip exports and security risks and requested a briefing, per the Wall Street Journal via DeItaone at {{time:house}}.",
+          "Jeff Bezos said that if Huang is not coming back, he would not hire an outside CEO for Nvidia, per unusual_whales at {{time:bezos}}.",
+          "Eyal Waldman said Nvidia should consider bringing Jensen Huang back as CEO, per Globes at {{time:waldman}}."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:haas}}",
+        "url": "https://x.com/wallstengine/status/2123132555238990313"
+      },
+      "secondarySources": [
+        {
+          "name": "@KobeissiLetter · {{time:petition}}",
+          "url": "https://x.com/KobeissiLetter/status/2123129361478169019"
+        },
+        {
+          "name": "@wallstengine · {{time:kress}}",
+          "url": "https://x.com/wallstengine/status/2123123552081887706"
+        },
+        {
+          "name": "@LiveSquawk",
+          "url": "https://x.com/LiveSquawk/status/2123154671351238696"
+        },
+        {
+          "name": "@DeItaone · {{time:house}}",
+          "url": "https://x.com/DeItaone/status/2123073919896699069"
+        },
+        {
+          "name": "@unusual_whales · {{time:bezos}}",
+          "url": "https://x.com/unusual_whales/status/2123108221879726533"
+        },
+        {
+          "name": "@globesnews · {{time:waldman}}",
+          "url": "https://x.com/globesnews/status/2123114096224518203"
+        }
+      ],
+      "timeRefs": {
+        "haas": {
+          "at": "2026-11-18T19:13:41+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "petition": {
+          "at": "2026-11-18T19:01:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "kress": {
+          "at": "2026-11-18T18:37:55+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "house": {
+          "at": "2026-11-18T15:20:41+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bezos": {
+          "at": "2026-11-18T17:37:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "waldman": {
+          "at": "2026-11-18T18:00:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "nvda-stock-close",
+      "section": "markets",
+      "priority": 5,
+      "kicker": {
+        "he": "אנבידיה · המניה",
+        "en": "Nvidia · the stock"
+      },
+      "headline": {
+        "he": "אנבידיה נסגרה בירידה של כ-3% ומחקה את כל העלייה שלאחר הדוחות; רנסנס מכרה כמעט הכל לפני הצניחה",
+        "en": "Nvidia closed down about 3%, erasing all post-earnings gains; Renaissance sold almost everything before the plunge"
+      },
+      "summary": {
+        "he": "מניית אנבידיה נסגרה ב-18 בנובמבר בירידה של כ-3% ומחקה את כל העלייה שרשמה לאחר הדוחות, אחרי שהחלה את היום בעליות, לפי FirstSquawk ב-{{time:close}}. קרן Renaissance Technologies של ג'ים סימונס מכרה כמעט את כל החזקתה באנבידיה לפני הצניחה, לפי unusual_whales ב-{{time:rentec}}.",
+        "en": "Nvidia shares closed on November 18 down about 3%, erasing all the gains recorded after earnings, after starting the day higher, per FirstSquawk at {{time:close}}. Jim Simons' Renaissance Technologies sold almost its entire Nvidia stake before the plunge, per unusual_whales at {{time:rentec}}."
+      },
+      "bullets": {
+        "he": [
+          "KobeissiLetter מצביע על שינוי סנטימנט: קריאות נרחבות שבועבת ה-AI התפוצצה, על רקע האירוע האישי של הואנג, ב-{{time:sentiment}}.",
+          "מנהלי קרנות גלובליים קיצצו את החשיפה לטכנולוגיה ב-25 נקודות אחוז לנטו של 12% - הקיצוץ החודשי הגדול ביותר, לפי KobeissiLetter ב-{{time:fundmgr}}."
+        ],
+        "en": [
+          "KobeissiLetter points to a sentiment shift: widespread calls that the AI bubble has popped, against the backdrop of Huang's personal event, at {{time:sentiment}}.",
+          "Global fund managers cut tech exposure by 25 percentage points to a net 12% - the biggest monthly cut, per KobeissiLetter at {{time:fundmgr}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:close}}",
+        "url": "https://x.com/FirstSquawk/status/2123167450971906559"
+      },
+      "secondarySources": [
+        {
+          "name": "@unusual_whales · {{time:rentec}}",
+          "url": "https://x.com/unusual_whales/status/2123098156434964928"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:sentiment}}",
+          "url": "https://x.com/KobeissiLetter/status/2123095269004702079"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:fundmgr}}",
+          "url": "https://x.com/KobeissiLetter/status/2123149630942908586"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "close": {
+          "at": "2026-11-18T21:32:21+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "rentec": {
+          "at": "2026-11-18T16:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "sentiment": {
+          "at": "2026-11-18T16:45:31+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fundmgr": {
+          "at": "2026-11-18T20:21:32+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "medicare-crackdown",
+      "section": "markets",
+      "priority": 6,
+      "kicker": {
+        "he": "ביטוחי בריאות · קריסה",
+        "en": "Health insurers · collapse"
+      },
+      "headline": {
+        "he": "מניות ביטוחי הבריאות קרסו: יונייטדהלת' ירדה 10.2% ויומאנה 13% אחרי הצעת מדיקאר נגד חיוב יתר",
+        "en": "Health insurers crashed: UnitedHealth down 10.2% and Humana 13% after Medicare's overbilling proposal"
+      },
+      "summary": {
+        "he": "מדיקאר הציעה רגולציה נגד חיוב יתר של תוכניות הביטוח הפרטיות, שתאפשר לה להחזיר תשלומי יתר, לפי wallstengine ב-{{time:crackdown}}; בעקבות זאת קרסו מניות ביטוחי הבריאות ב-18 בנובמבר: יונייטדהלת' ירדה 10.21% ל-349.91 דולר, יומאנה צנחה 12.98% ואלבנס ירדה 7.63%, לפי Investing.com.",
+        "en": "Medicare proposed a crackdown on overbilling by private insurance plans that would let it claw back overpayments, per wallstengine at {{time:crackdown}}; health insurance stocks crashed on November 18: UnitedHealth fell 10.21% to $349.91, Humana plunged 12.98% and Elevance fell 7.63%, per Investing.com."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:crackdown}}",
+        "url": "https://x.com/wallstengine/status/2123160225838731661"
+      },
+      "secondarySources": [
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-down-111-5037118"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "UNH",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "crackdown": {
+          "at": "2026-11-18T21:03:38+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "panw-earnings",
+      "section": "tech",
+      "priority": 7,
+      "kicker": {
+        "he": "דוחות · פאלו אלטו",
+        "en": "Earnings · Palo Alto"
+      },
+      "headline": {
+        "he": "פאלו אלטו נטוורקס גברה על התחזיות עם צמיחה של 39% - ורוכשת סטארט-אפ AI ב-4.5 מיליארד דולר",
+        "en": "Palo Alto Networks beats estimates with 39% growth - and buys an AI startup for $4.5 billion"
+      },
+      "summary": {
+        "he": "פאלו אלטו נטוורקס דיווחה אחרי הסגירה ב-18 בנובמבר על הכנסות של 3.44 מיליארד דולר, צמיחה של 39% ומעל תחזית של 3.31 מיליארד, על רווח מתואם של 1.05 דולר למניה מול תחזית של 0.97 דולר, על צמיחה של 66% בהכנסות החוזרות של אבטחת הדור הבא ל-9.73 מיליארד דולר ועל העלאת התחזית, לפי wallstengine ב-{{time:earnings}}. במקביל הודיעה החברה על רכישת סטארט-אפ ה-AI Applied Compute ב-4.5 מיליארד דולר, לפי הוול סטריט ג'ורנל דרך LiveSquawk ב-{{time:acquisition}}. המניה זינקה 9.90% במסחר הרגיל לקראת הדוחות; לא נכלל בסיכום ציטוט מאומת מהמסחר המאוחר.",
+        "en": "Palo Alto Networks reported after the close on November 18 revenue of $3.44 billion, up 39% and above a $3.31 billion estimate, adjusted EPS of $1.05 versus a $0.97 estimate, 66% growth in next-generation security ARR to $9.73 billion, and raised guidance, per wallstengine at {{time:earnings}}. The company also announced the acquisition of AI startup Applied Compute for $4.5 billion, per the Wall Street Journal via LiveSquawk at {{time:acquisition}}. The stock jumped 9.90% in the regular session ahead of the report; no verified after-hours quote is included."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:earnings}}",
+        "url": "https://x.com/wallstengine/status/2123160775099404735"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:acquisition}}",
+          "url": "https://x.com/LiveSquawk/status/2123161761486455207"
+        },
+        {
+          "name": "@FirstSquawk",
+          "url": "https://x.com/FirstSquawk/status/2123160556932907261"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "PANW",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "earnings": {
+          "at": "2026-11-18T21:05:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "acquisition": {
+          "at": "2026-11-18T21:09:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "everpure-earnings",
+      "section": "tech",
+      "priority": 8,
+      "kicker": {
+        "he": "דוחות · אוורפיור",
+        "en": "Earnings · Everpure"
+      },
+      "headline": {
+        "he": "אוורפיור גברה על התחזיות עם זינוק של 51% בהכנסות; ביום חמישי לפני הפתיחה מדווחות וולמארט, PDD ובאבא",
+        "en": "Everpure beats estimates with a 51% revenue jump; Walmart, PDD and Alibaba report before Thursday's open"
+      },
+      "summary": {
+        "he": "אוורפיור דיווחה אחרי הסגירה על הכנסות של 1.5 מיליארד דולר, צמיחה של 51%, ועל רווח מתואם של 0.86 דולר למניה מול תחזית של 0.78 דולר, לפי wallstengine ב-{{time:everpure}}. ביום חמישי לפני פתיחת המסחר צפויות לדווח וולמארט, PDD, עלי באבא ו-Bath & Body Works, לפי eWhispers ב-{{time:calendar}}.",
+        "en": "Everpure reported after the close revenue of $1.5 billion, up 51%, and adjusted EPS of $0.86 versus a $0.78 estimate, per wallstengine at {{time:everpure}}. Walmart, PDD, Alibaba and Bath & Body Works are due to report before Thursday's open, per eWhispers at {{time:calendar}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:everpure}}",
+        "url": "https://x.com/wallstengine/status/2123160739917467789"
+      },
+      "secondarySources": [
+        {
+          "name": "@eWhispers · {{time:calendar}}",
+          "url": "https://x.com/eWhispers/status/2123127553992847844"
+        }
+      ],
+      "timeRefs": {
+        "everpure": {
+          "at": "2026-11-18T21:05:41+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "calendar": {
+          "at": "2026-11-18T18:53:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "oil-gold-plunge",
+      "section": "markets",
+      "priority": 9,
+      "kicker": {
+        "he": "סחורות · צניחה",
+        "en": "Commodities · plunge"
+      },
+      "headline": {
+        "he": "הזהב צנח 3.5% לשפל של יותר משנה והנפט ירד לשפל מאז אוגוסט על רקע הפד הניצי ודולר מתחזק",
+        "en": "Gold plunged 3.5% to a more-than-one-year low and oil fell to its lowest since August on the hawkish Fed and a stronger dollar"
+      },
+      "summary": {
+        "he": "חוזה דצמבר על הזהב צנח 3.47% ב-18 בנובמבר ל-3,730.10 דולר, השפל ביותר משנה, והכסף ירד כ-5%, על רקע איתותים ניציים מהפד ודולר מתחזק, לפי Investing.com ו-DeItaone ב-{{time:metals}}. חוזה ינואר על נפט WTI ירד 2.99% ל-82.12 דולר, השפל מאז סוף אוגוסט, וחוזה ינואר על הברנט ירד 1.54% ל-91.71 דולר, לפי Investing.com.",
+        "en": "December gold plunged 3.47% on November 18 to $3,730.10, its lowest in over a year, and silver fell about 5%, against hawkish Fed signals and a strengthening dollar, per Investing.com and DeItaone at {{time:metals}}. January WTI fell 2.99% to $82.12, the lowest since late August, and January Brent fell 1.54% to $91.71, per Investing.com."
+      },
+      "bullets": {
+        "he": [
+          "מחירי הדלק בארה\"ב רשמו את הירידה היומית הגדולה ביותר מזה 18 שנה, לפי KobeissiLetter ב-{{time:gas}}.",
+          "מלאי הנפט בארה\"ב עלה ב-3.38 מיליון חביות, מול תחזית לירידה קלה, לצד ייצור שיא וריקון של 3.2 מיליון חביות מהמלאי האסטרטגי, לפי zerohedge ב-{{time:doe}}.",
+          "מכרז האג\"ח ל-20 שנה נסגר בתשואה של 5.459% ובכיסוי של 2.63, לפי LiveSquawk ב-{{time:auction}}."
+        ],
+        "en": [
+          "US gasoline prices posted their largest single-day drop in 18 years, per KobeissiLetter at {{time:gas}}.",
+          "US crude inventories rose by 3.38 million barrels, against an estimate of a small draw, alongside record production and a 3.2 million barrel drain from the strategic reserve, per zerohedge at {{time:doe}}.",
+          "The 20-year bond auction closed at a 5.459% yield with a 2.63 bid-to-cover, per LiveSquawk at {{time:auction}}."
+        ]
+      },
+      "source": {
+        "name": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-down-111-5037118"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:metals}}",
+          "url": "https://x.com/DeItaone/status/2123101421482520927"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:gas}}",
+          "url": "https://x.com/KobeissiLetter/status/2123107215477547378"
+        },
+        {
+          "name": "@zerohedge · {{time:doe}}",
+          "url": "https://x.com/zerohedge/status/2123079072947315151"
+        },
+        {
+          "name": "@LiveSquawk · {{time:auction}}",
+          "url": "https://x.com/LiveSquawk/status/2123114803946475653"
+        }
+      ],
+      "timeRefs": {
+        "metals": {
+          "at": "2026-11-18T17:09:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "gas": {
+          "at": "2026-11-18T17:33:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "doe": {
+          "at": "2026-11-18T15:41:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "auction": {
+          "at": "2026-11-18T18:03:09+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "israel-iran-pressure",
+      "section": "geopolitics",
+      "priority": 10,
+      "kicker": {
+        "he": "איראן · לחץ ישראלי",
+        "en": "Iran · Israeli pressure"
+      },
+      "headline": {
+        "he": "ישראל לוחצת על ארה\"ב לחדש תקיפות משותפות באיראן; שלוש מכליות עלו באש במזרח מצר הורמוז",
+        "en": "Israel presses the US to renew joint strikes on Iran; three tankers caught fire in the eastern Strait of Hormuz"
+      },
+      "summary": {
+        "he": "ישראל לוחצת על ארה\"ב לחדש תקיפות משותפות באיראן, וראש המוסד רומן גופמן העלה את הנושא בפגישות בוושינגטון, לפי DeItaone ב-{{time:israel}}. במפרץ: שלוש מכליות נפט עלו באש במזרח מצר הורמוז, וצבא איראן טוען שהן פגעו במוקשים, לפי IRIB דרך FirstSquawk ב-{{time:tankers}}.",
+        "en": "Israel is pressing the US to renew joint strikes on Iran, and Mossad chief Roman Gofman raised the issue in meetings in Washington, per DeItaone at {{time:israel}}. In the Gulf: three oil tankers caught fire in the eastern Strait of Hormuz, and Iran's army claims they struck mines, per IRIB via FirstSquawk at {{time:tankers}}."
+      },
+      "bullets": {
+        "he": [
+          "החות'ים טוענים שתקפו את נמל התעופה המלך ח'אלד ואת מרכז הפיננסים של ריאד, לפי FirstSquawk ב-{{time:houthi}}.",
+          "הצבא האמריקאי מסר שלא נפצעו חיילים אמריקאים בניסיונות התקיפה האיראניים השבוע, לפי FirstSquawk ב-{{time:military}}.",
+          "טהראן מסרה שהפגינה איפוק מרבי וקראה למדינות השכנות לחסום תקיפות אמריקאיות משטחן, לפי FirstSquawk ב-{{time:tehran}}.",
+          "שר החוץ עראגצ'י אמר שהשיחות בעומאן כללו מסגרת ביטחונית אזורית, לפי FirstSquawk ב-{{time:araghchi}}."
+        ],
+        "en": [
+          "The Houthis claim they targeted King Khalid airport and Riyadh's financial center, per FirstSquawk at {{time:houthi}}.",
+          "The US military said no American personnel were injured in this week's attempted Iranian attacks, per FirstSquawk at {{time:military}}.",
+          "Tehran said it had shown maximum restraint and called on neighboring states to block US attacks from their territory, per FirstSquawk at {{time:tehran}}.",
+          "Foreign Minister Araghchi said the Oman talks included a regional security framework, per FirstSquawk at {{time:araghchi}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:israel}}",
+        "url": "https://x.com/DeItaone/status/2123078805946306759"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:tankers}}",
+          "url": "https://x.com/FirstSquawk/status/2123146210496377239"
+        },
+        {
+          "name": "@LiveSquawk",
+          "url": "https://x.com/LiveSquawk/status/2123148473579020581"
+        },
+        {
+          "name": "@FirstSquawk · {{time:houthi}}",
+          "url": "https://x.com/FirstSquawk/status/2123146537094295848"
+        },
+        {
+          "name": "@FirstSquawk · {{time:military}}",
+          "url": "https://x.com/FirstSquawk/status/2123108274140786838"
+        },
+        {
+          "name": "@FirstSquawk · {{time:tehran}}",
+          "url": "https://x.com/FirstSquawk/status/2123163782805635342"
+        },
+        {
+          "name": "@FirstSquawk · {{time:araghchi}}",
+          "url": "https://x.com/FirstSquawk/status/2123132550139023570"
+        }
+      ],
+      "timeRefs": {
+        "israel": {
+          "at": "2026-11-18T15:40:06+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tankers": {
+          "at": "2026-11-18T20:07:57+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "houthi": {
+          "at": "2026-11-18T20:09:15+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "military": {
+          "at": "2026-11-18T17:37:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tehran": {
+          "at": "2026-11-18T21:17:46+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "araghchi": {
+          "at": "2026-11-18T19:13:40+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "trump-china",
+      "section": "geopolitics",
+      "priority": 11,
+      "kicker": {
+        "he": "ארה\"ב-סין · שנזן",
+        "en": "US-China · Shenzhen"
+      },
+      "headline": {
+        "he": "פגישת טראמפ-פוטין הפרטנית בסין אושרה; המפגש התלת-צדדי עם שי צפוי ב-19 בנובמבר בשנזן",
+        "en": "Trump's one-on-one with Putin in China is confirmed; the trilateral with Xi is expected on November 19 in Shenzhen"
+      },
+      "summary": {
+        "he": "גורם אמריקאי אישר שנשיא ארה\"ב דונלד טראמפ יקיים פגישה פרטנית עם נשיא רוסיה ולדימיר פוטין בסין, לפי DeItaone ב-{{time:putin}}; המפגש התלת-צדדי הראשון בין טראמפ, פוטין ושי ג'ינפינג צפוי להתקיים ב-19 בנובמבר בשנזן, לפי הודעת הקרמלין. במתיחות הדו-צדדית, ועדת סין של בית הנבחרים ביקשה ממיקרוסופט תדריך על עסקת ByteDance בתחום ה-AI, לפי FirstSquawk ב-{{time:bytedance}}.",
+        "en": "A US official confirmed that President Donald Trump will hold a one-on-one meeting with Russian President Vladimir Putin in China, per DeItaone at {{time:putin}}; the first trilateral meeting between Trump, Putin and Xi Jinping is expected on November 19 in Shenzhen, per the Kremlin's announcement. In bilateral tensions, the House China committee asked Microsoft for a briefing on the ByteDance AI deal, per FirstSquawk at {{time:bytedance}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:putin}}",
+        "url": "https://x.com/DeItaone/status/2123091157458813368"
+      },
+      "secondarySources": [
+        {
+          "name": "Anadolu · Kremlin announcement",
+          "url": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290"
+        },
+        {
+          "name": "@FirstSquawk · {{time:bytedance}}",
+          "url": "https://x.com/FirstSquawk/status/2123146376511111462"
+        }
+      ],
+      "timeRefs": {
+        "putin": {
+          "at": "2026-11-18T16:29:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bytedance": {
+          "at": "2026-11-18T20:08:36+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "trump-vance-rubio",
+      "section": "geopolitics",
+      "priority": 12,
+      "kicker": {
+        "he": "וושינגטון · פנים-מפלגתי",
+        "en": "Washington · intra-party"
+      },
+      "headline": {
+        "he": "ניו יורק טיימס: טראמפ מתוסכל מסגנו ואנס שייחס את ההפסד באמצע הקדנציה למלחמת איראן; רוביו צובר חן",
+        "en": "NYT: Trump is frustrated with his VP Vance, who blamed the midterm loss on the Iran war; Rubio is gaining favor"
+      },
+      "summary": {
+        "he": "נשיא ארה\"ב דונלד טראמפ מתוסכל מסגנו ג'יי די ואנס, שייחס את ההפסד בבחירות אמצע הקדנציה למלחמת איראן, בעוד שר החוץ מרקו רוביו צובר חן לקראת 2028, לפי הניו יורק טיימס דרך DeItaone ב-{{time:vance}}. במקביל, הדמוקרטים מינו את ג'פריז למועמד לתפקיד יו\"ר בית הנבחרים, לפי פאנצ'בול דרך DeItaone ב-{{time:jeffries}}.",
+        "en": "President Donald Trump is frustrated with his vice president JD Vance, who attributed the midterm loss to the Iran war, while Secretary of State Marco Rubio is gaining favor ahead of 2028, per the New York Times via DeItaone at {{time:vance}}. Meanwhile, Democrats nominated Jeffries for House Speaker, per Punchbowl via DeItaone at {{time:jeffries}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:vance}}",
+        "url": "https://x.com/DeItaone/status/2123098639991992376"
+      },
+      "secondarySources": [
+        {
+          "name": "@KobeissiLetter",
+          "url": "https://x.com/KobeissiLetter/status/2123099831455592557"
+        },
+        {
+          "name": "@DeItaone · {{time:jeffries}}",
+          "url": "https://x.com/DeItaone/status/2123076256950608165"
+        }
+      ],
+      "timeRefs": {
+        "vance": {
+          "at": "2026-11-18T16:58:55+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "jeffries": {
+          "at": "2026-11-18T15:29:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "intel-foundry",
+      "section": "tech",
+      "priority": 13,
+      "kicker": {
+        "he": "אינטל · הפאונדרי",
+        "en": "Intel · the foundry"
+      },
+      "headline": {
+        "he": "אינטל חתמה על לקוח חיצוני ראשון לתהליך ה-18A עם 70% שבבים תקינים; מיקרוסופט תשתמש באריזת EMIB לשבבי Azure",
+        "en": "Intel signed its first external 18A customer with 70% of chips usable; Microsoft will use EMIB packaging for Azure chips"
+      },
+      "summary": {
+        "he": "מנכ\"ל אינטל ליפ-בו טאן הודיע על לקוח חיצוני ראשון לתהליך ה-18A, עם אחוז תפוקת שבבים תקינים של 70%, על מוצר 14A ראשון ב-2027 ועל ייצור המוני ב-2028, ואמר שהביקוש ל-AI כה גדול שהוא פשוט לא מצליח לספק, לפי wallstengine ב-{{time:intel}}. בנוסף, מיקרוסופט תשתמש בטכנולוגיית האריזה EMIB של אינטל לשבבי Azure - החברה הראשונה, לפי wallstengine ב-{{time:emib}}.",
+        "en": "Intel CEO Lip-Bu Tan announced the first external customer for the 18A process, with 70% of manufactured chips usable, a first 14A product in 2027 and volume production in 2028, and said AI demand is so high he simply cannot supply enough, per wallstengine at {{time:intel}}. In addition, Microsoft will use Intel's EMIB packaging technology for Azure chips - the first company to do so, per wallstengine at {{time:emib}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:intel}}",
+        "url": "https://x.com/wallstengine/status/2123145818450657729"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine",
+          "url": "https://x.com/wallstengine/status/2123148812365844491"
+        },
+        {
+          "name": "@wallstengine · {{time:emib}}",
+          "url": "https://x.com/wallstengine/status/2123097286486179918"
+        },
+        {
+          "name": "@FirstSquawk",
+          "url": "https://x.com/FirstSquawk/status/2123092818898145562"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "INTC",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "intel": {
+          "at": "2026-11-18T20:06:23+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "emib": {
+          "at": "2026-11-18T16:53:32+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "google-gemini",
+      "section": "tech",
+      "priority": 14,
+      "kicker": {
+        "he": "גוגל · מודלים",
+        "en": "Google · models"
+      },
+      "headline": {
+        "he": "גוגל השיקה את Gemini 4 Neon: קוד מורכב, מחקר מדעי וסוכני AI",
+        "en": "Google launched Gemini 4 Neon: complex coding, scientific research and AI agents"
+      },
+      "summary": {
+        "he": "גוגל השיקה ב-18 בנובמבר את המודל Gemini 4 Neon, המיועד לקוד מורכב, מחקר מדעי וסוכני AI, לפי wallstengine ב-{{time:gemini}} ומנכ\"ל גוגל סונדר פיצ'אי דרך FirstSquawk ב-{{time:pichai}}; קודם לכן הושק גם מודל העולם Genie 4, לפי wallstengine ב-{{time:genie}}.",
+        "en": "Google launched on November 18 the Gemini 4 Neon model, aimed at complex coding, scientific research and AI agents, per wallstengine at {{time:gemini}} and Google CEO Sundar Pichai via FirstSquawk at {{time:pichai}}; the Genie 4 world model was launched earlier, per wallstengine at {{time:genie}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:gemini}}",
+        "url": "https://x.com/wallstengine/status/2123170102115967229"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:pichai}}",
+          "url": "https://x.com/FirstSquawk/status/2123169339994148947"
+        },
+        {
+          "name": "@wallstengine · {{time:genie}}",
+          "url": "https://x.com/wallstengine/status/2123121240940667358"
+        }
+      ],
+      "timeRefs": {
+        "gemini": {
+          "at": "2026-11-18T21:42:53+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "pichai": {
+          "at": "2026-11-18T21:39:51+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "genie": {
+          "at": "2026-11-18T18:28:44+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "openai-ipo",
+      "section": "tech",
+      "priority": 15,
+      "kicker": {
+        "he": "OpenAI · אולטמן",
+        "en": "OpenAI · Altman"
+      },
+      "headline": {
+        "he": "סם אולטמן: OpenAI מתכננת הנפקה בשלב מסוים; מתחרט שלא לקח אחזקה בחברה",
+        "en": "Sam Altman: OpenAI plans an IPO at some point; regrets not taking equity in the company"
+      },
+      "summary": {
+        "he": "מנכ\"ל OpenAI סם אולטמן אישר שהחברה מתכננת הנפקה בשלב מסוים והודה שהוא מתחרט שלא לקח אחזקה בחברה, לפי DeItaone ב-{{time:altman}}; אחזקתו של שותפו גרג ברוקמן מוערכת בכ-30 מיליארד דולר, לפי unusual_whales ב-{{time:brockman}}.",
+        "en": "OpenAI CEO Sam Altman confirmed the company plans an IPO at some point and admitted he regrets not taking equity in it, per DeItaone at {{time:altman}}; co-founder Greg Brockman's stake is estimated at about $30 billion, per unusual_whales at {{time:brockman}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:altman}}",
+        "url": "https://x.com/DeItaone/status/2123081228244897857"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine",
+          "url": "https://x.com/wallstengine/status/2123080644800692416"
+        },
+        {
+          "name": "@unusual_whales · {{time:brockman}}",
+          "url": "https://x.com/unusual_whales/status/2123083790784372929"
+        }
+      ],
+      "timeRefs": {
+        "altman": {
+          "at": "2026-11-18T15:49:44+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "brockman": {
+          "at": "2026-11-18T15:59:55+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "outages-congress",
+      "section": "tech",
+      "priority": 16,
+      "kicker": {
+        "he": "תקלות הענן · קונגרס",
+        "en": "Cloud outages · Congress"
+      },
+      "headline": {
+        "he": "לקונגרס נמסר: התקלות נגרמו מתיקון פרצות שזיהו מודלי AI; הרשויות: אין ראיות לתקיפה מתואמת",
+        "en": "Congress told: the outages were caused by patching vulnerabilities identified by AI models; authorities report no evidence of a coordinated attack"
+      },
+      "summary": {
+        "he": "בכירי וול סטריט וה-NSA מסרו לקונגרס שהתקלות האחרונות נגרמו מתיקון פרצות שזיהו מודלי בינה מלאכותית, לפי הוושינגטון סאן דרך unusual_whales ב-{{time:outages}}; ראש ה-ODNI קלייטון אמר שאין ראיות לתיאום או לגורם מדינתי, לפי LiveSquawk ב-{{time:clayton}}, ומרקו רוביו אמר שאין שום ראיה המקשרת בין התקלות, לפי unusual_whales ב-{{time:rubio}}.",
+        "en": "Wall Street executives and the NSA told Congress the recent outages were caused by patching vulnerabilities identified by AI models, per the Washington Sun via unusual_whales at {{time:outages}}; ODNI chief Clayton said there is no evidence of coordination or a state actor, per LiveSquawk at {{time:clayton}}, and Marco Rubio said there is zero evidence linking the outages, per unusual_whales at {{time:rubio}}."
+      },
+      "bullets": {
+        "he": [
+          "סגן הנשיא ואנס אמר שהממשל מתכונן לתרחישי הקיצון, לפי FOX דרך unusual_whales ב-{{time:vance}}.",
+          "מנכ\"לית סיטי ג'יין פרייזר מעריכה שיהיו עוד תקלות, לפי FirstSquawk ב-{{time:fraser}}."
+        ],
+        "en": [
+          "Vice President Vance said the government is preparing for worst-case outcomes, per FOX via unusual_whales at {{time:vance}}.",
+          "Citi CEO Jane Fraser expects more outages, per FirstSquawk at {{time:fraser}}."
+        ]
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:outages}}",
+        "url": "https://x.com/unusual_whales/status/2123083056034820189"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:clayton}}",
+          "url": "https://x.com/LiveSquawk/status/2123077984395616677"
+        },
+        {
+          "name": "@unusual_whales · {{time:rubio}}",
+          "url": "https://x.com/unusual_whales/status/2123078023146803372"
+        },
+        {
+          "name": "@unusual_whales · {{time:vance}}",
+          "url": "https://x.com/unusual_whales/status/2123093122448294253"
+        },
+        {
+          "name": "@FirstSquawk · {{time:fraser}}",
+          "url": "https://x.com/FirstSquawk/status/2123167209396764996"
+        }
+      ],
+      "timeRefs": {
+        "outages": {
+          "at": "2026-11-18T15:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "clayton": {
+          "at": "2026-11-18T15:36:51+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "rubio": {
+          "at": "2026-11-18T15:37:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "vance": {
+          "at": "2026-11-18T16:37:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fraser": {
+          "at": "2026-11-18T21:31:23+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "tase-close",
+      "section": "israel",
+      "priority": 17,
+      "kicker": {
+        "he": "ישראל · הבורסה",
+        "en": "Israel · the exchange"
+      },
+      "headline": {
+        "he": "בורסת ת\"א ננעלה בירידות: ת\"א 90 צלל 1.68%; האחים נקש בתגובה ראשונה לעסקת ארקיע",
+        "en": "The Tel Aviv exchange closed lower: TA-90 slid 1.68%; the Nakash brothers' first response to the Arkia deal"
+      },
+      "summary": {
+        "he": "בורסת תל אביב ננעלה ב-18 בנובמבר בירידות: מדד ת\"א 35 ירד 0.34%, ת\"א 125 ירד 0.58% ות\"א 90 צלל 1.68%, בעוד מדד הביטוח עלה 1.49% והביומד 1.07%, לפי הבורסה לניירות ערך ב-{{time:tase}}. האחים נקש מסרו תגובה ראשונה לעסקת ארקיע: \"נעשו טעויות, ננפיק מניות של חברות בישראל\", לפי גלובס ב-{{time:nakash}}.",
+        "en": "The Tel Aviv Stock Exchange closed lower on November 18: the TA-35 fell 0.34%, the TA-125 fell 0.58% and the TA-90 slid 1.68%, while the insurance index rose 1.49% and biomed 1.07%, per the TASE at {{time:tase}}. The Nakash brothers gave their first response to the Arkia deal: 'Mistakes were made; we will issue shares of companies in Israel', per Globes at {{time:nakash}}."
+      },
+      "bullets": {
+        "he": [
+          "מזרחי טפחות: מחירי הדיור במרכז יעלו כבר מאמצע 2027, לפי TheMarker ב-{{time:mizrahi}}.",
+          "צה\"ל מתכנן להפחית את ימי המילואים ב-2027, לפי TheMarker ב-{{time:idf}}."
+        ],
+        "en": [
+          "Mizrahi Tefahot: housing prices in the center will rise already from mid-2027, per TheMarker at {{time:mizrahi}}.",
+          "The IDF plans to reduce reserve duty days in 2027, per TheMarker at {{time:idf}}."
+        ]
+      },
+      "source": {
+        "name": "@TASE_IL · {{time:tase}}",
+        "url": "https://x.com/TASE_IL/status/2123087222236643766"
+      },
+      "secondarySources": [
+        {
+          "name": "@globesnews · {{time:nakash}}",
+          "url": "https://x.com/globesnews/status/2123079319115165836"
+        },
+        {
+          "name": "@TheMarker · {{time:mizrahi}}",
+          "url": "https://x.com/TheMarker/status/2123174482076377179"
+        },
+        {
+          "name": "@TheMarker · {{time:idf}}",
+          "url": "https://x.com/TheMarker/status/2123129181345046819"
+        }
+      ],
+      "timeRefs": {
+        "tase": {
+          "at": "2026-11-18T16:13:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nakash": {
+          "at": "2026-11-18T15:42:09+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "mizrahi": {
+          "at": "2026-11-18T22:00:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "idf": {
+          "at": "2026-11-18T19:00:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "gta6-timeoff",
+      "section": "tech",
+      "priority": 18,
+      "kicker": {
+        "he": "GTA VI · ספירה לאחור",
+        "en": "GTA VI · countdown"
+      },
+      "headline": {
+        "he": "11% מהעובדים בארה\"ב מתכננים לקחת ימי חופש לכבוד השקת GTA VI; ובקרב בני דור Z - 22%",
+        "en": "11% of US workers plan time off for the GTA VI launch; among Gen Z - 22%"
+      },
+      "summary": {
+        "he": "11% מהעובדים בארה\"ב מתכננים לקחת ימי חופש לכבוד השקת GTA VI, ובקרב בני דור Z שיעורם מגיע ל-22%, לפי סקר Zety דרך DeItaone ב-{{time:gta}}; כלכליסט כותב שההשקה צפויה לשתק מקומות עבודה, ב-{{time:calcalist}}.",
+        "en": "11% of US workers plan to take time off for the GTA VI launch, and among Gen Z the share reaches 22%, per a Zety survey via DeItaone at {{time:gta}}; Calcalist writes the launch is expected to shut down workplaces, at {{time:calcalist}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:gta}}",
+        "url": "https://x.com/DeItaone/status/2123100903779749932"
+      },
+      "secondarySources": [
+        {
+          "name": "@calcalist · {{time:calcalist}}",
+          "url": "https://x.com/calcalist/status/2123075075603620005"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "TTWO",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "gta": {
+          "at": "2026-11-18T17:07:55+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "calcalist": {
+          "at": "2026-11-18T15:25:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    }
+  ]
+}
