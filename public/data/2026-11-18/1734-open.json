@@ -1,0 +1,1191 @@
+{
+  "schemaVersion": "2.0",
+  "date": "2026-11-18",
+  "editionSlug": "1734-open",
+  "editionType": "open",
+  "editionNumber": 8,
+  "publishedAt": "2026-11-18T17:34:33+02:00",
+  "editorialLead": {
+    "he": "אנבידיה מחקה את כל עליות הדוחות: 36% מתחת לשיא אוקטובר; וולר מאיים בהעלאה של חצי אחוז",
+    "en": "Nvidia erases all post-earnings gains: 36% below the October peak; Waller floats a half-point hike"
+  },
+  "topSummary": {
+    "he": "אנבידיה מחקה ב-18 בנובמבר את כל העליות שרשמה אחרי הדוחות החזקים ועברה לירידות, 36% מתחת לשיא אוקטובר; וולר מהפד אמר שייתכן שיהיה צורך ״לזעזע״ את הציבור עם העלאת ריבית של חצי אחוז בדצמבר. ובמפרץ: איראן תקפה מטרות בכווית ובבחריין, כולל בסיס אווירי אמריקאי.",
+    "en": "Nvidia erased on November 18 all the gains it recorded after its strong earnings and turned negative, 36% below the October peak; the Fed's Waller said the central bank may need to 'shock' the public with a half-point December hike. In the Gulf, Iran struck targets in Kuwait and Bahrain, including a US air base."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "NASDAQ:NVDA",
+    "^IXIC",
+    "TTWO",
+    "CRWV",
+    "SNDK",
+    "IREN",
+    "NBIS"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "NASDAQ:NVDA",
+      "range": "1d",
+      "label": {
+        "he": "אנבידיה",
+        "en": "Nvidia"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "nvidia-reversal",
+      "section": "tech",
+      "isLead": true,
+      "priority": 1,
+      "kicker": {
+        "he": "אנבידיה · אחרי הדוחות",
+        "en": "Nvidia · after earnings"
+      },
+      "headline": {
+        "he": "אנבידיה מחקה את כל העליות מאז הדוחות ועברה לירידות: 36% מתחת לשיא אוקטובר",
+        "en": "Nvidia erases all post-earnings gains and turns negative: 36% below the October peak"
+      },
+      "summary": {
+        "he": "מניית אנבידיה מחקה ב-18 בנובמבר את כל העליות שרשמה אחרי הדוחות ועברה לירידות - 36% מתחת לשיא אוקטובר, לפי KobeissiLetter ב-{{time:reversal}}. המניה עלתה כ-4% במסחר המוקדם, עברה לירידה של כ-0.7% לפי DeItaone ב-{{time:last}}, והעמיקה לירידה של כ-1.2% לפי wallstengine ב-{{time:neoclouds}}.",
+        "en": "Nvidia shares erased on November 18 all the gains recorded after earnings and turned negative - 36% below the October peak, per KobeissiLetter at {{time:reversal}}. The stock rose about 4% in premarket, turned to a decline of about 0.7% per DeItaone at {{time:last}}, and deepened to about 1.2% down per wallstengine at {{time:neoclouds}}."
+      },
+      "bullets": {
+        "he": [
+          "ענקיות ה-Neocloud והשבבים צוללות בעקבותיה: CoreWeave ירדה כ-7%, SanDisk כ-5.2%, IREN כ-4.9% ו-Nebius כ-4.7%, לפי wallstengine ב-{{time:neoclouds}}.",
+          "בית ההשקעות Summit Insights הוריד את אנבידיה לדירוג Hold, ומורגן סטנלי קיצצה את מחיר היעד מ-267 ל-260 דולר, לפי DeItaone ב-{{time:downgrade}}.",
+          "מנגד, סקירת אנליסטים אחרי הדוחות העלתה את תחזית הצמיחה של החברה לשנת הכספים 2028 ל-75%, לפי wallstengine ב-{{time:analysts}}."
+        ],
+        "en": [
+          "Neocloud and chip giants are sinking in its wake: CoreWeave down about 7%, SanDisk about 5.2%, IREN about 4.9% and Nebius about 4.7%, per wallstengine at {{time:neoclouds}}.",
+          "Summit Insights downgraded Nvidia to Hold, and Morgan Stanley cut its price target from $267 to $260, per DeItaone at {{time:downgrade}}.",
+          "On the other side, a post-earnings analyst roundup raised the company's fiscal 2028 growth forecast to 75%, per wallstengine at {{time:analysts}}."
+        ]
+      },
+      "source": {
+        "name": "@KobeissiLetter · {{time:reversal}}",
+        "url": "https://x.com/KobeissiLetter/status/2123064511343030581"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:last}}",
+          "url": "https://x.com/DeItaone/status/2123065070519566622"
+        },
+        {
+          "name": "@wallstengine · {{time:neoclouds}}",
+          "url": "https://x.com/wallstengine/status/2123066921855955414"
+        },
+        {
+          "name": "@DeItaone · {{time:downgrade}}",
+          "url": "https://x.com/DeItaone/status/2123001357166592132"
+        },
+        {
+          "name": "@wallstengine · {{time:analysts}}",
+          "url": "https://x.com/wallstengine/status/2123054137529258276"
+        }
+      ],
+      "socialPost": {
+        "id": "2123064511343030581",
+        "url": "https://x.com/KobeissiLetter/status/2123064511343030581"
+      },
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "reversal": {
+          "at": "2026-11-18T14:43:18+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "last": {
+          "at": "2026-11-18T14:45:32+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "neoclouds": {
+          "at": "2026-11-18T14:52:53+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "downgrade": {
+          "at": "2026-11-18T10:32:21+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "analysts": {
+          "at": "2026-11-18T14:02:05+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "iran-gulf-strikes",
+      "section": "geopolitics",
+      "priority": 2,
+      "kicker": {
+        "he": "המפרץ הפרסי · הסלמה",
+        "en": "Persian Gulf · escalation"
+      },
+      "headline": {
+        "he": "איראן תקפה מטרות בכווית ובבחריין, כולל בסיס אווירי אמריקאי - הרחבה נוספת של המערכה סביב הורמוז",
+        "en": "Iran strikes targets in Kuwait and Bahrain, including a US air base - a further expansion of the Hormuz fight"
+      },
+      "summary": {
+        "he": "איראן שיגרה ביום רביעי, 18 בנובמבר, תקיפות נגד כווית ובחריין, לפי הוול סטריט ג'ורנל דרך unusual_whales ב-{{time:strikes}}; לפי AP המטרות כללו בסיס אווירי אמריקאי בכווית ואתרים בבחריין, והמהלך מרחיב את התקיפות נגד כלי שיט במצר הורמוז. שגרירות ארה\"ב הזהירה אזרחים מפני איום תקיפה חות'ית במזרח התיכון, כולל בערב הסעודית, לפי FirstSquawk ב-{{time:embassy}}.",
+        "en": "Iran launched strikes against Kuwait and Bahrain early on Wednesday, November 18, per the Wall Street Journal via unusual_whales at {{time:strikes}}; per AP the targets included a US air base in Kuwait and sites in Bahrain, expanding the attacks on shipping in the Strait of Hormuz. The US Embassy warned Americans of a Houthi attack threat in the Middle East, including Saudi Arabia, per FirstSquawk at {{time:embassy}}."
+      },
+      "bullets": {
+        "he": [
+          "ערב הסעודית מעריכה שהמלחמה עם החות'ים תימשך גם לתוך 2027, לפי רויטרס דרך DeItaone."
+        ],
+        "en": [
+          "Saudi Arabia expects the Houthi war to continue into 2027, per Reuters via DeItaone."
+        ]
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:strikes}}",
+        "url": "https://x.com/unusual_whales/status/2122997497975263638"
+      },
+      "secondarySources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94"
+        },
+        {
+          "name": "@FirstSquawk · {{time:embassy}}",
+          "url": "https://x.com/FirstSquawk/status/2123064129875493070"
+        },
+        {
+          "name": "@DeItaone",
+          "url": "https://x.com/DeItaone/status/2123040444871237777"
+        }
+      ],
+      "timeRefs": {
+        "strikes": {
+          "at": "2026-11-18T10:17:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "embassy": {
+          "at": "2026-11-18T14:41:47+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "waller-hike-call",
+      "section": "markets",
+      "priority": 3,
+      "kicker": {
+        "he": "הפד · וולר",
+        "en": "The Fed · Waller"
+      },
+      "headline": {
+        "he": "וולר מהפד: ייתכן שיהיה צורך ״לזעזע״ את הציבור עם העלאת ריבית של חצי אחוז בדצמבר",
+        "en": "The Fed's Waller: the central bank may need to 'shock people' with a half-point December hike"
+      },
+      "summary": {
+        "he": "נגיד הפד כריסטופר וולר אמר שהבנק המרכזי עשוי להצטרך ״לזעזע״ את הציבור עם העלאת ריבית של חצי נקודת אחוז בדצמבר כדי לשבור את הפסיכולוגיה שאינפלציה של 3% היא הנורמה, לפי CNBC דרך DeItaone ב-{{time:waller50}} וב-{{time:shock}}. כ-70% מסל שירותי הליבה מעל 3%, לפי DeItaone, ווולר אמר שהפד יצטרך לקחת בחזרה את שלוש הורדות הריבית ״הביטחוניות״ ואולי יותר, לפי FirstSquawk ב-{{time:cuts}}.",
+        "en": "Fed Governor Christopher Waller said the central bank may need to 'shock' the public with a half-point December rate hike to break the psychology that 3% inflation is the norm, per CNBC via DeItaone at {{time:waller50}} and at {{time:shock}}. About 70% of the core services basket is running above 3%, per DeItaone, and Waller said the Fed will need to take back the three 'insurance' cuts and possibly more, per FirstSquawk at {{time:cuts}}."
+      },
+      "bullets": {
+        "he": [
+          "במקביל אמר וולר ש״אין שום דבר בועתי״ בתמחור מניות הבינה המלאכותית, לפי DeItaone ב-{{time:bubble}}; zerohedge סיכם: השוק מסרב לתמחר את הדברים, ב-{{time:zhwaller}}.",
+          "בנק Danske הוסיף העלאת ריבית שלישית לתחזית וצופה ריבית של 4.50-4.75% עד מארס 2027, לפי DeItaone ב-{{time:danske}}.",
+          "תשואת איגרת החוב האמריקאית ל-10 שנים עמדה על 5.12% בשעות הבוקר, לפי DeItaone ב-{{time:teny}}."
+        ],
+        "en": [
+          "At the same time Waller said there is 'nothing bubble-like' in how AI stocks are priced, per DeItaone at {{time:bubble}}; zerohedge summed up: the market refuses to price it in, at {{time:zhwaller}}.",
+          "Danske Bank added a third rate hike to its forecast and sees rates at 4.50-4.75% by March 2027, per DeItaone at {{time:danske}}.",
+          "The 10-year US Treasury yield stood at 5.12% in the morning, per DeItaone at {{time:teny}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:waller50}}",
+        "url": "https://x.com/DeItaone/status/2123034522019139680"
+      },
+      "secondarySources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/amp/2026/11/18/federal-reserve-governor-christopher-waller.html"
+        },
+        {
+          "name": "@DeItaone · {{time:shock}}",
+          "url": "https://x.com/DeItaone/status/2123033124187832558"
+        },
+        {
+          "name": "@FirstSquawk · {{time:cuts}}",
+          "url": "https://x.com/FirstSquawk/status/2123035193506509076"
+        },
+        {
+          "name": "@DeItaone · {{time:bubble}}",
+          "url": "https://x.com/DeItaone/status/2123036618135126423"
+        },
+        {
+          "name": "@zerohedge · {{time:zhwaller}}",
+          "url": "https://x.com/zerohedge/status/2123060016605229403"
+        },
+        {
+          "name": "@DeItaone · {{time:danske}}",
+          "url": "https://x.com/DeItaone/status/2123049366059413671"
+        },
+        {
+          "name": "@DeItaone · {{time:teny}}",
+          "url": "https://x.com/DeItaone/status/2123036920900997130"
+        }
+      ],
+      "timeRefs": {
+        "waller50": {
+          "at": "2026-11-18T12:44:08+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "shock": {
+          "at": "2026-11-18T12:38:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "cuts": {
+          "at": "2026-11-18T12:46:48+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bubble": {
+          "at": "2026-11-18T12:52:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "zhwaller": {
+          "at": "2026-11-18T14:25:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "danske": {
+          "at": "2026-11-18T13:43:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "teny": {
+          "at": "2026-11-18T12:53:40+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "wall-street-open",
+      "section": "markets",
+      "priority": 4,
+      "kicker": {
+        "he": "וול סטריט · הפתיחה",
+        "en": "Wall Street · the open"
+      },
+      "headline": {
+        "he": "פתיחה מעורבת אחרי דברי וולר: הדאו ירד {{move:-0.41%}}, ה-S&P 500 עלה {{move:+0.08%}} והנאסד\"ק התחזק",
+        "en": "A mixed open after Waller: the Dow fell {{move:-0.41%}}, the S&P 500 rose {{move:+0.08%}} and the Nasdaq firmed"
+      },
+      "summary": {
+        "he": "בפתיחת המסחר ב-18 בנובמבר ירד מדד דאו ג'ונס {{move:-0.41%}} ל-50,549.78 נקודות, מדד S&P 500 עלה {{move:+0.08%}} ל-7,346.41 נקודות ומדד הנאסד\"ק עלה בכ-121.8 נקודות (כ-0.5%), לפי FirstSquawk ב-{{time:open}}. החוזים העתידיים עוד הצביעו על עליות קלות לפני הדברים של וולר: S&P e-mini פלוס {{move:+0.40%}} ונאסד\"ק 100 פלוס {{move:+0.88%}}, לפי DeItaone ב-{{time:futures}}.",
+        "en": "At the open on November 18 the Dow Jones fell {{move:-0.41%}} to 50,549.78, the S&P 500 rose {{move:+0.08%}} to 7,346.41 and the Nasdaq Composite added about 121.8 points (about 0.5%), per FirstSquawk at {{time:open}}. Futures had still pointed to modest gains before Waller's remarks: S&P e-mini up {{move:+0.40%}} and Nasdaq 100 up {{move:+0.88%}}, per DeItaone at {{time:futures}}."
+      },
+      "bullets": {
+        "he": [
+          "מדד ה-GDPNow של הפד של אטלנטה לרבעון הרביעי ירד ל-3.21% מ-3.38%, לפי LiveSquawk ב-{{time:gdpnow}}.",
+          "הזהב קרס מתחת ל-3,800 דולר, לפי zerohedge ב-{{time:gold}}, והנחושת צללה כ-5% בלונדון לשפל מאז תחילת אפריל, לפי DeItaone ב-{{time:copper}}."
+        ],
+        "en": [
+          "The Atlanta Fed's GDPNow for the fourth quarter fell to 3.21% from 3.38%, per LiveSquawk at {{time:gdpnow}}.",
+          "Gold crashed below $3,800, per zerohedge at {{time:gold}}, and copper slid about 5% in London to its lowest since early April, per DeItaone at {{time:copper}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:open}}",
+        "url": "https://x.com/FirstSquawk/status/2123062531078156422"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:futures}}",
+          "url": "https://x.com/DeItaone/status/2123022239608299763"
+        },
+        {
+          "name": "@LiveSquawk · {{time:gdpnow}}",
+          "url": "https://x.com/LiveSquawk/status/2123064501918457955"
+        },
+        {
+          "name": "@zerohedge · {{time:gold}}",
+          "url": "https://x.com/zerohedge/status/2123044161976758420"
+        },
+        {
+          "name": "@DeItaone · {{time:copper}}",
+          "url": "https://x.com/DeItaone/status/2123069306565222820"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "open": {
+          "at": "2026-11-18T14:35:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "futures": {
+          "at": "2026-11-18T11:55:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "gdpnow": {
+          "at": "2026-11-18T14:43:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "gold": {
+          "at": "2026-11-18T13:22:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "copper": {
+          "at": "2026-11-18T15:02:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "nvidia-huang-board",
+      "section": "tech",
+      "priority": 5,
+      "kicker": {
+        "he": "סאגת הואנג",
+        "en": "The Huang saga"
+      },
+      "headline": {
+        "he": "יו\"ר דירקטוריון אנבידיה: אין כוונה להחזיר את הואנג; בדירקטוריון פלג שדוחף להחזירו",
+        "en": "Nvidia's chairman: no intention of bringing Huang back; a board faction is pushing for his return"
+      },
+      "summary": {
+        "he": "יו\"ר דירקטוריון אנבידיה הארווי ג'ונס אמר בשיחת המשקיעים של החברה ש״לדירקטוריון אין כל כוונה להחזיר את הואנג לתפקיד המנכ\"ל״, לפי כלכליסט ב-{{time:jones}}; הוול סטריט ג'ורנל הבליט את הכותרת ״Jensen Huang Won't Return As CEO״, לפי LiveSquawk ב-{{time:wsj}}. למרות זאת, פלג בדירקטוריון דוחף להחזיר את ג'נסן הואנג לתפקיד, לפי KobeissiLetter ב-{{time:faction}}, שכתב גם שהדירקטוריון ״מתעלם לחלוטין מדעתם של בעלי המניות״, ב-{{time:board}}.",
+        "en": "Nvidia chairman Harvey Jones told the company's investor call that 'the board has no intention of returning Huang to the CEO role', per Calcalist at {{time:jones}}; the Wall Street Journal ran the headline 'Jensen Huang Won't Return As CEO', per LiveSquawk at {{time:wsj}}. Despite this, a faction of the board is pushing to bring Jensen Huang back, per KobeissiLetter at {{time:faction}}, which also wrote that the board 'is completely disregarding the opinions of its shareholders', at {{time:board}}."
+      },
+      "bullets": {
+        "he": [
+          "אנבידיה היא שהציגה את עליבאבא לאליס הואנג וסייעה לה להפוך את עליבאבא ללקוחה, לפי The Information דרך unusual_whales ב-{{time:alibaba}}."
+        ],
+        "en": [
+          "It was Nvidia that introduced Alibaba to Alice Huang and helped her land Alibaba as a customer, per The Information via unusual_whales at {{time:alibaba}}."
+        ]
+      },
+      "source": {
+        "name": "@calcalist · {{time:jones}}",
+        "url": "https://x.com/calcalist/status/2122932288841449680"
+      },
+      "secondarySources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/nvidia-jensen-huang-china-national-security-chips-3026bcbe04ab57b844884382e583422a"
+        },
+        {
+          "name": "@LiveSquawk · {{time:wsj}}",
+          "url": "https://x.com/LiveSquawk/status/2122977667343409576"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:faction}}",
+          "url": "https://x.com/KobeissiLetter/status/2122923179572072206"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:board}}",
+          "url": "https://x.com/KobeissiLetter/status/2123068556766015721"
+        },
+        {
+          "name": "@unusual_whales · {{time:alibaba}}",
+          "url": "https://x.com/unusual_whales/status/2123037758138536223"
+        }
+      ],
+      "timeRefs": {
+        "jones": {
+          "at": "2026-11-18T05:57:54+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wsj": {
+          "at": "2026-11-18T08:58:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "faction": {
+          "at": "2026-11-18T05:21:42+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "board": {
+          "at": "2026-11-18T14:59:23+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "alibaba": {
+          "at": "2026-11-18T12:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "nvidia-china-ships",
+      "section": "tech",
+      "priority": 6,
+      "kicker": {
+        "he": "אנבידיה · סין",
+        "en": "Nvidia · China"
+      },
+      "headline": {
+        "he": "אנבידיה הפסיקה לשלוח לסין שבבי בינה מלאכותית שאושרו על ידי ארה\"ב, לפי רויטרס",
+        "en": "Nvidia stopped shipping US-approved AI chips to China, per Reuters"
+      },
+      "summary": {
+        "he": "אנבידיה הפסיקה לשלוח לסין שבבי בינה מלאכותית שאושרו על ידי ארה\"ב, לפי רויטרס דרך unusual_whales ב-{{time:ships}}. במקביל, כנופיית הכופרה ״The Gentlemen״ טוענת שפרצה לאנבידיה, לפי zerohedge ב-{{time:ransom}}.",
+        "en": "Nvidia has stopped shipping US-approved AI chips to China, per Reuters via unusual_whales at {{time:ships}}. Separately, the ransomware gang 'The Gentlemen' claims to have hacked Nvidia, per zerohedge at {{time:ransom}}."
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:ships}}",
+        "url": "https://x.com/unusual_whales/status/2123000008807162114"
+      },
+      "secondarySources": [
+        {
+          "name": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-stops-shipping-usapproved-ai-chips-to-china-5035204"
+        },
+        {
+          "name": "@zerohedge · {{time:ransom}}",
+          "url": "https://x.com/zerohedge/status/2123067314052399616"
+        }
+      ],
+      "timeRefs": {
+        "ships": {
+          "at": "2026-11-18T10:27:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ransom": {
+          "at": "2026-11-18T14:54:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "retail-earnings",
+      "section": "markets",
+      "priority": 7,
+      "kicker": {
+        "he": "דוחות קמעונאות",
+        "en": "Retail earnings"
+      },
+      "headline": {
+        "he": "טרגט ולאו'ס מעל התחזיות ברבעון השלישי; גלובל-אי הישראלית זינקה 42% בהכנסות",
+        "en": "Target and Lowe's beat third-quarter estimates; Israel's Global-e revenue jumped 42%"
+      },
+      "summary": {
+        "he": "טרגט דיווחה על רווח מתואם של 2.65 דולר למניה (כולל השפעת החזר מכסים) מול תחזית של 2.08 דולר, על הכנסות של 27.07 מיליארד דולר, על גידול של 5.6% במכירות החנויות הדומות ועל העלאת תחזית השנה, לפי FirstSquawk ב-{{time:tgt}}. לאו'ס דיווחה על רווח מתואם של 3.10 דולר מול תחזית של 2.88-2.92 דולר ועל צמיחה של 9.3% בהכנסות, אך המכירות הדומות עלו רק 1.8%, לפי FirstSquawk ב-{{time:low}}.",
+        "en": "Target reported adjusted EPS of $2.65 (including the impact of a tariff refund) versus a $2.08 estimate, revenue of $27.07 billion, 5.6% comparable-sales growth and raised full-year guidance, per FirstSquawk at {{time:tgt}}. Lowe's reported adjusted EPS of $3.10 versus a $2.88-2.92 estimate and 9.3% revenue growth, but comparable sales rose just 1.8%, per FirstSquawk at {{time:low}}."
+      },
+      "bullets": {
+        "he": [
+          "רשת TJX דיווחה על גידול של 4% במכירות הדומות ורווח של 1.34 דולר למניה על בסיס מתואם, לפי LiveSquawk ב-{{time:tjx}}.",
+          "גלובל-אי הישראלית דיווחה על זינוק של 42% בהכנסות ל-314.1 מיליון דולר, על רווח של 0.47 דולר למניה (כולל הטבת מס) מול תחזית של 0.22 דולר ועל צמיחה של 35% בנפח העסקאות, לפי wallstengine ב-{{time:glbe}}."
+        ],
+        "en": [
+          "TJX reported 4% comparable-sales growth and EPS of $1.34 on an adjusted basis, per LiveSquawk at {{time:tjx}}.",
+          "Israel's Global-e reported a 42% revenue jump to $314.1 million, EPS of $0.47 (including a tax benefit) versus a $0.22 estimate and 35% GMV growth, per wallstengine at {{time:glbe}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:tgt}}",
+        "url": "https://x.com/FirstSquawk/status/2123016338084188522"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:low}}",
+          "url": "https://x.com/FirstSquawk/status/2123009753576300901"
+        },
+        {
+          "name": "@LiveSquawk · {{time:tjx}}",
+          "url": "https://x.com/LiveSquawk/status/2123031673520746741"
+        },
+        {
+          "name": "@wallstengine · {{time:glbe}}",
+          "url": "https://x.com/wallstengine/status/2123009752112242744"
+        },
+        {
+          "name": "@wallstengine",
+          "url": "https://x.com/wallstengine/status/2123016366470865201"
+        }
+      ],
+      "timeRefs": {
+        "tgt": {
+          "at": "2026-11-18T11:31:53+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "low": {
+          "at": "2026-11-18T11:05:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tjx": {
+          "at": "2026-11-18T12:32:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "glbe": {
+          "at": "2026-11-18T11:05:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "anthropic-ipo-watch",
+      "section": "tech",
+      "priority": 8,
+      "kicker": {
+        "he": "אנתרופיק · ההנפקה",
+        "en": "Anthropic · the IPO"
+      },
+      "headline": {
+        "he": "יום שלישי ברציפות: אנתרופיק מכוונת לתמחר את ההנפקה מעל הטווח ששווק למשקיעים, לפי בלומברג",
+        "en": "Third straight day: Anthropic guides IPO pricing above the marketed range, per Bloomberg"
+      },
+      "summary": {
+        "he": "אנתרופיק מכוונת לתמחר את ההנפקה הראשונית מעל הטווח ששווק למשקיעים - כותרת זהה ביום השלישי ברציפות, לפי בלומברג דרך zerohedge ב-{{time:bbg}}. מכון Morningstar Sustainalytics העניק לחברה דירוג סיכון ESG גבוה לקראת ההנפקה, לפי FirstSquawk ב-{{time:esg}}, וה-Financial Times כותב שההנפקה עתידה לערוך מחדש את דירוג הכוח בין קרנות ההון סיכון, לפי LiveSquawk ב-{{time:ft}}. המסחר במניה צפוי להיפתח בנאסד\"ק עד סוף השבוע, כפי שדווח ב-17 בנובמבר ב-{{time:week17}}.",
+        "en": "Anthropic is guiding to price its IPO above the range marketed to investors - the same headline for a third straight day, per Bloomberg via zerohedge at {{time:bbg}}. Morningstar Sustainalytics rates the company a high ESG risk ahead of the offering, per FirstSquawk at {{time:esg}}, and the Financial Times writes the IPO is set to redraw the venture-capital power rankings, per LiveSquawk at {{time:ft}}. Trading in the stock is expected to open on Nasdaq by the end of the week, as reported on November 17 at {{time:week17}}."
+      },
+      "source": {
+        "name": "@zerohedge · {{time:bbg}}",
+        "url": "https://x.com/zerohedge/status/2123048969341444321"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone",
+          "url": "https://x.com/DeItaone/status/2123048298873225615"
+        },
+        {
+          "name": "@FirstSquawk · {{time:esg}}",
+          "url": "https://x.com/FirstSquawk/status/2123006430873866602"
+        },
+        {
+          "name": "@LiveSquawk · {{time:ft}}",
+          "url": "https://x.com/LiveSquawk/status/2122920128207593942"
+        },
+        {
+          "name": "@wallstengine · {{time:week17}}",
+          "url": "https://x.com/wallstengine/status/2122730728484143205"
+        }
+      ],
+      "timeRefs": {
+        "bbg": {
+          "at": "2026-11-18T13:41:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "esg": {
+          "at": "2026-11-18T10:52:31+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ft": {
+          "at": "2026-11-18T05:09:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "week17": {
+          "at": "2026-11-17T16:36:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "spacex-ai-financing",
+      "section": "markets",
+      "priority": 9,
+      "kicker": {
+        "he": "SpaceX · מימון",
+        "en": "SpaceX · financing"
+      },
+      "headline": {
+        "he": "SpaceX מתכננת מימון ענק של 40 מיליארד דולר לשבבי בינה מלאכותית - מחוץ למאזן, דרך אפולו",
+        "en": "SpaceX plans a giant $40 billion AI chip financing - off balance sheet, arranged by Apollo"
+      },
+      "summary": {
+        "he": "SpaceX מתכננת מימון של 40 מיליארד דולר לרכישת שבבי בינה מלאכותית שיישאר מחוץ למאזן ויסודר על ידי אפולו, והוא עשוי להימכר למשקיעים כבר השבוע, לפי Semafor דרך DeItaone ב-{{time:spacex}}.",
+        "en": "SpaceX plans a $40 billion financing for AI chips that will stay off its balance sheet and be arranged by Apollo, and it could be sold to investors as early as this week, per Semafor via DeItaone at {{time:spacex}}."
+      },
+      "source": {
+        "name": "Semafor",
+        "url": "https://www.semafor.com/article/11/18/2026/spacex-40-billion-chip-financing-to-stay-off-balance-sheet"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:spacex}}",
+          "url": "https://x.com/DeItaone/status/2123037611337900114"
+        },
+        {
+          "name": "@wallstengine",
+          "url": "https://x.com/wallstengine/status/2123038489671311633"
+        }
+      ],
+      "timeRefs": {
+        "spacex": {
+          "at": "2026-11-18T12:56:25+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "apec-trilateral",
+      "section": "geopolitics",
+      "priority": 10,
+      "kicker": {
+        "he": "פסגת APEC",
+        "en": "The APEC summit"
+      },
+      "headline": {
+        "he": "טראמפ נחת בסין ושי קיבל את פניו בשדה; המפגש התלת-צדדי הראשון עם פוטין צפוי מחר, 19 בנובמבר, בשנזן",
+        "en": "Trump lands in China and Xi greets him on the tarmac; the first-ever trilateral with Putin is expected tomorrow, November 19, in Shenzhen"
+      },
+      "summary": {
+        "he": "נשיא ארה\"ב דונלד טראמפ נחת ב-18 בנובמבר בסין, ונשיא סין שי ג'ינפינג קיבל את פניו אישית בשדה - מהלך חריג בפרוטוקול, לפי unusual_whales ב-{{time:greet}} ו-NBC. המפגש התלת-צדדי הראשון בהיסטוריה בין טראמפ, פוטין ושי צפוי להתקיים ב-19 בנובמבר בשנזן, לפי הודעת הקרמלין, וטראמפ צפוי לקיים גם פגישה פרטנית עם פוטין, לפי AP דרך FirstSquawk ב-{{time:bilateral}} - אם כי הקרמלין צינן ציפיות למו\"מ מלא, לפי TASS דרך DeItaone, ולפי IFX לא מתוכננות שיחות מלאות פוטין-טראמפ ב-19 בנובמבר.",
+        "en": "US President Donald Trump landed in China on November 18, and Chinese President Xi Jinping personally greeted him at the airport - a break with protocol, per unusual_whales at {{time:greet}} and NBC. The first-ever trilateral meeting between Trump, Putin and Xi is expected on November 19 in Shenzhen, per the Kremlin's announcement, and Trump is also expected to hold a one-on-one meeting with Putin, per AP via FirstSquawk at {{time:bilateral}} - though the Kremlin cooled expectations of full-fledged negotiations, per TASS via DeItaone, and per IFX no full-scale Putin-Trump talks are planned for November 19."
+      },
+      "bullets": {
+        "he": [
+          "נשיאת מקסיקו קלאודיה שיינבאום אמרה שנערכה לה ״פגישה מאוד פרודוקטיבית״ עם טראמפ ושהצדדים מתקרבים להסכם סחר, לפי DeItaone ב-{{time:sheinbaum}}.",
+          "הודו מסרה שהסכם הסחר עם ארה\"ב כמעט מוכן אך החתימה עלולה להתעכב, לפי בלומברג דרך wallstengine ב-{{time:india}}."
+        ],
+        "en": [
+          "Mexican President Claudia Sheinbaum said she had a 'very productive meeting' with Trump and that the sides are nearing a trade deal, per DeItaone at {{time:sheinbaum}}.",
+          "India said the trade deal with the US is nearly ready but signing may be delayed, per Bloomberg via wallstengine at {{time:india}}."
+        ]
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:greet}}",
+        "url": "https://x.com/unusual_whales/status/2122993748175143348"
+      },
+      "secondarySources": [
+        {
+          "name": "Anadolu · Kremlin announcement",
+          "url": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/world/asia/xi-jinping-greets-trump-arrives-china-tarmac-putin-talks-shenzhen-apec-rcna609962"
+        },
+        {
+          "name": "@FirstSquawk · {{time:bilateral}}",
+          "url": "https://x.com/FirstSquawk/status/2123059442271002775"
+        },
+        {
+          "name": "@DeItaone",
+          "url": "https://x.com/DeItaone/status/2123001484828647641"
+        },
+        {
+          "name": "@DeItaone · {{time:sheinbaum}}",
+          "url": "https://x.com/DeItaone/status/2123031658341212271"
+        },
+        {
+          "name": "@wallstengine · {{time:india}}",
+          "url": "https://x.com/wallstengine/status/2123018309704761428"
+        },
+        {
+          "name": "@DeItaone · IFX",
+          "url": "https://x.com/DeItaone/status/2123070428981997862"
+        }
+      ],
+      "timeRefs": {
+        "greet": {
+          "at": "2026-11-18T10:02:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bilateral": {
+          "at": "2026-11-18T14:23:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "sheinbaum": {
+          "at": "2026-11-18T12:32:46+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "india": {
+          "at": "2026-11-18T11:39:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "housing-data",
+      "section": "markets",
+      "priority": 11,
+      "kicker": {
+        "he": "נדל\"ן אמריקאי",
+        "en": "US housing"
+      },
+      "headline": {
+        "he": "מכירות הבתים בהתקשרות צנחו {{move:-4.7%}} לשפל שיא שני ברציפות; ריבית המשכנתא 7.35%",
+        "en": "Pending home sales plunged {{move:-4.7%}} to a second straight record low; the 30-year mortgage at 7.35%"
+      },
+      "summary": {
+        "he": "מכירות הבתים בהתקשרות בארה\"ב צנחו {{move:-4.7%}} באוקטובר, מול תחזית לירידה של 2%, לשפל שיא שני ברציפות, לפי DeItaone ב-{{time:pending}}. היתרי הבנייה צללו לשפל מאז משבר הקורונה בעוד תחילות הבנייה זינקו {{move:+9.9%}}, לפי zerohedge, וריבית המשכנתא ל-30 שנה טיפסה ל-7.35%, לפי FirstSquawk ב-{{time:mortgage}}.",
+        "en": "US pending home sales plunged {{move:-4.7%}} in October, versus a 2% decline estimate, to a second straight record low, per DeItaone at {{time:pending}}. Building permits sank to their lowest since the COVID crisis while housing starts jumped {{move:+9.9%}}, per zerohedge, and the 30-year mortgage rate climbed to 7.35%, per FirstSquawk at {{time:mortgage}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:pending}}",
+        "url": "https://x.com/DeItaone/status/2123069100943380803"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk",
+          "url": "https://x.com/FirstSquawk/status/2123071182270595397"
+        },
+        {
+          "name": "@zerohedge",
+          "url": "https://x.com/zerohedge/status/2123046259577819404"
+        },
+        {
+          "name": "@zerohedge",
+          "url": "https://x.com/zerohedge/status/2123048187233436014"
+        },
+        {
+          "name": "@FirstSquawk · {{time:mortgage}}",
+          "url": "https://x.com/FirstSquawk/status/2123023914435752196"
+        }
+      ],
+      "timeRefs": {
+        "pending": {
+          "at": "2026-11-18T15:01:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "mortgage": {
+          "at": "2026-11-18T12:01:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "europe-rates",
+      "section": "markets",
+      "priority": 12,
+      "kicker": {
+        "he": "אירופה · ריבית",
+        "en": "Europe · rates"
+      },
+      "headline": {
+        "he": "גם באירופה לקראת העלאות: ב-ECB מדברים על דצמבר, בבנק של אנגליה על ״עלייה נוספת״",
+        "en": "Europe also leans toward hikes: the ECB talks December, the Bank of England 'may need to rise further'"
+      },
+      "summary": {
+        "he": "חבר ה-ECB בוריס וויצ'יץ' אמר שהעלאת ריבית בדצמבר נראית סבירה מאוד, לפי FirstSquawk ב-{{time:vujcic}}, ונגיד בנק אנגליה אנדרו ביילי אמר שייתכן שיהיה צורך בהעלאות נוספות, לפי LiveSquawk ב-{{time:bailey}}. האינפלציה הסופית באירופה עמדה באוקטובר על 4.0% ובבריטניה על 3.6%, לפי FirstSquawk ו-LiveSquawk.",
+        "en": "ECB member Boris Vujcic said a December rate hike looks very likely, per FirstSquawk at {{time:vujcic}}, and Bank of England Governor Andrew Bailey said rates may need to rise further, per LiveSquawk at {{time:bailey}}. Final October inflation was 4.0% in the euro area and 3.6% in the UK, per FirstSquawk and LiveSquawk."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:vujcic}}",
+        "url": "https://x.com/FirstSquawk/status/2123024232515015076"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:bailey}}",
+          "url": "https://x.com/LiveSquawk/status/2123069769574203818"
+        },
+        {
+          "name": "@FirstSquawk",
+          "url": "https://x.com/FirstSquawk/status/2122994802598047842"
+        },
+        {
+          "name": "@LiveSquawk",
+          "url": "https://x.com/LiveSquawk/status/2122948711030612241"
+        }
+      ],
+      "timeRefs": {
+        "vujcic": {
+          "at": "2026-11-18T12:03:15+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bailey": {
+          "at": "2026-11-18T15:04:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "us-debt-economy",
+      "section": "markets",
+      "priority": 13,
+      "kicker": {
+        "he": "חוב לאומי",
+        "en": "National debt"
+      },
+      "headline": {
+        "he": "החוב הפדרלי בידי הציבור חצה את כלכלת ארה\"ב כולה - בפעם הראשונה מאז מלחמת העולם השנייה, לפי הוושינגטון פוסט",
+        "en": "Federal debt held by the public has passed the entire US economy - first time since World War II, per the Washington Post"
+      },
+      "summary": {
+        "he": "החוב הפדרלי של ארה\"ב בידי הציבור עלה על גודל כלכלת ארה\"ב כולה - בפעם הראשונה מאז מלחמת העולם השנייה, לפי הוושינגטון פוסט דרך unusual_whales ב-{{time:debt}}.",
+        "en": "US federal debt held by the public has exceeded the size of the entire US economy - for the first time since World War II, per the Washington Post via unusual_whales at {{time:debt}}."
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:debt}}",
+        "url": "https://x.com/unusual_whales/status/2123032724675932376"
+      },
+      "timeRefs": {
+        "debt": {
+          "at": "2026-11-18T12:37:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "china-ai-disclosure",
+      "section": "tech",
+      "priority": 14,
+      "kicker": {
+        "he": "ארה\"ב-סין · AI",
+        "en": "US-China · AI"
+      },
+      "headline": {
+        "he": "ממשל טראמפ שוקל לחייב חברות לגלות שימוש במודלי AI סיניים; משרד המסחר מחמיר כללי מחשוב",
+        "en": "The Trump administration weighs requiring disclosure of Chinese AI model use; Commerce tightens computing rules"
+      },
+      "summary": {
+        "he": "ממשל טראמפ שוקל לחייב חברות אמריקאיות לגלות באתריהן שימוש במודלי בינה מלאכותית סיניים, כשבין החברות שהוזכרו Alibaba, Airbnb ו-DoorDash, לפי רויטרס דרך DeItaone ב-{{time:disclose}}. במקביל, משרד המסחר האמריקאי פרסם כללים חדשים לחסימת גורמים זרים המשתמשים במחשוב מתקדם מבוסס-ארה\"ב, לפי DeItaone ב-{{time:commerce}}.",
+        "en": "The Trump administration is weighing requiring US companies to disclose on their websites the use of Chinese AI models, with Alibaba, Airbnb and DoorDash among those cited, per Reuters via DeItaone at {{time:disclose}}. At the same time, the US Commerce Department issued new rules to block foreign actors from leveraging US-based advanced computing, per DeItaone at {{time:commerce}}."
+      },
+      "bullets": {
+        "he": [
+          "מיקרוסופט קרובה לעסקה למכירת שירותי Azure AI נוספים ל-ByteDance ב-500 מיליון דולר - מהלך המעצבן את OpenAI, לפי The Information דרך wallstengine ב-{{time:bytedance}}."
+        ],
+        "en": [
+          "Microsoft is nearing a deal to sell ByteDance an additional $500 million of Azure AI services - a move irking OpenAI, per The Information via wallstengine at {{time:bytedance}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:disclose}}",
+        "url": "https://x.com/DeItaone/status/2123008391840977000"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:commerce}}",
+          "url": "https://x.com/DeItaone/status/2123052223768772831"
+        },
+        {
+          "name": "@wallstengine · {{time:bytedance}}",
+          "url": "https://x.com/wallstengine/status/2123055198323318923"
+        }
+      ],
+      "timeRefs": {
+        "disclose": {
+          "at": "2026-11-18T11:00:18+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "commerce": {
+          "at": "2026-11-18T13:54:29+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bytedance": {
+          "at": "2026-11-18T14:06:18+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "gta6-launch",
+      "section": "tech",
+      "priority": 15,
+      "kicker": {
+        "he": "גיימינג",
+        "en": "Gaming"
+      },
+      "headline": {
+        "he": "GTA VI יוצא עם 99 במטה-קריטיק - שוויון שיא היסטורי; Take-Two זינקה {{move:+7%}}",
+        "en": "GTA VI launches with a 99 Metascore - a record-tying high; Take-Two jumped {{move:+7%}}"
+      },
+      "summary": {
+        "he": "Grand Theft Auto VI יצא להשקה עולמית עם ציון 99 במטה-קריטיק מתוך 117 ביקורות - שיא המשווה ל-Zelda: Ocarina of Time, לפי wallstengine ב-{{time:gta}}, וההזמנות המוקדמות מוערכות ביותר מ-1.5 מיליארד דולר, לפי CNN דרך unusual_whales. מניית Take-Two זינקה {{move:+7%}} עם היציאה, אחרי 13 שנות המתנה, לפי wallstengine ב-{{time:ttwo}}.",
+        "en": "Grand Theft Auto VI launched worldwide with a 99 Metascore from 117 reviews - tying the record set by Zelda: Ocarina of Time, per wallstengine at {{time:gta}}, with pre-orders estimated at more than $1.5 billion, per CNN via unusual_whales. Take-Two stock jumped {{move:+7%}} on the release, after a 13-year wait, per wallstengine at {{time:ttwo}}."
+      },
+      "source": {
+        "name": "@wallstengine · {{time:gta}}",
+        "url": "https://x.com/wallstengine/status/2123015997670236205"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:ttwo}}",
+          "url": "https://x.com/wallstengine/status/2123013839558148607"
+        },
+        {
+          "name": "@unusual_whales",
+          "url": "https://x.com/unusual_whales/status/2123008566038536622"
+        },
+        {
+          "name": "Benzinga",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63383348/take-two-shares-jump-as-gta-vi-draws-near-perfect-reviews-ahead-of-release"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "TTWO",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "gta": {
+          "at": "2026-11-18T11:30:32+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ttwo": {
+          "at": "2026-11-18T11:21:57+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "senate-flip",
+      "section": "geopolitics",
+      "priority": 16,
+      "kicker": {
+        "he": "ארה\"ב · פוליטיקה",
+        "en": "US · politics"
+      },
+      "headline": {
+        "he": "הדמוקרטים השלימו רוב של 56-44 בסנאט: מרי פלטולה ניצחה באלסקה, לפי AP",
+        "en": "Democrats complete a 56-44 Senate majority: Mary Peltola wins Alaska, per AP"
+      },
+      "summary": {
+        "he": "המפלגה הדמוקרטית השלימה רוב של 56-44 בסנאט לאחר שהמועמדת מרי פלטולה ניצחה במירוץ באלסקה, לפי AP דרך unusual_whales ב-{{time:senate}}.",
+        "en": "The Democratic Party completed a 56-44 Senate majority after candidate Mary Peltola won the Alaska race, per AP via unusual_whales at {{time:senate}}."
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:senate}}",
+        "url": "https://x.com/unusual_whales/status/2122925835380228254"
+      },
+      "timeRefs": {
+        "senate": {
+          "at": "2026-11-18T05:32:15+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "nvidia-israel-revenue",
+      "section": "israel",
+      "priority": 17,
+      "kicker": {
+        "he": "אנבידיה · ישראל",
+        "en": "Nvidia · Israel"
+      },
+      "headline": {
+        "he": "הכנסות אנבידיה מפעילותה בישראל חצו את רף ה-84 מיליארד דולר השנתי",
+        "en": "Nvidia's revenue from its Israeli operations has crossed the $84 billion annual threshold"
+      },
+      "summary": {
+        "he": "הכנסות אנבידיה מפעילותה בישראל חצו את רף ה-84 מיליארד דולר בשנה, לפי TheMarker ב-{{time:nvdayil}}.",
+        "en": "Nvidia's revenue from its Israeli operations has crossed the $84 billion annual threshold, per TheMarker at {{time:nvdayil}}."
+      },
+      "source": {
+        "name": "@TheMarker · {{time:nvdayil}}",
+        "url": "https://x.com/TheMarker/status/2123039684041298200"
+      },
+      "timeRefs": {
+        "nvdayil": {
+          "at": "2026-11-18T13:04:39+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "amazon-diacart",
+      "section": "israel",
+      "priority": 18,
+      "kicker": {
+        "he": "אקזיט",
+        "en": "Exit"
+      },
+      "headline": {
+        "he": "רכישת Diacart הישראלית על ידי אמזון תושלם בימים הקרובים - בשווי של מעל 7 מיליארד דולר",
+        "en": "Amazon's acquisition of Israel's Diacart to be finalized in the coming days - at over $7 billion"
+      },
+      "summary": {
+        "he": "רכישת החברה הישראלית Diacart על ידי אמזון תושלם בימים הקרובים, בשווי של מעל 7 מיליארד דולר, לפי כלכליסט ב-{{time:diacart}}.",
+        "en": "Amazon's acquisition of Israeli company Diacart will be finalized in the coming days at a valuation of more than $7 billion, per Calcalist at {{time:diacart}}."
+      },
+      "source": {
+        "name": "@calcalist · {{time:diacart}}",
+        "url": "https://x.com/calcalist/status/2122927929310978235"
+      },
+      "timeRefs": {
+        "diacart": {
+          "at": "2026-11-18T05:40:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "zim-q3",
+      "section": "israel",
+      "priority": 19,
+      "kicker": {
+        "he": "צים · דוחות",
+        "en": "ZIM · earnings"
+      },
+      "headline": {
+        "he": "רווח צים זינק ב-573% ל-830 מיליון דולר ברבעון השלישי על רקע עליית תעריפי ההובלה",
+        "en": "ZIM's profit soared 573% to $830 million in the third quarter as ocean freight rates rose"
+      },
+      "summary": {
+        "he": "חברת הספנות צים דיווחה על זינוק של 573% ברווח ברבעון השלישי, ל-830 מיליון דולר, על רקע עליית תעריפי ההובלה הימית, לפי כלכליסט ב-{{time:zim}}.",
+        "en": "Shipping company ZIM reported a 573% profit surge in the third quarter, to $830 million, as ocean freight rates rose, per Calcalist at {{time:zim}}."
+      },
+      "source": {
+        "name": "@calcalist · {{time:zim}}",
+        "url": "https://x.com/calcalist/status/2123042031802933288"
+      },
+      "timeRefs": {
+        "zim": {
+          "at": "2026-11-18T13:13:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "discount-q3",
+      "section": "israel",
+      "priority": 20,
+      "kicker": {
+        "he": "בנקאות",
+        "en": "Banking"
+      },
+      "headline": {
+        "he": "רווח בנק דיסקונט ירד ב-20% ל-910 מיליון שקל - התשואה להון הנמוכה במגזר",
+        "en": "Discount Bank's profit fell 20% to 910 million shekels - the sector's lowest return on equity"
+      },
+      "summary": {
+        "he": "בנק דיסקונט דיווח על ירידה של 20% ברווח הרבעוני, ל-910 מיליון שקל - התשואה להון הנמוכה במגזר הבנקאות, לפי כלכליסט ב-{{time:discount}}. בסך הכול רשמו הבנקים בישראל רווח נקי רבעוני של 7.2 מיליארד שקל, לפי TheMarker ב-{{time:banks}}.",
+        "en": "Discount Bank reported a 20% drop in quarterly profit, to 910 million shekels - the banking sector's lowest return on equity, per Calcalist at {{time:discount}}. In total, Israeli banks posted 7.2 billion shekels in quarterly net profit, per TheMarker at {{time:banks}}."
+      },
+      "source": {
+        "name": "@calcalist · {{time:discount}}",
+        "url": "https://x.com/calcalist/status/2122937763679145996"
+      },
+      "secondarySources": [
+        {
+          "name": "@TheMarker · {{time:banks}}",
+          "url": "https://x.com/TheMarker/status/2122917882191315256"
+        }
+      ],
+      "timeRefs": {
+        "discount": {
+          "at": "2026-11-18T06:19:39+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "banks": {
+          "at": "2026-11-18T05:00:39+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "usd-ils-tase",
+      "section": "israel",
+      "priority": 21,
+      "kicker": {
+        "he": "שוק ההון המקומי",
+        "en": "Local markets"
+      },
+      "headline": {
+        "he": "הדולר בשיא של שנה מול השקל; ת\"א 35 עלה {{move:+0.4%}} ות\"א 90 נחלש {{move:-0.4%}}",
+        "en": "The dollar at a one-year high against the shekel; TA-35 up {{move:+0.4%}}, TA-90 down {{move:-0.4%}}"
+      },
+      "summary": {
+        "he": "הדולר הגיע לשיא של שנה מול השקל, לפי גלובס ב-{{time:usd}}. בבורסת תל אביב עלה מדד ת\"א 35 ב-{{move:+0.4%}} בעוד מדד ת\"א 90 נחלש ב-{{move:-0.4%}}, לפי TheMarker ב-{{time:tase}}.",
+        "en": "The dollar reached a one-year high against the shekel, per Globes at {{time:usd}}. On the Tel Aviv Stock Exchange, the TA-35 index rose {{move:+0.4%}} while the TA-90 fell {{move:-0.4%}}, per TheMarker at {{time:tase}}."
+      },
+      "source": {
+        "name": "@globesnews · {{time:usd}}",
+        "url": "https://x.com/globesnews/status/2123022219286659255"
+      },
+      "secondarySources": [
+        {
+          "name": "@TheMarker · {{time:tase}}",
+          "url": "https://x.com/TheMarker/status/2123068778107842944"
+        }
+      ],
+      "timeRefs": {
+        "usd": {
+          "at": "2026-11-18T11:55:15+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tase": {
+          "at": "2026-11-18T15:00:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "iai-india",
+      "section": "israel",
+      "priority": 22,
+      "kicker": {
+        "he": "ביטחוני",
+        "en": "Defense"
+      },
+      "headline": {
+        "he": "התעשייה האווירית חתמה על עסקת ענק בהודו בהיקף 235 מיליון דולר",
+        "en": "Israel Aerospace Industries signed a $235 million mega deal in India"
+      },
+      "summary": {
+        "he": "התעשייה האווירית חתמה על עסקה בהודו בהיקף של 235 מיליון דולר, לפי גלובס ב-{{time:iai}}.",
+        "en": "Israel Aerospace Industries signed a deal in India worth $235 million, per Globes at {{time:iai}}."
+      },
+      "source": {
+        "name": "@globesnews · {{time:iai}}",
+        "url": "https://x.com/globesnews/status/2123072492432474239"
+      },
+      "timeRefs": {
+        "iai": {
+          "at": "2026-11-18T15:15:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    }
+  ]
+}
