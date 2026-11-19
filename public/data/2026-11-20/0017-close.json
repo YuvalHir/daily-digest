@@ -1,0 +1,938 @@
+{
+  "schemaVersion": "2.0",
+  "editionNumber": 11,
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-20T00:17:00+02:00",
+  "editionType": "close",
+  "editionSlug": "0017-close",
+  "editorialLead": {
+    "he": "מפלה בוול סטריט: ירידה שישית ברציפות ב-S&P; אנתרופיק נפתחה בזינוק של 34% ונסגרה בעלייה של 17%",
+    "en": "A Wall Street rout: a sixth straight S&P decline; Anthropic opened up 34% and closed up 17%"
+  },
+  "topSummary": {
+    "he": "וול סטריט ננעלה ב-19 בנובמבר במפלה: ה-S&P צלל 2.02% בירידה שישית ברציפות והדאו איבד 1,101 נקודות, אחרי שהמדדים פתחו בעליות על גלי הנפקת אנתרופיק. אנתרופיק עצמה נפתחה בזינוק של 34.3% ל-111.50 דולר, נגעה ב-115 דולר ונסגרה ב-97.17 דולר, עלייה של 17% ביום המסחר הראשון.",
+    "en": "Wall Street closed in a rout on November 19: the S&P plunged 2.02% in a sixth straight decline and the Dow shed 1,101 points, after the indexes opened higher on the Anthropic IPO wave. Anthropic itself opened up 34.3% at $111.50, touched $115 and closed at $97.17, up 17% on its first trading day."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "^IXIC",
+    "AMD",
+    "NASDAQ:NVDA",
+    "INTU",
+    "PANW"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "^IXIC",
+      "range": "1d",
+      "label": {
+        "he": "נאסד\"ק",
+        "en": "Nasdaq"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "close-rout",
+      "section": "markets",
+      "isLead": true,
+      "priority": 1,
+      "kicker": {
+        "he": "וול סטריט · מפלה",
+        "en": "Wall Street · rout"
+      },
+      "headline": {
+        "he": "מפלה בוול סטריט: ה-S&P צלל 2.02% בירידה שישית ברציפות, הרצף הארוך ביותר מאז אפריל 2024; הדאו איבד 1,101 נקודות",
+        "en": "A rout on Wall Street: the S&P plunged 2.02% in a sixth straight loss, the longest streak since April 2024; the Dow shed 1,101 points"
+      },
+      "summary": {
+        "he": "מדד S&P 500 צלל 2.02% ב-19 בנובמבר ל-7,175.80 נקודות ורשם ירידה שישית ברציפות, הרצף הארוך ביותר מאז אפריל 2024 לפי FirstSquawk ב-{{time:streak}}; מדד דאו ג'ונס צנח 1,101 נקודות, ירידה של כ-2.2%, לרמה של כ-49,100 נקודות; ומדד הנאסד\"ק ירד 2.25% ל-23,879.20 נקודות, השפל ביותר מזה שבעה חודשים, לפי AP ו-investinglive. המדדים פתחו בעליות של יותר מ-1% על גלי ההנפקה של אנתרופיק אך התהפכו לחלוטין, ויותר מ-90% ממניות ה-S&P 500 נסגרו בירידות.",
+        "en": "The S&P 500 plunged 2.02% on November 19 to 7,175.80, logging a sixth consecutive decline, its longest streak since April 2024, per FirstSquawk at {{time:streak}}; the Dow Jones tumbled 1,101 points, or about 2.2%, to about 49,100; and the Nasdaq Composite fell 2.25% to 23,879.20, its lowest in seven months, per AP and investinglive. The indexes opened up more than 1% on the Anthropic IPO wave but reversed completely, and more than 90% of S&P 500 stocks closed lower."
+      },
+      "bullets": {
+        "he": [
+          "הירידה השבועית מסתכמת ב-5.1% ב-S&P 500, ב-6.2% בדאו ג'ונס וב-5% בנאסד\"ק, לפי AP; ה-S&P מחק 8.2% משיאו של אוקטובר.",
+          "ה-S&P 500 מחק 6 טריליון דולר משיא ה-6 באוקטובר ומדד הנאסד\"ק 100 נמצא 15% מתחת לשיאו, לפי KobeissiLetter ב-{{time:kobeissi}}.",
+          "תשואת האג\"ח ל-10 שנים ירדה ל-5.05%, ומדד הראסל 2000 ירד 2.18%, לפי investinglive."
+        ],
+        "en": [
+          "The weekly decline totals 5.1% in the S&P 500, 6.2% in the Dow and 5% in the Nasdaq, per AP; the S&P has erased 8.2% from its October record.",
+          "The S&P 500 has wiped out $6 trillion since the October 6 high and the Nasdaq 100 sits 15% below its record, per KobeissiLetter at {{time:kobeissi}}.",
+          "The 10-year Treasury yield fell to 5.05%, and the Russell 2000 fell 2.18%, per investinglive."
+        ]
+      },
+      "source": {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-2f178054aea79d282e5ccf8d62f26a28"
+      },
+      "secondarySources": [
+        {
+          "name": "investinglive",
+          "url": "https://investinglive.com/stocks/stock-indices-get-beat-up-with-the-dow-s-p-nasdaq-and-russell-indices-all-falling-more-than-2/"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:kobeissi}}",
+          "url": "https://x.com/KobeissiLetter/status/2123521706731897192"
+        },
+        {
+          "name": "@charliebilello",
+          "url": "https://x.com/charliebilello/status/2123465513565098450"
+        },
+        {
+          "name": "@FirstSquawk · {{time:streak}}",
+          "url": "https://x.com/FirstSquawk/status/2123530279642075392"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "kobeissi": {
+          "at": "2026-11-19T21:00:02+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "streak": {
+          "at": "2026-11-19T21:34:06+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "anthropic-debut-day",
+      "section": "tech",
+      "priority": 2,
+      "kicker": {
+        "he": "אנתרופיק · יום הבכורה",
+        "en": "Anthropic · debut day"
+      },
+      "headline": {
+        "he": "אנתרופיק נפתחה בזינוק של 34% ל-111.50 דולר, נגעה ב-115 דולר - ונסגרה ב-97.17 דולר, עלייה של 17% ביום הראשון",
+        "en": "Anthropic opened up 34% at $111.50, touched $115 - and closed at $97.17, up 17% on its first day"
+      },
+      "summary": {
+        "he": "מניית אנתרופיק נפתחה למסחר בנאסד\"ק ב-19 בנובמבר ב-111.50 דולר, זינוק של 34.3% ממחיר ההנפקה של 83 דולר, בשווי מדולל של 2.02 טריליון דולר, לפי wallstengine ב-{{time:open}}. המניה טיפסה עד 115 דולר, עלייה של 39% שהפכה את אנתרופיק לחברה הציבורית השישית בערכה בעולם, לפי KobeissiLetter ב-{{time:peak}}, אך מחקה במהלך היום כ-345 מיליארד דולר מהשיא היומי ונסגרה ב-97.17 דולר, עלייה של 17.07% ביום המסחר הראשון וירידה של 12.85% ממחיר הפתיחה, לפי DeItaone ב-{{time:close}} ו-investinglive.",
+        "en": "Anthropic shares opened for trading on Nasdaq on November 19 at $111.50, a 34.3% jump over the $83 IPO price, at a $2.02 trillion fully diluted valuation, per wallstengine at {{time:open}}. The stock climbed as high as $115, a 39% gain that made Anthropic the world's sixth most valuable public company, per KobeissiLetter at {{time:peak}}, but wiped out about $345 billion from the intraday peak and closed at $97.17, up 17.07% on its first trading day and down 12.85% from the opening trade, per DeItaone at {{time:close}} and investinglive."
+      },
+      "bullets": {
+        "he": [
+          "המניה אותתה בבוקר על פתיחה סביב 100 דולר, טיפסה באינדיקציות ל-105 ול-110 דולר, והמסחר עצמו נפתח ב-11:48 שעון ניו יורק; מנכ\"ל החברה דאריו אמודיי צלצל בפעמון הפתיחה של נאסד\"ק, לפי StockMKTNewz ב-{{time:bell}}.",
+          "דף הסטטוס של Claude רשם ביצועים פגומים דווקא ביום תחילת המסחר, לפי unusual_whales ב-{{time:claude}}.",
+          "נגיד הפד גולסבי אמר שההנפקה מעוררת שאלה מאקרו-כלכלית לגבי האופן שבו בעלי המניות ישתמשו בעושר החדש, לפי FirstSquawk ב-{{time:goolsbee}}.",
+          "לפי הערכות שפורסמו ב-Observer דרך unusual_whales, ההנפקה צפויה להפוך כ-4,250 מתוך כ-5,300 עובדי החברה למיליונרים; לפי KobeissiLetter, 598 עובדים שווים מעל 100 מיליון דולר כל אחד, ב-{{time:wealth}}."
+        ],
+        "en": [
+          "The stock indicated an open around $100 in the morning, climbed through indications of $105 and $110, and trading itself began at 11:48 New York time; CEO Dario Amodei rang the Nasdaq opening bell, per StockMKTNewz at {{time:bell}}.",
+          "Claude's status page showed degraded performance on the very day trading began, per unusual_whales at {{time:claude}}.",
+          "Fed president Goolsbee said the IPO raises a macroeconomic question about how shareholders will use their new wealth, per FirstSquawk at {{time:goolsbee}}.",
+          "Per estimates published in the Observer via unusual_whales, the IPO is set to turn about 4,250 of the roughly 5,300 employees into millionaires; per KobeissiLetter, 598 employees are worth over $100 million each, at {{time:wealth}}."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:open}}",
+        "url": "https://x.com/wallstengine/status/2123458619572383816"
+      },
+      "secondarySources": [
+        {
+          "name": "@KobeissiLetter · {{time:peak}}",
+          "url": "https://x.com/KobeissiLetter/status/2123465131501736418"
+        },
+        {
+          "name": "@DeItaone · {{time:close}}",
+          "url": "https://x.com/DeItaone/status/2123526550431670394"
+        },
+        {
+          "name": "@StockMKTNewz",
+          "url": "https://x.com/StockMKTNewz/status/2123523079850819651"
+        },
+        {
+          "name": "@wallstengine",
+          "url": "https://x.com/wallstengine/status/2123479825159729378"
+        },
+        {
+          "name": "@StockMKTNewz · {{time:bell}}",
+          "url": "https://x.com/StockMKTNewz/status/2123424361147408623"
+        },
+        {
+          "name": "@unusual_whales · {{time:claude}}",
+          "url": "https://x.com/unusual_whales/status/2123451484247343311"
+        },
+        {
+          "name": "@FirstSquawk · {{time:goolsbee}}",
+          "url": "https://x.com/FirstSquawk/status/2123518291142664398"
+        },
+        {
+          "name": "@unusual_whales",
+          "url": "https://x.com/unusual_whales/status/2123422888351219722"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:wealth}}",
+          "url": "https://x.com/KobeissiLetter/status/2123454759118024840"
+        }
+      ],
+      "socialPost": {
+        "id": "2123458619572383816",
+        "url": "https://x.com/wallstengine/status/2123458619572383816"
+      },
+      "timeRefs": {
+        "open": {
+          "at": "2026-11-19T16:49:21+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "peak": {
+          "at": "2026-11-19T17:15:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "close": {
+          "at": "2026-11-19T21:19:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bell": {
+          "at": "2026-11-19T14:33:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "claude": {
+          "at": "2026-11-19T16:21:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "goolsbee": {
+          "at": "2026-11-19T20:46:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wealth": {
+          "at": "2026-11-19T16:34:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "amd-hunterbrook",
+      "section": "tech",
+      "priority": 3,
+      "kicker": {
+        "he": "AMD · דיווח האנטרברוק",
+        "en": "AMD · the Hunterbrook report"
+      },
+      "headline": {
+        "he": "AMD צנחה עד 15% תוך 30 דקות על דיווח של אתר שורט; החברה הכחישה ונסגרה בירידה של 7.7%",
+        "en": "AMD plunged as much as 15% in 30 minutes on a short-seller report; the company denied it and closed down 7.7%"
+      },
+      "summary": {
+        "he": "מניית AMD צנחה עד 15% תוך כ-30 דקות ב-19 בנובמבר אחרי שאתר Hunterbrook, שהצהיר על פוזיציית שורט במניה, דיווח שיצרנית שרתים סינית שנמצאת ברשימה השחורה האמריקאית המשיכה לפרסם עדכוני BIOS עם קושחה של AMD, לפי unusual_whales ב-{{time:crash}}; wallstengine מציין שהממצאים אינם מוכיחים הפרת חוקי הייצוא, ב-{{time:caveat}}. AMD הכחישה ואמרה שהטענות מעוותות את נוהלי העסקים שלה ושהיא נוקטת בחוקי בקרת הייצוא האמריקאיים, לפי zerohedge ב-{{time:denial}}, והמניה נסגרה בירידה של 7.72% ל-489.19 דולר, לפי investinglive.",
+        "en": "AMD shares plunged as much as 15% in about 30 minutes on November 19 after the Hunterbrook site, which disclosed a short position in the stock, reported that a US-blacklisted Chinese server maker kept publishing BIOS updates with AMD firmware, per unusual_whales at {{time:crash}}; wallstengine notes the findings do not establish an export-law violation, at {{time:caveat}}. AMD denied the report, saying the claims misrepresent its business practices and that it complies with US export control laws, per zerohedge at {{time:denial}}, and the stock closed down 7.72% at $489.19, per investinglive."
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:crash}}",
+        "url": "https://x.com/unusual_whales/status/2123445766727561401"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:caveat}}",
+          "url": "https://x.com/wallstengine/status/2123442635599954229"
+        },
+        {
+          "name": "@DeItaone",
+          "url": "https://x.com/DeItaone/status/2123439180634058906"
+        },
+        {
+          "name": "@KobeissiLetter",
+          "url": "https://x.com/KobeissiLetter/status/2123444634257109287"
+        },
+        {
+          "name": "@zerohedge · {{time:denial}}",
+          "url": "https://x.com/zerohedge/status/2123461714343514232"
+        },
+        {
+          "name": "@globesnews",
+          "url": "https://x.com/globesnews/status/2123452877217681690"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "AMD",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "crash": {
+          "at": "2026-11-19T15:58:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "caveat": {
+          "at": "2026-11-19T15:45:50+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "denial": {
+          "at": "2026-11-19T17:01:39+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "mag7-selloff",
+      "section": "markets",
+      "priority": 4,
+      "kicker": {
+        "he": "טכנולוגיה · מכירה",
+        "en": "Tech · selloff"
+      },
+      "headline": {
+        "he": "כל שבע הענקיות ירדו; מדד הטכנולוגיה נסחר במכפיל הנמוך ביותר מאז מרץ 2020",
+        "en": "All seven mega-caps fell; the tech index trades at its lowest multiple since March 2020"
+      },
+      "summary": {
+        "he": "כל שבע מניות הענק ירדו ב-19 בנובמבר: אמזון ירדה 3.87%, אלפאבית 3.46%, אנבידיה 3.30%, מטא 3.27%, טסלה 2.43%, מיקרוסופט 1.97% ואפל 0.92%, לפי investinglive. מדד הטכנולוגיה של ה-S&P 500 נסחר במכפיל רווח של 16.4, הנמוך ביותר מאז מרץ 2020, לפי KobeissiLetter ב-{{time:multiple}}.",
+        "en": "All seven mega-cap stocks fell on November 19: Amazon fell 3.87%, Alphabet 3.46%, Nvidia 3.30%, Meta 3.27%, Tesla 2.43%, Microsoft 1.97% and Apple 0.92%, per investinglive. The S&P 500 tech index trades at 16.4 times earnings, its lowest since March 2020, per KobeissiLetter at {{time:multiple}}."
+      },
+      "bullets": {
+        "he": [
+          "מניות טכנולוגיה בולטות עמוק מתחת לשיאים: CoreWeave ירדה 76% מהשיא, אורקל 68% ואינטל 61%, לפי KobeissiLetter ב-{{time:highs}}.",
+          "מנגד המגמה: פאלו אלטו נטוורקס עלתה 6.42% אחרי שהעלתה את תחזית ההכנסות ל-2027, ואינטל עלתה 1.92%, לפי investinglive.",
+          "מדד הבנקים האמריקאי שלח איתות צלב מוות טכני, לפי בלומברג דרך LiveSquawk ב-{{time:banks}}.",
+          "גולדמן זאקס מזהיר מירידה באיכות האשראי: הלווים המדורגים ביותר טובעים בחוב AI, לפי zerohedge ב-{{time:goldman}}."
+        ],
+        "en": [
+          "Prominent tech stocks sit deep below their records: CoreWeave is down 76% from its high, Oracle 68% and Intel 61%, per KobeissiLetter at {{time:highs}}.",
+          "Against the trend: Palo Alto Networks rose 6.42% after raising its 2027 revenue guidance, and Intel rose 1.92%, per investinglive.",
+          "The US banks index flashed a technical death-cross signal, per Bloomberg via LiveSquawk at {{time:banks}}.",
+          "Goldman Sachs warns of a move down in credit quality: the highest-rated borrowers are drowning in AI debt, per zerohedge at {{time:goldman}}."
+        ]
+      },
+      "source": {
+        "name": "investinglive",
+        "url": "https://investinglive.com/stocks/stock-indices-get-beat-up-with-the-dow-s-p-nasdaq-and-russell-indices-all-falling-more-than-2/"
+      },
+      "secondarySources": [
+        {
+          "name": "@KobeissiLetter · {{time:multiple}}",
+          "url": "https://x.com/KobeissiLetter/status/2123506602015887795"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:highs}}",
+          "url": "https://x.com/KobeissiLetter/status/2123536801813963184"
+        },
+        {
+          "name": "@LiveSquawk · {{time:banks}}",
+          "url": "https://x.com/LiveSquawk/status/2123531605121646709"
+        },
+        {
+          "name": "@zerohedge · {{time:goldman}}",
+          "url": "https://x.com/zerohedge/status/2123484060949295429"
+        }
+      ],
+      "timeRefs": {
+        "multiple": {
+          "at": "2026-11-19T20:00:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "highs": {
+          "at": "2026-11-19T22:00:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "banks": {
+          "at": "2026-11-19T21:39:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "goldman": {
+          "at": "2026-11-19T18:30:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "nvda-governance",
+      "section": "tech",
+      "priority": 5,
+      "kicker": {
+        "he": "אנבידיה · סאגת ההנהלה",
+        "en": "Nvidia · the leadership saga"
+      },
+      "headline": {
+        "he": "אקמן תקף את דירקטוריון אנבידיה על כשלי ממשל; מאסק השווה את הואנג למייקל ג'ורדן בשיאו",
+        "en": "Ackman attacked Nvidia's board over governance failures; Musk compared Huang to Michael Jordan at his peak"
+      },
+      "summary": {
+        "he": "ביל אקמן תקף את דירקטוריון אנבידיה על כשלי ממשל חמורים, אחרי ששלל את חזרתו של ג'נסן הואנג לתפקיד לפני השלמת החקירה הפנימית, לפי unusual_whales ב-{{time:ackman}}. אילון מאסק השווה את הואנג למייקל ג'ורדן בשיאו ואמר שאי אפשר להחליף אדם כמוהו, לפי unusual_whales ב-{{time:musk}}. מניית אנבידיה נסגרה בירידה של 3.30% ל-145.98 דולר, לפי investinglive.",
+        "en": "Bill Ackman attacked Nvidia's board over major governance failures after it ruled out Jensen Huang's return before completing its internal investigation, per unusual_whales at {{time:ackman}}. Elon Musk compared Huang to Michael Jordan at his peak and said no one like him can be replaced, per unusual_whales at {{time:musk}}. Nvidia shares closed down 3.30% at $145.98, per investinglive."
+      },
+      "bullets": {
+        "he": [
+          "ועדת היחסים החוץ של בית הנבחרים חשפה 3.4 מיליון בקשות רישיון ייצוא שבבים לסין, כולל 445 אלף שבבי H200 של אנבידיה, וקבעה שהמשלוחים מציבים סיכון הסחה נמוך, לפי DeItaone ב-{{time:licenses}}; משרד המסחר קיבל בקשות מעליבאבא, טנסנט, ביידו ו-BYD, לפי FirstSquawk ב-{{time:commerce}}.",
+          "טראמפ אמר לפוקס שלא דיבר עם שי על אנבידיה באופן משמעותי, לפי FirstSquawk ב-{{time:trump}}.",
+          "סגן נשיא אנבידיה איאן באק שיבח את המנכ\"לית הזמנית קולט קרס, לפי יאהו פייננס דרך wallstengine ב-{{time:buck}}.",
+          "אנבידיה הקדימה העלאות שכר לעובדים על רקע צניחת המניה וחשש מבריחת טאלנטים, לפי TheMarker ב-{{time:raises}}."
+        ],
+        "en": [
+          "The House Foreign Affairs Committee disclosed 3.4 million advanced-chip export license applications to China, including 445,000 Nvidia H200s, and determined the shipments pose a low diversion risk, per DeItaone at {{time:licenses}}; the Commerce Department received applications from Alibaba, Tencent, Baidu and BYD, per FirstSquawk at {{time:commerce}}.",
+          "Trump told Fox he did not discuss Nvidia much with Xi, per FirstSquawk at {{time:trump}}.",
+          "Nvidia VP Ian Buck praised interim CEO Colette Kress, per Yahoo Finance via wallstengine at {{time:buck}}.",
+          "Nvidia brought forward pay raises for employees against the stock plunge and fears of talent flight, per TheMarker at {{time:raises}}."
+        ]
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:ackman}}",
+        "url": "https://x.com/unusual_whales/status/2123475643555787047"
+      },
+      "secondarySources": [
+        {
+          "name": "@unusual_whales · {{time:musk}}",
+          "url": "https://x.com/unusual_whales/status/2123485710145540331"
+        },
+        {
+          "name": "@DeItaone · {{time:licenses}}",
+          "url": "https://x.com/DeItaone/status/2123502784687542273"
+        },
+        {
+          "name": "@FirstSquawk · {{time:commerce}}",
+          "url": "https://x.com/FirstSquawk/status/2123502956364669224"
+        },
+        {
+          "name": "@FirstSquawk · {{time:trump}}",
+          "url": "https://x.com/FirstSquawk/status/2123501889946079532"
+        },
+        {
+          "name": "@wallstengine · {{time:buck}}",
+          "url": "https://x.com/wallstengine/status/2123484291778933090"
+        },
+        {
+          "name": "@TheMarker · {{time:raises}}",
+          "url": "https://x.com/TheMarker/status/2123491548624982450"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "ackman": {
+          "at": "2026-11-19T17:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "musk": {
+          "at": "2026-11-19T18:37:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "licenses": {
+          "at": "2026-11-19T19:44:51+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "commerce": {
+          "at": "2026-11-19T19:45:32+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trump": {
+          "at": "2026-11-19T19:41:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "buck": {
+          "at": "2026-11-19T18:31:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "raises": {
+          "at": "2026-11-19T19:00:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "fed-goolsbee-rates",
+      "section": "markets",
+      "priority": 6,
+      "kicker": {
+        "he": "הפד · גולסבי",
+        "en": "The Fed · Goolsbee"
+      },
+      "headline": {
+        "he": "גולסבי: האינפלציה גבוהה בהרבה מהיעד ואינה בדרך חזרה אליו; השוק מתמחר 94% להעלאת ריבית בדצמבר",
+        "en": "Goolsbee: inflation is far above target and not on the way back; the market prices a 94% chance of a December hike"
+      },
+      "summary": {
+        "he": "נגיד הפד של שיקגו אוסטן גולסבי אמר שהאינפלציה גבוהה בהרבה מיעד ה-2% ושהיא אינה בדרך חזרה ליעד, עם רכיב ביקוש ניכר מעבר לנפט ולמכסים, לפי DeItaone ב-{{time:goolsbee}} ו-FirstSquawk ב-{{time:path}}. לדבריו, תפקיד הפד כעת הוא למנוע מגל ההשקעות בבינה המלאכותית לחמם יתר על המידה את הכלכלה, לפי wallstengine ב-{{time:job}}. השווקים מתמחרים סיכוי של 94.1% להעלאת ריבית של 25 נקודות בסיס בישיבת דצמבר וסיכוי של 5.9% להעלאה כפולה, לפי כלי FedWatch של CME דרך רויטרס.",
+        "en": "Chicago Fed president Austan Goolsbee said inflation is far above the 2% target and is not on the path back to it, with a sizable demand component beyond oil and tariffs, per DeItaone at {{time:goolsbee}} and FirstSquawk at {{time:path}}. He said the Fed's job now is to prevent the AI investment surge from overheating the economy, per wallstengine at {{time:job}}. Markets price a 94.1% chance of a 25bp hike at the December meeting and a 5.9% chance of a double hike, per CME's FedWatch tool via Reuters."
+      },
+      "bullets": {
+        "he": [
+          "נגיד הפד בר אמר שבינה מלאכותית עלולה להגביר את הסיכון לריצות בנקאיות מהירות יותר, לפי FirstSquawk ב-{{time:barr}}.",
+          "מכירת אג\"ח TIPS ל-10 שנים בהיקף 19 מיליארד דולר נסגרה בתשואה של 2.903%, לפי FirstSquawk ב-{{time:tips}}.",
+          "השווקים הגלובליים מתכוננים לריבית גבוהה עד 2031, לפי בלומברג דרך DeItaone ב-{{time:global}}."
+        ],
+        "en": [
+          "Fed governor Barr said AI could increase the risk of faster bank runs, per FirstSquawk at {{time:barr}}.",
+          "A $19 billion 10-year TIPS auction closed at a 2.903% yield, per FirstSquawk at {{time:tips}}.",
+          "Global markets are bracing for elevated rates through 2031, per Bloomberg via DeItaone at {{time:global}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:goolsbee}}",
+        "url": "https://x.com/DeItaone/status/2123471455622942829"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:path}}",
+          "url": "https://x.com/FirstSquawk/status/2123519098059640843"
+        },
+        {
+          "name": "@wallstengine · {{time:job}}",
+          "url": "https://x.com/wallstengine/status/2123476706069458999"
+        },
+        {
+          "name": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/wall-street-slides-as-anthropics-debut-fails-to-revive-ai-enthusiasm-5039839"
+        },
+        {
+          "name": "@FirstSquawk · {{time:barr}}",
+          "url": "https://x.com/FirstSquawk/status/2123499991797035419"
+        },
+        {
+          "name": "@FirstSquawk · {{time:tips}}",
+          "url": "https://x.com/FirstSquawk/status/2123477656708788612"
+        },
+        {
+          "name": "@DeItaone · {{time:global}}",
+          "url": "https://x.com/DeItaone/status/2123418823231476020"
+        }
+      ],
+      "timeRefs": {
+        "goolsbee": {
+          "at": "2026-11-19T17:40:21+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "path": {
+          "at": "2026-11-19T20:49:40+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "job": {
+          "at": "2026-11-19T18:01:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "barr": {
+          "at": "2026-11-19T19:33:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tips": {
+          "at": "2026-11-19T18:05:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "global": {
+          "at": "2026-11-19T14:11:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "after-close-earnings",
+      "section": "markets",
+      "priority": 7,
+      "kicker": {
+        "he": "דוחות · אחרי הסגירה",
+        "en": "Earnings · after close"
+      },
+      "headline": {
+        "he": "אינטואיט צנחה 14% במסחר המאוחר על תחזית חלשה - ומוכרת את מיילצ'ימפ ב-3.68 מיליארד דולר; רוס הכתה תחזיות",
+        "en": "Intuit plunged 14% after hours on weak guidance - and is selling Mailchimp for $3.68 billion; Ross beat estimates"
+      },
+      "summary": {
+        "he": "אינטואיט גברה על התחזיות ברבעון עם הכנסות של 4.35 מיליארד דולר ורווח מתואם של 2.62 דולר למניה, אך צנחה 14% במסחר המאוחר אחרי שתחזית הרווח לרבעון השני פספסה בכ-19% והחברה קיצצה את תחזית ההכנסות השנתית, לפי wallstengine ב-{{time:intu}}; במקביל הודיעה על מכירת מיילצ'ימפ ל-Bending Spoons בשווי של 3.68 מיליארד דולר, לפי wallstengine ב-{{time:mailchimp}}. רוס סטורס גברה על התחזיות עם מכירות של 6.3 מיליארד דולר ורווח של 1.91 דולר למניה והעלתה את תחזית הרווח השנתית, לפי LiveSquawk ב-{{time:ross}}.",
+        "en": "Intuit beat quarterly estimates with revenue of $4.35 billion and adjusted EPS of $2.62, but plunged 14% after hours after second-quarter EPS guidance missed by about 19% and the company cut its annual revenue forecast, per wallstengine at {{time:intu}}; it also announced the sale of Mailchimp to Bending Spoons at a $3.68 billion enterprise value, per wallstengine at {{time:mailchimp}}. Ross Stores beat estimates with sales of $6.3 billion and EPS of $1.91 and raised its annual EPS guidance, per LiveSquawk at {{time:ross}}."
+      },
+      "bullets": {
+        "he": [
+          "גאפ פספסה מעט במכירות הרבעוניות וקיצצה את תחזית צמיחת המכירות השנתית לאפס, אך רשמה רווח של 86 סנט למניה מול 62 סנט אשתקד והעלתה את הדיבידנד, לפי FirstSquawk ב-{{time:gap}}.",
+          "קייסייט טכנולוגיות גברה על התחזיות בגדול עם צמיחה של 40% בהכנסות ל-1.99 מיליארד דולר, לפי wallstengine ב-{{time:keys}}.",
+          "אלסטיק גברה על התחזיות עם צמיחה של 17% בהכנסות, לפי wallstengine ב-{{time:estc}}."
+        ],
+        "en": [
+          "Gap slightly missed quarterly sales and cut its annual sales growth forecast to zero, but earned 86 cents a share versus 62 a year ago and raised its dividend, per FirstSquawk at {{time:gap}}.",
+          "Keysight beat estimates handily with 40% revenue growth to $1.99 billion, per wallstengine at {{time:keys}}.",
+          "Elastic beat estimates with 17% revenue growth, per wallstengine at {{time:estc}}."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:intu}}",
+        "url": "https://x.com/wallstengine/status/2123526964405493803"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk",
+          "url": "https://x.com/LiveSquawk/status/2123522874455826841"
+        },
+        {
+          "name": "@wallstengine · {{time:mailchimp}}",
+          "url": "https://x.com/wallstengine/status/2123522390097608937"
+        },
+        {
+          "name": "@LiveSquawk · {{time:ross}}",
+          "url": "https://x.com/LiveSquawk/status/2123523193558503656"
+        },
+        {
+          "name": "@FirstSquawk · {{time:gap}}",
+          "url": "https://x.com/FirstSquawk/status/2123526890732536238"
+        },
+        {
+          "name": "@wallstengine · {{time:keys}}",
+          "url": "https://x.com/wallstengine/status/2123525315376947633"
+        },
+        {
+          "name": "@wallstengine · {{time:estc}}",
+          "url": "https://x.com/wallstengine/status/2123523230275100672"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "INTU",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "intu": {
+          "at": "2026-11-19T21:20:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "mailchimp": {
+          "at": "2026-11-19T21:02:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ross": {
+          "at": "2026-11-19T21:05:57+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "gap": {
+          "at": "2026-11-19T21:20:38+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "keys": {
+          "at": "2026-11-19T21:14:23+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "estc": {
+          "at": "2026-11-19T21:06:05+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "trump-fox-geopolitics",
+      "section": "geopolitics",
+      "priority": 8,
+      "kicker": {
+        "he": "טראמפ · ראיון לפוקס",
+        "en": "Trump · the Fox interview"
+      },
+      "headline": {
+        "he": "טראמפ: פוטין רוצה עסקה; שי ופוטין מפעילים לחץ על טהרן לסיים את המלחמה",
+        "en": "Trump: Putin wants a deal; Xi and Putin are pressuring Tehran to end the war"
+      },
+      "summary": {
+        "he": "נשיא ארה\"ב דונלד טראמפ אמר בראיון לפוקס ניוז שפוטין רוצה להגיע לעסקה ושהוא מקווה שזלנסקי גם כן, לפי DeItaone ב-{{time:putin}}; לדבריו, שי ג'ינפינג ופוטין רוצים שהמלחמה באיראן תסתיים ומפעילים לחץ על טהרן, לפי DeItaone ב-{{time:iran}}, והוא ושי יעבדו יחד על רגולציה מתונה לבינה מלאכותית מטעמי בטיחות, לפי FirstSquawk ב-{{time:ai}}.",
+        "en": "US President Donald Trump told Fox News that Putin wants to make a deal and that he hopes Zelenskiy does too, per DeItaone at {{time:putin}}; he said Xi Jinping and Putin want the Iran war to end and are pressuring Tehran, per DeItaone at {{time:iran}}, and that he and Xi will work together on moderate AI regulation for safety, per FirstSquawk at {{time:ai}}."
+      },
+      "bullets": {
+        "he": [
+          "הוול סטריט ג'ורנל דיווח שראש המוסד לחץ במהלך ביקורו בארה\"ב על חידוש התקיפות באיראן, לפי LiveSquawk ב-{{time:mossad}}.",
+          "דובר משרד החוץ האיראני אמר שההאשמות האמריקאיות בנשק כימי וביולוגי נועדו להצית פחד ולהצדיק פעולה צבאית, לפי FirstSquawk ב-{{time:tehran}}."
+        ],
+        "en": [
+          "The Wall Street Journal reported that the Mossad chief pressed for renewed strikes on Iran during his US visit, per LiveSquawk at {{time:mossad}}.",
+          "Iran's Foreign Ministry spokesman said the US chemical and biological weapons accusations are meant to stoke fear and justify military action, per FirstSquawk at {{time:tehran}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:putin}}",
+        "url": "https://x.com/DeItaone/status/2123500862958113271"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk",
+          "url": "https://x.com/FirstSquawk/status/2123501889946079532"
+        },
+        {
+          "name": "@DeItaone · {{time:iran}}",
+          "url": "https://x.com/DeItaone/status/2123503573589754341"
+        },
+        {
+          "name": "@FirstSquawk · {{time:ai}}",
+          "url": "https://x.com/FirstSquawk/status/2123501904844210537"
+        },
+        {
+          "name": "@LiveSquawk · {{time:mossad}}",
+          "url": "https://x.com/LiveSquawk/status/2123529539091587559"
+        },
+        {
+          "name": "@FirstSquawk · {{time:tehran}}",
+          "url": "https://x.com/FirstSquawk/status/2123522936774746237"
+        }
+      ],
+      "timeRefs": {
+        "putin": {
+          "at": "2026-11-19T19:37:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "iran": {
+          "at": "2026-11-19T19:47:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ai": {
+          "at": "2026-11-19T19:41:21+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "mossad": {
+          "at": "2026-11-19T21:31:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tehran": {
+          "at": "2026-11-19T21:04:55+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "oil-hormuz",
+      "section": "markets",
+      "priority": 9,
+      "kicker": {
+        "he": "נפט · יציבות",
+        "en": "Oil · steady"
+      },
+      "headline": {
+        "he": "הנפט נסגר כמעט ללא שינוי; שר האנרגיה: אתמול נרשמה יציאת הנפט הגדולה ביותר דרך הורמוז",
+        "en": "Oil closed nearly flat; the Energy Secretary: yesterday saw the largest oil outflow through Hormuz"
+      },
+      "summary": {
+        "he": "נפט WTI נסגר ב-83.21 דולר לחבית, ירידה של 5 סנט, וברנט נסגר ב-91.98 דולר, עלייה של 3 סנט, לפי FirstSquawk ב-{{time:wti}}. שר האנרגיה האמריקאי כריס רייט אמר שביום רביעי נרשמה יציאת הנפט הגדולה ביותר דרך מצר הורמוז, לפי FirstSquawk ב-{{time:wright}}.",
+        "en": "WTI settled at $83.21 a barrel, down 5 cents, and Brent settled at $91.98, up 3 cents, per FirstSquawk at {{time:wti}}. US Energy Secretary Chris Wright said Wednesday saw by far the largest flow of oil out of the Strait of Hormuz, per FirstSquawk at {{time:wright}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:wti}}",
+        "url": "https://x.com/FirstSquawk/status/2123499515642839468"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk",
+          "url": "https://x.com/FirstSquawk/status/2123502680631103837"
+        },
+        {
+          "name": "@FirstSquawk · {{time:wright}}",
+          "url": "https://x.com/FirstSquawk/status/2123479294336999484"
+        }
+      ],
+      "timeRefs": {
+        "wti": {
+          "at": "2026-11-19T19:31:51+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wright": {
+          "at": "2026-11-19T18:11:30+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "corporates-apple-pg",
+      "section": "tech",
+      "priority": 10,
+      "kicker": {
+        "he": "תאגידים · אפל, P&G, פייזר",
+        "en": "Corporates · Apple, P&G, Pfizer"
+      },
+      "headline": {
+        "he": "אפל מפתחת סוכן AI עצמאי; פרוקטר אנד גמבל תקצץ עד 30% מכוח האדם הייצורי עד 2030",
+        "en": "Apple is developing its own AI agent; P&G will cut up to 30% of its manufacturing workforce by 2030"
+      },
+      "summary": {
+        "he": "אפל מפתחת סוכן AI עצמאי משלה שישלוט באפליקציות, יגלוש ברשת ויכתוב קוד, עם השקה אפשרית כבר בסוף 2027, לפי בלומברג דרך StockMKTNewz ב-{{time:apple}}. פרוקטר אנד גמבל מתכננת לקצץ 20%-30% מכוח האדם הייצורי העולמי שלה עד 2030, לפי בלומברג דרך LiveSquawk ב-{{time:pg}}. פייזר תרשה שלוש תוכניות טיפול CAR-T מחברת Starna הסינית תמורת 330 מיליון דולר מראש, לפי FirstSquawk ב-{{time:pfizer}}.",
+        "en": "Apple is developing its own autonomous AI agent that will control apps, browse the web and write code, with a possible launch as early as late 2027, per Bloomberg via StockMKTNewz at {{time:apple}}. Procter & Gamble plans to cut 20-30% of its global manufacturing workforce by 2030, per Bloomberg via LiveSquawk at {{time:pg}}. Pfizer will license three CAR-T therapy programs from China's Starna for $330 million upfront, per FirstSquawk at {{time:pfizer}}."
+      },
+      "bullets": {
+        "he": [
+          "וולמארט יכולה כעת לספק משלוחים ל-60% ממשקי הבית בארה\"ב תוך פחות מ-30 דקות, לפי wallstengine ב-{{time:wmt}}."
+        ],
+        "en": [
+          "Walmart can now deliver to 60% of US households in under 30 minutes, per wallstengine at {{time:wmt}}."
+        ]
+      },
+      "source": {
+        "name": "@StockMKTNewz · {{time:apple}}",
+        "url": "https://x.com/StockMKTNewz/status/2123536094960468126"
+      },
+      "secondarySources": [
+        {
+          "name": "@zerohedge",
+          "url": "https://x.com/zerohedge/status/2123531270273864159"
+        },
+        {
+          "name": "@wallstengine",
+          "url": "https://x.com/wallstengine/status/2123531677414605045"
+        },
+        {
+          "name": "@LiveSquawk · {{time:pg}}",
+          "url": "https://x.com/LiveSquawk/status/2123526748293955921"
+        },
+        {
+          "name": "@FirstSquawk · {{time:pfizer}}",
+          "url": "https://x.com/FirstSquawk/status/2123525984951677304"
+        },
+        {
+          "name": "@wallstengine · {{time:wmt}}",
+          "url": "https://x.com/wallstengine/status/2123500954922205238"
+        }
+      ],
+      "timeRefs": {
+        "apple": {
+          "at": "2026-11-19T21:57:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "pg": {
+          "at": "2026-11-19T21:20:04+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "pfizer": {
+          "at": "2026-11-19T21:17:02+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wmt": {
+          "at": "2026-11-19T19:37:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "tase-close",
+      "section": "israel",
+      "priority": 11,
+      "kicker": {
+        "he": "ישראל · הבורסה",
+        "en": "Israel · the exchange"
+      },
+      "headline": {
+        "he": "בורסת ת\"א ננעלה בירידות יום שני ברציפות; הדולר טיפס ל-3.30 שקלים, הגבוה ביותר מאז אוקטובר 2025",
+        "en": "The Tel Aviv exchange closed lower for a second straight day; the dollar rose to NIS 3.30, highest since October 2025"
+      },
+      "summary": {
+        "he": "בורסת תל אביב ננעלה ב-19 בנובמבר בירידות יום שני ברציפות: מדד ת\"א 35 ירד 1.16%, ת\"א 125 ירד 1.15% ות\"א 90 ירד 1.51%, בהובלת מניות הבנייה שצללו 3.29%, לפי הבורסה לניירות ערך ב-{{time:tase}}. הדולר טיפס ל-3.30 שקלים, השיעור הגבוה ביותר מאז אוקטובר 2025, לפי כלכליסט ב-{{time:dollar}}.",
+        "en": "The Tel Aviv Stock Exchange closed lower for a second straight day on November 19: the TA-35 fell 1.16%, the TA-125 fell 1.15% and the TA-90 fell 1.51%, led by construction stocks which plunged 3.29%, per the TASE at {{time:tase}}. The dollar rose to NIS 3.30, its highest since October 2025, per Calcalist at {{time:dollar}}."
+      },
+      "bullets": {
+        "he": [
+          "הבנקים הישראליים רשמו רווח מצטבר של 8.1 מיליארד שקלים ברבעון האחרון למרות שחיקה מירידת הריבית, לפי כלכליסט ב-{{time:banks}}.",
+          "בנק לאומי פיטר כ-25 עובדים מחטיבת הפיתוח, לפי גלובס ב-{{time:leumi}}.",
+          "חיים כצמן עצר ברגע האחרון הנפקת אג\"ח להמרה של נורסטאר, והמניה צוללת, לפי גלובס ב-{{time:norstar}}.",
+          "בשל השיפוצים בבנק ישראל, 450 עובדים יעברו לעבוד מהבית, לפי גלובס ב-{{time:boi}}."
+        ],
+        "en": [
+          "Israeli banks posted a cumulative profit of NIS 8.1 billion last quarter despite the erosion from falling rates, per Calcalist at {{time:banks}}.",
+          "Bank Leumi laid off about 25 employees from its development division, per Globes at {{time:leumi}}.",
+          "Haim Katzman halted Norstar's convertible bond offering at the last minute, and the stock is plunging, per Globes at {{time:norstar}}.",
+          "Because of the Bank of Israel renovation, 450 employees will work from home, per Globes at {{time:boi}}."
+        ]
+      },
+      "source": {
+        "name": "@TASE_IL · {{time:tase}}",
+        "url": "https://x.com/TASE_IL/status/2123447944288326134"
+      },
+      "secondarySources": [
+        {
+          "name": "@calcalist · {{time:dollar}}",
+          "url": "https://x.com/calcalist/status/2123449220443042051"
+        },
+        {
+          "name": "@calcalist · {{time:banks}}",
+          "url": "https://x.com/calcalist/status/2123376993182064747"
+        },
+        {
+          "name": "@globesnews · {{time:leumi}}",
+          "url": "https://x.com/globesnews/status/2123436873674633346"
+        },
+        {
+          "name": "@globesnews · {{time:norstar}}",
+          "url": "https://x.com/globesnews/status/2123496327266931048"
+        },
+        {
+          "name": "@globesnews · {{time:boi}}",
+          "url": "https://x.com/globesnews/status/2123455160688992740"
+        }
+      ],
+      "timeRefs": {
+        "tase": {
+          "at": "2026-11-19T16:06:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "dollar": {
+          "at": "2026-11-19T16:12:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "banks": {
+          "at": "2026-11-19T11:25:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "leumi": {
+          "at": "2026-11-19T15:22:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "norstar": {
+          "at": "2026-11-19T19:19:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "boi": {
+          "at": "2026-11-19T16:35:36+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    }
+  ]
+}
