@@ -1,0 +1,917 @@
+{
+  "schemaVersion": "2.0",
+  "editionNumber": 10,
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-19T17:32:00+02:00",
+  "editionType": "open",
+  "editionSlug": "1732-open",
+  "editorialLead": {
+    "he": "אנתרופיק משלימה את ההנפקה הגדולה בהיסטוריה: אינדיקציית פתיחה סביב 100 דולר, כ-20% מעל מחיר ההנפקה",
+    "en": "Anthropic completes the largest IPO in history: an opening indication around $100, about 20% above the IPO price"
+  },
+  "topSummary": {
+    "he": "אנתרופיק השלימה את ההנפקה הגדולה בהיסטוריה ואותתה על פתיחה סביב 100 דולר, כ-20% מעל מחיר ההנפקה, אך נכון לסריקת המקורות האחרונה ב-10:20 שעון ניו יורק המסחר במניה טרם נפתח. וול סטריט נפתחה בעליות של עד 1.6%, וטראמפ, שי ופוטין פרסמו בשנזן הצהרה משותפת על הגדלת אספקת מוצרי הנפט ועל כך שאין מנצח במלחמה גרעינית.",
+    "en": "Anthropic completed the largest IPO in history and indicated an open around $100, about 20% above the IPO price, but as of the last source scan at 10:20am New York time trading in the stock had not yet begun. Wall Street opened up as much as 1.6%, and Trump, Xi and Putin issued a joint declaration in Shenzhen on increasing refined oil supply and on a nuclear war having no winner."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "^IXIC",
+    "NASDAQ:NVDA",
+    "WMT",
+    "BABA",
+    "TTWO"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "^IXIC",
+      "range": "1d",
+      "label": {
+        "he": "נאסד\"ק",
+        "en": "Nasdaq"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "anthropic-debut",
+      "section": "tech",
+      "isLead": true,
+      "priority": 1,
+      "kicker": {
+        "he": "אנתרופיק · יום ההנפקה",
+        "en": "Anthropic · IPO day"
+      },
+      "headline": {
+        "he": "ההנפקה הגדולה בהיסטוריה: אנתרופיק גייסה 107.3 מיליארד דולר; אינדיקציית פתיחה סביב 100 דולר, כ-20% מעל מחיר ההנפקה",
+        "en": "The largest IPO in history: Anthropic raised $107.3 billion; opening indication around $100, about 20% above the IPO price"
+      },
+      "summary": {
+        "he": "אנתרופיק השלימה את ההנפקה הגדולה בהיסטוריה: 107.3 מיליארד דולר בסך הכול - 81.3 מיליארד בהנפקה ו-26 מיליארד בהנפקה פרטית, לפי unusual_whales ב-{{time:largest}}. לקראת תחילת המסחר בנאסד\"ק אותתה המניה על פתיחה סביב 100 דולר, כ-20% מעל מחיר ההנפקה של 83 דולר, לפי בלומברג דרך unusual_whales ב-{{time:indication}}, והאינדיקציה הראשונה עמדה על 103.75 דולר, לפי StockMKTNewz ב-{{time:first}}. נכון לסריקת המקורות האחרונה ב-10:20 שעון ניו יורק המסחר במניה עצמו טרם נפתח; נאסד\"ק הודיעה על תחילת מחירונים החל מ-9:50 שעון ניו יורק, עם פתיחת מסחר צפויה בין 10:00 ל-12:00, לפי DeItaone ב-{{time:quotation}}.",
+        "en": "Anthropic completed the largest IPO in history: $107.3 billion in total - $81.3 billion in the offering and $26 billion in a private placement, per unusual_whales at {{time:largest}}. Ahead of the start of Nasdaq trading the stock indicated an open around $100, about 20% above the $83 IPO price, per Bloomberg via unusual_whales at {{time:indication}}, with the first indication at $103.75, per StockMKTNewz at {{time:first}}. As of the last source scan at 10:20am New York time, trading in the stock itself had not yet begun; Nasdaq announced quotations from 9:50am New York time, with an expected open between 10:00 and 12:00, per DeItaone at {{time:quotation}}."
+      },
+      "bullets": {
+        "he": [
+          "יותר ממחצית הקונים המוסדיים לא קיבלו אף מניה בהקצאה, לפי בלומברג דרך DeItaone ב-{{time:allocation}}, וכ-15% מההנפקה הוקצתה למשקיעים קמעונאיים, לפי הוול סטריט ג'ורנל דרך FirstSquawk ב-{{time:retail}}.",
+          "ארבעה בתי השקעות פתחו בכיסוי חיובי עם מחירי יעד של עד 155 דולר, לפי DeItaone ב-{{time:coverage}}.",
+          "אמזון מחזיקה 14.6% מהחברה וגוגל 13.4% - כל אחת יותר מכל שבעת המייסדים יחד, לפי wallstengine ב-{{time:ownership}}.",
+          "גולדמן זאקס ומורגן סטנלי ירוויחו כל אחד יותר מ-110 מיליון דולר בעמלות, לפי wallstengine ב-{{time:fees}}.",
+          "ההנפקה צפויה להפוך כ-4,250 מתוך כ-5,300 עובדי החברה למיליונרים, לפי unusual_whales ב-{{time:millionaires}}.",
+          "בקלשי נסחרת הסתברות של 29% בלבד שהמניה תסגור היום מעל שווי של 1.5 טריליון דולר, לפי KobeissiLetter ב-{{time:kalshi}}; לפי חישוב ה-FT, אנתרופיק תזדקק להכנסות של כ-602 מיליארד דולר בשנה כדי להצדיק את התחייבויות המחשוב שלה, לפי unusual_whales ב-{{time:ftmath}}."
+        ],
+        "en": [
+          "More than half of institutional bidders received no shares in the allocation, per Bloomberg via DeItaone at {{time:allocation}}, and about 15% of the offering was allocated to retail investors, per the Wall Street Journal via FirstSquawk at {{time:retail}}.",
+          "Four firms initiated coverage with positive ratings and price targets of up to $155, per DeItaone at {{time:coverage}}.",
+          "Amazon holds 14.6% of the company and Google 13.4% - each more than all seven founders combined, per wallstengine at {{time:ownership}}.",
+          "Goldman Sachs and Morgan Stanley will each earn more than $110 million in fees, per wallstengine at {{time:fees}}.",
+          "The IPO is expected to turn about 4,250 of the roughly 5,300 employees into millionaires, per unusual_whales at {{time:millionaires}}.",
+          "On Kalshi the odds of the stock closing today above a $1.5 trillion valuation are only 29%, per KobeissiLetter at {{time:kalshi}}; per an FT calculation, Anthropic would need about $602 billion in annual revenue to justify its compute commitments, per unusual_whales at {{time:ftmath}}."
+        ]
+      },
+      "source": {
+        "name": "@unusual_whales · {{time:largest}}",
+        "url": "https://x.com/unusual_whales/status/2123390079418921154"
+      },
+      "secondarySources": [
+        {
+          "name": "@unusual_whales · {{time:indication}}",
+          "url": "https://x.com/unusual_whales/status/2123430514375946244"
+        },
+        {
+          "name": "@StockMKTNewz · {{time:first}}",
+          "url": "https://x.com/StockMKTNewz/status/2123433108196504052"
+        },
+        {
+          "name": "@DeItaone · {{time:quotation}}",
+          "url": "https://x.com/DeItaone/status/2123388213116944750"
+        },
+        {
+          "name": "@DeItaone · {{time:allocation}}",
+          "url": "https://x.com/DeItaone/status/2123425385157120258"
+        },
+        {
+          "name": "@FirstSquawk · {{time:retail}}",
+          "url": "https://x.com/FirstSquawk/status/2123428087551733983"
+        },
+        {
+          "name": "@DeItaone · {{time:coverage}}",
+          "url": "https://x.com/DeItaone/status/2123379714890842539"
+        },
+        {
+          "name": "@wallstengine · {{time:ownership}}",
+          "url": "https://x.com/wallstengine/status/2123413373513810015"
+        },
+        {
+          "name": "@wallstengine · {{time:fees}}",
+          "url": "https://x.com/wallstengine/status/2123428677581259101"
+        },
+        {
+          "name": "@unusual_whales · {{time:millionaires}}",
+          "url": "https://x.com/unusual_whales/status/2123422888351219722"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:kalshi}}",
+          "url": "https://x.com/KobeissiLetter/status/2123422721103245313"
+        },
+        {
+          "name": "@unusual_whales · {{time:ftmath}}",
+          "url": "https://x.com/unusual_whales/status/2123400146113499362"
+        },
+        {
+          "name": "@LiveSquawk",
+          "url": "https://x.com/LiveSquawk/status/2123416542721482837"
+        }
+      ],
+      "socialPost": {
+        "id": "2123390079418921154",
+        "url": "https://x.com/unusual_whales/status/2123390079418921154"
+      },
+      "timeRefs": {
+        "largest": {
+          "at": "2026-11-19T12:17:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "indication": {
+          "at": "2026-11-19T14:57:40+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "first": {
+          "at": "2026-11-19T15:07:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "quotation": {
+          "at": "2026-11-19T12:09:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "allocation": {
+          "at": "2026-11-19T14:37:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "retail": {
+          "at": "2026-11-19T14:48:02+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "coverage": {
+          "at": "2026-11-19T11:35:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ownership": {
+          "at": "2026-11-19T13:49:34+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fees": {
+          "at": "2026-11-19T14:50:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "millionaires": {
+          "at": "2026-11-19T14:27:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "kalshi": {
+          "at": "2026-11-19T14:26:42+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ftmath": {
+          "at": "2026-11-19T12:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "wall-street-open",
+      "section": "markets",
+      "priority": 2,
+      "kicker": {
+        "he": "וול סטריט · פתיחה",
+        "en": "Wall Street · open"
+      },
+      "headline": {
+        "he": "פתיחה חזקה: הנאסד\"ק זינק כ-1.6%, ה-S&P עלה כמעט אחוז ואנבידיה קפצה כ-4%",
+        "en": "A strong open: the Nasdaq jumped about 1.6%, the S&P rose nearly 1% and Nvidia leapt about 4%"
+      },
+      "summary": {
+        "he": "וול סטריט נפתחה ב-19 בנובמבר בעליות: מדד הנאסד\"ק עלה 1.59%, לפי DeItaone ב-{{time:nasdaq}}, מדד S&P 500 עלה 0.99% ל-7,396.09 ומדד דאו ג'ונס עלה 0.48% ל-50,437.34, לפי FirstSquawk ב-{{time:print}}. מניית אנבידיה קפצה כ-4% בפתיחה, לפי KobeissiLetter ב-{{time:nvda}}.",
+        "en": "Wall Street opened higher on November 19: the Nasdaq rose 1.59%, per DeItaone at {{time:nasdaq}}, the S&P 500 rose 0.99% to 7,396.09 and the Dow rose 0.48% to 50,437.34, per FirstSquawk at {{time:print}}. Nvidia shares leapt about 4% at the open, per KobeissiLetter at {{time:nvda}}."
+      },
+      "bullets": {
+        "he": [
+          "תשואת האג\"ח ל-10 שנים עמדה על 5.085% בבוקר, עלייה של 1.85 נקודות בסיס, לפי DeItaone ב-{{time:tenyear}}."
+        ],
+        "en": [
+          "The 10-year Treasury yield stood at 5.085% in the morning, up 1.85 basis points, per DeItaone at {{time:tenyear}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:print}}",
+        "url": "https://x.com/FirstSquawk/status/2123424872865071265"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:nasdaq}}",
+          "url": "https://x.com/DeItaone/status/2123423737101885610"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:nvda}}",
+          "url": "https://x.com/KobeissiLetter/status/2123426312937210221"
+        },
+        {
+          "name": "@DeItaone · {{time:tenyear}}",
+          "url": "https://x.com/DeItaone/status/2123409864370077896"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "print": {
+          "at": "2026-11-19T14:35:15+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nasdaq": {
+          "at": "2026-11-19T14:30:44+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nvda": {
+          "at": "2026-11-19T14:40:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tenyear": {
+          "at": "2026-11-19T13:35:37+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "trilateral-declaration",
+      "section": "geopolitics",
+      "priority": 3,
+      "kicker": {
+        "he": "שנזן · המפגש התלת-צדדי",
+        "en": "Shenzhen · the trilateral"
+      },
+      "headline": {
+        "he": "טראמפ, שי ופוטין פרסמו הצהרה משותפת: הגדלת אספקת מוצרי הנפט ומחויבות שמלחמה גרעינית לא תפרוץ לעולם",
+        "en": "Trump, Xi and Putin issued a joint declaration: more refined oil supply and a commitment that a nuclear war must never be fought"
+      },
+      "summary": {
+        "he": "נשיא ארה\"ב דונלד טראמפ, נשיא סין שי ג'ינפינג ונשיא רוסיה ולדימיר פוטין פרסמו ב-19 בנובמבר הצהרה משותפת במפגש התלת-צדדי בשנזן: שלוש המדינות מתכוונות להגדיל את ייצור ואספקת מוצרי הנפט המזוקקים, ומכריזות שאין מנצח במלחמה גרעינית ושאסור שתפרוץ לעולם, לפי תקשורת המדינה הסינית דרך FirstSquawk ב-{{time:declaration}}. המפגש דן באוקראינה, באיראן, בחצי האי הקוריאני ובהתפשטות גרעינית, לפי FirstSquawk ב-{{time:topics}}.",
+        "en": "US President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin issued on November 19 a joint declaration at the trilateral meeting in Shenzhen: the three countries intend to increase production and supply of refined petroleum products, and declare that a nuclear war cannot be won and must never be fought, per Chinese state media via FirstSquawk at {{time:declaration}}. The meeting discussed Ukraine, Iran, the Korean peninsula and nuclear proliferation, per FirstSquawk at {{time:topics}}."
+      },
+      "bullets": {
+        "he": [
+          "פוטין אמר שהתקיפה בגשר קרים סיימה את השיחות על הפסקת אש חלקית, והבטיח שפעולות התגמול יהיו כואבות בהרבה, לפי DeItaone ב-{{time:putin}}.",
+          "שי ג'ינפינג התחייב לפעול יחד עם טראמפ, לפי בלומברג דרך LiveSquawk ב-{{time:xi}}."
+        ],
+        "en": [
+          "Putin said the strike on the Kerim bridge ended talks over a partial ceasefire, and promised that retaliation would be much more painful, per DeItaone at {{time:putin}}.",
+          "Xi Jinping committed to working together with Trump, per Bloomberg via LiveSquawk at {{time:xi}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:declaration}}",
+        "url": "https://x.com/FirstSquawk/status/2123368996850618727"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk",
+          "url": "https://x.com/FirstSquawk/status/2123368537934930397"
+        },
+        {
+          "name": "@FirstSquawk · {{time:topics}}",
+          "url": "https://x.com/FirstSquawk/status/2123376522467938378"
+        },
+        {
+          "name": "@DeItaone · {{time:putin}}",
+          "url": "https://x.com/DeItaone/status/2123391078661546309"
+        },
+        {
+          "name": "@LiveSquawk · {{time:xi}}",
+          "url": "https://x.com/LiveSquawk/status/2123301905778823648"
+        }
+      ],
+      "socialPost": {
+        "id": "2123368996850618727",
+        "url": "https://x.com/FirstSquawk/status/2123368996850618727"
+      },
+      "timeRefs": {
+        "declaration": {
+          "at": "2026-11-19T10:53:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "topics": {
+          "at": "2026-11-19T11:23:08+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "putin": {
+          "at": "2026-11-19T12:20:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "xi": {
+          "at": "2026-11-19T06:26:38+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "morning-earnings",
+      "section": "markets",
+      "priority": 4,
+      "kicker": {
+        "he": "דוחות · וולמארט, באבא, PDD",
+        "en": "Earnings · Walmart, Alibaba, PDD"
+      },
+      "headline": {
+        "he": "וולמארט גברה על התחזיות אך המניה נפלה עד 3.2%; עליבאבא פספסה ברווח למניה, PDD הכתה את תחזית הרווח",
+        "en": "Walmart beat estimates but the stock fell as much as 3.2%; Alibaba missed on EPS, PDD beat profit estimates"
+      },
+      "summary": {
+        "he": "וולמארט דיווחה על רווח מתואם של 65 סנט למניה מול תחזית של 64 סנט ועל הכנסות של 188.84 מיליארד דולר מעל התחזית, לפי FirstSquawk ב-{{time:walmart}}, אך המניה נפלה בשלב מסוים ב-3.2% לאחר שהעלייה הראשונית התפוגגה, לפי zerohedge ב-{{time:wmtstock}}. עליבאבא גברה על תחזית ה-EBITDA המתואם אך פספסה ברווח למניה עם 8.10 יואן מול תחזית של 10.75, וצופה צמיחה של 30-45% בהכנסות הענן בשנה הקרובה ואולי מעל 50% ב-2028, לפי FirstSquawk ב-{{time:baba}}. PDD פספסה בהכנסות אך גברה על תחזיות הרווח עם 21.04 יואן למניה מול תחזית של 18.54, לפי FirstSquawk ב-{{time:pdd}}.",
+        "en": "Walmart reported adjusted EPS of 65 cents versus a 64-cent estimate and revenue of $188.84 billion above estimates, per FirstSquawk at {{time:walmart}}, but the stock fell as much as 3.2% after the initial pop faded, per zerohedge at {{time:wmtstock}}. Alibaba beat adjusted EBITDA estimates but missed on EPS with 8.10 yuan per ADS versus a 10.75 estimate, and guided to 30-45% cloud revenue growth next year and possibly above 50% in 2028, per FirstSquawk at {{time:baba}}. PDD missed on revenue but beat profit estimates with 21.04 yuan per ADS versus an 18.54 estimate, per FirstSquawk at {{time:pdd}}."
+      },
+      "bullets": {
+        "he": [
+          "ויליאמס-סונומה עמדה בתחזית עם רווח מתואם של 2.19 דולר למניה על הכנסות של 1.99 מיליארד דולר, לפי wallstengine ב-{{time:wsm}}."
+        ],
+        "en": [
+          "Williams-Sonoma met estimates with adjusted EPS of $2.19 on revenue of $1.99 billion, per wallstengine at {{time:wsm}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:walmart}}",
+        "url": "https://x.com/FirstSquawk/status/2123387136271630526"
+      },
+      "secondarySources": [
+        {
+          "name": "@zerohedge · {{time:wmtstock}}",
+          "url": "https://x.com/zerohedge/status/2123423770798952849"
+        },
+        {
+          "name": "@FirstSquawk · {{time:baba}}",
+          "url": "https://x.com/FirstSquawk/status/2123361396436177228"
+        },
+        {
+          "name": "@wallstengine",
+          "url": "https://x.com/wallstengine/status/2123401831040922023"
+        },
+        {
+          "name": "@FirstSquawk · {{time:pdd}}",
+          "url": "https://x.com/FirstSquawk/status/2123379597609984018"
+        },
+        {
+          "name": "@wallstengine · {{time:wsm}}",
+          "url": "https://x.com/wallstengine/status/2123401686391652639"
+        }
+      ],
+      "marketCharts": [
+        {
+          "symbol": "WMT",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "walmart": {
+          "at": "2026-11-19T12:05:18+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wmtstock": {
+          "at": "2026-11-19T14:30:52+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "baba": {
+          "at": "2026-11-19T10:23:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "pdd": {
+          "at": "2026-11-19T11:35:21+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wsm": {
+          "at": "2026-11-19T13:03:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "fed-jefferson-macro",
+      "section": "markets",
+      "priority": 5,
+      "kicker": {
+        "he": "הפד · ג'פרסון",
+        "en": "The Fed · Jefferson"
+      },
+      "headline": {
+        "he": "סגן יו\"ר הפד ג'פרסון: בום ההשקעות ב-AI מזין את האינפלציה; ג'יי.פי מורגן צופה שלוש העלאות ריבית נוספות",
+        "en": "Fed Vice Chair Jefferson: the AI investment boom is fueling inflation; JPMorgan expects three more rate hikes"
+      },
+      "summary": {
+        "he": "סגן יו\"ר הפד פיליפ ג'פרסון הזהיר שבום ההשקעות בבינה המלאכותית מזין את האינפלציה ומהווה הלם הן להיצע והן לביקוש, לפי DeItaone ב-{{time:jefferson}}. ג'יי.פי מורגן צופה בתחזית ל-2027 שלוש העלאות ריבית נוספות בשלוש הישיבות הבאות של הפד ושתי הורדות רק ב-2028, לפי wallstengine ב-{{time:jpm}}.",
+        "en": "Fed Vice Chair Philip Jefferson warned that the AI investment boom is fueling inflation and is a shock to both supply and demand, per DeItaone at {{time:jefferson}}. JPMorgan's 2027 outlook sees three more Fed hikes at the next three meetings and two cuts only in 2028, per wallstengine at {{time:jpm}}."
+      },
+      "bullets": {
+        "he": [
+          "תביעות האבטלה השבועיות עלו ל-203 אלף, מעל התחזית, ותביעות המשך זינקו ל-1.763 מיליון, לפי DeItaone ב-{{time:claims}}.",
+          "מדד פילדלפיה פד צנח ל-6.3 מול תחזית של 20.1, לפי FirstSquawk ב-{{time:philly}}.",
+          "מדד המובילים ירד 0.3% באוקטובר מול תחזית ליציבות, לפי DeItaone ב-{{time:leading}}."
+        ],
+        "en": [
+          "Weekly jobless claims rose to 203,000, above estimates, and continuing claims jumped to 1.763 million, per DeItaone at {{time:claims}}.",
+          "The Philly Fed index slumped to 6.3 versus a 20.1 estimate, per FirstSquawk at {{time:philly}}.",
+          "The Leading Index fell 0.3% in October versus a flat estimate, per DeItaone at {{time:leading}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:jefferson}}",
+        "url": "https://x.com/DeItaone/status/2123422477615280450"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk",
+          "url": "https://x.com/LiveSquawk/status/2123423210591178763"
+        },
+        {
+          "name": "@wallstengine · {{time:jpm}}",
+          "url": "https://x.com/wallstengine/status/2123409189305291220"
+        },
+        {
+          "name": "@DeItaone · {{time:claims}}",
+          "url": "https://x.com/DeItaone/status/2123408601629004276"
+        },
+        {
+          "name": "@FirstSquawk · {{time:philly}}",
+          "url": "https://x.com/FirstSquawk/status/2123408755346051328"
+        },
+        {
+          "name": "@DeItaone · {{time:leading}}",
+          "url": "https://x.com/DeItaone/status/2123431435214196740"
+        }
+      ],
+      "timeRefs": {
+        "jefferson": {
+          "at": "2026-11-19T14:25:44+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "jpm": {
+          "at": "2026-11-19T13:32:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "claims": {
+          "at": "2026-11-19T13:30:36+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "philly": {
+          "at": "2026-11-19T13:31:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "leading": {
+          "at": "2026-11-19T15:01:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "chips-china-curbs",
+      "section": "tech",
+      "priority": 6,
+      "kicker": {
+        "he": "שבבים · הגבלות על סין",
+        "en": "Chips · China curbs"
+      },
+      "headline": {
+        "he": "TSMC וסמסונג משעות משלוחי שבבים ללקוחות סיניים; ספייסאקס מכוונת למכירת חוב ענק לשבבי AI",
+        "en": "TSMC and Samsung suspend chip shipments to Chinese customers; SpaceX eyes a huge AI-chip debt sale"
+      },
+      "summary": {
+        "he": "TSMC וסמסונג משעות חלק ממשלוחי השבבים ללקוחות סיניים בעקבות הכללים האמריקאיים החדשים, ו-TSMC עוצרת הזמנות של 16 ננומטר ומידות קטנות יותר ללא רישיון ייצוא אמריקאי, לפי ה-Financial Times דרך FirstSquawk ב-{{time:tsmc}} ו-wallstengine ב-{{time:t16}}. חברת ה-AI הסינית Moonshot ביטלה עסקת 150 מיליון דולר לגישה לשבבי אנבידיה באינדונזיה, לפי The Information דרך LiveSquawk ב-{{time:moonshot}}.",
+        "en": "TSMC and Samsung are suspending some chip shipments to Chinese customers following the new US rules, and TSMC is halting orders of 16 nanometers and smaller without a US export license, per the Financial Times via FirstSquawk at {{time:tsmc}} and wallstengine at {{time:t16}}. Chinese AI company Moonshot scrapped a $150 million deal for access to Nvidia chips in Indonesia, per The Information via LiveSquawk at {{time:moonshot}}."
+      },
+      "bullets": {
+        "he": [
+          "ספייסאקס מכוונת למכירת חוב של לפחות 32 מיליארד דולר לשבבי בינה מלאכותית כבר ביום חמישי, לפי FirstSquawk ב-{{time:spacex}}."
+        ],
+        "en": [
+          "SpaceX is eyeing a debt sale of at least $32 billion for AI chips as soon as Thursday, per FirstSquawk at {{time:spacex}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:tsmc}}",
+        "url": "https://x.com/FirstSquawk/status/2123361377297559972"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk",
+          "url": "https://x.com/LiveSquawk/status/2123361208329740295"
+        },
+        {
+          "name": "@wallstengine · {{time:t16}}",
+          "url": "https://x.com/wallstengine/status/2123411275120271477"
+        },
+        {
+          "name": "@LiveSquawk · {{time:moonshot}}",
+          "url": "https://x.com/LiveSquawk/status/2123356142097048006"
+        },
+        {
+          "name": "@FirstSquawk · {{time:spacex}}",
+          "url": "https://x.com/FirstSquawk/status/2123429378071887894"
+        }
+      ],
+      "timeRefs": {
+        "tsmc": {
+          "at": "2026-11-19T10:22:57+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "t16": {
+          "at": "2026-11-19T13:41:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "moonshot": {
+          "at": "2026-11-19T10:02:08+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "spacex": {
+          "at": "2026-11-19T14:53:09+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "iran-strike-weighing",
+      "section": "geopolitics",
+      "priority": 7,
+      "kicker": {
+        "he": "איראן · שיקול תקיפה",
+        "en": "Iran · strike deliberation"
+      },
+      "headline": {
+        "he": "טראמפ שוקל מבצע תקיפה של ימים באיראן; משמרות המהפכה: לא נדון בגרעין עד שסוגיית הורמוז תיפתר",
+        "en": "Trump weighs a days-long strike campaign on Iran; the Revolutionary Guards: no nuclear talks until the Hormuz issue is settled"
+      },
+      "summary": {
+        "he": "נשיא ארה\"ב דונלד טראמפ שוקל מבצע תקיפה של ימים באיראן ומקשר אותה לנשק כימי וביולוגי, לפי zerohedge ב-{{time:strikes}}; הניו יורק טיימס הקדיש כותרת לשקילת התקיפות על רקע הלחץ הישראלי, לפי LiveSquawk ב-{{time:nyt}}. משמרות המהפכה האיראניים הודיעו שלא ידונו בגרעין עד שסוגיית הורמוז תיפתר, לפי IRNA דרך DeItaone ב-{{time:irgc}}, והצהירו שאיראן אינטרנשיונל היא בין מטרות הכוחות המזויינים, לפי FirstSquawk ב-{{time:target}}.",
+        "en": "US President Donald Trump is weighing a days-long strike campaign on Iran and linking it to chemical and biological weapons, per zerohedge at {{time:strikes}}; the New York Times devoted a headline to the strike deliberations against the backdrop of Israeli pressure, per LiveSquawk at {{time:nyt}}. Iran's Revolutionary Guards announced they will not discuss the nuclear issue until the Hormuz issue is settled, per IRNA via DeItaone at {{time:irgc}}, and declared that Iran International is among the armed forces' targets, per FirstSquawk at {{time:target}}."
+      },
+      "bullets": {
+        "he": [
+          "משמרות המהפכה טוענים ששתי מכליות פגעו במוקש במזרח מצר הורמוז, לפי סוכנות פארס דרך FirstSquawk ב-{{time:mine}}.",
+          "איראן נראית מתכוננת לחדש את משלוחי הנפט שלה, לפי TankerTrackers דרך FirstSquawk ב-{{time:oil}}."
+        ],
+        "en": [
+          "The Revolutionary Guards claim two tankers struck a mine in the eastern Strait of Hormuz, per the Fars agency via FirstSquawk at {{time:mine}}.",
+          "Iran appears to be preparing to resume its oil shipments, per TankerTrackers via FirstSquawk at {{time:oil}}."
+        ]
+      },
+      "source": {
+        "name": "@zerohedge · {{time:strikes}}",
+        "url": "https://x.com/zerohedge/status/2123417371469627762"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:nyt}}",
+          "url": "https://x.com/LiveSquawk/status/2123328262961037771"
+        },
+        {
+          "name": "@DeItaone · {{time:irgc}}",
+          "url": "https://x.com/DeItaone/status/2123424391677497639"
+        },
+        {
+          "name": "@FirstSquawk · {{time:target}}",
+          "url": "https://x.com/FirstSquawk/status/2123408284346646636"
+        },
+        {
+          "name": "@FirstSquawk · {{time:mine}}",
+          "url": "https://x.com/FirstSquawk/status/2123355521667461585"
+        },
+        {
+          "name": "@FirstSquawk · {{time:oil}}",
+          "url": "https://x.com/FirstSquawk/status/2123374334958063701"
+        }
+      ],
+      "timeRefs": {
+        "strikes": {
+          "at": "2026-11-19T14:05:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nyt": {
+          "at": "2026-11-19T08:11:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "irgc": {
+          "at": "2026-11-19T14:33:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "target": {
+          "at": "2026-11-19T13:29:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "mine": {
+          "at": "2026-11-19T09:59:41+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "oil": {
+          "at": "2026-11-19T11:14:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "jpm-cyber-breach",
+      "section": "markets",
+      "priority": 8,
+      "kicker": {
+        "he": "סייבר · ג'יי.פי מורגן",
+        "en": "Cyber · JPMorgan"
+      },
+      "headline": {
+        "he": "ג'יי.פי מורגן: ספקי צד שלישי נפרצו במתקפת סייבר ומידע של לקוחות נחשף",
+        "en": "JPMorgan: third-party providers breached in a cyber attack and customer data was accessed"
+      },
+      "summary": {
+        "he": "ג'יי.פי מורגן הודיעה שגורמי צד שלישי המספקים לה שירותים נפרצו במתקפת סייבר, ושמידע של חלק מהלקוחות נחשף, לפי FirstSquawk ב-{{time:jpm}}. ",
+        "en": "JPMorgan announced that third-party service providers were breached in a cyber attack and that some customers' data was accessed, per FirstSquawk at {{time:jpm}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:jpm}}",
+        "url": "https://x.com/FirstSquawk/status/2123412012877431078"
+      },
+      "secondarySources": [
+        {
+          "name": "@unusual_whales",
+          "url": "https://x.com/unusual_whales/status/2123426892271566954"
+        }
+      ],
+      "timeRefs": {
+        "jpm": {
+          "at": "2026-11-19T13:44:09+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "israel-anthropic-gains",
+      "section": "israel",
+      "priority": 9,
+      "kicker": {
+        "he": "ישראל · רווחי ההנפקה",
+        "en": "Israel · IPO gains"
+      },
+      "headline": {
+        "he": "גופים מוסדיים ישראליים הרוויחו מיליארדים מהנפקת אנתרופיק; קוצ'ר ועשרי הפכו 435 מיליון ל-11 מיליארד דולר",
+        "en": "Israeli institutions earned billions in the Anthropic IPO; Kutcher and Oseary turned $435 million into $11 billion"
+      },
+      "summary": {
+        "he": "גופים מוסדיים ישראליים הרוויחו מיליארדים מהנפקת אנתרופיק, לפי גלובס ב-{{time:billions}}. השחקן אשטון קוצ'ר ומנהל האמנים הישראלי גיא עשרי הפכו את השקעתם של 435 מיליון דולר באנתרופיק לכ-11 מיליארד דולר, לפי כלכליסט ב-{{time:kutcher}}.",
+        "en": "Israeli institutional investors earned billions in the Anthropic IPO, per Globes at {{time:billions}}. Actor Ashton Kutcher and Israeli talent manager Guy Oseary turned their $435 million investment in Anthropic into about $11 billion, per Calcalist at {{time:kutcher}}."
+      },
+      "bullets": {
+        "he": [
+          "בנק אוף אמריקה רואה הזדמנות במניית בנק דיסקונט, לפי גלובס ב-{{time:discount}}.",
+          "קבוצת ספיר הגישה הצעה לרכישת השליטה בקרפור ישראל, לפי TheMarker ב-{{time:sapir}}.",
+          "רשות החברות הממשלתיות מזהירה שרכבת ישראל ניצבת בפני סיכון נזילות ממשי בטווח המיידי, לפי גלובס ב-{{time:railways}}.",
+          "מנכ\"ל Keystone: 90% מבקשות החיבור לרשת החשמל של חוות השרתים לא יתממשו, לפי גלובס ב-{{time:keystone}}.",
+          "שיא למכירת ואן גוך: 190.4 מיליון דולר, לפי גלובס ב-{{time:vangogh}}."
+        ],
+        "en": [
+          "Bank of America sees an opportunity in Discount Bank shares, per Globes at {{time:discount}}.",
+          "The Sapir Group submitted a bid for control of Carrefour Israel, per TheMarker at {{time:sapir}}.",
+          "The Government Companies Authority warns Israel Railways faces a real liquidity risk in the immediate term, per Globes at {{time:railways}}.",
+          "Keystone's CEO: 90% of data-center grid connection requests will not materialize, per Globes at {{time:keystone}}.",
+          "A record for a Van Gogh sale: $190.4 million, per Globes at {{time:vangogh}}."
+        ]
+      },
+      "source": {
+        "name": "@globesnews · {{time:billions}}",
+        "url": "https://x.com/globesnews/status/2123370530170437956"
+      },
+      "secondarySources": [
+        {
+          "name": "@calcalist · {{time:kutcher}}",
+          "url": "https://x.com/calcalist/status/2123337515876667717"
+        },
+        {
+          "name": "@TheMarker",
+          "url": "https://x.com/TheMarker/status/2123416097344917530"
+        },
+        {
+          "name": "@globesnews · {{time:discount}}",
+          "url": "https://x.com/globesnews/status/2123379695815184743"
+        },
+        {
+          "name": "@TheMarker · {{time:sapir}}",
+          "url": "https://x.com/TheMarker/status/2123310357389181264"
+        },
+        {
+          "name": "@globesnews · {{time:railways}}",
+          "url": "https://x.com/globesnews/status/2123381992909684811"
+        },
+        {
+          "name": "@globesnews · {{time:keystone}}",
+          "url": "https://x.com/globesnews/status/2123386551266652457"
+        },
+        {
+          "name": "@globesnews · {{time:vangogh}}",
+          "url": "https://x.com/globesnews/status/2123404980665061619"
+        }
+      ],
+      "timeRefs": {
+        "billions": {
+          "at": "2026-11-19T10:59:19+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "kutcher": {
+          "at": "2026-11-19T08:48:08+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "discount": {
+          "at": "2026-11-19T11:35:44+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "sapir": {
+          "at": "2026-11-19T07:00:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "railways": {
+          "at": "2026-11-19T11:44:52+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "keystone": {
+          "at": "2026-11-19T12:02:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "vangogh": {
+          "at": "2026-11-19T13:16:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "corporate-moves",
+      "section": "markets",
+      "priority": 10,
+      "kicker": {
+        "he": "תאגידים · מהלכים",
+        "en": "Corporates · moves"
+      },
+      "headline": {
+        "he": "קומרבנק אישרה הסכם מיזוג עם אוניקרדיט; סנופי שוקלת רכישת Insmed; BASF ויתרה על Evonik",
+        "en": "Commerzbank confirmed a UniCredit takeover agreement; Sanofi weighs buying Insmed; BASF dropped Evonik"
+      },
+      "summary": {
+        "he": "קומרבנק אישרה הסכם השתלטות של אוניקרדיט, לפי LiveSquawk ב-{{time:commerz}}; סנופי שוקלת רכישה של חברת התרופות האמריקאית Insmed, לפי FirstSquawk ב-{{time:sanofi}}; ו-BASF סיימה את הניסיונות לרכוש את Evonik, לפי FirstSquawk ב-{{time:basf}}.",
+        "en": "Commerzbank confirmed a takeover agreement with UniCredit, per LiveSquawk at {{time:commerz}}; Sanofi is weighing a takeover of US drugmaker Insmed, per FirstSquawk at {{time:sanofi}}; and BASF ended its efforts to buy Evonik, per FirstSquawk at {{time:basf}}."
+      },
+      "bullets": {
+        "he": [
+          "טראמפ אמר שמדיניות הגירוש שלו אולי נוקשה מדי, והביע נכונות לעסקת הגירה עם הקונגרס הדמוקרטי הנכנס, לפי unusual_whales ב-{{time:trump}}.",
+          "המרד נגד ג'פריז התפורר והוא נבחר למועמד ליו\"ר בית הנבחרים ברוב מוחץ, לפי zerohedge ב-{{time:jeffries}}.",
+          "221 חברות הובלה אמריקאיות פשטו את הרגל ב-2026, הקצב הגבוה ביותר מזה שני עשורים, לפי unusual_whales ב-{{time:trucking}}."
+        ],
+        "en": [
+          "Trump said his deportation policies might be too tough and expressed openness to an immigration deal with the incoming Democratic Congress, per unusual_whales at {{time:trump}}.",
+          "The rebellion against Jeffries disintegrated and he was nominated for House Speaker in a landslide, per zerohedge at {{time:jeffries}}.",
+          "221 US trucking companies went bankrupt in 2026, the fastest pace in two decades, per unusual_whales at {{time:trucking}}."
+        ]
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:commerz}}",
+        "url": "https://x.com/LiveSquawk/status/2123316189397156203"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:sanofi}}",
+          "url": "https://x.com/FirstSquawk/status/2123432506959798294"
+        },
+        {
+          "name": "@FirstSquawk · {{time:basf}}",
+          "url": "https://x.com/FirstSquawk/status/2123417886807179770"
+        },
+        {
+          "name": "@unusual_whales · {{time:trump}}",
+          "url": "https://x.com/unusual_whales/status/2123420278441247231"
+        },
+        {
+          "name": "@zerohedge · {{time:jeffries}}",
+          "url": "https://x.com/zerohedge/status/2123432470901133591"
+        },
+        {
+          "name": "@unusual_whales · {{time:trucking}}",
+          "url": "https://x.com/unusual_whales/status/2123415245611847731"
+        }
+      ],
+      "timeRefs": {
+        "commerz": {
+          "at": "2026-11-19T07:23:23+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "sanofi": {
+          "at": "2026-11-19T15:05:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "basf": {
+          "at": "2026-11-19T14:07:30+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trump": {
+          "at": "2026-11-19T14:17:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "jeffries": {
+          "at": "2026-11-19T15:05:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trucking": {
+          "at": "2026-11-19T13:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "gta6-available",
+      "section": "tech",
+      "priority": 11,
+      "kicker": {
+        "he": "GTA VI · זמין כעת",
+        "en": "GTA VI · available now"
+      },
+      "headline": {
+        "he": "GTA VI זמין רשמית באזור החוף המזרחי של ארה\"ב",
+        "en": "GTA VI is officially available on the US East Coast"
+      },
+      "summary": {
+        "he": "GTA VI זמין רשמית למשחק באזור החוף המזרחי של ארה\"ב, לפי StockMKTNewz ב-{{time:gta}}.",
+        "en": "GTA VI is officially available to play on the US East Coast, per StockMKTNewz at {{time:gta}}."
+      },
+      "source": {
+        "name": "@StockMKTNewz · {{time:gta}}",
+        "url": "https://x.com/StockMKTNewz/status/2123288841683386641"
+      },
+      "marketCharts": [
+        {
+          "symbol": "TTWO",
+          "range": "1d"
+        }
+      ],
+      "timeRefs": {
+        "gta": {
+          "at": "2026-11-19T05:34:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    }
+  ]
+}
