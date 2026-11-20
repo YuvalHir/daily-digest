@@ -1,0 +1,534 @@
+{
+  "schemaVersion": "2.0",
+  "editionNumber": 13,
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-21T00:14:00+02:00",
+  "editionType": "close",
+  "editionSlug": "0014-close",
+  "editorialLead": {
+    "he": "מכירה חריפה בוול סטריט: ה-S&P ירד ביותר מ-10% מהשיא; אנבידיה איבדה 14% ביום",
+    "en": "Heavy Wall Street selling: S&P fell more than 10% from its peak; Nvidia lost 14% in a day"
+  },
+  "topSummary": {
+    "he": "וול סטריט סיימה את 20 בנובמבר בירידות חדות, וה-S&P רשם את השבוע החלש ביותר שלו ביותר משנה וחצי. אנבידיה הובילה את המכירה במניות השבבים, על רקע דיווח רויטרס על בדיקת סוגיות חשבונאיות בידי ה-SEC.",
+    "en": "Wall Street ended November 20 sharply lower, with the S&P posting its weakest week in more than 18 months. Nvidia led the chip-stock selloff amid Reuters reporting on an SEC accounting probe."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "^IXIC",
+    "NASDAQ:NVDA",
+    "AMD",
+    "MU",
+    "TTWO"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "^IXIC",
+      "range": "1d",
+      "label": {
+        "he": "נאסד\"ק",
+        "en": "Nasdaq"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "close-correction",
+      "section": "markets",
+      "priority": 1,
+      "kicker": {
+        "he": "וול סטריט · סגירת שבוע",
+        "en": "Wall Street · weekly close"
+      },
+      "headline": {
+        "he": "ה-S&P איבד 3.7% וירד ביותר מ-10% מהשיא; הנאסד\"ק צנח 5.3% ועבר להפסד שנתי",
+        "en": "S&P lost 3.7% to fall more than 10% below its peak; Nasdaq sank 5.3% and turned negative for the year"
+      },
+      "summary": {
+        "he": "ה-S&P 500 נסגר ב-20 בנובמבר בירידה של 3.7% ל-6,910.39 נקודות, יותר מ-10% מתחת לשיא של 6 באוקטובר, רמה המכונה בשוק תיקון. הנאסד\"ק ירד 5.3% ל-22,617.73 נקודות, והדאו איבד 949.73 נקודות, כ-1.9%, ל-48,147.33, לפי AP. העלייה שאליה עבר ה-S&P בשעות הבוקר לא החזיקה עד הסגירה, לפי דיווח הפתיחה של zerohedge ב-{{time:turn}} ונתוני הסיום של AP.",
+        "en": "The S&P 500 closed November 20 down 3.7% at 6,910.39, more than 10% below its October 6 peak, a decline commonly called a correction. The Nasdaq fell 5.3% to 22,617.73, and the Dow lost 949.73 points, about 1.9%, to 48,147.33, per AP. The S&P's morning reversal into positive territory did not last through the close, based on zerohedge's opening report at {{time:turn}} and AP's closing figures."
+      },
+      "bullets": {
+        "he": [
+          "השבוע איבד ה-S&P 500 כ-8.6%, הדאו 8%, הנאסד\"ק 10% והראסל 2000 ירד 7.5%, לפי AP; זה היה השבוע החלש ביותר של ה-S&P ביותר משנה וחצי.",
+          "מתחילת השנה הנאסד\"ק ירד 2.7%, בעוד ה-S&P נותר בעלייה של 0.9% והדאו בעלייה של 0.2%, לפי AP.",
+          "מדד הוויקס נסגר ב-35.89 נקודות, עלייה של 26.2%, לפי Investing.com."
+        ],
+        "en": [
+          "For the week, the S&P lost 8.6%, the Dow 8%, the Nasdaq 10% and the Russell 2000 7.5%, per AP; it was the S&P's weakest week in more than 18 months.",
+          "Year to date, the Nasdaq is down 2.7%, while the S&P remains up 0.9% and the Dow up 0.2%, per AP.",
+          "The VIX closed at 35.89, up 26.2%, per Investing.com."
+        ]
+      },
+      "source": {
+        "name": "Associated Press via Seattle Times",
+        "url": "https://www.seattletimes.com/business/how-major-us-stock-indexes-fared-friday-11-20-2026/"
+      },
+      "secondarySources": [
+        {
+          "name": "@zerohedge · {{time:turn}}",
+          "url": "https://x.com/zerohedge/status/2123792848080531787"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-193-5042683"
+        }
+      ],
+      "timeRefs": {
+        "turn": {
+          "at": "2026-11-20T14:57:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "isLead": true,
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-chip-rout",
+      "section": "tech",
+      "priority": 2,
+      "kicker": {
+        "he": "אנבידיה · גל המכירות",
+        "en": "Nvidia · the selloff"
+      },
+      "headline": {
+        "he": "אנבידיה צנחה 14% ל-125.53 דולר; רויטרס: ה-SEC בוחנת סוגיות חשבונאיות",
+        "en": "Nvidia sank 14% to $125.53; Reuters: SEC examines accounting issues"
+      },
+      "summary": {
+        "he": "אנבידיה נסגרה בירידה של 14.01% ל-125.53 דולר, שפל של 52 שבועות, לפי Investing.com. רויטרס דיווחה, מפי שני אנשים שתודרכו בנושא, שה-SEC בוחנת סוגיות חשבונאיות אפשריות באנבידיה. ה-SEC סירבה להגיב והחברה לא הגיבה מיד לפניית רויטרס; מועד פתיחת הבדיקה והסוגיות המדויקות לא התבררו. עצם הבדיקה אינה הוכחה לעבירה.",
+        "en": "Nvidia closed down 14.01% at $125.53, a 52-week low, per Investing.com. Reuters, citing two people briefed on the matter, reported that the SEC is examining possible accounting issues at Nvidia. The SEC declined comment and the company did not immediately respond to Reuters; the inquiry's start date and precise issues were unclear. An investigation is not evidence of wrongdoing."
+      },
+      "bullets": {
+        "he": [
+          "מיקרון ירדה 13.89% ל-594.51 דולר ו-AMD איבדה 13.25% ל-424.39 דולר, לפי Investing.com.",
+          "לפי KobeissiLetter ב-{{time:week}}, אנבידיה איבדה כ-23% השבוע, השבוע החלש ביותר שלה מאז אוקטובר 2008, וכ-905 מיליארד דולר משווי השוק.",
+          "טראמפ תמך בכך שג׳נסן הואנג יתנצל וישוב לתפקיד, לפי wallstengine ב-{{time:trump}}; זו עמדתו של טראמפ, לא החלטת דירקטוריון."
+        ],
+        "en": [
+          "Micron fell 13.89% to $594.51 and AMD lost 13.25% to $424.39, per Investing.com.",
+          "Per KobeissiLetter at {{time:week}}, Nvidia lost about 23% over the week, its weakest week since October 2008, and roughly $905 billion in market value.",
+          "Trump supported Jensen Huang apologizing and returning to his role, per wallstengine at {{time:trump}}; that is Trump's position, not a board decision."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:sec}}",
+        "url": "https://x.com/DeItaone/status/2123856819642585554"
+      },
+      "secondarySources": [
+        {
+          "name": "@KobeissiLetter · {{time:week}}",
+          "url": "https://x.com/KobeissiLetter/status/2123885395033100559"
+        },
+        {
+          "name": "@wallstengine · {{time:trump}}",
+          "url": "https://x.com/wallstengine/status/2123845550139449408"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-193-5042683"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/"
+        }
+      ],
+      "timeRefs": {
+        "sec": {
+          "at": "2026-11-20T19:11:39+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "week": {
+          "at": "2026-11-20T21:05:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trump": {
+          "at": "2026-11-20T18:26:52+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        },
+        {
+          "symbol": "AMD",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-second-close",
+      "section": "tech",
+      "priority": 3,
+      "kicker": {
+        "he": "אנתרופיק · מהפתיחה לסגירה",
+        "en": "Anthropic · open to close"
+      },
+      "headline": {
+        "he": "אנתרופיק ירדה לשפל של 83.05 דולר, חמישה סנט מעל מחיר ההנפקה; נסגרה בירידה של 9.1%",
+        "en": "Anthropic touched $83.05, five cents above its IPO price; closed down 9.1%"
+      },
+      "summary": {
+        "he": "לאחר פתיחה מדווחת ב-88.45 דולר, לפי DeItaone ב-{{time:open}}, אנתרופיק ירדה במהלך היום לשפל מדווח של 83.05 דולר, לפי FirstSquawk ב-{{time:low}}. זהו פער של חמישה סנט ממחיר ההנפקה, 83 דולר. המניה סיימה את יום המסחר השני בירידה של 9.1%, לפי LiveSquawk ב-{{time:close}}; לא מוצג כאן מחיר סגירה המחושב מאחוז מעוגל.",
+        "en": "After a reported $88.45 opening, per DeItaone at {{time:open}}, Anthropic reached a reported intraday low of $83.05, per FirstSquawk at {{time:low}}. That is five cents above the $83 IPO price. The stock ended its second trading day down 9.1%, per LiveSquawk at {{time:close}}; no closing price inferred from a rounded percentage is presented here."
+      },
+      "bullets": {
+        "he": [
+          "לפי LiveSquawk ב-{{time:pentagon}}, המייחס את הדיווח ל-CNBC, הטכנולוג הראשי של הפנטגון תיאר את אנתרופיק כסיכון לשרשרת האספקה של משרד ההגנה וביקש תוספת תקציב לכוח משימה בתחום ה-AI.",
+          "טראמפ שיבח את ההנפקה ואת דריו אמודאי, לפי wallstengine ב-{{time:praise}}.",
+          "קרנות Tradr הממונפות ללונג ולשורט על אנתרופיק צפויות להתחיל להיסחר ביום שני, 23 בנובמבר, לפי StockMKTNewz ב-{{time:etf}}."
+        ],
+        "en": [
+          "LiveSquawk at {{time:pentagon}}, citing CNBC, reported that the Pentagon's chief technologist described Anthropic as a Defense Department supply-chain risk and sought more funding for an AI task force.",
+          "Trump praised the IPO and Dario Amodei, per wallstengine at {{time:praise}}.",
+          "Tradr's leveraged long and short Anthropic ETFs are expected to launch on Monday, November 23, per StockMKTNewz at {{time:etf}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:open}}",
+        "url": "https://x.com/DeItaone/status/2123786206295343150"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:low}}",
+          "url": "https://x.com/FirstSquawk/status/2123838796181749809"
+        },
+        {
+          "name": "@LiveSquawk · {{time:close}}",
+          "url": "https://x.com/LiveSquawk/status/2123884637558804729"
+        },
+        {
+          "name": "@LiveSquawk · {{time:pentagon}}",
+          "url": "https://x.com/LiveSquawk/status/2123814319213379963"
+        },
+        {
+          "name": "@wallstengine · {{time:praise}}",
+          "url": "https://x.com/wallstengine/status/2123834551369646485"
+        },
+        {
+          "name": "@StockMKTNewz · {{time:etf}}",
+          "url": "https://x.com/StockMKTNewz/status/2123829663684603967"
+        }
+      ],
+      "timeRefs": {
+        "open": {
+          "at": "2026-11-20T14:31:04+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "low": {
+          "at": "2026-11-20T18:00:02+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "close": {
+          "at": "2026-11-20T21:02:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "pentagon": {
+          "at": "2026-11-20T16:22:46+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "praise": {
+          "at": "2026-11-20T17:43:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "etf": {
+          "at": "2026-11-20T17:23:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "gulf-escalation",
+      "section": "geopolitics",
+      "priority": 4,
+      "kicker": {
+        "he": "המפרץ · דיווחים וגרסאות",
+        "en": "The Gulf · reports and competing accounts"
+      },
+      "headline": {
+        "he": "דיווח על פגיעה במכלית בהורמוז; החות׳ים טענו לתקיפה בסעודיה",
+        "en": "Tanker hit reported in Hormuz; Houthis claimed an attack in Saudi Arabia"
+      },
+      "summary": {
+        "he": "FirstSquawk ב-{{time:ukmto}} דיווח, בשם UKMTO, על פגיעת חימוש לא מזוהה במכלית במצר הורמוז. בנפרד, משמרות המהפכה טענו שמכלית עלתה באש אחרי פגיעה במוקש ליד חסאב בעומאן, לפי DeItaone ב-{{time:irgc}}. הגרסה האיראנית אינה אישור עצמאי לסיבת האירוע. החות׳ים טענו שתקפו את תחנת הכוח שוקייק ואת נמל ג׳אזאן בסעודיה, לפי FirstSquawk ב-{{time:houthis}}.",
+        "en": "FirstSquawk at {{time:ukmto}}, citing UKMTO, reported that an unidentified projectile hit a tanker in the Strait of Hormuz. Separately, Iran's Revolutionary Guards claimed a tanker caught fire after hitting a mine near Khasab, Oman, per DeItaone at {{time:irgc}}. The Iranian account is not independent confirmation of the cause. The Houthis claimed attacks on Saudi Arabia's Shuqaiq power plant and Jazan port, per FirstSquawk at {{time:houthis}}."
+      },
+      "bullets": {
+        "he": [
+          "טסנים דיווחה על פגיעת טיל באזור האי קישם, לפי DeItaone ב-{{time:tasnim}}, בעוד IRNA ייחסה פיצוץ לפינוי תחמושת, לפי LiveSquawk ב-{{time:irna}}. הגרסאות אינן מאוחדות כאן לאירוע שסיבתו אומתה.",
+          "לפי ה-FT דרך LiveSquawk ב-{{time:ft}}, טראמפ שוקל תקיפות חדשות באיראן בעוד הצבא האמריקאי מזהיר מעומס על הכוחות."
+        ],
+        "en": [
+          "Tasnim reported a missile strike near Qeshm island, per DeItaone at {{time:tasnim}}, while IRNA attributed an explosion to ammunition disposal, per LiveSquawk at {{time:irna}}. These accounts are not merged into a verified explanation.",
+          "Per the FT via LiveSquawk at {{time:ft}}, Trump is considering new strikes on Iran while the US military warns of strain on its forces."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:ukmto}}",
+        "url": "https://x.com/FirstSquawk/status/2123811863473664233"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:irgc}}",
+          "url": "https://x.com/DeItaone/status/2123816599949844831"
+        },
+        {
+          "name": "@FirstSquawk · {{time:houthis}}",
+          "url": "https://x.com/FirstSquawk/status/2123825555716141060"
+        },
+        {
+          "name": "@DeItaone · {{time:tasnim}}",
+          "url": "https://x.com/DeItaone/status/2123809218952372534"
+        },
+        {
+          "name": "@LiveSquawk · {{time:irna}}",
+          "url": "https://x.com/LiveSquawk/status/2123820841091637727"
+        },
+        {
+          "name": "@LiveSquawk · {{time:ft}}",
+          "url": "https://x.com/LiveSquawk/status/2123874320510288062"
+        }
+      ],
+      "timeRefs": {
+        "ukmto": {
+          "at": "2026-11-20T16:13:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "irgc": {
+          "at": "2026-11-20T16:31:50+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "houthis": {
+          "at": "2026-11-20T17:07:25+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tasnim": {
+          "at": "2026-11-20T16:02:30+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "irna": {
+          "at": "2026-11-20T16:48:41+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ft": {
+          "at": "2026-11-20T20:21:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "fed-cook",
+      "section": "markets",
+      "priority": 5,
+      "kicker": {
+        "he": "הפד · ריבית",
+        "en": "The Fed · rates"
+      },
+      "headline": {
+        "he": "ליסה קוק: העלאת ספטמבר לא הספיקה; תמחור הריבית משתנה",
+        "en": "Lisa Cook: September's hike was insufficient; rate pricing shifts"
+      },
+      "summary": {
+        "he": "נגידת הפד ליסה קוק אמרה שהעלאת הריבית בספטמבר לא הספיקה ושהמדיניות אינה מרסנת דיה, לפי LiveSquawk ב-{{time:cook}}. בהמשך דיווח DeItaone ב-{{time:pricing}} שהסוחרים כבר אינם מתמחרים במלואה העלאת ריבית בדצמבר; אין בדיווח המצוטט כאן הסתברות חדשה המאפשרת השוואה מספרית ישירה לאתמול.",
+        "en": "Fed Governor Lisa Cook said September's rate hike was insufficient and policy was not restrictive enough, per LiveSquawk at {{time:cook}}. Later, DeItaone at {{time:pricing}} reported that traders no longer fully priced a December hike; the report cited here does not supply a new probability for a direct numerical comparison with yesterday."
+      },
+      "bullets": {
+        "he": [
+          "לפי unusual_whales ב-{{time:citi}}, סיטי מעריכה שרמת הריבית אינה בת-קיימא וצופה הפחתה ב-2027. זו תחזית הבנק, לא התחייבות של הפד."
+        ],
+        "en": [
+          "Per unusual_whales at {{time:citi}}, Citi views the level of rates as unsustainable and expects a cut in 2027. This is a bank forecast, not a Fed commitment."
+        ]
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:cook}}",
+        "url": "https://x.com/LiveSquawk/status/2123827959714992415"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:pricing}}",
+          "url": "https://x.com/DeItaone/status/2123863025010557405"
+        },
+        {
+          "name": "@unusual_whales · {{time:citi}}",
+          "url": "https://x.com/unusual_whales/status/2123868229890154755"
+        }
+      ],
+      "timeRefs": {
+        "cook": {
+          "at": "2026-11-20T17:16:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "pricing": {
+          "at": "2026-11-20T19:36:19+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "citi": {
+          "at": "2026-11-20T19:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "bitcoin-drawdown",
+      "section": "markets",
+      "priority": 6,
+      "kicker": {
+        "he": "קריפטו · המשך הירידות",
+        "en": "Crypto · further losses"
+      },
+      "headline": {
+        "he": "ביטקוין נסחר סביב 58 אלף דולר; לפי ביללו, נמוך בכ-54% מהשיא",
+        "en": "Bitcoin traded near $58,000; Bilello reports a roughly 54% decline from the peak"
+      },
+      "summary": {
+        "he": "ביטקוין נסחר ב-58,048 דולר, בירידה של 5.62% בעת הדיווח של DeItaone ב-{{time:btc}}. לפי charliebilello ב-{{time:drawdown}}, הוא ירד בכ-54% משיא אוקטובר 2025, הירידה העמוקה ביותר מאז 2022. אלה תצפיות בזמנים שונים בשוק הפועל ברציפות, לא מחיר סגירה משותף עם מדדי המניות.",
+        "en": "Bitcoin traded at $58,048, down 5.62% at the time of DeItaone's report at {{time:btc}}. Per charliebilello at {{time:drawdown}}, it was about 54% below its October 2025 peak, its deepest drawdown since 2022. These are observations at different times in a continuously traded market, not a closing price shared with equity indexes."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:btc}}",
+        "url": "https://x.com/DeItaone/status/2123862388504166532"
+      },
+      "secondarySources": [
+        {
+          "name": "@charliebilello · {{time:drawdown}}",
+          "url": "https://x.com/charliebilello/status/2123891809176940650"
+        }
+      ],
+      "timeRefs": {
+        "btc": {
+          "at": "2026-11-20T19:33:47+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "drawdown": {
+          "at": "2026-11-20T21:30:41+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "companies-gta-microsoft",
+      "section": "tech",
+      "priority": 7,
+      "kicker": {
+        "he": "חברות · משחקים ועבודה",
+        "en": "Companies · games and work"
+      },
+      "headline": {
+        "he": "דיווחים על השקת שיא ל-GTA VI; נאדלה קושר חבילות פרישה להתקדמות ה-AI",
+        "en": "Reports of a record GTA VI launch; Nadella links buyouts to AI advances"
+      },
+      "summary": {
+        "he": "DeItaone ב-{{time:gta}} ו-StockMKTNewz ב-{{time:games}} דיווחו על מכירות של 3.79 מיליארד דולר ל-GTA VI ביום הראשון. הנתון מיוחס לדיווחים אלה ולא אומת כאן מול הודעת Take-Two. לפי unusual_whales ב-{{time:nadella}}, המייחס את הדברים ל-TechCrunch, סאטיה נאדלה קשר בין התקדמות ה-AI להצעת חבילות פרישה לכ-60 אלף עובדי מיקרוסופט במקום סבב פיטורים נוסף.",
+        "en": "DeItaone at {{time:gta}} and StockMKTNewz at {{time:games}} reported $3.79 billion in first-day GTA VI sales. The figure is attributed to those reports and was not checked here against a Take-Two announcement. Per unusual_whales at {{time:nadella}}, citing TechCrunch, Satya Nadella linked AI advances to offering buyouts to roughly 60,000 Microsoft employees instead of another layoff round."
+      },
+      "bullets": {
+        "he": [
+          "לפי FirstSquawk ב-{{time:ftc}}, עשר מדינות נוספות הצטרפו להרחבת תביעת ה-FTC נגד דולר ג׳נרל."
+        ],
+        "en": [
+          "Per FirstSquawk at {{time:ftc}}, ten more states joined the expanded FTC lawsuit against Dollar General."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:gta}}",
+        "url": "https://x.com/DeItaone/status/2123860264198324588"
+      },
+      "secondarySources": [
+        {
+          "name": "@StockMKTNewz · {{time:games}}",
+          "url": "https://x.com/StockMKTNewz/status/2123863185556168904"
+        },
+        {
+          "name": "@unusual_whales · {{time:nadella}}",
+          "url": "https://x.com/unusual_whales/status/2123873262946156925"
+        },
+        {
+          "name": "@FirstSquawk · {{time:ftc}}",
+          "url": "https://x.com/FirstSquawk/status/2123863252354707915"
+        }
+      ],
+      "timeRefs": {
+        "gta": {
+          "at": "2026-11-20T19:25:21+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "games": {
+          "at": "2026-11-20T19:36:57+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nadella": {
+          "at": "2026-11-20T20:17:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ftc": {
+          "at": "2026-11-20T19:37:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "defensive-gainers",
+      "section": "markets",
+      "priority": 8,
+      "kicker": {
+        "he": "מניות · נגד המגמה",
+        "en": "Stocks · against the trend"
+      },
+      "headline": {
+        "he": "יונייטדהלת׳, ורייזון ו-וולמארט עלו למרות גל המכירות",
+        "en": "UnitedHealth, Verizon and Walmart rose despite the selloff"
+      },
+      "summary": {
+        "he": "לצד הירידות החדות בטכנולוגיה, יונייטדהלת׳ עלתה 2.84% ל-339.85 דולר, ורייזון עלתה 1.62% ל-46.48 דולר ו-וולמארט הוסיפה 1.52% ל-127.95 דולר בסגירה, לפי Investing.com.",
+        "en": "Alongside the technology selloff, UnitedHealth rose 2.84% to $339.85, Verizon gained 1.62% to $46.48 and Walmart added 1.52% to $127.95 at the close, per Investing.com."
+      },
+      "bullets": {
+        "he": [
+          "גלובל פיימנטס בלטה בעלייה של 9.95% ל-91.83 דולר, בעוד ג׳נרל מילס עלתה 3.67% ומקורמיק הוסיפה 3.41%, לפי Investing.com."
+        ],
+        "en": [
+          "Global Payments stood out with a 9.95% gain to $91.83, while General Mills rose 3.67% and McCormick gained 3.41%, per Investing.com."
+        ]
+      },
+      "source": {
+        "name": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-193-5042683"
+      },
+      "secondarySources": [],
+      "timeRefs": {}
+    }
+  ]
+}
