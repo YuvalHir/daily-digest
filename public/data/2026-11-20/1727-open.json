@@ -1,0 +1,750 @@
+{
+  "schemaVersion": "2.0",
+  "editionNumber": 12,
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-20T17:27:00+02:00",
+  "editionType": "open",
+  "editionSlug": "1727-open",
+  "editorialLead": {
+    "he": "פתיחה תנודתית בוול סטריט: ה-S&P עבר מירידות לעליות; אנתרופיק פתחה את יום המסחר השני בירידה",
+    "en": "A volatile Wall Street open: the S&P reversed higher; Anthropic opened its second trading day lower"
+  },
+  "topSummary": {
+    "he": "ה-S&P עבר לעליות אחרי פתיחה אדומה, לפי דיווח מסביבות 9:57 שעון ניו יורק ב-20 בנובמבר. אנתרופיק פתחה את יום המסחר השני בירידה, לאחר נפילה חדה יותר בטרום-מסחר.",
+    "en": "The S&P turned positive after a weak start, according to a report around 9:57 New York time on November 20. Anthropic opened its second trading day lower after a steeper premarket fall."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "^IXIC",
+    "NASDAQ:NVDA",
+    "AMD",
+    "BILL",
+    "TTWO"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "^IXIC",
+      "range": "1d",
+      "label": {
+        "he": "נאסד״ק",
+        "en": "Nasdaq"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "opening-reversal",
+      "section": "markets",
+      "priority": 1,
+      "kicker": {
+        "he": "וול סטריט · פתיחה תנודתית",
+        "en": "Wall Street · a volatile open"
+      },
+      "headline": {
+        "he": "פתיחה אדומה בטכנולוגיה, ואז היפוך: ה-S&P עבר לעליות אחרי ירידה של 0.6%",
+        "en": "Tech opened lower, then a reversal: the S&P turned positive after falling 0.6%"
+      },
+      "summary": {
+        "he": "הנאסד\"ק פתח את המסחר ב-20 בנובמבר בירידה של 1.19%, לפי DeItaone ב-{{time:open}}. בהמשך, בסביבות 9:57 שעון ניו יורק, עבר ה-S&P 500 לעליות לאחר שירד 0.6%, ביום פקיעת האופציות החודשית, לפי zerohedge ב-{{time:turn}}. זהו רצף האירועים שנצפה עד סריקת המקורות ב-10:15 שעון ניו יורק, ולא ציטוט מדדים בזמן הפרסום.",
+        "en": "The Nasdaq opened November 20 trading down 1.19%, per DeItaone at {{time:open}}. Later, around 9:57 New York time, the S&P 500 turned positive after falling 0.6%, on monthly options-expiry day, per zerohedge at {{time:turn}}. This sequence reflects sources scanned through 10:15 New York time, not index quotes at publication."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:open}}",
+        "url": "https://x.com/DeItaone/status/2123786131078815964"
+      },
+      "secondarySources": [
+        {
+          "name": "@zerohedge · {{time:turn}}",
+          "url": "https://x.com/zerohedge/status/2123792848080531787"
+        },
+        {
+          "name": "@DeItaone · {{time:streak}}",
+          "url": "https://x.com/DeItaone/status/2123788652144673212"
+        },
+        {
+          "name": "@StockMKTNewz · {{time:fear}}",
+          "url": "https://x.com/StockMKTNewz/status/2123796355747324176"
+        },
+        {
+          "name": "@StockMKTNewz · {{time:nvda}}",
+          "url": "https://x.com/StockMKTNewz/status/2123791826511405310"
+        },
+        {
+          "name": "@DeItaone · {{time:yardeni}}",
+          "url": "https://x.com/DeItaone/status/2123791259722502398"
+        }
+      ],
+      "timeRefs": {
+        "open": {
+          "at": "2026-11-20T14:30:46+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "turn": {
+          "at": "2026-11-20T14:57:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "streak": {
+          "at": "2026-11-20T14:40:47+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fear": {
+          "at": "2026-11-20T15:11:24+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nvda": {
+          "at": "2026-11-20T14:53:24+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "yardeni": {
+          "at": "2026-11-20T14:51:09+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "bullets": {
+        "he": [
+          "לאחר שש ירידות יומיות רצופות, ירידה נוספת ב-S&P 500 בסיום המסחר תאריך את הרצף לשבעה ימים, הארוך ביותר מאז פברואר 2020, לפי DeItaone ב-{{time:streak}}.",
+          "מדד הפחד והתאווה עמד על 16 נקודות, רמת פחד קיצוני, לפי StockMKTNewz ב-{{time:fear}}.",
+          "אנבידיה ירדה למקום הרביעי בין החברות האמריקאיות לפי שווי שוק, אחרי אלפאבית, לפי StockMKTNewz ב-{{time:nvda}}.",
+          "הכלכלן אד ירדני תיאר את גל המכירות במניות ה-AI כהזדמנות קנייה, לפי DeItaone ב-{{time:yardeni}}."
+        ],
+        "en": [
+          "After six consecutive daily losses, another S&P 500 loss at the close would extend the streak to seven sessions, its longest since February 2020, per DeItaone at {{time:streak}}.",
+          "The Fear & Greed Index stood at 16, an extreme-fear reading, per StockMKTNewz at {{time:fear}}.",
+          "Nvidia slipped behind Alphabet into fourth place among US companies by market value, per StockMKTNewz at {{time:nvda}}.",
+          "Economist Ed Yardeni described the AI selloff as a buying opportunity, per DeItaone at {{time:yardeni}}."
+        ]
+      },
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        }
+      ],
+      "isLead": true
+    },
+    {
+      "id": "anthropic-second-session",
+      "section": "tech",
+      "priority": 2,
+      "kicker": {
+        "he": "אנתרופיק · יום המסחר השני",
+        "en": "Anthropic · second trading day"
+      },
+      "headline": {
+        "he": "אנתרופיק נפתחה ב-88.45 דולר, בירידה של כ-9%, לאחר נפילה חדה יותר בטרום-מסחר",
+        "en": "Anthropic opened at $88.45, down about 9%, after a steeper premarket fall"
+      },
+      "summary": {
+        "he": "בטרום-מסחר נרשמה באנתרופיק ירידה של עד 14%, לפי FirstSquawk ב-{{time:pre}}; אינדיקציית הפתיחה עמדה סביב 84 דולר, קרוב למחיר ההנפקה של 83 דולר, לפי StockMKTNewz ב-{{time:ind}}. בפתיחת המסחר בפועל דווח על מחיר של 88.45 דולר וירידה של כ-9%, לפי DeItaone ב-{{time:trade}}. אלה שלבים שונים במסחר, ולא מחיר אחיד לאותה שעה.",
+        "en": "Anthropic fell as much as 14% premarket, per FirstSquawk at {{time:pre}}; its opening indication was around $84, close to the $83 IPO price, per StockMKTNewz at {{time:ind}}. Actual opening trading was reported at $88.45, down about 9%, per DeItaone at {{time:trade}}. These are different stages of trading, not a single quote for the same moment."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:pre}}",
+        "url": "https://x.com/FirstSquawk/status/2123772967016689670"
+      },
+      "secondarySources": [
+        {
+          "name": "@StockMKTNewz · {{time:ind}}",
+          "url": "https://x.com/StockMKTNewz/status/2123773374040281413"
+        },
+        {
+          "name": "@DeItaone · {{time:trade}}",
+          "url": "https://x.com/DeItaone/status/2123786206295343150"
+        },
+        {
+          "name": "@FirstSquawk · {{time:fsopen}}",
+          "url": "https://x.com/FirstSquawk/status/2123786593467306275"
+        },
+        {
+          "name": "@FirstSquawk · {{time:mgx}}",
+          "url": "https://x.com/FirstSquawk/status/2123712351778288008"
+        },
+        {
+          "name": "@DeItaone · {{time:etf}}",
+          "url": "https://x.com/DeItaone/status/2123790609844494664"
+        }
+      ],
+      "timeRefs": {
+        "pre": {
+          "at": "2026-11-20T13:38:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ind": {
+          "at": "2026-11-20T13:40:04+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trade": {
+          "at": "2026-11-20T14:31:04+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fsopen": {
+          "at": "2026-11-20T14:32:36+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "mgx": {
+          "at": "2026-11-20T09:37:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "etf": {
+          "at": "2026-11-20T14:48:34+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "bullets": {
+        "he": [
+          "FirstSquawk דיווח בנפרד על ירידה של 9.5% בפתיחה ב-{{time:fsopen}}.",
+          "קרן MGX מאבו דאבי רשמה רווח על הנייר של 20 מיליארד דולר מההנפקה, לפי FirstSquawk ב-{{time:mgx}}.",
+          "לפי DeItaone ב-{{time:etf}}, קרנות Leverage Shares הממונפות פי שניים על אנתרופיק, ללונג ולשורט, צפויות להתחיל להיסחר ביום שני, 23 בנובמבר."
+        ],
+        "en": [
+          "FirstSquawk separately reported a 9.5% opening decline at {{time:fsopen}}.",
+          "Abu Dhabi fund MGX recorded a $20 billion paper gain from the IPO, per FirstSquawk at {{time:mgx}}.",
+          "Per DeItaone at {{time:etf}}, Leverage Shares 2x long and short Anthropic ETFs are due to launch on Monday, November 23."
+        ]
+      }
+    },
+    {
+      "id": "global-chip-selling",
+      "section": "markets",
+      "priority": 3,
+      "kicker": {
+        "he": "טכנולוגיה · מכירה גלובלית",
+        "en": "Technology · global selling"
+      },
+      "headline": {
+        "he": "הניקיי ירד 5%, הקוספי איבד 5.21%; מניות השבבים בארה\"ב נחלשו גם הן",
+        "en": "Nikkei fell 5%, KOSPI lost 5.21%; US chip stocks also weakened"
+      },
+      "summary": {
+        "he": "גל המכירות בטכנולוגיה התרחב לשווקים נוספים: הניקיי ירד 5%, לפי FirstSquawk ב-{{time:nikkei}}, והקוספי ירד 5.21% לרמתו הנמוכה מאז 16 בינואר, לפי FirstSquawk ב-{{time:kospi}}. בגרמניה הצביעו אינדיקציות טרום-מסחר על ירידות של 3%-5% במניות שבבים, לפי FirstSquawk ב-{{time:germany}}.",
+        "en": "The technology selloff spread across markets: the Nikkei fell 5%, per FirstSquawk at {{time:nikkei}}, while the KOSPI dropped 5.21% to its lowest since January 16, per FirstSquawk at {{time:kospi}}. German chip stocks were indicated 3-5% lower premarket, per FirstSquawk at {{time:germany}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:nikkei}}",
+        "url": "https://x.com/FirstSquawk/status/2123653713852264852"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:kospi}}",
+          "url": "https://x.com/FirstSquawk/status/2123666555640963080"
+        },
+        {
+          "name": "@FirstSquawk · {{time:germany}}",
+          "url": "https://x.com/FirstSquawk/status/2123666713652998321"
+        },
+        {
+          "name": "@DeItaone · {{time:chips}}",
+          "url": "https://x.com/DeItaone/status/2123791163924631839"
+        }
+      ],
+      "timeRefs": {
+        "nikkei": {
+          "at": "2026-11-20T05:44:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "kospi": {
+          "at": "2026-11-20T06:35:37+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "germany": {
+          "at": "2026-11-20T06:36:15+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "chips": {
+          "at": "2026-11-20T14:50:46+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "bullets": {
+        "he": [
+          "בארה\"ב, לפי DeItaone ב-{{time:chips}}, מיקרון ירדה 6.3%, מארוול 5.3% ו-AMD ירדה 4.9%; הנתונים מתייחסים לדיווח מסביבות 9:50 שעון ניו יורק."
+        ],
+        "en": [
+          "In the US, Micron fell 6.3%, Marvell 5.3% and AMD 4.9%, per DeItaone at {{time:chips}}; these figures refer to the report around 9:50 New York time."
+        ]
+      },
+      "marketCharts": [
+        {
+          "symbol": "AMD",
+          "range": "1d"
+        },
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "michigan-inflation",
+      "section": "markets",
+      "priority": 4,
+      "kicker": {
+        "he": "מאקרו · ציפיות הצרכנים",
+        "en": "Macro · consumer expectations"
+      },
+      "headline": {
+        "he": "מישיגן: סנטימנט הצרכנים בנובמבר עמד על 51.5; ציפיות האינפלציה לשנה ירדו ל-3.7%",
+        "en": "Michigan: November sentiment was 51.5; one-year inflation expectations fell to 3.7%"
+      },
+      "summary": {
+        "he": "בקריאה הסופית לנובמבר עמד מדד סנטימנט הצרכנים של אוניברסיטת מישיגן על 51.5, מעט מתחת לתחזית של 51.6, לפי LiveSquawk ב-{{time:mich}} ו-wallstengine ב-{{time:wall}}. ציפיות האינפלציה לשנה ירדו מ-4.3% ל-3.7%, וציפיות האינפלציה ל-5-10 שנים ירדו מ-3.4% ל-3.3%, לפי אותם דיווחים.",
+        "en": "The final November University of Michigan consumer-sentiment index was 51.5, slightly below the 51.6 forecast, per LiveSquawk at {{time:mich}} and wallstengine at {{time:wall}}. One-year inflation expectations fell from 4.3% to 3.7%, and five-to-ten-year expectations fell from 3.4% to 3.3%, according to those reports."
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:mich}}",
+        "url": "https://x.com/LiveSquawk/status/2123793666921705867"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:wall}}",
+          "url": "https://x.com/wallstengine/status/2123794165024858221"
+        },
+        {
+          "name": "@LiveSquawk · {{time:euro}}",
+          "url": "https://x.com/LiveSquawk/status/2123793681878864069"
+        },
+        {
+          "name": "@unusual_whales · {{time:auto}}",
+          "url": "https://x.com/unusual_whales/status/2123787699890831506"
+        }
+      ],
+      "timeRefs": {
+        "mich": {
+          "at": "2026-11-20T15:00:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wall": {
+          "at": "2026-11-20T15:02:41+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "euro": {
+          "at": "2026-11-20T15:00:46+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "auto": {
+          "at": "2026-11-20T14:37:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "bullets": {
+        "he": [
+          "מדד התנאים הנוכחיים עמד על 49.4 ומדד הציפיות על 52.9, לפי LiveSquawk ב-{{time:mich}}.",
+          "אמון הצרכנים באזור האירו עלה בנובמבר למינוס 16.9 נקודות, לעומת תחזית למינוס 18.0, לפי LiveSquawk ב-{{time:euro}}.",
+          "בארה\"ב, 5.7% מיתרות ההלוואות לרכב היו בפיגור של 90 יום ומעלה, השיעור הגבוה ביותר בסדרה שמתחילה ב-2003; חוב הרכב הגיע ל-1.73 טריליון דולר ברבעון השלישי, לפי unusual_whales ב-{{time:auto}}."
+        ],
+        "en": [
+          "The current-conditions index was 49.4 and the expectations index was 52.9, per LiveSquawk at {{time:mich}}.",
+          "Eurozone consumer confidence rose to minus 16.9 in November, versus a minus 18.0 forecast, per LiveSquawk at {{time:euro}}.",
+          "In the US, 5.7% of auto-loan balances were at least 90 days delinquent, the highest in a series beginning in 2003; auto debt reached $1.73 trillion in the third quarter, per unusual_whales at {{time:auto}}."
+        ]
+      }
+    },
+    {
+      "id": "trade-and-hormuz",
+      "section": "geopolitics",
+      "priority": 5,
+      "kicker": {
+        "he": "סחר · המפרץ",
+        "en": "Trade · the Gulf"
+      },
+      "headline": {
+        "he": "גריר: טרם הושג הסכם להארכת הפסקת האש המסחרית עם סין; דיווח על פיצוצים בהורמוז",
+        "en": "Greer: no deal yet to extend the China trade truce; explosions reported in Hormuz"
+      },
+      "summary": {
+        "he": "נציג הסחר האמריקאי ג׳יימיסון גריר אמר שעדיין אין הסכם להארכת הפסקת האש המסחרית עם סין ושההארכה תלויה בסוגיית המינרלים הנדירים, לפי LiveSquawk ב-{{time:greer}}. בנפרד, סוכנות סברין דיווחה על פיצוצים שנשמעו במצר הורמוז, לפי FirstSquawk ב-{{time:hormuz}}; זהו דיווח המיוחס לסוכנות, ולא אישור עצמאי לסיבת הפיצוצים.",
+        "en": "US Trade Representative Jamieson Greer said there is no agreement yet to extend the trade truce with China and that an extension hinges on rare earths, per LiveSquawk at {{time:greer}}. Separately, Saberen News reported explosions in the Strait of Hormuz, per FirstSquawk at {{time:hormuz}}; this is an attributed report, not independent confirmation of their cause."
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:greer}}",
+        "url": "https://x.com/LiveSquawk/status/2123773707281744075"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:licenses}}",
+          "url": "https://x.com/wallstengine/status/2123776172979040409"
+        },
+        {
+          "name": "@FirstSquawk · {{time:hormuz}}",
+          "url": "https://x.com/FirstSquawk/status/2123732628746699147"
+        },
+        {
+          "name": "@zerohedge · {{time:shipping}}",
+          "url": "https://x.com/zerohedge/status/2123703002850578577"
+        },
+        {
+          "name": "@FirstSquawk · {{time:houthis}}",
+          "url": "https://x.com/FirstSquawk/status/2123746171089043960"
+        }
+      ],
+      "timeRefs": {
+        "greer": {
+          "at": "2026-11-20T13:41:24+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "licenses": {
+          "at": "2026-11-20T13:51:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "hormuz": {
+          "at": "2026-11-20T10:58:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "shipping": {
+          "at": "2026-11-20T09:00:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "houthis": {
+          "at": "2026-11-20T11:51:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "bullets": {
+        "he": [
+          "גריר צופה רישיונות נוספים למינרלים נדירים והפחתות מכסים מצד סין עד סוף השנה, לפי wallstengine ב-{{time:licenses}}.",
+          "לפי zerohedge ב-{{time:shipping}}, התקיפות האיראניות נגד שיט במצר יותר מהוכפלו לעומת החודשים הקודמים.",
+          "החות׳ים איימו לתקוף את תחנת הכוח שוקייק בסעודיה בשעות שלאחר הודעתם, בתגובה לתקיפות בסעדה ובמוחא, לפי FirstSquawk ב-{{time:houthis}}."
+        ],
+        "en": [
+          "Greer expects more rare-earth licenses and Chinese tariff cuts by year-end, per wallstengine at {{time:licenses}}.",
+          "Per zerohedge at {{time:shipping}}, Iranian attacks on shipping in the strait more than doubled compared with previous months.",
+          "The Houthis threatened to attack Saudi Arabia's Shuqaiq power plant in the hours following their statement, in retaliation for strikes on Saada and Mocha, per FirstSquawk at {{time:houthis}}."
+        ]
+      }
+    },
+    {
+      "id": "poland-ukraine",
+      "section": "geopolitics",
+      "priority": 6,
+      "kicker": {
+        "he": "אירופה · ביטחון",
+        "en": "Europe · security"
+      },
+      "headline": {
+        "he": "פולין דיווחה על נפילת שני טילים ורחפן מרוסיה; ראש הממשלה דורש תגבור הגנה אווירית",
+        "en": "Poland reported two missiles and a drone from Russia; its PM seeks stronger air defense"
+      },
+      "summary": {
+        "he": "פולין מסרה ששני טילים ורחפן שהגיעו מרוסיה נפלו בשטחה, לפי FirstSquawk ב-{{time:poland}}. ראש ממשלת פולין דרש חיזוק מיידי של ההגנה האווירית של נאט״ו, לפי FirstSquawk ב-{{time:nato}}. בדיווח מוקדם יותר נמסר שנמל התעופה ז׳שוב נסגר לצורך פעילות צבאית, לפי FirstSquawk ב-{{time:airport}}.",
+        "en": "Poland said two missiles and a drone arriving from Russia fell on its territory, per FirstSquawk at {{time:poland}}. Its prime minister called for an immediate strengthening of NATO air defenses, per FirstSquawk at {{time:nato}}. An earlier report said Rzeszow airport had closed for military operations, per FirstSquawk at {{time:airport}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:poland}}",
+        "url": "https://x.com/FirstSquawk/status/2123717941674000692"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:nato}}",
+          "url": "https://x.com/FirstSquawk/status/2123744049173856452"
+        },
+        {
+          "name": "@FirstSquawk · {{time:airport}}",
+          "url": "https://x.com/FirstSquawk/status/2123656654449422504"
+        },
+        {
+          "name": "@FirstSquawk · {{time:nuclear}}",
+          "url": "https://x.com/FirstSquawk/status/2123692436665110619"
+        },
+        {
+          "name": "@FirstSquawk · {{time:ukraine}}",
+          "url": "https://x.com/FirstSquawk/status/2123670979557855600"
+        }
+      ],
+      "timeRefs": {
+        "poland": {
+          "at": "2026-11-20T09:59:48+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nato": {
+          "at": "2026-11-20T11:43:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "airport": {
+          "at": "2026-11-20T05:56:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nuclear": {
+          "at": "2026-11-20T08:18:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ukraine": {
+          "at": "2026-11-20T06:53:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "bullets": {
+        "he": [
+          "תחנות כוח גרעיניות באוקראינה צמצמו תפוקה לאחר מתקפות רוסיות על רשת הולכת החשמל, לפי FirstSquawk ב-{{time:nuclear}}.",
+          "אוקראינה טענה שתקפה 41 מתקני נפט וביטחון ברוסיה בתוך 50 יום, לפי FirstSquawk ב-{{time:ukraine}}."
+        ],
+        "en": [
+          "Ukrainian nuclear plants reduced output after Russian attacks on the power distribution network, per FirstSquawk at {{time:nuclear}}.",
+          "Ukraine claimed it struck 41 Russian oil and defense facilities over 50 days, per FirstSquawk at {{time:ukraine}}."
+        ]
+      }
+    },
+    {
+      "id": "gold-and-oil-storage",
+      "section": "markets",
+      "priority": 7,
+      "kicker": {
+        "he": "סחורות · זהב ונפט",
+        "en": "Commodities · gold and oil"
+      },
+      "headline": {
+        "he": "הזהב איבד כ-8% מתחילת השבוע; סעודיה ויפן מרחיבות את שיתוף הפעולה באחסון נפט",
+        "en": "Gold lost about 8% over the week so far; Saudi Arabia and Japan expand oil-storage cooperation"
+      },
+      "summary": {
+        "he": "מחיר הזהב למסירה מיידית עמד על 3,585.92 דולר לאונקיה, ירידה יומית של כ-1% ושבועית של כ-8%, לפי DeItaone ב-{{time:gold}}. באותו דיווח, מסביבות 6:49 שעון ניו יורק, תואר השבוע כחלש ביותר בשמונה חודשים ונרשם שפל יומי של 3,513.54 דולר. אלה נתוני תוך-מסחר, לא מחירי סגירה.",
+        "en": "Spot gold stood at $3,585.92 an ounce, down about 1% on the day and 8% for the week so far, per DeItaone at {{time:gold}}. That report, around 6:49 New York time, described the week as the weakest in eight months and recorded a session low of $3,513.54. These are intraday figures, not closing prices."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:gold}}",
+        "url": "https://x.com/DeItaone/status/2123745428474679425"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:refill}}",
+          "url": "https://x.com/FirstSquawk/status/2123712468648374352"
+        },
+        {
+          "name": "@FirstSquawk · {{time:reserve}}",
+          "url": "https://x.com/FirstSquawk/status/2123712504287351030"
+        },
+        {
+          "name": "@FirstSquawk · {{time:storage}}",
+          "url": "https://x.com/FirstSquawk/status/2123712370933661925"
+        }
+      ],
+      "timeRefs": {
+        "gold": {
+          "at": "2026-11-20T11:49:02+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "refill": {
+          "at": "2026-11-20T09:38:03+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "reserve": {
+          "at": "2026-11-20T09:38:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "storage": {
+          "at": "2026-11-20T09:37:40+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "bullets": {
+        "he": [
+          "סעודיה החלה למלא מחדש אחסון נפט משותף ביפן, לפי FirstSquawk ב-{{time:refill}}.",
+          "יפן תרכוש 8 מיליון חביות למאגר שלה ותציע קיבולת אחסון של 16 מיליון חביות, לפי FirstSquawk ב-{{time:reserve}} וב-{{time:storage}}."
+        ],
+        "en": [
+          "Saudi Arabia began refilling joint crude storage in Japan, per FirstSquawk at {{time:refill}}.",
+          "Japan will buy 8 million barrels for its reserve and offer 16 million barrels of storage capacity, per FirstSquawk at {{time:reserve}} and {{time:storage}}."
+        ]
+      }
+    },
+    {
+      "id": "companies-bill-gta",
+      "section": "tech",
+      "priority": 8,
+      "kicker": {
+        "he": "חברות · עסקאות וצרכנות",
+        "en": "Companies · deals and consumers"
+      },
+      "headline": {
+        "he": "TPG ו-Corpay רוכשות את Bill בכ-6 מיליארד דולר; GTA 6 הושק עם ביקוש מוקדם גדול",
+        "en": "TPG and Corpay buy Bill for about $6 billion; GTA 6 launches with strong advance demand"
+      },
+      "summary": {
+        "he": "TPG ו-Corpay רוכשות יחד את חברת התשלומים Bill תמורת כ-6 מיליארד דולר, לפי רויטרס דרך FirstSquawk ב-{{time:bill}}. במקביל, סין נערכת לחדש השקעות פרייבט אקוויטי בארה״ב לאחר תקופת נסיגה, לפי ה-FT דרך LiveSquawk ב-{{time:china}}.",
+        "en": "TPG and Corpay are buying payments company Bill together for about $6 billion, per Reuters via FirstSquawk at {{time:bill}}. Meanwhile, China is preparing to resume US private-equity investments after a pullback, per the FT via LiveSquawk at {{time:china}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:bill}}",
+        "url": "https://x.com/FirstSquawk/status/2123653535397204070"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:china}}",
+          "url": "https://x.com/LiveSquawk/status/2123643199172333836"
+        },
+        {
+          "name": "@calcalist · {{time:gta}}",
+          "url": "https://x.com/calcalist/status/2123770839157842342"
+        },
+        {
+          "name": "@unusual_whales · {{time:pichai}}",
+          "url": "https://x.com/unusual_whales/status/2123792733210808730"
+        }
+      ],
+      "timeRefs": {
+        "bill": {
+          "at": "2026-11-20T05:43:53+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "china": {
+          "at": "2026-11-20T05:02:48+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "gta": {
+          "at": "2026-11-20T13:30:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "pichai": {
+          "at": "2026-11-20T14:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "bullets": {
+        "he": [
+          "GTA 6 הושק ב-20 בנובמבר, עם כ-15 מיליון הזמנות דיגיטליות מוקדמות והכנסות של כמיליארד דולר ל-Take-Two, לפי כלכליסט ב-{{time:gta}}.",
+          "מנכ״ל גוגל סונדר פיצ׳אי העריך שבעוד שלוש שנים מערכות ה-AI של היום ייראו בסיסיות מאוד, לפי unusual_whales ב-{{time:pichai}}."
+        ],
+        "en": [
+          "GTA 6 launched on November 20, with about 15 million digital preorders and roughly $1 billion in revenue for Take-Two, per Calcalist at {{time:gta}}.",
+          "Google CEO Sundar Pichai predicted that today's AI systems would look very basic in three years, per unusual_whales at {{time:pichai}}."
+        ]
+      },
+      "marketCharts": [
+        {
+          "symbol": "BILL",
+          "range": "1d"
+        },
+        {
+          "symbol": "TTWO",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "israel-weekly",
+      "section": "israel",
+      "priority": 9,
+      "kicker": {
+        "he": "ישראל · שבוע של ירידות",
+        "en": "Israel · a week of declines"
+      },
+      "headline": {
+        "he": "שבוע אדום בתל אביב: הבנקים איבדו 6% והבנייה 9.6%; FIMI מכרה מניות היפר גלובל",
+        "en": "A red week in Tel Aviv: banks lost 6% and construction 9.6%; FIMI sold Hyper Global shares"
+      },
+      "summary": {
+        "he": "הבורסה בתל אביב סיכמה שבוע של ירידות חדות והתחזקות הדולר, לפי הבורסה ב-{{time:tase}}. מדד ת״א-בנקים איבד 6% ומדד ת״א-בנייה ירד 9.6% במצטבר השבועי, לפי דה מרקר ב-{{time:weekly}}. האחוזים הם נתוני שבוע, ולא השינוי במושב מסחר יחיד.",
+        "en": "The Tel Aviv exchange described a week of sharp declines and a stronger dollar, per its report at {{time:tase}}. The TA-Banks index lost 6% and TA-Construction fell 9.6% over the week, per TheMarker at {{time:weekly}}. These are weekly changes, not single-session moves."
+      },
+      "source": {
+        "name": "@TASE_IL · {{time:tase}}",
+        "url": "https://x.com/TASE_IL/status/2123751149522108919"
+      },
+      "secondarySources": [
+        {
+          "name": "@TheMarker · {{time:weekly}}",
+          "url": "https://x.com/TheMarker/status/2123763398705856529"
+        },
+        {
+          "name": "@TheMarker · {{time:sling}}",
+          "url": "https://x.com/TheMarker/status/2123793550777237812"
+        },
+        {
+          "name": "@calcalist · {{time:gdp}}",
+          "url": "https://x.com/calcalist/status/2123706666487091431"
+        },
+        {
+          "name": "@calcalist · {{time:camtek}}",
+          "url": "https://x.com/calcalist/status/2123717995260502129"
+        },
+        {
+          "name": "@globesnews · {{time:fimi}}",
+          "url": "https://x.com/globesnews/status/2123725506323333560"
+        }
+      ],
+      "timeRefs": {
+        "tase": {
+          "at": "2026-11-20T12:11:46+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "weekly": {
+          "at": "2026-11-20T13:00:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "sling": {
+          "at": "2026-11-20T15:00:15+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "gdp": {
+          "at": "2026-11-20T09:15:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "camtek": {
+          "at": "2026-11-20T10:00:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fimi": {
+          "at": "2026-11-20T10:29:52+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "bullets": {
+        "he": [
+          "מערכת קלע דוד שודרגה על רקע החשש מחידוש המלחמה עם איראן, לפי דה מרקר ב-{{time:sling}}.",
+          "אנבידיה צפויה לתרום כ-40 מיליארד שקל לתוצר הישראלי ב-2026, לפי כלכליסט ב-{{time:gdp}}; זו הערכה, לא נתון תוצר סופי.",
+          "כלכליסט פרסם ראיון עם רפי עמית מקאמטק, ספקית ציוד בדיקה לשבבים לאינטל ולסמסונג בשווי של כ-4.7 מיליארד דולר, ב-{{time:camtek}}.",
+          "קרן FIMI מכרה מניות היפר גלובל תמורת 100 מיליון שקל באקזיט השני שלה השנה, לפי גלובס ב-{{time:fimi}}."
+        ],
+        "en": [
+          "The David's Sling air-defense system was upgraded amid fears of renewed war with Iran, per TheMarker at {{time:sling}}.",
+          "Nvidia is expected to contribute about NIS 40 billion to Israeli GDP in 2026, per Calcalist at {{time:gdp}}; this is an estimate, not a final GDP figure.",
+          "Calcalist published an interview with Camtek's Rafi Amit, covering the roughly $4.7 billion chip-testing supplier to Intel and Samsung, at {{time:camtek}}.",
+          "FIMI sold Hyper Global shares for NIS 100 million in its second exit this year, per Globes at {{time:fimi}}."
+        ]
+      }
+    }
+  ]
+}
