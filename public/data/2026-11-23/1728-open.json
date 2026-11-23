@@ -1,0 +1,508 @@
+{
+  "schemaVersion": "2.0",
+  "editionNumber": 14,
+  "date": "2026-11-23",
+  "publishedAt": "2026-11-23T17:28:00+02:00",
+  "editionType": "open",
+  "editionSlug": "1728-open",
+  "editorialLead": {
+    "he": "הואנג חזר לאנבידיה, ומניות הטכנולוגיה זינקו בפתיחה",
+    "en": "Huang returned to Nvidia and technology stocks surged at the open"
+  },
+  "topSummary": {
+    "he": "חזרתו המיידית של ג׳נסן הואנג לאנבידיה לוותה בריבאונד חד בפתיחת וול סטריט, לאחר המכירה של יום שישי. אמזון חתמה על הסכם לרכישת טכנולוגיית Decart ולצירוף הצוות.",
+    "en": "Jensen Huang's immediate return to Nvidia was accompanied by a sharp Wall Street opening rebound after Friday's selloff. Amazon agreed to buy Decart technology and recruit its team."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "^IXIC",
+    "NASDAQ:NVDA",
+    "AMZN",
+    "CRWD",
+    "ZS"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "^IXIC",
+      "range": "1d",
+      "label": {
+        "he": "נאסד״ק",
+        "en": "Nasdaq"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "huang-return-rally",
+      "section": "markets",
+      "priority": 1,
+      "kicker": {
+        "he": "וול סטריט · ריבאונד",
+        "en": "Wall Street · rebound"
+      },
+      "headline": {
+        "he": "הואנג חוזר לאנבידיה, והטכנולוגיה מזנקת: ה-S&P עלה כ-5% סמוך לפתיחה",
+        "en": "Huang returns to Nvidia and technology surges: S&P rose about 5% near the open"
+      },
+      "summary": {
+        "he": "אחרי המכירה החריפה ביום שישי, המסחר ב-23 בנובמבר נפתח בעליות חדות עם החזרת ג׳נסן הואנג לניהול אנבידיה. לפי FirstSquawk ב-{{time:sp}}, ה-S&P 500 עלה 4.93% ל-7,251.32 נקודות סמוך לפתיחה; בדיווח נפרד ב-{{time:dow}}, הדאו עלה 2.78% ל-49,487.64. אלו תצפיות פתיחה, לא רמות המדדים בזמן הפרסום.",
+        "en": "After Friday's heavy selling, November 23 trading opened sharply higher as Jensen Huang returned to lead Nvidia. Per FirstSquawk at {{time:sp}}, the S&P 500 rose 4.93% to 7,251.32 near the open; in a separate report at {{time:dow}}, the Dow gained 2.78% to 49,487.64. These are opening snapshots, not index levels at publication."
+      },
+      "bullets": {
+        "he": [
+          "FirstSquawk דיווח ב-{{time:ndx}} שהנאסד״ק 100 עלה 7.4% בפתיחה. מדובר במדד הנאסד״ק 100, לא במדד הנאסד״ק הכללי.",
+          "לפני פתיחת המסחר במניות דווח על עצירה זמנית בחוזים על הנאסד״ק 100 אחרי זינוק של 7%, לפי DeItaone ב-{{time:futures}}; אין לבלבל זאת עם עצירת מסחר במדד המניות במהלך המסחר הרגיל.",
+          "מדד השבבים של פילדלפיה זינק 14% בפתיחה, לפי FirstSquawk ב-{{time:sox}}."
+        ],
+        "en": [
+          "FirstSquawk reported at {{time:ndx}} that the Nasdaq 100 rose 7.4% at the open. This is the Nasdaq 100, not the Nasdaq Composite.",
+          "Before cash trading opened, Nasdaq 100 futures briefly halted following a 7% jump, per DeItaone at {{time:futures}}; this should not be confused with a regular-session cash-market halt.",
+          "The Philadelphia Semiconductor Index surged 14% at the open, per FirstSquawk at {{time:sox}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:sp}}",
+        "url": "https://x.com/FirstSquawk/status/2124873708691239325"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:dow}}",
+          "url": "https://x.com/FirstSquawk/status/2124873679243010388"
+        },
+        {
+          "name": "@FirstSquawk · {{time:ndx}}",
+          "url": "https://x.com/FirstSquawk/status/2124874403993596204"
+        },
+        {
+          "name": "@DeItaone · {{time:futures}}",
+          "url": "https://x.com/DeItaone/status/2124871293023535410"
+        },
+        {
+          "name": "@FirstSquawk · {{time:sox}}",
+          "url": "https://x.com/FirstSquawk/status/2124875312131645731"
+        }
+      ],
+      "timeRefs": {
+        "sp": {
+          "at": "2026-11-23T14:32:25+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "dow": {
+          "at": "2026-11-23T14:32:18+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ndx": {
+          "at": "2026-11-23T14:35:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "futures": {
+          "at": "2026-11-23T14:22:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "sox": {
+          "at": "2026-11-23T14:38:47+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "isLead": true,
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-reinstatement",
+      "section": "tech",
+      "priority": 2,
+      "kicker": {
+        "he": "אנבידיה · חזרה לתפקיד",
+        "en": "Nvidia · reinstatement"
+      },
+      "headline": {
+        "he": "אנבידיה החזירה את הואנג לתפקיד באופן מיידי; הבדיקות נמשכות",
+        "en": "Nvidia reinstated Huang immediately; investigations continue"
+      },
+      "summary": {
+        "he": "אנבידיה הודיעה שהדירקטוריון החליט פה אחד להחזיר את ג׳נסן הואנג לתפקידי הנשיא, המנכ״ל וחבר הדירקטוריון באופן מיידי. לפי הודעת החברה, הדירקטוריון קיבל מידע מבכירים בממשל האמריקאי וסבור שהחזרתו אינה יוצרת סיכון לביטחון הלאומי. החברה הבהירה שהבדיקה של ועדת הדירקטורים העצמאיים תימשך ושהיא תמשיך לשתף פעולה עם חקירות ופניות ממשלתיות.",
+        "en": "Nvidia announced that its board unanimously reinstated Jensen Huang as president, CEO and a board member, effective immediately. According to the company, the board received input from senior US government officials and believes his return poses no national-security risk. The company said its independent directors' investigation would continue and it would keep cooperating with government investigations and inquiries."
+      },
+      "bullets": {
+        "he": [
+          "קולט קרס תמשיך בתפקיד סמנכ״לית הכספים לאחר שכיהנה כמנכ״לית זמנית; הארווי ג׳ונס יישאר יו״ר הדירקטוריון, לפי החברה.",
+          "אנבידיה הודיעה גם על ועדת דירקטוריון לביטחון לאומי ולפיקוח על יצוא ועל חיפוש מנהל ציות ראשי חדש. ההחזרה לתפקיד אינה הודעה על סיום הבדיקות.",
+          "לפי DeItaone ב-{{time:stock}}, המניה עלתה 32.94% בסביבות 10:03 שעון ניו יורק. זהו צילום מצב תוך-יומי, לא תשואה סופית."
+        ],
+        "en": [
+          "Colette Kress will continue as CFO after serving as interim CEO; Harvey Jones remains board chair, per the company.",
+          "Nvidia also announced a board committee for national security and export controls and a search for a new chief compliance officer. Reinstatement is not an announcement that investigations have ended.",
+          "Per DeItaone at {{time:stock}}, the stock was up 32.94% around 10:03 New York time. This is an intraday snapshot, not a final return."
+        ]
+      },
+      "source": {
+        "name": "NVIDIA Newsroom",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:stock}}",
+          "url": "https://x.com/DeItaone/status/2124881420732567636"
+        }
+      ],
+      "timeRefs": {
+        "stock": {
+          "at": "2026-11-23T15:03:03+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "amazon-decart",
+      "section": "tech",
+      "priority": 3,
+      "kicker": {
+        "he": "ישראל · אמזון ו-Decart",
+        "en": "Israel · Amazon and Decart"
+      },
+      "headline": {
+        "he": "אמזון חתמה על הסכם לרכישת טכנולוגיית Decart ולצירוף הצוות; כלכליסט: 7.5 מיליארד דולר",
+        "en": "Amazon agreed to buy Decart technology and recruit its team; Calcalist reports $7.5 billion"
+      },
+      "summary": {
+        "he": "אמזון הודיעה שחתמה על הסכם לרכישת הטכנולוגיה שמאחורי Decart Optimization Stack ולצירוף שלושת המייסדים וצוות החוקרים והמהנדסים. לפי החברה, הטכנולוגיה מיועדת לשיפור ביצועי שבבי Trainium ויעילות ההרצה של מודלי AI. השלמת העסקה כפופה לתנאי סגירה, ובהם אישורים רגולטוריים; לא מדובר ברכישה שכבר הושלמה.",
+        "en": "Amazon announced an agreement to purchase the technology behind the Decart Optimization Stack and bring in its three founders and research and engineering team. The company says the technology is intended to improve Trainium performance and AI inference efficiency. Completion remains subject to closing conditions, including regulatory clearance; this is not an already completed acquisition."
+      },
+      "bullets": {
+        "he": [
+          "כלכליסט דיווח על תמורה של 7.5 מיליארד דולר, במזומן ובמניות ובכמה תשלומים. הודעת אמזון אינה מפרסמת מחיר, ולכן הסכום מיוחס לכלכליסט.",
+          "אמזון מתארת שיתוף פעולה עם Decart מאז 2025, לא רק חיבור שהחל עם ההסכם החדש."
+        ],
+        "en": [
+          "Calcalist reported $7.5 billion in consideration, in cash and shares across several installments. Amazon's announcement does not disclose a price, so that figure is attributed to Calcalist.",
+          "Amazon describes collaboration with Decart since 2025, rather than a relationship beginning only with the new agreement."
+        ]
+      },
+      "source": {
+        "name": "Amazon",
+        "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization"
+      },
+      "secondarySources": [
+        {
+          "name": "Calcalist / CTech",
+          "url": "https://www.calcalistech.com/ctechnews/article/g0mtcg4mi"
+        }
+      ],
+      "timeRefs": {},
+      "marketCharts": [
+        {
+          "symbol": "AMZN",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "crowdstrike-zscaler",
+      "section": "tech",
+      "priority": 4,
+      "kicker": {
+        "he": "סייבר · עסקת מניות",
+        "en": "Cybersecurity · stock transaction"
+      },
+      "headline": {
+        "he": "קראודסטרייק חתמה על רכישת זיסקיילר בשווי פעילות של 43.9 מיליארד דולר",
+        "en": "CrowdStrike agreed to acquire Zscaler at a $43.9 billion enterprise value"
+      },
+      "summary": {
+        "he": "קראודסטרייק וזיסקיילר הודיעו על הסכם מחייב לעסקת מניות: בעלי מניות זיסקיילר יקבלו 1.135 מניות קראודסטרייק לכל מניה. שווי הפעילות המוצהר, כ-43.9 מיליארד דולר, מבוסס על מחיר הסגירה של קראודסטרייק ב-20 בנובמבר; זו אינה תמורה קבועה במזומן. לפי החברות, ההשלמה צפויה במחצית השנייה של שנת הכספים 2028 של קראודסטרייק, בכפוף לאישור בעלי מניות זיסקיילר, רגולטורים ותנאים נוספים.",
+        "en": "CrowdStrike and Zscaler announced a definitive all-stock agreement: Zscaler shareholders will receive 1.135 CrowdStrike shares for each share. The stated enterprise value of roughly $43.9 billion is based on CrowdStrike's November 20 closing price; it is not fixed cash consideration. The companies expect completion in the second half of CrowdStrike's fiscal 2028, subject to Zscaler shareholder approval, regulatory clearance and other conditions."
+      },
+      "bullets": {
+        "he": [
+          "עד ההשלמה החברות יפעלו בנפרד. לפי ההודעה, ג׳יי צ׳אודרי ימשיך להוביל את פעילות זיסקיילר ויצטרף לדירקטוריון קראודסטרייק לאחר הסגירה.",
+          "בנפרד, קראודסטרייק דיווחה על ARR של 6.26 מיליארד דולר, עלייה שנתית של 27%, ועל תוספת ARR נטו של 419 מיליון דולר, עלייה של 58%, ברבעון השלישי של שנת הכספים 2027.",
+          "החברה העלתה את תחזית צמיחת ה-ARR החדש נטו לשנת הכספים 2027 ל-45% בנקודת האמצע. זו תחזית למדד זה, לא תחזית צמיחת ההכנסות הכוללת."
+        ],
+        "en": [
+          "The companies will operate independently until closing. According to the announcement, Jay Chaudhry will continue to lead Zscaler's business and join CrowdStrike's board after closing.",
+          "Separately, CrowdStrike reported ending ARR of $6.26 billion, up 27% year over year, and net-new ARR of $419 million, up 58%, for fiscal third-quarter 2027.",
+          "The company raised fiscal 2027 net-new ARR growth guidance to 45% at the midpoint. This forecast concerns that metric, not overall revenue growth."
+        ]
+      },
+      "source": {
+        "name": "CrowdStrike · acquisition announcement",
+        "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/"
+      },
+      "secondarySources": [
+        {
+          "name": "CrowdStrike · fiscal Q3 2027 results",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial/"
+        }
+      ],
+      "timeRefs": {},
+      "marketCharts": [
+        {
+          "symbol": "CRWD",
+          "range": "1d"
+        },
+        {
+          "symbol": "ZS",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-reversal",
+      "section": "tech",
+      "priority": 5,
+      "kicker": {
+        "he": "אנתרופיק · נגד המגמה",
+        "en": "Anthropic · against the trend"
+      },
+      "headline": {
+        "he": "אנתרופיק עברה מעלייה בטרום-מסחר לירידה לאחר הפתיחה",
+        "en": "Anthropic reversed from a premarket gain to a decline after the open"
+      },
+      "summary": {
+        "he": "לפי DeItaone ב-{{time:pre}}, אנתרופיק עלתה 4.5% בטרום-מסחר. לאחר הפתיחה, אותו מקור דיווח ב-{{time:cash}} על מעבר לירידה של 3%, ו-zerohedge דיווח ב-{{time:later}} על ירידה של 4%. אלו תצפיות עוקבות בזמנים שונים, לא ציטוט חי בזמן הפרסום.",
+        "en": "Per DeItaone at {{time:pre}}, Anthropic was up 4.5% premarket. After the open, the same source reported at {{time:cash}} a reversal to a 3% decline, and zerohedge reported a 4% decline at {{time:later}}. These are successive observations at different times, not a live publication-time quote."
+      },
+      "bullets": {
+        "he": [
+          "לפי wallstengine ב-{{time:etf}}, קרן Tradr ללונג ממונף פי שניים על אנתרופיק, ANTT, החלה להיסחר."
+        ],
+        "en": [
+          "Per wallstengine at {{time:etf}}, Tradr’s 2x long Anthropic ETF, ANTT, began trading."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:pre}}",
+        "url": "https://x.com/DeItaone/status/2124870583569588592"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:cash}}",
+          "url": "https://x.com/DeItaone/status/2124874313295593808"
+        },
+        {
+          "name": "@wallstengine · {{time:etf}}",
+          "url": "https://x.com/wallstengine/status/2124882796233752593"
+        },
+        {
+          "name": "@zerohedge · {{time:later}}",
+          "url": "https://x.com/zerohedge/status/2124874486486806634"
+        }
+      ],
+      "timeRefs": {
+        "pre": {
+          "at": "2026-11-23T14:19:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "cash": {
+          "at": "2026-11-23T14:34:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "etf": {
+          "at": "2026-11-23T15:08:31+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "later": {
+          "at": "2026-11-23T14:35:30+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "flash-pmi",
+      "section": "markets",
+      "priority": 6,
+      "kicker": {
+        "he": "מאקרו · ארה״ב",
+        "en": "Macro · United States"
+      },
+      "headline": {
+        "he": "מדדי מנהלי הרכש מצביעים על המשך התרחבות, בקצב איטי יותר",
+        "en": "Flash PMIs point to continued expansion at a slower pace"
+      },
+      "summary": {
+        "he": "מדד מנהלי הרכש המשולב של S&P Global לארה״ב ירד בקריאה המקדמית לנובמבר ל-54.6, לעומת 55.9 באוקטובר, לפי LiveSquawk ב-{{time:pmi}}. מדד השירותים ירד מ-56.1 ל-54.7 ומדד התעשייה מ-54.9 ל-54.5. שלושתם נותרו מעל 50, כך שהנתונים מצביעים על התרחבות בקצב מתון יותר, ולא על התכווצות הפעילות.",
+        "en": "The US S&P Global flash composite PMI fell to 54.6 in November from 55.9 in October, per LiveSquawk at {{time:pmi}}. Services fell from 56.1 to 54.7 and manufacturing from 54.9 to 54.5. All three remained above 50, pointing to slower expansion rather than contracting activity."
+      },
+      "bullets": {
+        "he": [
+          "מדד הפעילות הארצי של הפד של שיקגו עמד באוקטובר על מינוס 0.06, לאחר נתון ספטמבר מתוקן של 0.05, לפי LiveSquawk ב-{{time:chicago}}."
+        ],
+        "en": [
+          "The Chicago Fed National Activity Index was minus 0.06 in October after a revised September reading of 0.05, per LiveSquawk at {{time:chicago}}."
+        ]
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:pmi}}",
+        "url": "https://x.com/LiveSquawk/status/2124877005384556795"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:chicago}}",
+          "url": "https://x.com/LiveSquawk/status/2124858792559186274"
+        }
+      ],
+      "timeRefs": {
+        "pmi": {
+          "at": "2026-11-23T14:45:31+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "chicago": {
+          "at": "2026-11-23T13:33:08+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "medicare-proposal",
+      "section": "markets",
+      "priority": 7,
+      "kicker": {
+        "he": "בריאות · סיכון רגולטורי",
+        "en": "Healthcare · regulatory risk"
+      },
+      "headline": {
+        "he": "מניות מבטחות הבריאות נחלשו על רקע הצעה לשינוי בונוסים ב-Medicare Advantage",
+        "en": "Health-insurer stocks weakened amid a proposed Medicare Advantage bonus overhaul"
+      },
+      "summary": {
+        "he": "בלומברג דיווח שמניות מבטחות בריאות, בהן יונייטדהלת׳, ירדו במסחר המוקדם של יום שני לאחר הצעה של CMS לשנות את שיטת בונוסי האיכות ב-Medicare Advantage. לפי הערכת הסוכנות המצוטטת בדיווח, השינוי יפחית תשלומים בכ-107 מיליארד דולר בשנים 2031-2037. זו הצעה, לא קיצוץ שכבר נחקק או נכנס לתוקף.",
+        "en": "Bloomberg reported that health-insurer stocks including UnitedHealth fell in early Monday trading after CMS proposed changes to Medicare Advantage quality bonuses. According to the agency estimate cited in the report, the changes would reduce payments by about $107 billion over 2031-2037. This is a proposal, not an enacted or already effective cut."
+      },
+      "bullets": {
+        "he": [
+          "wallstengine דיווח ב-{{time:insurers}} שגם הומנה ו-CVS נסחרו תחת לחץ; לא פורסמו כאן אחוזי שינוי שלא אומתו."
+        ],
+        "en": [
+          "wallstengine reported at {{time:insurers}} that Humana and CVS were also under pressure; no unverified percentage moves are supplied here."
+        ]
+      },
+      "source": {
+        "name": "Bloomberg News via Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/insurance/health-insurers-stocks-slide-again-on-latest-medicare-proposal"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:insurers}}",
+          "url": "https://x.com/wallstengine/status/2124884001546756498"
+        }
+      ],
+      "timeRefs": {
+        "insurers": {
+          "at": "2026-11-23T15:13:19+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "UNH",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "israel-rate",
+      "section": "israel",
+      "priority": 8,
+      "kicker": {
+        "he": "ישראל · הריבית",
+        "en": "Israel · interest rates"
+      },
+      "headline": {
+        "he": "לפי כלכליסט, בנק ישראל הותיר את הריבית על 3.25%",
+        "en": "Calcalist: Bank of Israel held its rate at 3.25%"
+      },
+      "summary": {
+        "he": "כלכליסט דיווח ב-{{time:rate}} שבנק ישראל הותיר את הריבית ללא שינוי על 3.25%, ואת ריבית הפריים על 4.75%. גלובס דיווח בנפרד ב-{{time:globes}} שהריבית נותרה ללא שינוי. הנתונים מיוחסים לדיווחים אלה; אין כאן ציטוט של תחזית חדשה או של נימוקי הוועדה שלא נקראו במקור.",
+        "en": "Calcalist reported at {{time:rate}} that the Bank of Israel left its rate unchanged at 3.25%, with the prime rate at 4.75%. Globes separately reported at {{time:globes}} that the rate was unchanged. These figures are attributed to those reports; no new forecast or unread committee rationale is presented."
+      },
+      "source": {
+        "name": "@calcalist · {{time:rate}}",
+        "url": "https://x.com/calcalist/status/2124866012961018349"
+      },
+      "secondarySources": [
+        {
+          "name": "@globesnews · {{time:globes}}",
+          "url": "https://x.com/globesnews/status/2124866400166514855"
+        }
+      ],
+      "timeRefs": {
+        "rate": {
+          "at": "2026-11-23T14:01:50+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "globes": {
+          "at": "2026-11-23T14:03:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "week-ahead",
+      "section": "markets",
+      "priority": 9,
+      "kicker": {
+        "he": "השבוע · דוחות ומאקרו",
+        "en": "This week · earnings and macro"
+      },
+      "headline": {
+        "he": "דוחות HPE, דל ו-HP יעמידו את הביקוש למחשוב במבחן; PCE ותמ״ג ביום רביעי",
+        "en": "HPE, Dell and HP results will test computing demand; PCE and GDP due Wednesday"
+      },
+      "summary": {
+        "he": "לפי סקירת רויטרס, HPE צפויה לפרסם דוחות ביום שני, 23 בנובמבר, ודל ו-HP ביום שלישי, 24 בנובמבר. אלה מועדי פרסום צפויים, לא תוצאות שכבר פורסמו. לאחר התנודתיות במניות הטכנולוגיה, הדוחות יספקו מידע נוסף על הביקוש לשרתים ולמחשבים.",
+        "en": "According to Reuters' preview, HPE is expected to report on Monday, November 23, with Dell and HP on Tuesday, November 24. These are expected reporting dates, not already released results. Following technology-stock volatility, the reports will provide more evidence on demand for servers and PCs."
+      },
+      "bullets": {
+        "he": [
+          "לוח BEA מציב את האומדן השני לתמ״ג ברבעון השלישי ואת נתוני ההכנסה וההוצאה האישית לאוקטובר, הכוללים את מדד PCE, ביום רביעי, 25 בנובמבר, ב-8:30 שעון ניו יורק, 15:30 בישראל.",
+          "מדד אמון הצרכנים של Conference Board צפוי ביום שלישי, 24 בנובמבר, ב-10:00 שעון ניו יורק, 17:00 בישראל, לפי לוח הארגון."
+        ],
+        "en": [
+          "The BEA calendar schedules the second estimate of third-quarter GDP and October personal income and outlays, including PCE, for Wednesday, November 25 at 8:30 New York time, 15:30 in Israel.",
+          "The Conference Board consumer-confidence release is due Tuesday, November 24 at 10:00 New York time, 17:00 in Israel, according to its calendar."
+        ]
+      },
+      "source": {
+        "name": "Reuters via U.S. News",
+        "url": "https://money.usnews.com/investing/news/articles/2026-11-23/dell-hpe-results-to-put-ai-demand-to-the-test-after-tech-rout"
+      },
+      "secondarySources": [
+        {
+          "name": "BEA · release schedule",
+          "url": "https://www.bea.gov/news/schedule"
+        },
+        {
+          "name": "The Conference Board",
+          "url": "https://www.conference-board.org/topics/consumer-confidence/press"
+        }
+      ],
+      "timeRefs": {}
+    }
+  ]
+}
