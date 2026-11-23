@@ -1,0 +1,492 @@
+{
+  "schemaVersion": "2.0",
+  "editionNumber": 15,
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T00:11:00+02:00",
+  "editionType": "close",
+  "editionSlug": "0011-close",
+  "editorialLead": {
+    "he": "הראלי החזיק עד הסגירה: נאסד״ק זינק 6.51%, אנבידיה הוסיפה 31.48%",
+    "en": "The rally held through the close: Nasdaq surged 6.51%, Nvidia added 31.48%"
+  },
+  "topSummary": {
+    "he": "וול סטריט סיימה את 23 בנובמבר בריבאונד חד, כשה-S&P והנאסד״ק רשמו את היום הטוב ביותר שלהם מאז אפריל 2025. חזרתו של ג׳נסן הואנג לאנבידיה עמדה במרכז הראלי במניות הטכנולוגיה.",
+    "en": "Wall Street ended November 23 with a sharp rebound, as the S&P and Nasdaq posted their best day since April 2025. Jensen Huang's return to Nvidia was at the center of the technology rally."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "^IXIC",
+    "NASDAQ:NVDA",
+    "HPE",
+    "AMD",
+    "CRWD"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "^IXIC",
+      "range": "1d",
+      "label": {
+        "he": "נאסד״ק",
+        "en": "Nasdaq"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "close-rebound",
+      "section": "markets",
+      "priority": 1,
+      "kicker": {
+        "he": "וול סטריט · סגירה",
+        "en": "Wall Street · close"
+      },
+      "headline": {
+        "he": "הנאסד״ק זינק 6.51%, ה-S&P עלה 4.73%; אנבידיה הוסיפה 31.48%",
+        "en": "Nasdaq surged 6.51%, S&P gained 4.73%; Nvidia added 31.48%"
+      },
+      "summary": {
+        "he": "הראלי של פתיחת 23 בנובמבר החזיק עד הסגירה: הנאסד״ק עלה 6.51% ל-24,089.56 נקודות, ה-S&P 500 הוסיף 4.73% ל-7,237.17, והדאו זינק 1,447.98 נקודות, 3.01%, ל-49,595.31, לפי CNBC. ל-S&P ולנאסד״ק זה היה היום הטוב ביותר מאז אפריל 2025, לאחר גל המכירות של השבוע הקודם.",
+        "en": "The November 23 opening rally held through the close: the Nasdaq gained 6.51% to 24,089.56, the S&P 500 added 4.73% to 7,237.17, and the Dow surged 1,447.98 points, or 3.01%, to 49,595.31, per CNBC. It was the S&P's and Nasdaq's best day since April 2025, following the previous week's selloff."
+      },
+      "bullets": {
+        "he": [
+          "אנבידיה הובילה את הראלי עם עלייה של 31.48% ל-165.05 דולר, לפי Investing.com, לאחר החזרת ג׳נסן הואנג לניהול החברה.",
+          "מיקרון זינקה 19.04% ל-707.70 דולר ודל עלתה 20.46% ל-334.91 דולר, לפי Investing.com.",
+          "הוויקס ירד 25.86% ל-26.61 נקודות בסגירה, לפי Investing.com."
+        ],
+        "en": [
+          "Nvidia led the rally with a 31.48% gain to $165.05, per Investing.com, following Jensen Huang's reinstatement as CEO.",
+          "Micron surged 19.04% to $707.70 and Dell rose 20.46% to $334.91, per Investing.com.",
+          "The VIX fell 25.86% to 26.61 at the close, per Investing.com."
+        ]
+      },
+      "source": {
+        "name": "CNBC · November 23 close",
+        "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+      },
+      "secondarySources": [
+        {
+          "name": "Investing.com · November 23 close",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-301-5046476"
+        }
+      ],
+      "timeRefs": {},
+      "isLead": true,
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        },
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-reinstatement",
+      "section": "tech",
+      "priority": 2,
+      "kicker": {
+        "he": "אנבידיה · חזרה לתפקיד",
+        "en": "Nvidia · reinstatement"
+      },
+      "headline": {
+        "he": "הואנג חזר לאנבידיה; שימוע פומבי נקבע ל-3 בדצמבר, לפי סנאטור סקוט",
+        "en": "Huang returned to Nvidia; Senator Scott says public hearing is set for December 3"
+      },
+      "summary": {
+        "he": "אנבידיה הודיעה שהדירקטוריון החליט פה אחד להחזיר את ג׳נסן הואנג לתפקידי הנשיא, המנכ״ל וחבר הדירקטוריון באופן מיידי. לפי הודעת החברה, הדירקטוריון קיבל מידע מבכירים בממשל האמריקאי וסבור שהחזרתו אינה יוצרת סיכון לביטחון הלאומי. החברה הבהירה שהבדיקה של ועדת הדירקטורים העצמאיים תימשך ושהיא תמשיך לשתף פעולה עם חקירות ופניות ממשלתיות.",
+        "en": "Nvidia announced that its board unanimously reinstated Jensen Huang as president, CEO and a board member, effective immediately. According to the company, the board received input from senior US government officials and believes his return poses no national-security risk. The company said its independent directors' investigation would continue and it would keep cooperating with government investigations and inquiries."
+      },
+      "bullets": {
+        "he": [
+          "קולט קרס תמשיך בתפקיד סמנכ״לית הכספים לאחר שכיהנה כמנכ״לית זמנית; הארווי ג׳ונס יישאר יו״ר הדירקטוריון, לפי החברה.",
+          "אנבידיה הודיעה גם על ועדת דירקטוריון לביטחון לאומי ולפיקוח על יצוא ועל חיפוש מנהל ציות ראשי חדש. ההחזרה לתפקיד אינה הודעה על סיום הבדיקות.",
+          "לפי LiveSquawk ב-{{time:hearing}}, הסנאטור טים סקוט הודיע ששימוע פומבי בעניינו של הואנג נקבע ל-3 בדצמבר. החזרה לתפקיד אינה מבטלת את הבדיקות."
+        ],
+        "en": [
+          "Colette Kress will continue as CFO after serving as interim CEO; Harvey Jones remains board chair, per the company.",
+          "Nvidia also announced a board committee for national security and export controls and a search for a new chief compliance officer. Reinstatement is not an announcement that investigations have ended.",
+          "Per LiveSquawk at {{time:hearing}}, Senator Tim Scott said a public hearing on Huang is set for December 3. Reinstatement does not end the investigations."
+        ]
+      },
+      "source": {
+        "name": "NVIDIA Newsroom",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:hearing}}",
+          "url": "https://x.com/LiveSquawk/status/2124912650656088485"
+        }
+      ],
+      "timeRefs": {
+        "hearing": {
+          "at": "2026-11-23T17:07:09+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "hpe-after-close",
+      "section": "tech",
+      "priority": 3,
+      "kicker": {
+        "he": "דוחות · אחרי הסגירה",
+        "en": "Earnings · after the close"
+      },
+      "headline": {
+        "he": "HPE דיווחה על צמיחה של 50.3% בהכנסות והעלתה תחזית; אישרה רכישה עצמית נוספת",
+        "en": "HPE reported 50.3% revenue growth, raised guidance and authorized more buybacks"
+      },
+      "summary": {
+        "he": "Hewlett Packard Enterprise דיווחה לאחר הסגירה על הכנסות רבעוניות של 14.547 מיליארד דולר, עלייה של 50.3% לעומת השנה הקודמת, ועל רווח מתואם של 1.43 דולר למניה. לפי הדוח הרשמי, החברה העלתה את תחזית ההכנסות לשנת הכספים 2027 ל-59.4-63.1 מיליארד דולר ואת תחזית הרווח המתואם ל-5.05-5.35 דולר למניה. מדובר ב-HPE, לא ביצרנית המחשבים HP הנסחרת בסימול HPQ.",
+        "en": "Hewlett Packard Enterprise reported after the close quarterly revenue of $14.547 billion, up 50.3% year over year, and adjusted EPS of $1.43. Its official release raised fiscal 2027 revenue guidance to $59.4-$63.1 billion and adjusted EPS guidance to $5.05-$5.35. This is HPE, not PC maker HP, which trades as HPQ."
+      },
+      "bullets": {
+        "he": [
+          "הדירקטוריון אישר תוספת של 5 מיליארד דולר למסגרת הרכישה העצמית, שהגיעה לכ-7.3 מיליארד דולר; אישור מסגרת אינו רכישה שכבר בוצעה.",
+          "HPE צופה תזרים מזומנים חופשי של לפחות 5.5 מיליארד דולר בשנת הכספים 2027, לפי הדוח."
+        ],
+        "en": [
+          "The board authorized an additional $5 billion for buybacks, taking the authorization to about $7.3 billion; an authorization is not an already completed purchase.",
+          "HPE forecasts at least $5.5 billion in free cash flow in fiscal 2027, per the release."
+        ]
+      },
+      "source": {
+        "name": "HPE · earnings release filed with SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000097/ex-991x11232026x8k.htm"
+      },
+      "secondarySources": [],
+      "timeRefs": {},
+      "marketCharts": [
+        {
+          "symbol": "HPE",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "amd-resale-registration",
+      "section": "tech",
+      "priority": 4,
+      "kicker": {
+        "he": "AMD · תשקיף",
+        "en": "AMD · prospectus"
+      },
+      "headline": {
+        "he": "AMD רשמה עד 336.9 מיליון מניות למכירה חוזרת אפשרית, לא למכירה מיידית",
+        "en": "AMD registered up to 336.9 million shares for possible resale, not an immediate sale"
+      },
+      "summary": {
+        "he": "בתשקיף שהגישה AMD נרשמו עד 336,934,324 מניות למכירה חוזרת אפשרית בידי בעלי מניות מוכרים. מדובר במניות שכבר הונפקו או עשויות להיות מונפקות, לרבות תמורה בגין רכישות וכתבי אופציה. החברה מבהירה שאינה מוכרת מניות במסגרת התשקיף ושלא תקבל תמורה ממכירות בעלי המניות. הרישום כשלעצמו אינו אומר שכל המניות נמכרו או הונפקו כעת.",
+        "en": "AMD's prospectus registered up to 336,934,324 shares for possible resale by selling stockholders. The shares are issued or issuable, including acquisition consideration and warrants. AMD states it is not selling shares under the prospectus and will receive no proceeds from stockholder sales. Registration itself does not mean all shares have now been sold or issued."
+      },
+      "bullets": {
+        "he": [
+          "הכמות כוללת עד 160 מיליון מניות הקשורות לכתב האופציה של OpenAI ועד 160 מיליון הקשורות לזה של Meta, בכפוף להבשלה, מימוש ותנאים שנקבעו בהסכמים.",
+          "יתרת הרישום כוללת מניות הקשורות לרכישות Taalas ו-World Labs, לפי התשקיף. אין כאן הודעה על גיוס מזומן חדש בידי AMD."
+        ],
+        "en": [
+          "The total includes up to 160 million shares linked to OpenAI's warrant and up to 160 million linked to Meta's, subject to vesting, exercise and contractual conditions.",
+          "The remaining registration includes shares related to the Taalas and World Labs acquisitions, per the prospectus. This is not an announcement of a new AMD cash raise."
+        ]
+      },
+      "source": {
+        "name": "AMD · resale prospectus",
+        "url": "https://ir.amd.com/financial-information/sec-filings/content/0001193125-26-472370/d171551ds3asr.htm"
+      },
+      "secondarySources": [],
+      "timeRefs": {},
+      "marketCharts": [
+        {
+          "symbol": "AMD",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "amazon-decart",
+      "section": "tech",
+      "priority": 5,
+      "kicker": {
+        "he": "ישראל · אמזון ו-Decart",
+        "en": "Israel · Amazon and Decart"
+      },
+      "headline": {
+        "he": "אמזון חתמה על הסכם לרכישת טכנולוגיית Decart ולצירוף הצוות; כלכליסט: 7.5 מיליארד דולר",
+        "en": "Amazon agreed to buy Decart technology and recruit its team; Calcalist reports $7.5 billion"
+      },
+      "summary": {
+        "he": "אמזון הודיעה שחתמה על הסכם לרכישת הטכנולוגיה שמאחורי Decart Optimization Stack ולצירוף שלושת המייסדים וצוות החוקרים והמהנדסים. לפי החברה, הטכנולוגיה מיועדת לשיפור ביצועי שבבי Trainium ויעילות ההרצה של מודלי AI. השלמת העסקה כפופה לתנאי סגירה, ובהם אישורים רגולטוריים; לא מדובר ברכישה שכבר הושלמה.",
+        "en": "Amazon announced an agreement to purchase the technology behind the Decart Optimization Stack and bring in its three founders and research and engineering team. The company says the technology is intended to improve Trainium performance and AI inference efficiency. Completion remains subject to closing conditions, including regulatory clearance; this is not an already completed acquisition."
+      },
+      "bullets": {
+        "he": [
+          "כלכליסט דיווח על תמורה של 7.5 מיליארד דולר, במזומן ובמניות ובכמה תשלומים. הודעת אמזון אינה מפרסמת מחיר, ולכן הסכום מיוחס לכלכליסט.",
+          "אמזון מתארת שיתוף פעולה עם Decart מאז 2025, לא רק חיבור שהחל עם ההסכם החדש."
+        ],
+        "en": [
+          "Calcalist reported $7.5 billion in consideration, in cash and shares across several installments. Amazon's announcement does not disclose a price, so that figure is attributed to Calcalist.",
+          "Amazon describes collaboration with Decart since 2025, rather than a relationship beginning only with the new agreement."
+        ]
+      },
+      "source": {
+        "name": "Amazon",
+        "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization"
+      },
+      "secondarySources": [
+        {
+          "name": "Calcalist / CTech",
+          "url": "https://www.calcalistech.com/ctechnews/article/g0mtcg4mi"
+        }
+      ],
+      "timeRefs": {},
+      "marketCharts": [
+        {
+          "symbol": "AMZN",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "crowdstrike-zscaler",
+      "section": "tech",
+      "priority": 6,
+      "kicker": {
+        "he": "סייבר · עסקת מניות",
+        "en": "Cybersecurity · stock transaction"
+      },
+      "headline": {
+        "he": "עסקת קראודסטרייק-זיסקיילר נשארה במוקד; קראודסטרייק ירדה 8.92%",
+        "en": "CrowdStrike-Zscaler deal stayed in focus; CrowdStrike fell 8.92%"
+      },
+      "summary": {
+        "he": "קראודסטרייק וזיסקיילר הודיעו על הסכם מחייב לעסקת מניות: בעלי מניות זיסקיילר יקבלו 1.135 מניות קראודסטרייק לכל מניה. שווי הפעילות המוצהר, כ-43.9 מיליארד דולר, מבוסס על מחיר הסגירה של קראודסטרייק ב-20 בנובמבר; זו אינה תמורה קבועה במזומן. לפי החברות, ההשלמה צפויה במחצית השנייה של שנת הכספים 2028 של קראודסטרייק, בכפוף לאישור בעלי מניות זיסקיילר, רגולטורים ותנאים נוספים.",
+        "en": "CrowdStrike and Zscaler announced a definitive all-stock agreement: Zscaler shareholders will receive 1.135 CrowdStrike shares for each share. The stated enterprise value of roughly $43.9 billion is based on CrowdStrike's November 20 closing price; it is not fixed cash consideration. The companies expect completion in the second half of CrowdStrike's fiscal 2028, subject to Zscaler shareholder approval, regulatory clearance and other conditions."
+      },
+      "bullets": {
+        "he": [
+          "מניית קראודסטרייק נסגרה בירידה של 8.92% ל-208.97 דולר, לפי Investing.com; תנאי ההחלפה נשארים 1.135 מניות קראודסטרייק לכל מניית זיסקיילר, לא סכום מזומן קבוע.",
+          "עד ההשלמה החברות יפעלו בנפרד. לפי ההודעה, ג׳יי צ׳אודרי ימשיך להוביל את פעילות זיסקיילר ויצטרף לדירקטוריון קראודסטרייק לאחר הסגירה.",
+          "בנפרד, קראודסטרייק דיווחה על ARR של 6.26 מיליארד דולר, עלייה שנתית של 27%, ועל תוספת ARR נטו של 419 מיליון דולר, עלייה של 58%, ברבעון השלישי של שנת הכספים 2027.",
+          "החברה העלתה את תחזית צמיחת ה-ARR החדש נטו לשנת הכספים 2027 ל-45% בנקודת האמצע. זו תחזית למדד זה, לא תחזית צמיחת ההכנסות הכוללת."
+        ],
+        "en": [
+          "CrowdStrike closed down 8.92% at $208.97, per Investing.com; consideration remains 1.135 CrowdStrike shares for each Zscaler share, not fixed cash.",
+          "The companies will operate independently until closing. According to the announcement, Jay Chaudhry will continue to lead Zscaler's business and join CrowdStrike's board after closing.",
+          "Separately, CrowdStrike reported ending ARR of $6.26 billion, up 27% year over year, and net-new ARR of $419 million, up 58%, for fiscal third-quarter 2027.",
+          "The company raised fiscal 2027 net-new ARR growth guidance to 45% at the midpoint. This forecast concerns that metric, not overall revenue growth."
+        ]
+      },
+      "source": {
+        "name": "CrowdStrike · acquisition announcement",
+        "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/"
+      },
+      "secondarySources": [
+        {
+          "name": "CrowdStrike · fiscal Q3 2027 results",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial/"
+        },
+        {
+          "name": "Investing.com · November 23 close",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-301-5046476"
+        }
+      ],
+      "timeRefs": {},
+      "marketCharts": [
+        {
+          "symbol": "CRWD",
+          "range": "1d"
+        },
+        {
+          "symbol": "ZS",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-missed-rally",
+      "section": "tech",
+      "priority": 7,
+      "kicker": {
+        "he": "אנתרופיק · נגד המגמה",
+        "en": "Anthropic · against the trend"
+      },
+      "headline": {
+        "he": "אנתרופיק נותרה מחוץ לראלי הטכנולוגיה בשעות אחר הצהריים",
+        "en": "Anthropic sat out the technology rally in afternoon trading"
+      },
+      "summary": {
+        "he": "לפי עדכון תוך-יומי של CNBC, אנתרופיק ירדה בכ-3% בשעות אחר הצהריים בזמן שמניות AI אחרות עלו בחדות. זו תצפית תוך-יומית, לא נתון סגירה מאומת. היא ממשיכה את ההיפוך שתועד בפתיחה, מעלייה של 4.5% בטרום-מסחר לירידה של 3% לאחר הפתיחה, לפי DeItaone ב-{{time:pre}} וב-{{time:cash}} בהתאמה.",
+        "en": "According to CNBC's intraday update, Anthropic was down about 3% in afternoon trading while other AI stocks rallied sharply. This is an intraday observation, not a verified closing return. It follows the opening reversal from a 4.5% premarket gain to a 3% decline after the open, per DeItaone at {{time:pre}} and {{time:cash}}, respectively."
+      },
+      "source": {
+        "name": "CNBC · afternoon observation",
+        "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:pre}}",
+          "url": "https://x.com/DeItaone/status/2124870583569588592"
+        },
+        {
+          "name": "@DeItaone · {{time:cash}}",
+          "url": "https://x.com/DeItaone/status/2124874313295593808"
+        }
+      ],
+      "timeRefs": {
+        "pre": {
+          "at": "2026-11-23T14:19:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "cash": {
+          "at": "2026-11-23T14:34:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "fed-williams",
+      "section": "markets",
+      "priority": 8,
+      "kicker": {
+        "he": "הפד · אינפלציה",
+        "en": "The Fed · inflation"
+      },
+      "headline": {
+        "he": "ויליאמס: האינפלציה עדיין גבוהה מדי; צופה התמתנות ב-2027",
+        "en": "Williams: inflation remains too high; expects easing in 2027"
+      },
+      "summary": {
+        "he": "נשיא הפד של ניו יורק ג׳ון ויליאמס אמר שהבנק המרכזי עדיין צריך לפעול כדי להשיב את האינפלציה ליעד של 2%, ושסיכוני האינפלציה מוטים כלפי מעלה, לפי FirstSquawk ב-{{time:inflation}}. בהמשך אמר ש-2027 תהיה שנה של אינפלציה נמוכה יותר ושגורמים חריגים הניעו את העלייה האחרונה, לפי FirstSquawk ב-{{time:outlook}}. אלו הערכותיו, לא התחייבות למסלול ריבית מסוים.",
+        "en": "New York Fed President John Williams said the central bank still needs to act to bring inflation back to 2%, with inflation risks tilted upward, per FirstSquawk at {{time:inflation}}. He later said 2027 would bring lower inflation and that unusual factors drove the recent increase, per FirstSquawk at {{time:outlook}}. These are his assessments, not a commitment to a particular rate path."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:inflation}}",
+        "url": "https://x.com/FirstSquawk/status/2124972399364092060"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:outlook}}",
+          "url": "https://x.com/FirstSquawk/status/2124981452794405358"
+        }
+      ],
+      "timeRefs": {
+        "inflation": {
+          "at": "2026-11-23T21:04:34+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "outlook": {
+          "at": "2026-11-23T21:40:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "tase-close",
+      "section": "israel",
+      "priority": 9,
+      "kicker": {
+        "he": "ישראל · סגירת המסחר",
+        "en": "Israel · market close"
+      },
+      "headline": {
+        "he": "תל אביב סיימה בעליות מתונות בהובלת הטכנולוגיה; הביטוח נחלש",
+        "en": "Tel Aviv closed modestly higher, led by technology; insurance weakened"
+      },
+      "summary": {
+        "he": "לפי הבורסה בתל אביב ב-{{time:tase}}, יום המסחר התנודתי הסתיים בעלייה של 0.49% בת״א-35, 0.43% בת״א-125 ו-0.41% בת״א-90. מניות הטכנולוגיה הובילו את העליות ומניות הביטוח בלטו בירידות, על רקע הזינוק במניות השבבים בוול סטריט והחלטת הריבית של בנק ישראל.",
+        "en": "Per the Tel Aviv Stock Exchange at {{time:tase}}, a volatile session ended with the TA-35 up 0.49%, TA-125 up 0.43% and TA-90 up 0.41%. Technology led gains while insurance stocks weakened, against the backdrop of the Wall Street chip rally and the Bank of Israel rate decision."
+      },
+      "bullets": {
+        "he": [
+          "כלכליסט דיווח מוקדם יותר ב-{{time:rate}} שהריבית נותרה על 3.25%, וריבית הפריים על 4.75%."
+        ],
+        "en": [
+          "Calcalist reported earlier at {{time:rate}} that the policy rate remained at 3.25% and prime at 4.75%."
+        ]
+      },
+      "source": {
+        "name": "@TASE_IL · {{time:tase}}",
+        "url": "https://x.com/TASE_IL/status/2124897847284027530"
+      },
+      "secondarySources": [
+        {
+          "name": "@calcalist · {{time:rate}}",
+          "url": "https://x.com/calcalist/status/2124866012961018349"
+        }
+      ],
+      "timeRefs": {
+        "tase": {
+          "at": "2026-11-23T16:08:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "rate": {
+          "at": "2026-11-23T14:01:50+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "week-ahead",
+      "section": "markets",
+      "priority": 10,
+      "kicker": {
+        "he": "השבוע · דוחות ומאקרו",
+        "en": "This week · earnings and macro"
+      },
+      "headline": {
+        "he": "לאחר דוח HPE, תשומת הלב עוברת לדל ול-HP; נתוני PCE ותמ״ג ב-25 בנובמבר",
+        "en": "After HPE's report, attention turns to Dell and HP; PCE and GDP due November 25"
+      },
+      "summary": {
+        "he": "HPE כבר פרסמה את תוצאותיה לאחר סגירת 23 בנובמבר. לפי סקירת רויטרס שפורסמה לפני הדוחות, דל ו-HP צפויות לפרסם ביום שלישי, 24 בנובמבר. יש להפריד בין HPE, שדיווחה כעת, לבין HP הנסחרת בסימול HPQ.",
+        "en": "HPE has now released its results after the November 23 close. According to Reuters' pre-earnings preview, Dell and HP are expected to report on Tuesday, November 24. HPE, which has just reported, is separate from HP, traded as HPQ."
+      },
+      "bullets": {
+        "he": [
+          "לוח BEA מציב את האומדן השני לתמ״ג ברבעון השלישי ואת נתוני ההכנסה וההוצאה האישית לאוקטובר, הכוללים את מדד PCE, ביום רביעי, 25 בנובמבר, ב-8:30 שעון ניו יורק, 15:30 בישראל.",
+          "מדד אמון הצרכנים של Conference Board צפוי ביום שלישי, 24 בנובמבר, ב-10:00 שעון ניו יורק, 17:00 בישראל, לפי לוח הארגון."
+        ],
+        "en": [
+          "The BEA calendar schedules the second estimate of third-quarter GDP and October personal income and outlays, including PCE, for Wednesday, November 25 at 8:30 New York time, 15:30 in Israel.",
+          "The Conference Board consumer-confidence release is due Tuesday, November 24 at 10:00 New York time, 17:00 in Israel, according to its calendar."
+        ]
+      },
+      "source": {
+        "name": "Reuters via U.S. News",
+        "url": "https://money.usnews.com/investing/news/articles/2026-11-23/dell-hpe-results-to-put-ai-demand-to-the-test-after-tech-rout"
+      },
+      "secondarySources": [
+        {
+          "name": "BEA · release schedule",
+          "url": "https://www.bea.gov/news/schedule"
+        },
+        {
+          "name": "The Conference Board",
+          "url": "https://www.conference-board.org/topics/consumer-confidence/press"
+        },
+        {
+          "name": "HPE · released results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000097/ex-991x11232026x8k.htm"
+        }
+      ],
+      "timeRefs": {}
+    }
+  ]
+}
