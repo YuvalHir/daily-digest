@@ -1,0 +1,738 @@
+{
+  "schemaVersion": "2.0",
+  "editionNumber": 16,
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T17:40:00+02:00",
+  "editionType": "open",
+  "editionSlug": "1740-open",
+  "editorialLead": {
+    "he": "יום אחרי הזינוק: וול סטריט נפתחת בירידות, והמכסים שוב בכותרות",
+    "en": "A day after the surge: Wall Street opens lower, and tariffs are back in the headlines"
+  },
+  "topSummary": {
+    "he": "וול סטריט נפתחה ב-24 בנובמבר בירידות אחרי הזינוק של היום הקודם, על רקע דיווח של הוול סטריט ג׳ורנל על גל מכסים אמריקאי חדש על סין, האיחוד האירופי ועוד 14 כלכלות. אנתרופיק ירדה מתחת למחיר ההנפקה, ואנבידיה מחקה חלק ניכר מהעלייה של אתמול.",
+    "en": "Wall Street opened lower on November 24 after the previous day's surge, against a Wall Street Journal report of a new US tariff wave on China, the EU and 14 other economies. Anthropic fell below its IPO price and Nvidia erased a significant part of Monday's gain."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "^GSPC",
+    "^IXIC",
+    "NASDAQ:NVDA",
+    "ANT",
+    "INSM",
+    "BA"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "^GSPC",
+      "range": "1d",
+      "label": {
+        "he": "S&P 500",
+        "en": "S&P 500"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "open-pullback",
+      "section": "markets",
+      "priority": 1,
+      "kicker": {
+        "he": "וול סטריט · פתיחה",
+        "en": "Wall Street · open"
+      },
+      "headline": {
+        "he": "יום אחרי הזינוק: וול סטריט נפתחת בירידות, והנאסד״ק מחזיר חלק מהעלייה של אתמול",
+        "en": "A day after the surge: Wall Street opens lower, with the Nasdaq giving back part of Monday's rally"
+      },
+      "summary": {
+        "he": "אחרי העלייה החדה ב-23 בנובמבר, המסחר ב-24 בנובמבר נפתח בירידות. לפי FirstSquawk ב-{{time:open}}, ה-S&P 500 ירד 1.09% ל-7,158.29 נקודות בפתיחה, הדאו ירד 296.21 נקודות, כלומר 0.60%, ל-49,299.10, והנאסד״ק ירד 341.45 נקודות, כלומר 1.42%, ל-23,748.11. בתצפית של בלומברג סמוך לפתיחה נמדדה ירידה של 1.3% ב-S&P 500 ושל 2.1% בנאסד״ק 100. אלו תצפיות של מסמן הפתיחה ודקותיו הראשונות, לא רמות המדדים בזמן הפרסום.",
+        "en": "After the sharp rally on November 23, trading on November 24 opened lower. Per FirstSquawk at {{time:open}}, the S&P 500 fell 1.09% to 7,158.29 at the open, the Dow dropped 296.21 points, or 0.60%, to 49,299.10, and the Nasdaq fell 341.45 points, or 1.42%, to 23,748.11. A Bloomberg snapshot near the open showed the S&P 500 down 1.3% and the Nasdaq 100 down 2.1%. These are observations from the opening print and its first minutes, not index levels at publication time."
+      },
+      "bullets": {
+        "he": [
+          "ב-{{time:ndx2}} דיווח FirstSquawk שהנאסד״ק 100 הגיע לירידה של 2%, כ-40 דקות אחרי הפתיחה.",
+          "ה-VIX הגיע ל-32.40 במסחר המוקדם, לפי DeItaone ב-{{time:vix}}.",
+          "באותה תצפית של בלומברג, התשואה של האג״ח האמריקאי ל-10 שנים עמדה סביב 4.90%, הנפט מסוג WTI סביב 81.11 דולר, וביטקוין סביב 60,206 דולר.",
+          "למעבר ההחד: ביום המסחר הקודם ננעל ה-S&P 500 בעלייה של 4.73%, לפי CNBC."
+        ],
+        "en": [
+          "At {{time:ndx2}} FirstSquawk reported the Nasdaq 100 had extended its decline to 2%, about 40 minutes after the open.",
+          "The VIX reached 32.40 in premarket trading, per DeItaone at {{time:vix}}.",
+          "In the same Bloomberg snapshot, the US 10-year yield was around 4.90%, WTI crude around $81.11, and bitcoin around $60,206.",
+          "For the sharp contrast: in the previous session the S&P 500 closed up 4.73%, per CNBC."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:open}}",
+        "url": "https://x.com/FirstSquawk/status/2125236051392536601"
+      },
+      "secondarySources": [
+        {
+          "name": "Bloomberg via Swissinfo · markets wrap",
+          "url": "https://www.swissinfo.ch/eng/stocks-fall-as-nvidia-fades-and-trade-fears-return%3a-markets-wrap/92426361"
+        },
+        {
+          "name": "@FirstSquawk · {{time:ndx2}}",
+          "url": "https://x.com/FirstSquawk/status/2125245254815408343"
+        },
+        {
+          "name": "@DeItaone · {{time:vix}}",
+          "url": "https://x.com/DeItaone/status/2125215552159506550"
+        },
+        {
+          "name": "AP · stock markets today",
+          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-feec0e25b9994b1c86b16329cf770192"
+        },
+        {
+          "name": "CNBC · stock market today, 23.11",
+          "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+        }
+      ],
+      "timeRefs": {
+        "open": {
+          "at": "2026-11-24T14:32:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ndx2": {
+          "at": "2026-11-24T15:08:48+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "vix": {
+          "at": "2026-11-24T13:10:46+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "isLead": true,
+      "marketCharts": [
+        {
+          "symbol": "^GSPC",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "tariff-report",
+      "section": "geopolitics",
+      "priority": 2,
+      "kicker": {
+        "he": "סחר · מכסים",
+        "en": "Trade · tariffs"
+      },
+      "headline": {
+        "he": "וול סטריט ג׳ורנל: ארה״ב מתכוננת להעלאת מכסים על סין, האיחוד האירופי ועוד 14 כלכלות",
+        "en": "Wall Street Journal: US prepares tariff increases on China, the EU and 14 other economies"
+      },
+      "summary": {
+        "he": "הוול סטריט ג׳ורנל דיווח, לפי ציטוטים של FirstSquawk ב-{{time:wsj}}, שהממשל האמריקאי מתכונן להעלות מכסים על סין, האיחוד האירופי ו-14 כלכלות נוספות, עם סיום חקירת סעיף 301 בנושא עודף יכולת ייצור. לפי הדיווח ב-{{time:rates}}, האיחוד האירופי, יפן ודרום קוריאה צפויים לקבל מכס של 15% או פחות, וסין צפויה לקבל מכס גבוה יותר; השיעורים הסופיים טרם נקבעו. בלומברג דיווחה שההכרזה עשויה לצאת כבר ב-24 בנובמבר, לפי DeItaone ב-{{time:today}}. הדיווחים מיוחסים למקורות המודעים לתוכניות, ולא פורסמה הודעה רשמית.",
+        "en": "The Wall Street Journal reported, as quoted by FirstSquawk at {{time:wsj}}, that the US administration is preparing to raise tariffs on China, the European Union and 14 other economies as its Section 301 probe into excess manufacturing capacity nears its end. Per the report at {{time:rates}}, the EU, Japan and South Korea are expected to face tariffs of 15% or lower, while China is expected to face a higher rate; final rates have not been set. Bloomberg reported the announcement could come as early as November 24, per DeItaone at {{time:today}}. The reports are attributed to people familiar with the plans; no official announcement has been published."
+      },
+      "bullets": {
+        "he": [
+          "חלק מהמוצרים התעשייתיים צפוי לצאת מכלל המכסים החדשים, לפי אותו דיווח של הוול סטריט ג׳ורנל ב-{{time:exclude}}.",
+          "ברקע נמשכת גם הרגיעה: סין האריכה את השהיית איסור ייצוא המינרלים הקריטיים לארה״ב, לפי בלומברג כפי שצוטט על ידי unusual_whales ב-{{time:minerals}}."
+        ],
+        "en": [
+          "Some industrial goods are likely to be excluded from the new tariffs, per the same Wall Street Journal report at {{time:exclude}}.",
+          "In the background, de-escalation continues as well: China extended its suspension of the ban on critical-mineral exports to the US, per Bloomberg as quoted by unusual_whales at {{time:minerals}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:wsj}}",
+        "url": "https://x.com/FirstSquawk/status/2125215172264591690"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:rates}}",
+          "url": "https://x.com/FirstSquawk/status/2125215392188756063"
+        },
+        {
+          "name": "@DeItaone · {{time:today}}",
+          "url": "https://x.com/DeItaone/status/2125228630540173466"
+        },
+        {
+          "name": "@FirstSquawk · {{time:exclude}}",
+          "url": "https://x.com/FirstSquawk/status/2125215414372413927"
+        },
+        {
+          "name": "@unusual_whales · {{time:minerals}}",
+          "url": "https://x.com/unusual_whales/status/2125170792346583248"
+        }
+      ],
+      "timeRefs": {
+        "wsj": {
+          "at": "2026-11-24T13:09:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "rates": {
+          "at": "2026-11-24T13:10:08+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "today": {
+          "at": "2026-11-24T14:02:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "exclude": {
+          "at": "2026-11-24T13:10:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "minerals": {
+          "at": "2026-11-24T10:12:55+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "nvidia-fade",
+      "section": "tech",
+      "priority": 3,
+      "kicker": {
+        "he": "אנבידיה · מחזירה עליות",
+        "en": "Nvidia · giving back gains"
+      },
+      "headline": {
+        "he": "אנבידיה ירדה כ-5% בפתיחה ומחקה חלק מהזינוק של אתמול; וול סטריט ג׳ורנל: הואנג גילה לדירקטוריון מערכות יחסים נוספות",
+        "en": "Nvidia fell about 5% at the open, erasing part of Monday's surge; WSJ: Huang disclosed additional relationships to the board"
+      },
+      "summary": {
+        "he": "אנבידיה ירדה 4.7% בפתיחה, לפי תצפית בלומברג סמוך לפתיחה, יום אחרי שזינקה כמעט 31.5% בעקבות החזרת ג׳נסן הואנג לניהול. DeItaone דיווח ב-{{time:nvda6}} שהמניה הגיעה לירידה של 6% כרבע שעה אחרי הפתיחה; תצפית זו לא אומתה במקור נוסף בזמן הכתיבה. בלילה שבין 23 ל-24 בנובמבר דיווח הוול סטריט ג׳ורנל, לפי ציטוט של unusual_whales ב-{{time:affairs}}, שהואנג גילה לדירקטוריון מערכות יחסים נוספות מעבר לשתיים שכבר דווחו בהרחבה.",
+        "en": "Nvidia fell 4.7% at the open, per a Bloomberg snapshot near the open, a day after surging nearly 31.5% on Jensen Huang's return to leadership. DeItaone reported at {{time:nvda6}} that the stock extended to a 6% decline about 15 minutes after the open; that observation was not confirmed by another source at the time of writing. Overnight between November 23 and 24, the Wall Street Journal reported, as quoted by unusual_whales at {{time:affairs}}, that Huang disclosed to the board additional relationships beyond the two already widely reported."
+      },
+      "bullets": {
+        "he": [
+          "סיטי העלתה את מחיר היעד של אנבידיה מ-225 ל-240 דולר ושמרה על המלצת קנייה, לפי StockMKTNewz ב-{{time:citi}}. דן אייבס העלה את מחיר היעד מ-225 ל-250 דולר, לפי StockMKTNewz ב-{{time:ives}}.",
+          "בנקים נוספים חזרו על המלצות קנייה: ריימונד ג׳יימס עם יעד של 350 דולר, בנק אוף אמריקה עם 280 דולר, נידהאם עם 200 דולר ופייפר סנדלר עם 230 דולר, לפי ריכוז של DeItaone ב-{{time:reiterate}}.",
+          "חבר הקונגרס גרגורי מיקס קרא להואנג להעיד בפומבי בפני ועדת הבית, לפי FirstSquawk ב-{{time:meeks}}."
+        ],
+        "en": [
+          "Citi raised its Nvidia price target from $225 to $240 while keeping a Buy rating, per StockMKTNewz at {{time:citi}}. Dan Ives raised his price target from $225 to $250, per StockMKTNewz at {{time:ives}}.",
+          "Other banks reiterated Buy ratings: Raymond James with a $350 target, Bank of America at $280, Needham at $200 and Piper Sandler at $230, per a DeItaone roundup at {{time:reiterate}}.",
+          "Representative Gregory Meeks called for Huang to testify publicly before the House panel, per FirstSquawk at {{time:meeks}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:nvda6}}",
+        "url": "https://x.com/DeItaone/status/2125239107437670716"
+      },
+      "secondarySources": [
+        {
+          "name": "Bloomberg via Swissinfo · markets wrap",
+          "url": "https://www.swissinfo.ch/eng/stocks-fall-as-nvidia-fades-and-trade-fears-return%3a-markets-wrap/92426361"
+        },
+        {
+          "name": "@unusual_whales · {{time:affairs}}",
+          "url": "https://x.com/unusual_whales/status/2125109480220471675"
+        },
+        {
+          "name": "@StockMKTNewz · {{time:citi}}",
+          "url": "https://x.com/StockMKTNewz/status/2125187029797421399"
+        },
+        {
+          "name": "@StockMKTNewz · {{time:ives}}",
+          "url": "https://x.com/StockMKTNewz/status/2125185382551626168"
+        },
+        {
+          "name": "@DeItaone · {{time:reiterate}}",
+          "url": "https://x.com/DeItaone/status/2125207207251771827"
+        },
+        {
+          "name": "@FirstSquawk · {{time:meeks}}",
+          "url": "https://x.com/FirstSquawk/status/2125241646497640736"
+        }
+      ],
+      "timeRefs": {
+        "nvda6": {
+          "at": "2026-11-24T14:44:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "affairs": {
+          "at": "2026-11-24T06:09:17+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "citi": {
+          "at": "2026-11-24T11:17:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ives": {
+          "at": "2026-11-24T11:10:53+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "reiterate": {
+          "at": "2026-11-24T12:37:37+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "meeks": {
+          "at": "2026-11-24T14:54:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-below-ipo",
+      "section": "tech",
+      "priority": 4,
+      "kicker": {
+        "he": "אנתרופיק · מתחת להנפקה",
+        "en": "Anthropic · below IPO"
+      },
+      "headline": {
+        "he": "אנתרופיק ירדה מתחת למחיר ההנפקה של 83 דולר, שלושה ימי מסחר אחרי הבכורה בנאסד״ק",
+        "en": "Anthropic fell below its $83 IPO price, three trading days after its Nasdaq debut"
+      },
+      "summary": {
+        "he": "מניית אנתרופיק ירדה מתחת למחיר ההנפקה של 83 דולר במסחר המוקדם, לפי LiveSquawk ב-{{time:ant83}}. המניה נפתחה ב-111.50 דולר ביום הבכורה ב-19 בנובמבר, לפי wallstengine ב-{{time:debut}}. לאחר פתיחת המסחר דיווח wallstengine ב-{{time:ant80}} שהמניה ירדה גם מתחת ל-80 דולר; תצפית זו לא אומתה במקור נוסף בזמן הכתיבה, והיא אינה ציטוט חי בזמן הפרסום.",
+        "en": "Anthropic shares fell below the $83 IPO price in premarket trading, per LiveSquawk at {{time:ant83}}. The stock opened at $111.50 on its debut day, November 19, per wallstengine at {{time:debut}}. After the open, wallstengine reported at {{time:ant80}} that the stock also broke below $80; that observation was not confirmed by another source at the time of writing and is not a live publication-time quote."
+      },
+      "bullets": {
+        "he": [
+          "מול הירידה, Wedbush התחילה כיסוי של אנתרופיק בהמלצת Outperform עם מחיר יעד של 120 דולר, לפי DeItaone ב-{{time:wedbush}}.",
+          "אקסיוס דיווח שעובדים באנתרופיק וב-OpenAI חוששים שחלק מהמודלים שעליהם הם עובדים הפכו חזקים מדי כדי לפרסם אותם, לפי ציטוט של LiveSquawk ב-{{time:axios}}."
+        ],
+        "en": [
+          "Against the decline, Wedbush initiated coverage of Anthropic at Outperform with a $120 price target, per DeItaone at {{time:wedbush}}.",
+          "Axios reported that employees at Anthropic and OpenAI fear some of the models they are working on have become too powerful to release, as quoted by LiveSquawk at {{time:axios}}."
+        ]
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:ant83}}",
+        "url": "https://x.com/LiveSquawk/status/2125185590190637460"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:debut}}",
+          "url": "https://x.com/wallstengine/status/2125185925626102263"
+        },
+        {
+          "name": "@wallstengine · {{time:ant80}}",
+          "url": "https://x.com/wallstengine/status/2125237942839119976"
+        },
+        {
+          "name": "@DeItaone · {{time:wedbush}}",
+          "url": "https://x.com/DeItaone/status/2125210852236099810"
+        },
+        {
+          "name": "@LiveSquawk · {{time:axios}}",
+          "url": "https://x.com/LiveSquawk/status/2125179369794801782"
+        }
+      ],
+      "timeRefs": {
+        "ant83": {
+          "at": "2026-11-24T11:11:43+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "debut": {
+          "at": "2026-11-24T11:13:03+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ant80": {
+          "at": "2026-11-24T14:39:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wedbush": {
+          "at": "2026-11-24T12:52:06+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "axios": {
+          "at": "2026-11-24T10:47:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "ANT",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "sanofi-insmed",
+      "section": "markets",
+      "priority": 5,
+      "kicker": {
+        "he": "מיזוגים · פארמה",
+        "en": "M&A · pharma"
+      },
+      "headline": {
+        "he": "סאנופי רוכשת את Insmed האמריקאית ב-41 מיליארד דולר; המניה זינקה בטרום-מסחר",
+        "en": "Sanofi is buying US drugmaker Insmed for $41 billion; the stock surged premarket"
+      },
+      "summary": {
+        "he": "סאנופי תרכוש את יצרנית התרופות האמריקאית Insmed בעסקה של 41 מיליארד דולר, לפי כלכליסט ב-{{time:calcalist}} וגלובס ב-{{time:globes}}. מניית Insmed זינקה כ-14% במסחר המוקדם, לפי ריכוז המניות הבולטות של CNBC.",
+        "en": "Sanofi will acquire US drugmaker Insmed in a $41 billion deal, per Calcalist at {{time:calcalist}} and Globes at {{time:globes}}. Insmed shares surged about 14% in premarket trading, per CNBC's roundup of the day's biggest movers."
+      },
+      "bullets": {
+        "he": [
+          "סאנופי קיבלה הלוואת גישור של 35 מיליארד דולר מג׳יי.פי.מורגן ו-BNP למימון העסקה, לפי FirstSquawk ב-{{time:bridge}}."
+        ],
+        "en": [
+          "Sanofi received a $35 billion bridge loan from JPMorgan and BNP to fund the deal, per FirstSquawk at {{time:bridge}}."
+        ]
+      },
+      "source": {
+        "name": "@calcalist · {{time:calcalist}}",
+        "url": "https://x.com/calcalist/status/2125159997323518133"
+      },
+      "secondarySources": [
+        {
+          "name": "@globesnews · {{time:globes}}",
+          "url": "https://x.com/globesnews/status/2125179817175797942"
+        },
+        {
+          "name": "@FirstSquawk · {{time:bridge}}",
+          "url": "https://x.com/FirstSquawk/status/2125188638531277261"
+        },
+        {
+          "name": "CNBC · Stocks moving the most",
+          "url": "https://www.cnbc.com/2026/11/24/stocks-moving-the-most-today-live-updates.html"
+        }
+      ],
+      "timeRefs": {
+        "calcalist": {
+          "at": "2026-11-24T09:30:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "globes": {
+          "at": "2026-11-24T10:48:47+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bridge": {
+          "at": "2026-11-24T11:23:50+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "retail-earnings",
+      "section": "markets",
+      "priority": 6,
+      "kicker": {
+        "he": "דוחות · קמעונאות",
+        "en": "Earnings · retail"
+      },
+      "headline": {
+        "he": "דוחות קמעונאות חזקים מול הירידות: דיק׳ס +16% ואברקרומבי +21%; HPE מחזירה חלק מהזינוק",
+        "en": "Strong retail earnings against the decline: Dick's +16% and Abercrombie +21%; HPE gives back part of its surge"
+      },
+      "summary": {
+        "he": "דוחות הקמעונאות בלטו מול הירידות בפתיחה: דיק׳ס ספורטינג גודס עלתה 16%, אברקרומבי אנד פיץ׳ 21%, קוהל׳ס כ-7% ובסט ביי 3%, לפי ריכוז המניות הבולטות של CNBC. HPE ירדה 11% באותו ריכוז, יום אחרי הזינוק שלה על הדוחות.",
+        "en": "Retail earnings stood out against the opening decline: Dick's Sporting Goods rose 16%, Abercrombie & Fitch 21%, Kohl's about 7% and Best Buy 3%, per CNBC's roundup of the day's biggest movers. HPE fell 11% in the same roundup, a day after its earnings-driven surge."
+      },
+      "bullets": {
+        "he": [
+          "דיק׳ס רשמה רווח מתואם למניה של 1.94 דולר מול תחזית של 1.40 והעלתה את התחזית השנתית, לפי wallstengine ב-{{time:dks}}.",
+          "בסט ביי רשמה רווח מתואם של 1.62 דולר למניה מול תחזית של 1.49, העלתה את תחזית הרווח השנתית ל-6.90–7.05 דולר ואת תחזית המכירות הדומות ל-3.4%–4%, לפי FirstSquawk ב-{{time:bby}}.",
+          "דולר טרי רשמה רווח מתואם של 1.16 דולר למניה מול תחזית של 0.91 והעלתה את התחזית השנתית, לפי FirstSquawk ב-{{time:dltr}}; המניה עלתה יותר מ-10% בטרום-מסחר, לפי StockMKTNewz ב-{{time:dltrmove}}."
+        ],
+        "en": [
+          "Dick's posted adjusted earnings per share of $1.94 versus a $1.40 estimate and raised its annual guidance, per wallstengine at {{time:dks}}.",
+          "Best Buy posted adjusted EPS of $1.62 versus a $1.49 estimate, raised its annual EPS guidance to $6.90–$7.05 and its comparable-sales guidance to 3.4%–4%, per FirstSquawk at {{time:bby}}.",
+          "Dollar Tree posted adjusted EPS of $1.16 versus a $0.91 estimate and raised its annual guidance, per FirstSquawk at {{time:dltr}}; the stock rose more than 10% premarket, per StockMKTNewz at {{time:dltrmove}}."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:dks}}",
+        "url": "https://x.com/wallstengine/status/2125198353692533103"
+      },
+      "secondarySources": [
+        {
+          "name": "CNBC · Stocks moving the most",
+          "url": "https://www.cnbc.com/2026/11/24/stocks-moving-the-most-today-live-updates.html"
+        },
+        {
+          "name": "@FirstSquawk · {{time:bby}}",
+          "url": "https://x.com/FirstSquawk/status/2125198505182728621"
+        },
+        {
+          "name": "@FirstSquawk · {{time:dltr}}",
+          "url": "https://x.com/FirstSquawk/status/2125190980416815226"
+        },
+        {
+          "name": "@StockMKTNewz · {{time:dltrmove}}",
+          "url": "https://x.com/StockMKTNewz/status/2125197040191771025"
+        }
+      ],
+      "timeRefs": {
+        "dks": {
+          "at": "2026-11-24T12:02:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bby": {
+          "at": "2026-11-24T12:03:02+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "dltr": {
+          "at": "2026-11-24T11:33:08+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "dltrmove": {
+          "at": "2026-11-24T11:57:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "consumer-confidence",
+      "section": "markets",
+      "priority": 7,
+      "kicker": {
+        "he": "מאקרו · ארה״ב",
+        "en": "Macro · United States"
+      },
+      "headline": {
+        "he": "אמון הצרכנים זינק ל-103.3 בנובמבר, הרבה מעל התחזית; האג״ח החלישו את העליות",
+        "en": "Consumer confidence jumped to 103.3 in November, far above estimates; Treasuries pared gains"
+      },
+      "summary": {
+        "he": "מדד אמון הצרכנים של הקונפרנס בורד זינק ל-103.3 בנובמבר, מול תחזית של כ-92.4, ואחרי שנתון אוקטובר תוקן ל-91.9, לפי LiveSquawk ב-{{time:conf}}. תת-מדד המצב הנוכחי הגיע ל-132.8 ותת-מדד הציפיות ל-83.6. בעקבות הנתון איגרות החובה הממשלתיות האמריקאיות החלישו את העליות, לפי FirstSquawk ב-{{time:treas}}.",
+        "en": "The Conference Board consumer confidence index jumped to 103.3 in November, versus an estimate of about 92.4, after October was revised to 91.9, per LiveSquawk at {{time:conf}}. The present-situation sub-index reached 132.8 and the expectations sub-index 83.6. US Treasuries pared gains following the release, per FirstSquawk at {{time:treas}}."
+      },
+      "bullets": {
+        "he": [
+          "במקביל, סקר אוניברסיטת מישיגן מצא ש-41% מהאמריקאים, שיא, צופים שהמצבם הכלכלי יהיה גרוע יותר בעוד שנה, לפי unusual_whales ב-{{time:michigan}}.",
+          "נתון ADP השבועי הצביע על האטה בהעסקה: מעסיקים פרטיים הוסיפו בממוצע 21,000 משרות בשבוע בארבעת השבועות עד 7 בנובמבר, לעומת 23,000 בתקופה הקודמת, לפי DeItaone ב-{{time:adp}}."
+        ],
+        "en": [
+          "In parallel, a University of Michigan survey found a record 41% of Americans expect their finances to be worse a year from now, per unusual_whales at {{time:michigan}}.",
+          "The weekly ADP reading pointed to slower hiring: private employers added an average of 21,000 jobs per week in the four weeks ending November 7, down from 23,000 in the prior period, per DeItaone at {{time:adp}}."
+        ]
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:conf}}",
+        "url": "https://x.com/LiveSquawk/status/2125243281303101826"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:treas}}",
+          "url": "https://x.com/FirstSquawk/status/2125244380743348275"
+        },
+        {
+          "name": "@unusual_whales · {{time:michigan}}",
+          "url": "https://x.com/unusual_whales/status/2125237251315552569"
+        },
+        {
+          "name": "@DeItaone · {{time:adp}}",
+          "url": "https://x.com/DeItaone/status/2125216951957868979"
+        }
+      ],
+      "timeRefs": {
+        "conf": {
+          "at": "2026-11-24T15:00:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "treas": {
+          "at": "2026-11-24T15:05:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "michigan": {
+          "at": "2026-11-24T14:37:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "adp": {
+          "at": "2026-11-24T13:16:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "hormuz-tankers",
+      "section": "geopolitics",
+      "priority": 8,
+      "kicker": {
+        "he": "גיאופוליטיקה · מצר הורמוז",
+        "en": "Geopolitics · Strait of Hormuz"
+      },
+      "headline": {
+        "he": "גופים באיראן טוענים שמכליות פגעו במוקשים במצר הורמוז; אין אימות עצמאי",
+        "en": "Iranian bodies claim tankers struck mines in the Strait of Hormuz; no independent verification"
+      },
+      "summary": {
+        "he": "צבא איראן מסר ששתי מכליות פגעו במוקשים במצר הורמוז, לפי סוכנות הידיעות תסנים כפי שצוטטה ב-FirstSquawk ב-{{time:tasnim}}. מאוחר יותר מסרו משמרות המהפכה שמכלית נוספת פגעה במוקש, לפי סוכנות פארס כפי שצוטטה ב-FirstSquawk ב-{{time:fars}}. דיווחים על פיצוצים במצר סומנו כלא מאומתים, לפי FirstSquawk ב-{{time:explosions}}. בשלב זה כל הדיווחים הם טענות של גופים איראניים, ללא אימות עצמאי.",
+        "en": "Iran's army said two tankers struck mines in the Strait of Hormuz, per the Tasnim news agency as quoted by FirstSquawk at {{time:tasnim}}. The Revolutionary Guards later said another tanker hit a mine, per the Fars news agency as quoted by FirstSquawk at {{time:fars}}. Reports of explosions in the strait were flagged as unverified, per FirstSquawk at {{time:explosions}}. At this stage all reports are claims by Iranian bodies, without independent verification."
+      },
+      "bullets": {
+        "he": [
+          "הוול סטריט ג׳ורנל דיווח שארה״ב בוחנת אפשרות שאיראן עומדת מאחורי עשרות מתקפות סייבר חדשות נגד ספינות, לפי ריכוז של LiveSquawk ב-{{time:cyber}}."
+        ],
+        "en": [
+          "The Wall Street Journal reported that the US is examining whether Iran is behind dozens of new cyberattacks against ships, per a LiveSquawk roundup at {{time:cyber}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:tasnim}}",
+        "url": "https://x.com/FirstSquawk/status/2125163621881884769"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:fars}}",
+          "url": "https://x.com/FirstSquawk/status/2125182345678578146"
+        },
+        {
+          "name": "@FirstSquawk · {{time:explosions}}",
+          "url": "https://x.com/FirstSquawk/status/2125175587618898061"
+        },
+        {
+          "name": "@LiveSquawk · {{time:cyber}}",
+          "url": "https://x.com/LiveSquawk/status/2125156501673169302"
+        }
+      ],
+      "timeRefs": {
+        "tasnim": {
+          "at": "2026-11-24T09:44:25+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fars": {
+          "at": "2026-11-24T10:58:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "explosions": {
+          "at": "2026-11-24T10:31:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "cyber": {
+          "at": "2026-11-24T09:16:08+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "tase-index-expansion",
+      "section": "israel",
+      "priority": 9,
+      "kicker": {
+        "he": "תל אביב · מדדים",
+        "en": "Tel Aviv · indices"
+      },
+      "headline": {
+        "he": "הבורסה בתל אביב מציעה להרחיב את מדדי הדגל: ת״א-35 יהפוך לת״א-50",
+        "en": "The Tel Aviv Stock Exchange proposes expanding its flagship indices: TA-35 would become TA-50"
+      },
+      "summary": {
+        "he": "הבורסה לניירות ערך הציעה להרחיב את מדד ת״א-35 לת״א-50, את ת״א-90 לת״א-100 ואת ת״א-125 לת״א-150, ולשנות את שם מדד ת״א-צמיחה לת״א-Small Cap, לפי הודעת הבורסה ב-{{time:tase}}. ההצעה פתוחה להערות הציבור עד 20 בדצמבר, ובכפוף לקבלת האישורים הנדרשים השינויים צפויים להיכנס לתוקף בעדכון המדדים במאי.",
+        "en": "The Tel Aviv Stock Exchange proposed expanding the TA-35 index to TA-50, TA-90 to TA-100 and TA-125 to TA-150, and renaming the TA-Growth index to TA-Small Cap, per the exchange's announcement at {{time:tase}}. The proposal is open for public comment until December 20, and subject to the required approvals the changes are expected to take effect in the May index update."
+      },
+      "bullets": {
+        "he": [
+          "ההצעה מגיעה ביום שבו השאלה המקומית היא אם הבורסה בתל אביב תצטרף לעליית וול סטריט של 23 בנובמבר, כפי שסיכם כלכליסט ב-{{time:party}}."
+        ],
+        "en": [
+          "The proposal comes on a day when the local question is whether the Tel Aviv exchange would join Wall Street's November 23 rally, as Calcalist summed up at {{time:party}}."
+        ]
+      },
+      "source": {
+        "name": "@TASE_IL · {{time:tase}}",
+        "url": "https://x.com/TASE_IL/status/2125136703572549750"
+      },
+      "secondarySources": [
+        {
+          "name": "@calcalist · {{time:party}}",
+          "url": "https://x.com/calcalist/status/2125120819789451695"
+        }
+      ],
+      "timeRefs": {
+        "tase": {
+          "at": "2026-11-24T07:57:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "party": {
+          "at": "2026-11-24T06:54:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "boeing-china",
+      "section": "markets",
+      "priority": 10,
+      "kicker": {
+        "he": "תעופה · סין",
+        "en": "Aviation · China"
+      },
+      "headline": {
+        "he": "בואינג קיבלה הזמנה של 7.4 מיליארד דולר מסין: 50 מטוסי 737 מקס",
+        "en": "Boeing received a $7.4 billion order from China: 50 737 Max jets"
+      },
+      "summary": {
+        "he": "שיאמן איירליינס, יחידה של צ׳יינה סאות׳רן, הזמינה 50 מטוסי בואינג 737-8 מקס בעסקה של 7.4 מיליארד דולר, המכירה הגדולה הראשונה של בואינג בסין מזה שנים, לפי wallstengine ב-{{time:boeing}}. LiveSquawk דיווח על העסקה ב-{{time:boeingls}}.",
+        "en": "Xiamen Airlines, a China Southern unit, ordered 50 Boeing 737-8 Max jets in a $7.4 billion deal, Boeing's first major China sale in years, per wallstengine at {{time:boeing}}. LiveSquawk reported the deal at {{time:boeingls}}."
+      },
+      "bullets": {
+        "he": [
+          "טראמפ אמר השבוע שהוא מצפה שסין תרכוש 250 מטוסי בואינג נוספים, לפי אותו דיווח של wallstengine."
+        ],
+        "en": [
+          "Trump said this week that he expects China to buy another 250 Boeing planes, per the same wallstengine report."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:boeing}}",
+        "url": "https://x.com/wallstengine/status/2125181873127305727"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:boeingls}}",
+          "url": "https://x.com/LiveSquawk/status/2125169064553185765"
+        }
+      ],
+      "timeRefs": {
+        "boeing": {
+          "at": "2026-11-24T10:56:57+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "boeingls": {
+          "at": "2026-11-24T10:06:03+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "BA",
+          "range": "1d"
+        }
+      ]
+    }
+  ]
+}
