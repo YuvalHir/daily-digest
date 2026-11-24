@@ -1,0 +1,608 @@
+{
+  "schemaVersion": "2.0",
+  "editionNumber": 17,
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-25T00:12:00+02:00",
+  "editionType": "close",
+  "editionSlug": "0012-close",
+  "editorialLead": {
+    "he": "סגירה מעורבת בוול סטריט: הטק נסוג, הדאו עלה על רוטציה לערך",
+    "en": "Mixed close on Wall Street: tech retreated, the Dow rose on a rotation to value"
+  },
+  "topSummary": {
+    "he": "וול סטריט נסגרה ב-24 בנובמבר במגמה מעורבת: הנאסד״ק ירד ואנבידיה נחלשה שוב, בעוד הדאו עלה בעזרת הקמעונאות והצריכה. אחרי הסגירה דיווחה דל על רבעון חזק בהרבה מהצפוי, אך המקורות חלוקים על כיוון תגובת המניה.",
+    "en": "Wall Street closed mixed on November 24: the Nasdaq fell and Nvidia weakened again, while the Dow rose on retail and consumer strength. After the close Dell reported a quarter far stronger than expected, but sources disagree on the direction of the stock's reaction."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "^GSPC",
+    "^IXIC",
+    "NVDA",
+    "DELL",
+    "ANT",
+    "ADSK"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "^GSPC",
+      "range": "1d",
+      "label": {
+        "he": "S&P 500",
+        "en": "S&P 500"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "close-mixed",
+      "section": "markets",
+      "priority": 1,
+      "kicker": {
+        "he": "וול סטריט · סגירה",
+        "en": "Wall Street · close"
+      },
+      "headline": {
+        "he": "סגירה מעורבת אחרי הזינוק: הנאסד״ק ירד 1.48%, הדאו עלה כ-0.85% על רוטציה לערך",
+        "en": "Mixed close after the surge: Nasdaq fell 1.48%, the Dow rose about 0.85% on a rotation to value"
+      },
+      "summary": {
+        "he": "יום אחרי הזינוק, המסחר ב-24 בנובמבר נסגר במגמה מעורבת. לפי Motley Fool, ה-S&P 500 ירד 0.50% ל-7,201 נקודות, הנאסד״ק ירד 1.48% ל-23,734 והדאו עלה 0.85% ל-50,019; Investing.com רשמה שינויים כמעט זהים, עם עלייה של 0.86% בדאו. לפי AP, ירידת ה-S&P היא השמינית בתשעת ימי המסחר האחרונים. ה-VIX נסגר על 26.36, לפי Investing.com.",
+        "en": "A day after the surge, trading on November 24 closed mixed. Per Motley Fool, the S&P 500 fell 0.50% to 7,201, the Nasdaq fell 1.48% to 23,734 and the Dow rose 0.85% to 50,019; Investing.com recorded nearly identical moves, with the Dow up 0.86%. Per AP, the S&P's decline is its eighth in the last nine sessions. The VIX closed at 26.36, per Investing.com."
+      },
+      "bullets": {
+        "he": [
+          "הפיצול בין המדדים משקף רוטציה: הקמעונאות והצריכה החזיקו את הדאו בעוד הטכנולוגיה נסוגה.",
+          "ברקע המאקרו, מדד אמון הצרכנים של הקונפרנס בורד זינק בנובמבר ל-103.3, מול קונצנזוס של כ-92, לפי Motley Fool."
+        ],
+        "en": [
+          "The split between the indices reflects a rotation: retail and consumer names held up the Dow while technology retreated.",
+          "In the macro background, the Conference Board consumer confidence index jumped to 103.3 in November, versus a consensus of about 92, per Motley Fool."
+        ]
+      },
+      "source": {
+        "name": "Motley Fool · Stock Market Today 24.11",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/"
+      },
+      "secondarySources": [
+        {
+          "name": "AP · How major US stock indexes fared",
+          "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-6cc4e580290aadf304ee316d6d46dd81"
+        },
+        {
+          "name": "Investing.com · US stocks mixed at close",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-086-5049102"
+        }
+      ],
+      "timeRefs": {},
+      "isLead": true,
+      "marketCharts": [
+        {
+          "symbol": "^GSPC",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-close",
+      "section": "tech",
+      "priority": 2,
+      "kicker": {
+        "he": "אנבידיה · נסיגה",
+        "en": "Nvidia · retreat"
+      },
+      "headline": {
+        "he": "אנבידיה ירדה 5.86% ל-155.38 דולר, יום אחרי הזינוק של 31%",
+        "en": "Nvidia fell 5.86% to $155.38, a day after the 31% surge"
+      },
+      "summary": {
+        "he": "מניית אנבידיה ירדה 5.86% ל-155.38 דולר בסגירה, לפי Investing.com, יום אחרי שזינקה כמעט 31.5% בעקבות החזרת ג׳נסן הואנג. לפי גלובס ב-{{time:apology}}, הואנג התנצל בפני עובדי החברה והבהיר שאין צורך בתוכנית לרצף ניהולי.",
+        "en": "Nvidia shares fell 5.86% to close at $155.38, per Investing.com, a day after surging nearly 31.5% on Jensen Huang's return. Per Globes at {{time:apology}}, Huang apologized to the company's employees and clarified that no management succession plan is needed."
+      },
+      "bullets": {
+        "he": [
+          "הוול סטריט ג׳ורנל דיווח שהואנג גילה לדירקטוריון מערכות יחסים נוספות מעבר לשתיים שכבר דווחו, והיה נוקב לגבי התנהגותו, לפי ציטוט של unusual_whales; גם דיווח זה לא לווה במסמך רשמי.",
+          "בקונגרס ממשיכים ללחוץ: פוליטיקו מדווח על עימות מתגבר עם אנבידיה, לפי unusual_whales ב-{{time:congress}}.",
+          "StoneX שדרגה את אנבידיה להמלצת קנייה, לפי FirstSquawk ב-{{time:stonex}}."
+        ],
+        "en": [
+          "The Wall Street Journal reported that Huang disclosed additional relationships to the board beyond the two already reported, and was contrite about his conduct, per an unusual_whales quote; this report also came without an official document.",
+          "Pressure continues in Congress: Politico reports an escalating confrontation with Nvidia, per unusual_whales at {{time:congress}}.",
+          "StoneX upgraded Nvidia to Buy, per FirstSquawk at {{time:stonex}}."
+        ]
+      },
+      "source": {
+        "name": "@globesnews · {{time:apology}}",
+        "url": "https://x.com/globesnews/status/2125335265564659985"
+      },
+      "secondarySources": [
+        {
+          "name": "Investing.com · US stocks mixed at close",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-086-5049102"
+        },
+        {
+          "name": "@unusual_whales · {{time:congress}}",
+          "url": "https://x.com/unusual_whales/status/2125348231848878346"
+        },
+        {
+          "name": "@FirstSquawk · {{time:stonex}}",
+          "url": "https://x.com/FirstSquawk/status/2125106787682824564"
+        }
+      ],
+      "timeRefs": {
+        "apology": {
+          "at": "2026-11-24T21:06:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "congress": {
+          "at": "2026-11-24T21:58:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "stonex": {
+          "at": "2026-11-24T05:58:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "NASDAQ:NVDA",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "ai-hardware-selloff",
+      "section": "tech",
+      "priority": 3,
+      "kicker": {
+        "he": "חומרת AI · מכירה",
+        "en": "AI hardware · selloff"
+      },
+      "headline": {
+        "he": "חומרת AI נחלשה: ADI ירדה 17.37%, HPE ירדה 16.31%, דל ירדה 11.83% לפני הדוח",
+        "en": "AI hardware weakened: ADI fell 17.37%, HPE fell 16.31%, Dell fell 11.83% ahead of its report"
+      },
+      "summary": {
+        "he": "המכירה בטכנולוגיה התרכזה בחומרת AI: אנלוג דיווייסס ירדה 17.37% ל-312.95 דולר ו-HPE ירדה 16.31% ל-40.19 דולר, שתיהן בסגירה לפי Investing.com ויום אחרי הדוחות שלהן. דל ירדה 11.83% ל-295.28 דולר במסחר הרגיל, לפני פרסום הדוח שלה אחרי הסגירה.",
+        "en": "The tech selling concentrated in AI hardware: Analog Devices fell 17.37% to $312.95 and HPE fell 16.31% to $40.19, both at the close per Investing.com and a day after their reports. Dell fell 11.83% to $295.28 in regular trading, ahead of its post-close report."
+      },
+      "bullets": {
+        "he": [
+          "מיקרון נחלשה גם היא, לפי ריכוז של wallstengine ב-{{time:hardware}} על מכירה רחבה בחומרת AI; באותו ריכוז צוטטה אזהרת HPE ששרתי ה-AI שהיא מוכרת ילחצו על השוליים בשנה הבאה."
+        ],
+        "en": [
+          "Micron also weakened, per a wallstengine roundup at {{time:hardware}} of broad AI-hardware selling; the same roundup cited HPE's warning that the AI servers it is selling will squeeze margins next year."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:hardware}}",
+        "url": "https://x.com/wallstengine/status/2125302975262585329"
+      },
+      "secondarySources": [
+        {
+          "name": "Investing.com · US stocks mixed at close",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-086-5049102"
+        }
+      ],
+      "timeRefs": {
+        "hardware": {
+          "at": "2026-11-24T18:58:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "value-rotation",
+      "section": "markets",
+      "priority": 4,
+      "kicker": {
+        "he": "רוטציה · קמעונאות",
+        "en": "Rotation · retail"
+      },
+      "headline": {
+        "he": "הצד השני של היום: Kohl's זינקה 19.48%, דולר טרי עלתה 11.18%",
+        "en": "The other side of the day: Kohl's surged 19.48%, Dollar Tree rose 11.18%"
+      },
+      "summary": {
+        "he": "בעוד הטכנולוגיה נסוגה, מניות הקמעונאות והצריכה המשיכו לעלות אחרי הדוחות: Kohl's זינקה 19.48%, לפי Motley Fool, ודולר טרי עלתה 11.18%, לפי Investing.com. בדאו בלטו גם נייקי עם עלייה של 5.89% ואמג'ן עם 5.54%, לפי Motley Fool.",
+        "en": "While technology retreated, retail and consumer stocks kept rising after their reports: Kohl's surged 19.48%, per Motley Fool, and Dollar Tree rose 11.18%, per Investing.com. In the Dow, Nike stood out with a 5.89% gain and Amgen with 5.54%, per Motley Fool."
+      },
+      "bullets": {
+        "he": [
+          "העליות באו אחרי סבב דוחות קמעונאות חזק עם העלאות תחזית, כפי שפורט במהלך היום."
+        ],
+        "en": [
+          "The gains followed a round of strong retail reports with raised guidance, as detailed during the day."
+        ]
+      },
+      "source": {
+        "name": "Motley Fool · Stock Market Today 24.11",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/"
+      },
+      "secondarySources": [
+        {
+          "name": "Investing.com · US stocks mixed at close",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-086-5049102"
+        }
+      ],
+      "timeRefs": {}
+    },
+    {
+      "id": "dell-results",
+      "section": "tech",
+      "priority": 5,
+      "kicker": {
+        "he": "דל · דוחות",
+        "en": "Dell · earnings"
+      },
+      "headline": {
+        "he": "דל רשמה רבעון ענק: הכנסות 54.9 מיליארד דולר, פי שניים מהשנה שעברה; המקורות חלוקים על תגובת המניה באפטר",
+        "en": "Dell posted a huge quarter: $54.9 billion revenue, double last year; sources disagree on the after-hours reaction"
+      },
+      "summary": {
+        "he": "דל דיווחה אחרי הסגירה על הכנסות של 54.9 מיליארד דולר ברבעון השלישי של שנת הכספים 2027, עלייה של 103% לעומת הרבעון המקביל, ועל רווח מתואם של 9.45 דולר למניה, מול קונצנזוס LSEG של 6.59 דולר לפי CNBC. הזמנות ה-AI הסתכמו ב-60.2 מיליארד דולר וצבר ההזמנות הגיע ל-132.3 מיליארד דולר. החברה העלתה את תחזית ההכנסות השנתית ל-202 מיליארד דולר ואישרה הרחבה של 25 מיליארד דולר לרכישה העצמית, לפי הודעתה הרשמית.",
+        "en": "Dell reported after the close third-quarter fiscal 2027 revenue of $54.9 billion, up 103% year over year, and adjusted EPS of $9.45 versus an LSEG consensus of $6.59 per CNBC. AI orders totaled $60.2 billion and the backlog reached $132.3 billion. The company raised its annual revenue guidance to $202 billion and authorized an additional $25 billion of buybacks, per its official release."
+      },
+      "bullets": {
+        "he": [
+          "לרבעון הרביעי צופה דל הכנסות של 56.3 מיליארד דולר ורווח מתואם של 8.40 דולר למניה, שניהם מעל ההערכות, לפי FirstSquawk ב-{{time:q4}}.",
+          "צבר הזמנות ה-AI של 132 מיליארד דולר גדול מכלל ההכנסות השנתיות של החברה בשנה שעברה, עלייה של 619% לעומת השנה המקבילה, לפי wallstengine ב-{{time:backlog}}.",
+          "על תגובת המניה במסחר המאוחר יש סתירה בין המקורות: CNBC דיווח על ירידה ו-Investing.com על עלייה של כ-4%. בשל הסתירה לא מצוין כאן שיעור תגובה."
+        ],
+        "en": [
+          "For the fourth quarter Dell guided revenue of $56.3 billion and adjusted EPS of $8.40, both above estimates, per FirstSquawk at {{time:q4}}.",
+          "The $132 billion AI order backlog is bigger than the company's entire revenue last year, up 619% year over year, per wallstengine at {{time:backlog}}.",
+          "Sources conflict on the after-hours reaction: CNBC reported a decline while Investing.com reported a gain of about 4%. Because of the conflict, no reaction rate is stated here."
+        ]
+      },
+      "source": {
+        "name": "Dell Technologies · Q3 FY2027 results",
+        "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
+      },
+      "secondarySources": [
+        {
+          "name": "CNBC · Dell earnings Q3 2027",
+          "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html"
+        },
+        {
+          "name": "Investing.com · after-hours movers",
+          "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-dell-hpq-adsk-wday-ntnx-urbn-clsk-432SI-5049079"
+        },
+        {
+          "name": "@FirstSquawk · {{time:q4}}",
+          "url": "https://x.com/FirstSquawk/status/2125338829095862735"
+        },
+        {
+          "name": "@wallstengine · {{time:backlog}}",
+          "url": "https://x.com/wallstengine/status/2125337498327085078"
+        }
+      ],
+      "timeRefs": {
+        "q4": {
+          "at": "2026-11-24T21:20:38+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "backlog": {
+          "at": "2026-11-24T21:15:21+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "DELL",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "afterhours-reports",
+      "section": "tech",
+      "priority": 6,
+      "kicker": {
+        "he": "דוחות · אחרי הסגירה",
+        "en": "Earnings · after the close"
+      },
+      "headline": {
+        "he": "עוד דוחות אחרי הסגירה: Autodesk ו-Workday ירדו באפטר, HP זינקה 9%, Nutanix הפתיעה עם פרישת מנכ״ל",
+        "en": "More post-close reports: Autodesk and Workday fell after hours, HP jumped 9%, Nutanix surprised with a CEO departure"
+      },
+      "summary": {
+        "he": "HP דיווחה על הכנסות של 16.0 מיליארד דולר, עלייה של 9.3% לעומת השנה המקבילה, ורווח מתואם של 0.83 דולר למניה מול תחזית של 0.75, לפי wallstengine ב-{{time:hpq}}; המניה עלתה כ-9% במסחר המאוחר, לפי Investing.com. Autodesk רשמה הכנסות של 2.16 מיליארד דולר ורווח מתואם של 3.20 דולר, מעל ההערכות, וצפתה הכנסות רבעון רביעי של 2.22–2.24 מיליארד דולר, לפי FirstSquawk ב-{{time:adsk}}; המניה ירדה כ-4% באפטר, לפי Investing.com.",
+        "en": "HP reported revenue of $16.0 billion, up 9.3% year over year, and adjusted EPS of $0.83 versus a $0.75 estimate, per wallstengine at {{time:hpq}}; the stock rose about 9% after hours, per Investing.com. Autodesk posted revenue of $2.16 billion and adjusted EPS of $3.20, both above estimates, and guided fourth-quarter revenue of $2.22–$2.24 billion, per FirstSquawk at {{time:adsk}}; the stock fell about 4% after hours, per Investing.com."
+      },
+      "bullets": {
+        "he": [
+          "Workday רשמה הכנסות של 2.7 מיליארד דולר ורווח מתואם של 2.82 דולר למניה מול תחזית של 2.74, לפי wallstengine ב-{{time:wday}}; המניה ירדה כ-4% באפטר, לפי Investing.com.",
+          "Nutanix רשמה רווח מתואם של 0.73 דולר למניה מול תחזית של 0.61 והכנסות של 772.4 מיליון דולר, לפי wallstengine ב-{{time:ntnx}}; המנכ״ל ראג׳יב ראמסוואמי פורש אחרי שש שנים, לפי wallstengine ב-{{time:ntnxceo}}."
+        ],
+        "en": [
+          "Workday posted revenue of $2.7 billion and adjusted EPS of $2.82 versus a $2.74 estimate, per wallstengine at {{time:wday}}; the stock fell about 4% after hours, per Investing.com.",
+          "Nutanix posted adjusted EPS of $0.73 versus a $0.61 estimate and revenue of $772.4 million, per wallstengine at {{time:ntnx}}; CEO Rajiv Ramaswami is stepping down after six years, per wallstengine at {{time:ntnxceo}}."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:hpq}}",
+        "url": "https://x.com/wallstengine/status/2125337754779152564"
+      },
+      "secondarySources": [
+        {
+          "name": "Investing.com · after-hours movers",
+          "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-dell-hpq-adsk-wday-ntnx-urbn-clsk-432SI-5049079"
+        },
+        {
+          "name": "@FirstSquawk · {{time:adsk}}",
+          "url": "https://x.com/FirstSquawk/status/2125335490069229954"
+        },
+        {
+          "name": "@wallstengine · {{time:wday}}",
+          "url": "https://x.com/wallstengine/status/2125334095525736904"
+        },
+        {
+          "name": "@wallstengine · {{time:ntnx}}",
+          "url": "https://x.com/wallstengine/status/2125334206754464098"
+        },
+        {
+          "name": "@wallstengine · {{time:ntnxceo}}",
+          "url": "https://x.com/wallstengine/status/2125336113321808032"
+        },
+        {
+          "name": "Workday · fiscal Q3 2027 results",
+          "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Announces-Fiscal-2027-Third-Quarter-Financial-Results/default.aspx"
+        }
+      ],
+      "timeRefs": {
+        "hpq": {
+          "at": "2026-11-24T21:16:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "adsk": {
+          "at": "2026-11-24T21:07:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wday": {
+          "at": "2026-11-24T21:01:49+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ntnx": {
+          "at": "2026-11-24T21:02:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ntnxceo": {
+          "at": "2026-11-24T21:09:50+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "anthropic-slide",
+      "section": "tech",
+      "priority": 7,
+      "kicker": {
+        "he": "אנתרופיק · מתחת להנפקה",
+        "en": "Anthropic · below IPO"
+      },
+      "headline": {
+        "he": "אנתרופיק המשיכה לצלול: נסחרה סביב 76–77 דולר אחר הצהריים, כ-8% מתחת למחיר ההנפקה",
+        "en": "Anthropic kept sliding: traded around $76–77 in the afternoon, about 8% below the IPO price"
+      },
+      "summary": {
+        "he": "אנתרופיק ירדה 5% מתחת למחיר ההנפקה ביום המסחר הרביעי לה, לפי FirstSquawk ב-{{time:five}}. אחר הצהריים דיווח DeItaone ב-{{time:antsix}} שהמניה נסחרה ב-76 דולר, ירידה של 13.2% ביום, ו-unusual_whales דיווח ב-{{time:antseven}} על 77 דולר, ירידה של 12%. אין לנו מחיר סגירה רשמי למניה בסריקה זו, והתצפיות מתייחסות לשעות אחר הצהריים בניו יורק.",
+        "en": "Anthropic fell 5% below its IPO price on its fourth trading day, per FirstSquawk at {{time:five}}. In the afternoon DeItaone reported at {{time:antsix}} the stock trading at $76, down 13.2% on the day, and unusual_whales reported at {{time:antseven}} $77, down 12%. We do not have an official closing price for the stock in this scan, and the observations refer to New York afternoon hours."
+      },
+      "bullets": {
+        "he": [
+          "ההנפקה, הגדולה בהיסטוריה לפי unusual_whales, נמצאת מתחת למים פחות משבוע אחרי הבכורה."
+        ],
+        "en": [
+          "The IPO, the largest on record per unusual_whales, is underwater less than a week after the debut."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:five}}",
+        "url": "https://x.com/FirstSquawk/status/2125253902841032877"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:antsix}}",
+          "url": "https://x.com/DeItaone/status/2125269488169853219"
+        },
+        {
+          "name": "@unusual_whales · {{time:antseven}}",
+          "url": "https://x.com/unusual_whales/status/2125272511302742409"
+        }
+      ],
+      "timeRefs": {
+        "five": {
+          "at": "2026-11-24T15:43:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "antsix": {
+          "at": "2026-11-24T16:45:06+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "antseven": {
+          "at": "2026-11-24T16:57:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "ANT",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "tariffs-update",
+      "section": "geopolitics",
+      "priority": 8,
+      "kicker": {
+        "he": "סחר · מכסים",
+        "en": "Trade · tariffs"
+      },
+      "headline": {
+        "he": "הדיווח על המכסים התחדד: יהיו ממוקדים ולא יעלו על רמות העסקאות; עדיין אין הכרזה רשמית",
+        "en": "The tariff report sharpened: targeted and capped at deal levels; still no official announcement"
+      },
+      "summary": {
+        "he": "במהלך היום התחדד דיווח הוול סטריט ג׳ורנל מהבוקר: המכסים החדשים על סין, האיחוד האירופי וכלכלות נוספות צפויים להיות ממוקדים במסגרת סעיף 301 ולא שיעור גורף, ולא יעלו על רמות עסקאות הסחר הקיימות, לפי מקור כפי שצוטט ב-LiveSquawk ב-{{time:targeted}}. TheMarker דיווח בערב שהממשל צפוי לחשוף חבילת מכסים נרחבת, לפי {{time:marker}}. נכון לסריקה האחרונה בסביבות 17:05 שעון ניו יורק, לא פורסמה הכרזה רשמית.",
+        "en": "During the day the morning's Wall Street Journal report was refined: the new tariffs on China, the EU and other economies are expected to be targeted under Section 301 rather than a blanket rate, and will not exceed existing trade-deal levels, per a source as quoted by LiveSquawk at {{time:targeted}}. TheMarker reported in the evening that the administration is expected to unveil a sweeping tariff package, per {{time:marker}}. As of the last scan around 17:05 New York time, no official announcement had been published."
+      },
+      "bullets": {
+        "he": [
+          "סמאפור דיווח שטראמפ מתכוון להעמיק את מהלך המכסים אחרי התבוסה באמצע הקדנציה, לפי LiveSquawk ב-{{time:semafor}}."
+        ],
+        "en": [
+          "Semafor reported that Trump intends to double down on tariffs after the midterm defeat, per LiveSquawk at {{time:semafor}}."
+        ]
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:targeted}}",
+        "url": "https://x.com/LiveSquawk/status/2125254899495739400"
+      },
+      "secondarySources": [
+        {
+          "name": "@TheMarker · {{time:marker}}",
+          "url": "https://x.com/TheMarker/status/2125318603842990125"
+        },
+        {
+          "name": "@LiveSquawk · {{time:semafor}}",
+          "url": "https://x.com/LiveSquawk/status/2125204485094187362"
+        }
+      ],
+      "timeRefs": {
+        "targeted": {
+          "at": "2026-11-24T15:47:08+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "marker": {
+          "at": "2026-11-24T20:00:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "semafor": {
+          "at": "2026-11-24T12:26:48+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "hormuz-escalation",
+      "section": "geopolitics",
+      "priority": 9,
+      "kicker": {
+        "he": "גיאופוליטיקה · מצר הורמוז",
+        "en": "Geopolitics · Strait of Hormuz"
+      },
+      "headline": {
+        "he": "הסלמה בהורמוז לפי גופים איראניים: ספינת מכולות הותקפה ומכלית רביעית עלתה על מוקש",
+        "en": "Escalation in Hormuz per Iranian bodies: a container ship attacked and a fourth tanker struck a mine"
+      },
+      "summary": {
+        "he": "זרוע הים של משמרות המהפכה מסרה שהיא תקפה ספינת מכולות ליד ח׳סאב, דרומית למצר הורמוז, לפי LiveSquawk ב-{{time:khasab}}. בהמשך דווח שמכלית נפט רביעית התפוצצה אחרי שפגעה במוקש ימי מזרחית למצר, וכלי שיט נוספים פנו אחור על רקע אזהרות ממסלולים לא מאושרים, לפי Press TV כפי שצוטטה ב-FirstSquawk ב-{{time:fourth}}. כל הדיווחים הם טענות של גופים איראניים, ללא אימות עצמאי בשלב זה.",
+        "en": "The Revolutionary Guards' navy said it attacked a container ship near Khasab, south of the Strait of Hormuz, per LiveSquawk at {{time:khasab}}. Later reports said a fourth oil tanker exploded after striking a sea mine east of the strait, with other vessels turning back amid warnings over unauthorized routes, per Press TV as quoted by FirstSquawk at {{time:fourth}}. All reports are claims by Iranian bodies, without independent verification at this stage."
+      },
+      "bullets": {
+        "he": [
+          "הדיווחים על המכליות החלו עוד בבוקר, כשצבא איראן מסר ששתי מכליות פגעו במוקשים; ההערכה היא שהאזהרות משפיעות על תנועת כלי השיט באזור."
+        ],
+        "en": [
+          "The tanker reports began in the morning, when Iran's army said two tankers struck mines; the assessment is that the warnings are affecting vessel traffic in the area."
+        ]
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:khasab}}",
+        "url": "https://x.com/LiveSquawk/status/2125285477616115904"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:fourth}}",
+          "url": "https://x.com/FirstSquawk/status/2125323980240474138"
+        }
+      ],
+      "timeRefs": {
+        "khasab": {
+          "at": "2026-11-24T17:48:38+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fourth": {
+          "at": "2026-11-24T20:21:38+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "israel-el-al",
+      "section": "israel",
+      "priority": 10,
+      "kicker": {
+        "he": "ישראל · אל על",
+        "en": "Israel · El Al"
+      },
+      "headline": {
+        "he": "אל על רוכשת 25% ממועדון הטיסות מידי הפניקס, לפי שווי של 4.2 מיליארד שקל",
+        "en": "El Al is buying 25% of the frequent-flyer club from Phoenix, at a 4.2 billion shekel valuation"
+      },
+      "summary": {
+        "he": "אל על תרכוש 25% ממניות מועדון הטיסות מידי הפניקס, לפי שווי של 4.2 מיליארד שקל, לפי כלכליסט ב-{{time:calcalist}}. גלובס דיווח על העסקה ב-{{time:globes}}.",
+        "en": "El Al will buy 25% of the frequent-flyer club from Phoenix at a valuation of 4.2 billion shekels, per Calcalist at {{time:calcalist}}. Globes reported the deal at {{time:globes}}."
+      },
+      "bullets": {
+        "he": [
+          "בחדשות הבורסה המקומית: מניית מזרחי טפחות צפויה להתפצל לחמש, מהלך שנועד להקל על משקיעי ריטייל ולהגדיל את הסחירות, לפי גלובס ב-{{time:split}}."
+        ],
+        "en": [
+          "In local exchange news: Mizrahi Tefahot shares are expected to split five-for-one, a move meant to ease retail access and increase liquidity, per Globes at {{time:split}}."
+        ]
+      },
+      "source": {
+        "name": "@calcalist · {{time:calcalist}}",
+        "url": "https://x.com/calcalist/status/2125285282320724385"
+      },
+      "secondarySources": [
+        {
+          "name": "@globesnews · {{time:globes}}",
+          "url": "https://x.com/globesnews/status/2125280500323324296"
+        },
+        {
+          "name": "@globesnews · {{time:split}}",
+          "url": "https://x.com/globesnews/status/2125301004753117199"
+        }
+      ],
+      "timeRefs": {
+        "calcalist": {
+          "at": "2026-11-24T17:47:51+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "globes": {
+          "at": "2026-11-24T17:28:51+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "split": {
+          "at": "2026-11-24T18:50:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    }
+  ]
+}
