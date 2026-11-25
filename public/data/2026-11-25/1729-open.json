@@ -1,0 +1,696 @@
+{
+  "schemaVersion": "2.0",
+  "editionNumber": 18,
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-25T17:29:00+02:00",
+  "editionType": "open",
+  "editionSlug": "1729-open",
+  "editorialLead": {
+    "he": "יום אדום: הצעת המכסים והאינפלציה החמה הורידו את הנאסד״ק 100 לשוק דובי בפתיחה",
+    "en": "A red day: the tariff proposal and hot inflation pushed the Nasdaq 100 toward a bear market at the open"
+  },
+  "topSummary": {
+    "he": "וול סטריט נפתחה ב-25 בנובמבר במכירה חריפה: הצעת המכסים החדשה של ארה״ב ונתון אינפלציה חם הורידו את הנאסד״ק 100 לשפל של 20% מהשיא. חוזי התחזיות מתמחרים כעת העלאת ריבית בישיבת הפד ב-9 בדצמבר.",
+    "en": "Wall Street opened with heavy selling on November 25: the new US tariff proposal and a hot inflation print pushed the Nasdaq 100 down 20% from its peak. Prediction contracts now price a Fed rate hike at the December 9 meeting."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "^GSPC",
+    "^IXIC",
+    "NVDA",
+    "BTCUSD",
+    "ANT"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "^IXIC",
+      "range": "1d",
+      "label": {
+        "he": "נאסד״ק",
+        "en": "Nasdaq"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "open-selloff",
+      "section": "markets",
+      "priority": 1,
+      "kicker": {
+        "he": "וול סטריט · פתיחה אדומה",
+        "en": "Wall Street · red open"
+      },
+      "headline": {
+        "he": "פתיחה אדומה חריגה: ה-S&P ירד 2.3%, הנאסד״ק 100 בדרך לשוק דובי, וה-VIX קפץ מעל 30",
+        "en": "Exceptionally red open: S&P fell 2.3%, Nasdaq 100 on track for a bear market, VIX jumped above 30"
+      },
+      "summary": {
+        "he": "המסחר ב-25 בנובמבר נפתח במכירה חריפה על רקע הצעת המכסים החדשה ונתון האינפלציה החם. לפי FirstSquawk ב-{{time:open}}, ה-S&P 500 ירד 2.30% ל-7,035.66 נקודות בפתיחה, הדאו ירד 780.36 נקודות, כלומר 1.56%, ל-49,238.34, והנאסד״ק ירד 791.66 נקודות, כלומר 3.34%, ל-22,941.87. הנאסד״ק 100 הגיע לירידה של 4.5%, לפי KobeissiLetter ב-{{time:ndx45}}, וירד 20% מהשיא, כלומר בדרך לשוק דובי, לפי FirstSquawk ב-{{time:bear}}. אלו תצפיות של שעת הפתיחה, לא רמות המדדים בזמן הפרסום.",
+        "en": "Trading on November 25 opened with heavy selling on the new tariff proposal and the hot inflation print. Per FirstSquawk at {{time:open}}, the S&P 500 fell 2.30% to 7,035.66 at the open, the Dow dropped 780.36 points, or 1.56%, to 49,238.34, and the Nasdaq fell 791.66 points, or 3.34%, to 22,941.87. The Nasdaq 100 extended to a 4.5% decline, per KobeissiLetter at {{time:ndx45}}, and fell 20% from its peak, on track for a bear market, per FirstSquawk at {{time:bear}}. These are opening-hour observations, not index levels at publication time."
+      },
+      "bullets": {
+        "he": [
+          "מדד ה-VIX קפץ 4.54 נקודות ל-30.88, לפי DeItaone ב-{{time:vix}}, ומדד הפחד והתאווה של CNN צנח ל-9, רמת ״פחד קיצוני״ והנמוכה ביותר מאז מרץ, לפי wallstengine ב-{{time:fear}}.",
+          "הנאסד״ק עבר לתשואה שלילית מתחילת 2026, לפי zerohedge ב-{{time:ytd}}.",
+          "לתשומת לב: ב-26 בנובמבר לא יהיה מסחר בוול סטריט לרגל חג ההודיה, וביום שישי יתקיים מסחר מקוצר עד 13:00 שעון ניו יורק, 20:00 שעון ישראל, לפי eWhispers ב-{{time:tgiving}}."
+        ],
+        "en": [
+          "The VIX jumped 4.54 points to 30.88, per DeItaone at {{time:vix}}, and CNN's Fear and Greed Index plunged to 9, extreme fear and its lowest since March, per wallstengine at {{time:fear}}.",
+          "The Nasdaq turned negative for 2026, per zerohedge at {{time:ytd}}.",
+          "Note: US markets are closed on November 26 for Thanksgiving, and Friday is a shortened session ending 13:00 New York time, 20:00 Israel time, per eWhispers at {{time:tgiving}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:open}}",
+        "url": "https://x.com/FirstSquawk/status/2125598663334580335"
+      },
+      "secondarySources": [
+        {
+          "name": "@KobeissiLetter · {{time:ndx45}}",
+          "url": "https://x.com/KobeissiLetter/status/2125601676258111823"
+        },
+        {
+          "name": "@FirstSquawk · {{time:bear}}",
+          "url": "https://x.com/FirstSquawk/status/2125603942155579578"
+        },
+        {
+          "name": "@DeItaone · {{time:vix}}",
+          "url": "https://x.com/DeItaone/status/2125581719193423911"
+        },
+        {
+          "name": "@wallstengine · {{time:fear}}",
+          "url": "https://x.com/wallstengine/status/2125603805505155531"
+        },
+        {
+          "name": "@zerohedge · {{time:ytd}}",
+          "url": "https://x.com/zerohedge/status/2125601982388068815"
+        },
+        {
+          "name": "@eWhispers · {{time:tgiving}}",
+          "url": "https://x.com/eWhispers/status/2125590899245903932"
+        }
+      ],
+      "timeRefs": {
+        "open": {
+          "at": "2026-11-25T14:33:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ndx45": {
+          "at": "2026-11-25T14:45:06+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bear": {
+          "at": "2026-11-25T14:54:06+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "vix": {
+          "at": "2026-11-25T13:25:47+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fear": {
+          "at": "2026-11-25T14:53:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ytd": {
+          "at": "2026-11-25T14:46:19+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tgiving": {
+          "at": "2026-11-25T14:02:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "isLead": true,
+      "marketCharts": [
+        {
+          "symbol": "^IXIC",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "tariffs-proposal",
+      "section": "geopolitics",
+      "priority": 2,
+      "kicker": {
+        "he": "סחר · הצעת מכסים",
+        "en": "Trade · tariff proposal"
+      },
+      "headline": {
+        "he": "ה-USTR הציע מכסים חדשים: 20% לפחות על סין, עד 20% על האיחוד, ועד 25% על מדינות אסיה נוספות",
+        "en": "USTR proposed new tariffs: at least 20% on China, up to 20% on the EU, up to 25% on additional Asian economies"
+      },
+      "summary": {
+        "he": "נציבות הסחר האמריקאית פרסמה הצעת מכסים רשמית בעקבות חקירות סעיף 301: שיעור של 20% לפחות על סין, שיעלה ל-40% בהיעדר עסקאות ולא יתווסף למכסי עבודה בכפייה, לפי FirstSquawk ב-{{time:china20}} וב-{{time:stack}}; שיעור של עד 20% על האיחוד האירופי, לפי FirstSquawk ב-{{time:eu20}}; ושיעורים של עד 25% על קמבודיה, אינדונזיה, דרום קוריאה, מלזיה, טייוואן, תאילנד והודו, לפי DeItaone ב-{{time:asia25}}. השימועים בחקירות יתקיימו ב-25 בינואר 2027, לפי FirstSquawk ב-{{time:hearings}}.",
+        "en": "The US Trade Representative published a formal tariff proposal following Section 301 investigations: at least 20% on China, rising to 40% absent trade deals and not stacking on forced-labor tariffs, per FirstSquawk at {{time:china20}} and at {{time:stack}}; up to 20% on the European Union, per FirstSquawk at {{time:eu20}}; and up to 25% on Cambodia, Indonesia, South Korea, Malaysia, Taiwan, Thailand and India, per DeItaone at {{time:asia25}}. Hearings on the investigations are set for January 25, 2027, per FirstSquawk at {{time:hearings}}."
+      },
+      "bullets": {
+        "he": [
+          "הצעד הוצג כהצעה בשלב שימוע, לא כמכסים שנכנסו לתוקף. הניו יורק טיימס תיאר את המהלך כחבילת מכסים חדשה לעשרות מדינות, לפי LiveSquawk ב-{{time:nyt}}.",
+          "האיחוד האירופי מסר שעל ארה״ב לכבד את תקרת ה-15% שהוסכמה, לפי wallstengine ב-{{time:eu15}}; סין כינתה את המהלך תמרון פוליטי, לפי zerohedge ב-{{time:dismiss}}.",
+          "שיעורי ״עסקה״ נמוכים יותר הוצעו למדינות שכרתו הסכמים: 17% להודו ו-15% נטו לטייוואן, יפן ודרום קוריאה; על מטוסים מוגמרים מברזיל הוצע מכס של 10%."
+        ],
+        "en": [
+          "The move is a proposal at the hearing stage, not tariffs in force. The New York Times described it as a new tariff package for dozens of countries, per LiveSquawk at {{time:nyt}}.",
+          "The European Union said the US must respect the agreed 15% ceiling, per wallstengine at {{time:eu15}}; China dismissed the move as political maneuvering, per zerohedge at {{time:dismiss}}.",
+          "Lower deal rates were proposed for countries with agreements: 17% for India and 15% net for Taiwan, Japan and South Korea; finished aircraft from Brazil face a proposed 10% tariff."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:china20}}",
+        "url": "https://x.com/FirstSquawk/status/2125577847624622148"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:stack}}",
+          "url": "https://x.com/FirstSquawk/status/2125579581092659233"
+        },
+        {
+          "name": "@FirstSquawk · {{time:eu20}}",
+          "url": "https://x.com/FirstSquawk/status/2125577587326103817"
+        },
+        {
+          "name": "@DeItaone · {{time:asia25}}",
+          "url": "https://x.com/DeItaone/status/2125578817221640632"
+        },
+        {
+          "name": "@FirstSquawk · {{time:hearings}}",
+          "url": "https://x.com/FirstSquawk/status/2125594501968433365"
+        },
+        {
+          "name": "@LiveSquawk · {{time:nyt}}",
+          "url": "https://x.com/LiveSquawk/status/2125581154111914022"
+        },
+        {
+          "name": "@wallstengine · {{time:eu15}}",
+          "url": "https://x.com/wallstengine/status/2125601879803752797"
+        },
+        {
+          "name": "@zerohedge · {{time:dismiss}}",
+          "url": "https://x.com/zerohedge/status/2125575648638812260"
+        }
+      ],
+      "timeRefs": {
+        "china20": {
+          "at": "2026-11-25T13:10:24+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "stack": {
+          "at": "2026-11-25T13:17:18+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "eu20": {
+          "at": "2026-11-25T13:09:22+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "asia25": {
+          "at": "2026-11-25T13:14:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "hearings": {
+          "at": "2026-11-25T14:16:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nyt": {
+          "at": "2026-11-25T13:23:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "eu15": {
+          "at": "2026-11-25T14:45:54+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "dismiss": {
+          "at": "2026-11-25T13:01:40+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "macro-data",
+      "section": "markets",
+      "priority": 3,
+      "kicker": {
+        "he": "מאקרו · ארה״ב",
+        "en": "Macro · United States"
+      },
+      "headline": {
+        "he": "אינפלציית ה-PCE התחממה ל-3.3% בליבה, התמ״ג תוקן ל-4.3%, ותביעות האבטלה בשפל של כמעט 57 שנה",
+        "en": "Core PCE inflation heated to 3.3%, GDP revised up to 4.3%, jobless claims near a 57-year low"
+      },
+      "summary": {
+        "he": "מדד ה-PCE הליבתי לאוקטובר עלה ל-3.3% לשנה, מעל תחזית של 3.2% ואחרי 3.1% בספטמבר, והמדד הכללי עלה ל-3.8%, לפי LiveSquawk ב-{{time:pce}}. התמ״ג הרבעוני תוקן כלפי מעלה ל-4.3% בקצב שנתי, מעל תחזית של 3.5% והגבוה ביותר בשלוש שנים, לפי LiveSquawk ב-{{time:gdp}}. תביעות האבטלה השבועיות ירדו ל-189 אלף, מתחת לתחזית של 200 אלף ולשפל של כמעט 57 שנה, לפי LiveSquawk ב-{{time:claims}}.",
+        "en": "October core PCE rose to 3.3% year over year, above the 3.2% estimate and after 3.1% in September, while headline PCE rose to 3.8%, per LiveSquawk at {{time:pce}}. Quarterly GDP was revised up to 4.3% annualized, above the 3.5% estimate and the highest in three years, per LiveSquawk at {{time:gdp}}. Weekly jobless claims fell to 189,000, below the 200,000 estimate and a near 57-year low, per LiveSquawk at {{time:claims}}."
+      },
+      "bullets": {
+        "he": [
+          "מכירות הבתים החדשים זינקו 14.2% באוקטובר ל-701 אלף בקצב שנתי, מול תחזית של ירידה, לפי LiveSquawk ב-{{time:homes}}.",
+          "תשואת האג״ח האמריקאית ל-10 שנים ירדה 10 נקודות בסיס ל-4.83% בעקבות הנתונים, לפי FirstSquawk.",
+          "יו״ר המועצה הכלכלית האסט מסר שהוא מצפה שוורש והפד יהיו מונחי-נתונים, לפי zerohedge ב-{{time:hassett}}."
+        ],
+        "en": [
+          "New home sales jumped 14.2% in October to an annualized 701,000, versus an expected decline, per LiveSquawk at {{time:homes}}.",
+          "The US 10-year Treasury yield fell 10 basis points to 4.83% following the data, per FirstSquawk.",
+          "National Economic Council director Hassett said he expects Warsh and the Fed to be data driven, per zerohedge at {{time:hassett}}."
+        ]
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:pce}}",
+        "url": "https://x.com/LiveSquawk/status/2125583787434397840"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:gdp}}",
+          "url": "https://x.com/LiveSquawk/status/2125583818568667443"
+        },
+        {
+          "name": "@LiveSquawk · {{time:claims}}",
+          "url": "https://x.com/LiveSquawk/status/2125583837963112527"
+        },
+        {
+          "name": "@LiveSquawk · {{time:homes}}",
+          "url": "https://x.com/LiveSquawk/status/2125605673194992121"
+        },
+        {
+          "name": "@zerohedge · {{time:hassett}}",
+          "url": "https://x.com/zerohedge/status/2125603221875908760"
+        }
+      ],
+      "timeRefs": {
+        "pce": {
+          "at": "2026-11-25T13:34:01+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "gdp": {
+          "at": "2026-11-25T13:34:08+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "claims": {
+          "at": "2026-11-25T13:34:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "homes": {
+          "at": "2026-11-25T15:00:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "hassett": {
+          "at": "2026-11-25T14:51:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "fed-hike-odds",
+      "section": "markets",
+      "priority": 4,
+      "kicker": {
+        "he": "הפד · תמחור חוזים",
+        "en": "The Fed · contract pricing"
+      },
+      "headline": {
+        "he": "חוזי התחזיות מתמחרים 93% להעלאת ריבית ב-9 בדצמבר; אלה חוזים, לא הכרזת פד",
+        "en": "Prediction contracts price a 93% chance of a December 9 hike; these are contracts, not a Fed announcement"
+      },
+      "summary": {
+        "he": "אחרי נתון ה-PCE החם, חוזי התחזיות ב-Kalshi מתמחרים 93% סיכוי להעלאת ריבית של 25 נקודות בסיס בישיבת הפד ב-9 בדצמבר, לפי wallstengine ב-{{time:kalshi}} ו-DeItaone ב-{{time:odds}}. חשוב להבחין: זהו תמחור של חוזי תחזיות, לא הודעה או התחייבות של הפד.",
+        "en": "After the hot PCE print, Kalshi prediction contracts price a 93% chance of a 25 basis point hike at the Fed's December 9 meeting, per wallstengine at {{time:kalshi}} and DeItaone at {{time:odds}}. Note the distinction: this is prediction-contract pricing, not a Fed announcement or commitment."
+      },
+      "bullets": {
+        "he": [
+          "לפי charliebilello ב-{{time:bilello}}, העלאה כזאת תעלה את הריבית לטווח של 4.00%–4.25%; הקריאה שלו היא פרשנות, לא תחזית רשמית.",
+          "גולדמן זאקס טוען שהשוק כבר ביצע כ-100 נקודות בסיס של העלאת ריבית עבור הפד, לפי zerohedge ב-{{time:goldman}}."
+        ],
+        "en": [
+          "Per charliebilello at {{time:bilello}}, such a hike would move the funds rate to 4.00%–4.25%; his call is analysis, not an official forecast.",
+          "Goldman Sachs argues the market has already delivered about 100 basis points of tightening for the Fed, per zerohedge at {{time:goldman}}."
+        ]
+      },
+      "source": {
+        "name": "@wallstengine · {{time:kalshi}}",
+        "url": "https://x.com/wallstengine/status/2125584684205924833"
+      },
+      "secondarySources": [
+        {
+          "name": "@DeItaone · {{time:odds}}",
+          "url": "https://x.com/DeItaone/status/2125584140900683877"
+        },
+        {
+          "name": "@charliebilello · {{time:bilello}}",
+          "url": "https://x.com/charliebilello/status/2125587042197238002"
+        },
+        {
+          "name": "@zerohedge · {{time:goldman}}",
+          "url": "https://x.com/zerohedge/status/2125552690780364912"
+        }
+      ],
+      "timeRefs": {
+        "kalshi": {
+          "at": "2026-11-25T13:37:34+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "odds": {
+          "at": "2026-11-25T13:35:25+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "bilello": {
+          "at": "2026-11-25T13:46:57+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "goldman": {
+          "at": "2026-11-25T11:30:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "nvidia-selloff",
+      "section": "tech",
+      "priority": 5,
+      "kicker": {
+        "he": "אנבידיה · הראלי נמוג",
+        "en": "Nvidia · the rally fades"
+      },
+      "headline": {
+        "he": "אנבידיה ירדה עוד 8.3%; הנאסד״ק 100 מחק את כל ראלי החזרה של הואנג, המניה עצמה עדיין מעל מחיר שישי",
+        "en": "Nvidia fell another 8.3%; the Nasdaq 100 erased the entire Huang-return rally, the stock itself is still above Friday's price"
+      },
+      "summary": {
+        "he": "אנבידיה ירדה 8.3% לאחר הפתיחה, אחרי ירידה של 5.9% ביום הקודם, לפי DeItaone ב-{{time:nvda83}}. מדד הנאסד״ק 100 מחק את כל העלייה של 6.9% מיום שני שנבעה מהחזרת ג׳נסן הואנג, לפי wallstengine ב-{{time:erased}}; החוזים על המדד ירדו מתחת לרמה שקדמה להודעת החזרה כבר בבוקר, לפי DeItaone ב-{{time:futures}}. לגבי המניה עצמה חשוב לדייק: גם אחרי ירידה של כ-14% מצטברת ביומיים, אנבידיה עדיין נסחרה מעל מחיר הסגירה של יום שישי, 125.53 דולר, כפי שנרשם בנתוני הסגירה שאומתו במהדורות הקודמות. כלומר, בשלב זה נמחקה רק חלק מהעלייה של יום שני במניה עצמה.",
+        "en": "Nvidia fell 8.3% after the open, following Tuesday's 5.9% decline, per DeItaone at {{time:nvda83}}. The Nasdaq 100 erased its entire 6.9% Monday rally driven by Jensen Huang's return, per wallstengine at {{time:erased}}; index futures fell below pre-announcement levels already in the morning, per DeItaone at {{time:futures}}. On the stock itself, precision matters: even after a cumulative two-day decline of about 14%, Nvidia still traded above Friday's closing price of $125.53, as recorded in the verified closing data of prior editions. In other words, at this stage only part of Monday's gain in the stock itself has been erased."
+      },
+      "bullets": {
+        "he": [
+          "אנתרופיק ירדה 3% נוספים בטרום-מסחר אחרי ירידה של 6.5% ביום הקודם, לפי FirstSquawk ב-{{time:ant}}."
+        ],
+        "en": [
+          "Anthropic fell another 3% premarket after a 6.5% decline the previous session, per FirstSquawk at {{time:ant}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:nvda83}}",
+        "url": "https://x.com/DeItaone/status/2125598378713350505"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:erased}}",
+          "url": "https://x.com/wallstengine/status/2125601986947186938"
+        },
+        {
+          "name": "@DeItaone · {{time:futures}}",
+          "url": "https://x.com/DeItaone/status/2125557046653145218"
+        },
+        {
+          "name": "@FirstSquawk · {{time:ant}}",
+          "url": "https://x.com/FirstSquawk/status/2125517096847302718"
+        }
+      ],
+      "timeRefs": {
+        "nvda83": {
+          "at": "2026-11-25T14:31:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "erased": {
+          "at": "2026-11-25T14:46:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "futures": {
+          "at": "2026-11-25T11:47:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ant": {
+          "at": "2026-11-25T09:09:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "marketCharts": [
+        {
+          "symbol": "NVDA",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "ai-credit-fears",
+      "section": "tech",
+      "priority": 6,
+      "kicker": {
+        "he": "AI · חששות אשראי",
+        "en": "AI · credit fears"
+      },
+      "headline": {
+        "he": "סופטבנק צללה 14.8% בטוקיו, ומחירי הביטוח על חוב של ענקיות ה-AI שברו שיאים",
+        "en": "SoftBank plunged 14.8% in Tokyo, and credit-protection prices for AI giants hit records"
+      },
+      "summary": {
+        "he": "סופטבנק צללה 14.8% בטוקיו, ירידה של 68% מהשיא של יוני שמחקה יותר מ-200 מיליארד דולר משוויה, לפי DeItaone ב-{{time:softbank}}. מחירי הביטוח על חוב שברו שיאים: אורקל הגיעה ל-356 נקודות בסיס, סופטבנק עברה את 500 נקודות בסיס לראשונה בארבע שנים, ו-CoreWeave שברה שיא מעל 1,289 נקודות בסיס, לפי wallstengine ב-{{time:cds}}.",
+        "en": "SoftBank plunged 14.8% in Tokyo, down 68% from its June peak and erasing more than $200 billion of value, per DeItaone at {{time:softbank}}. Credit protection prices broke records: Oracle reached 356 basis points, SoftBank crossed 500 basis points for the first time in four years, and CoreWeave hit a record above 1,289 basis points, per wallstengine at {{time:cds}}."
+      },
+      "bullets": {
+        "he": [
+          "דו״ח היציבות הפיננסית של הפד מזהיר שההתחייבויות לתשתיות AI זינקו ל-680 מיליארד דולר עד אוקטובר, לעומת 130 מיליארד ב-2023, ושהערכות השווי גבוהות, בין היתר על רקע ההתלהבות מה-AI, לפי unusual_whales ב-{{time:fedreport}} וב-{{time:aidebt}}."
+        ],
+        "en": [
+          "The Fed's Financial Stability Report warns that AI infrastructure borrowing jumped to $680 billion by October from $130 billion in 2023, and that valuations are elevated, partly on AI enthusiasm, per unusual_whales at {{time:fedreport}} and at {{time:aidebt}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:softbank}}",
+        "url": "https://x.com/DeItaone/status/2125553703675433066"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:cds}}",
+          "url": "https://x.com/wallstengine/status/2125535243180585449"
+        },
+        {
+          "name": "@unusual_whales · {{time:fedreport}}",
+          "url": "https://x.com/unusual_whales/status/2125574472937971885"
+        },
+        {
+          "name": "@unusual_whales · {{time:aidebt}}",
+          "url": "https://x.com/unusual_whales/status/2125579506446443001"
+        }
+      ],
+      "timeRefs": {
+        "softbank": {
+          "at": "2026-11-25T11:34:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "cds": {
+          "at": "2026-11-25T10:21:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fedreport": {
+          "at": "2026-11-25T12:57:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "aidebt": {
+          "at": "2026-11-25T13:17:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "bitcoin-starbucks",
+      "section": "markets",
+      "priority": 7,
+      "kicker": {
+        "he": "שווקים · ביטקוין וסטארבקס",
+        "en": "Markets · bitcoin and Starbucks"
+      },
+      "headline": {
+        "he": "ביטקוין נפל מתחת ל-59,000 דולר; סטארבקס שוקלת למכור את פעילותה ביפן",
+        "en": "Bitcoin fell below $59,000; Starbucks weighs selling its Japan business"
+      },
+      "summary": {
+        "he": "ביטקוין ירד מתחת ל-59,000 דולר, ל-58,862, ירידה של כ-23% בנובמבר והחודש הקשה ביותר מאז יוני 2022, לפי DeItaone ב-{{time:btc}}. היציאות מקרנות ה-ETF מתקרבות לשיא של 5 מיליארד דולר, לפי בלומברג כפי שצוטטה ב-LiveSquawk ב-{{time:etf}}.",
+        "en": "Bitcoin fell below $59,000 to $58,862, down about 23% in November and its worst month since June 2022, per DeItaone at {{time:btc}}. Outflows from ETFs are nearing a record $5 billion, per Bloomberg as quoted by LiveSquawk at {{time:etf}}."
+      },
+      "bullets": {
+        "he": [
+          "כורי הביטקוין מכבים מכונות על רקע ירידת קצב הגיבוב, לפי zerohedge ב-{{time:miners}}.",
+          "סטארבקס עובדת עם סיטי ומורגן סטנלי על מכירה אפשרית של הפעילות ביפן, כ-2,000 סניפים שעשויים להיות שווים מיליארדי דולרים, לפי wallstengine ב-{{time:starbucks}}."
+        ],
+        "en": [
+          "Bitcoin miners are switching off machines as the hash rate shrinks, per zerohedge at {{time:miners}}.",
+          "Starbucks is working with Citi and Morgan Stanley on a potential sale of its Japan business, about 2,000 stores that could be worth billions, per wallstengine at {{time:starbucks}}."
+        ]
+      },
+      "source": {
+        "name": "@DeItaone · {{time:btc}}",
+        "url": "https://x.com/DeItaone/status/2125551720788787507"
+      },
+      "secondarySources": [
+        {
+          "name": "@LiveSquawk · {{time:etf}}",
+          "url": "https://x.com/LiveSquawk/status/2125456795644682334"
+        },
+        {
+          "name": "@zerohedge · {{time:miners}}",
+          "url": "https://x.com/zerohedge/status/2125545141322605007"
+        },
+        {
+          "name": "@wallstengine · {{time:starbucks}}",
+          "url": "https://x.com/wallstengine/status/2125533088050741608"
+        }
+      ],
+      "timeRefs": {
+        "btc": {
+          "at": "2026-11-25T11:26:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "etf": {
+          "at": "2026-11-25T05:09:23+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "miners": {
+          "at": "2026-11-25T11:00:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "starbucks": {
+          "at": "2026-11-25T10:12:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "iran-hormuz",
+      "section": "geopolitics",
+      "priority": 8,
+      "kicker": {
+        "he": "גיאופוליטיקה · איראן",
+        "en": "Geopolitics · Iran"
+      },
+      "headline": {
+        "he": "בסנט: לאיראן לא נותר נפט על המים למכירה; גופים באיראן מדווחים על מכלית נוספת שפגעה במוקש",
+        "en": "Bessent: Iran has no oil left on the water to sell; Iranian bodies report another tanker striking a mine"
+      },
+      "summary": {
+        "he": "מזכיר האוצר בסנט מסר שלאיראן לא נותר נפט על המים למכירה, לפי FirstSquawk ב-{{time:bessent}}. במקביל, צבא איראן מסר שמכלית פגעה במוקש מזרחית למצר הורמוז, לפי סוכנות פארס כפי שצוטטה ב-FirstSquawk ב-{{time:fars}}; דיווח על פיצוץ במצר הגיע מערוץ פרו-איראני, לפי FirstSquawk ב-{{time:explosion}}. הדיווחים על המכליות הם טענות של גופים איראניים ללא אימות עצמאי.",
+        "en": "Treasury Secretary Bessent said Iran has no oil left on the water to sell, per FirstSquawk at {{time:bessent}}. Meanwhile, Iran's army said a tanker struck a mine east of the Strait of Hormuz, per the Fars news agency as quoted by FirstSquawk at {{time:fars}}; an explosion report came from a pro-Iran channel, per FirstSquawk at {{time:explosion}}. The tanker reports are claims by Iranian bodies without independent verification."
+      },
+      "bullets": {
+        "he": [
+          "הריאל האיראני נחלש לשפל שיא מול הדולר, מעל 2.9 מיליון ריאל לדולר בשוק החופשי, לפי FirstSquawk."
+        ],
+        "en": [
+          "Iran's rial weakened to a record low against the dollar, above 2.9 million rials per dollar on the open market, per FirstSquawk."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:bessent}}",
+        "url": "https://x.com/FirstSquawk/status/2125596100702957859"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:fars}}",
+          "url": "https://x.com/FirstSquawk/status/2125596486193045819"
+        },
+        {
+          "name": "@FirstSquawk · {{time:explosion}}",
+          "url": "https://x.com/FirstSquawk/status/2125577478899204351"
+        }
+      ],
+      "timeRefs": {
+        "bessent": {
+          "at": "2026-11-25T14:22:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fars": {
+          "at": "2026-11-25T14:24:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "explosion": {
+          "at": "2026-11-25T13:08:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "israel-fx-wiz",
+      "section": "israel",
+      "priority": 9,
+      "kicker": {
+        "he": "ישראל · שקל ומס",
+        "en": "Israel · shekel and tax"
+      },
+      "headline": {
+        "he": "הדולר טיפס ל-3.37 שקלים לראשונה מאז ספטמבר 2025; רשות המסים דורשת מיליארדים נוספים ממייסדי Wiz",
+        "en": "The dollar climbed to 3.37 shekels for the first time since September 2025; the Tax Authority demands billions more from Wiz founders"
+      },
+      "summary": {
+        "he": "הדולר התחזק ל-3.37 שקלים, רמה שלא נראתה מאז ספטמבר 2025, לפי כלכליסט ב-{{time:ils}}. במקביל, רשות המסים דורשת כ-8 מיליארד שקלים נוספים ממייסדי Wiz, לפי דה מרקר ב-{{time:marker}}; גלובס מסגר את אותו סכסוך כדרישה של 12 מיליארד שקלים מאסף רפפורט ושותפיו, לפי {{time:globes}}. הסכומים שונים בין שני הדיווחים ולא אומתו במקור רשמי.",
+        "en": "The dollar strengthened to 3.37 shekels, a level not seen since September 2025, per Calcalist at {{time:ils}}. Meanwhile, the Tax Authority is demanding about 8 billion shekels more from Wiz's founders, per TheMarker at {{time:marker}}; Globes frames the same dispute as a 12 billion shekel demand from Assaf Rappaport and his partners, per {{time:globes}}. The figures differ between the two reports and have not been confirmed by an official source."
+      },
+      "source": {
+        "name": "@calcalist · {{time:ils}}",
+        "url": "https://x.com/calcalist/status/2125521420726026386"
+      },
+      "secondarySources": [
+        {
+          "name": "@TheMarker · {{time:marker}}",
+          "url": "https://x.com/TheMarker/status/2125515670330765316"
+        },
+        {
+          "name": "@globesnews · {{time:globes}}",
+          "url": "https://x.com/globesnews/status/2125531928119984375"
+        }
+      ],
+      "timeRefs": {
+        "ils": {
+          "at": "2026-11-25T09:26:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "marker": {
+          "at": "2026-11-25T09:03:20+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "globes": {
+          "at": "2026-11-25T10:07:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    }
+  ]
+}
