@@ -41,12 +41,12 @@
         "en": "Wall Street · reversal close"
       },
       "headline": {
-        "he": "יום רוורסל: הדאו מחק ירידה של 1,100 נקודות וסגר בעלייה; הנאסד״ק 100 התרחק מסף שוק הדובי",
-        "en": "Reversal day: the Dow erased a 1,100-point loss and closed higher; the Nasdaq 100 pulled away from bear-market territory"
+        "he": "יום רוורסל: הדאו מחק ירידה של כ-1,100 נקודות וסגר בעלייה; הנאסד״ק ירד 0.62% לפי הסגירה הרשמית",
+        "en": "Reversal day: the Dow erased a roughly 1,100-point loss and closed higher; the Nasdaq fell 0.62% per the official close"
       },
       "summary": {
-        "he": "וול סטריט סגרה את 25 בנובמבר ברוורסל דרמטי. לפי נתוני סגירה לא רשמיים של FirstSquawk ב-{{time:spclose}}, מקור יחיד בשלב זה, ה-S&P 500 ירד 14.39 נקודות, כלומר 0.20%, ל-7,186.70, והנאסד״ק ירד 135.26 נקודות, כלומר 0.57%, ל-23,598.27, אחרי ירידות של כ-2.8% ו-3.3% בשיא היום. הדאו סגר בעלייה של 197.98 נקודות, כלומר 0.40%, ל-50,216.68, לא רשמי, לפי FirstSquawk ב-{{time:dowclose}}, אחרי שמחק ירידה של 1,100 נקודות, לפי KobeissiLetter ב-{{time:erased}}. הנאסד״ק 100 קיצץ את הירידה ל-0.6% אחרי שהיה על סף שוק דובי במהלך היום, ורוב חברות ה-S&P 500 עלו, לפי FirstSquawk ב-{{time:wrap}}. מניית NVIDIA עצמה ירדה 3.9% בסיכום היום, לפי אותו סיכום - כלומר המדד התאושש בעוד המניה נותרה בירידה.",
-        "en": "Wall Street closed November 25 with a dramatic reversal. Per FirstSquawk's unofficial closing figures at {{time:spclose}}, a single source at this stage, the S&P 500 fell 14.39 points, or 0.20%, to 7,186.70, and the Nasdaq fell 135.26 points, or 0.57%, to 23,598.27, after being down about 2.8% and 3.3% at the day's lows. The Dow closed up 197.98 points, or 0.40%, at 50,216.68, unofficially, per FirstSquawk at {{time:dowclose}}, after erasing a 1,100-point loss, per KobeissiLetter at {{time:erased}}. The Nasdaq 100 pared its drop to 0.6% after nearing bear-market territory intraday, and most S&P 500 companies rose, per FirstSquawk at {{time:wrap}}. NVIDIA stock itself fell 3.9% on the day, per the same wrap - the index recovered while the stock stayed lower."
+        "he": "וול סטריט סגרה את 25 בנובמבר ברוורסל דרמטי. לפי נתוני הסגירה היומיים של ספק הנתונים Yahoo Finance, ה-S&P 500 ירד 0.25% ל-7,182.78 והדאו עלה 0.33% ל-50,182.95; הנאסד״ק ירד 0.62% ל-23,585.80 לפי נתון הסגירה הרשמי של הבורסה, מה-API של נאסד״ק, אחרי שמחק ירידה של כ-1,100 נקודות במהלך היום, לפי KobeissiLetter ב-{{time:erased}}. הנאסד״ק 100 ירד 0.64% ל-26,046.90, אחרי שהיה על סף שוק דובי במהלך המסחר, ורוב חברות ה-S&P 500 עלו, לפי FirstSquawk ב-{{time:wrap}}. בשיא היום נסחרו המדדים בירידות של כ-3.2% ב-S&P וכ-4.6% בנאסד״ק, לפי טווחי המסחר של היום בנתוני הספק. נתוני הסגירה הלא רשמיים שפורסמו על ידי FirstSquawk מיד לאחר הסגירה, ב-{{time:spclose}}, ב-{{time:dowclose}} וב-{{time:ndxclose}} (S&P ירידה של 0.20%, נאסד״ק ירידה של 0.57%, דאו עלייה של 0.40%), היו מעט שונים; הנתונים המוצגים כאן מבוססים על סגירת הבורסה עבור הנאסד״ק ועל נתוני הספק עבור יתר המדדים. מניית NVIDIA עצמה ירדה 3.9% בסיכום היום, לפי אותו סיכום של FirstSquawk - כלומר המדד התאושש בעוד המניה נותרה בירידה.",
+        "en": "Wall Street closed November 25 with a dramatic reversal. Per vendor daily data from Yahoo Finance, the S&P 500 fell 0.25% to 7,182.78 and the Dow rose 0.33% to 50,182.95, while the Nasdaq Composite fell 0.62% to 23,585.80 per the exchange's official close from the Nasdaq API, after erasing an intraday loss of roughly 1,100 points, per KobeissiLetter at {{time:erased}}. The Nasdaq 100 fell 0.64% to 26,046.90, after nearing bear-market territory during the session, and most S&P 500 companies rose, per FirstSquawk at {{time:wrap}}. At the day's lows the indexes traded down about 3.2% on the S&P and 4.6% on the Nasdaq, per the day's trading ranges in the vendor data. The unofficial closing prints FirstSquawk published right after the close, at {{time:spclose}}, {{time:dowclose}} and {{time:ndxclose}} (S&P -0.20%, Nasdaq -0.57%, Dow +0.40%), differed slightly; the figures shown here use the exchange close for the Nasdaq Composite and vendor daily data for the other indexes. NVIDIA stock itself fell 3.9% on the day, per the same FirstSquawk wrap - the index recovered while the stock stayed lower."
       },
       "bullets": {
         "he": [
@@ -63,10 +63,26 @@
         ]
       },
       "source": {
-        "name": "@FirstSquawk · {{time:spclose}}",
-        "url": "https://x.com/FirstSquawk/status/2125696319683784915"
+        "name": "Nasdaq · official close (COMP)",
+        "url": "https://api.nasdaq.com/api/quote/COMP/info?assetclass=index"
       },
       "secondarySources": [
+        {
+          "name": "Yahoo Finance · ^GSPC daily data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=1787500000&period2=1795900000&interval=1d&events=div%2Csplit"
+        },
+        {
+          "name": "Yahoo Finance · ^DJI daily data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EDJI?period1=1787500000&period2=1795900000&interval=1d&events=div%2Csplit"
+        },
+        {
+          "name": "Yahoo Finance · ^NDX daily data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENDX?period1=1787500000&period2=1795900000&interval=1d&events=div%2Csplit"
+        },
+        {
+          "name": "@FirstSquawk · {{time:spclose}}",
+          "url": "https://x.com/FirstSquawk/status/2125696319683784915"
+        },
         {
           "name": "@FirstSquawk · {{time:dowclose}}",
           "url": "https://x.com/FirstSquawk/status/2125696142457581792"
