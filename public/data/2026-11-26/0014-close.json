@@ -1,0 +1,794 @@
+{
+  "schemaVersion": "2.0",
+  "editionNumber": 19,
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-26T00:14:00+02:00",
+  "editionType": "close",
+  "editionSlug": "0014-close",
+  "editorialLead": {
+    "he": "יום הרוורסל: הדאו מחק ירידה של 1,100 נקודות, ו-S&P העמידה את דירוג NVIDIA בבקרה שלילית",
+    "en": "Reversal day: the Dow erased a 1,100-point loss, and S&P put NVIDIA's rating on negative watch"
+  },
+  "topSummary": {
+    "he": "וול סטריט סגרה את 25 בנובמבר ברוורסל דרמטי: הדאו מחק ירידה של 1,100 נקודות וסגר בעלייה, וה-S&P והנאסד״ק קיצצו את רוב הקריסה של הבוקר. בנפרד, S&P העמידה את דירוג ה-AA של NVIDIA ב-CreditWatch שלילי.",
+    "en": "Wall Street closed November 25 with a dramatic reversal: the Dow erased a 1,100-point loss to close higher, and the S&P and Nasdaq pared most of the morning's collapse. Separately, S&P placed NVIDIA's AA rating on CreditWatch negative."
+  },
+  "marketRibbon": [],
+  "contextSymbols": [
+    "^GSPC",
+    "^IXIC",
+    "^DJI",
+    "NVDA",
+    "ANT"
+  ],
+  "heroCharts": [
+    {
+      "symbol": "^DJI",
+      "range": "1d",
+      "label": {
+        "he": "דאו ג׳ונס",
+        "en": "Dow Jones"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "close-reversal",
+      "section": "markets",
+      "priority": 1,
+      "kicker": {
+        "he": "וול סטריט · סגירת רוורסל",
+        "en": "Wall Street · reversal close"
+      },
+      "headline": {
+        "he": "יום רוורסל: הדאו מחק ירידה של 1,100 נקודות וסגר בעלייה; הנאסד״ק 100 התרחק מסף שוק הדובי",
+        "en": "Reversal day: the Dow erased a 1,100-point loss and closed higher; the Nasdaq 100 pulled away from bear-market territory"
+      },
+      "summary": {
+        "he": "וול סטריט סגרה את 25 בנובמבר ברוורסל דרמטי. לפי נתוני סגירה לא רשמיים של FirstSquawk ב-{{time:spclose}}, מקור יחיד בשלב זה, ה-S&P 500 ירד 14.39 נקודות, כלומר 0.20%, ל-7,186.70, והנאסד״ק ירד 135.26 נקודות, כלומר 0.57%, ל-23,598.27, אחרי ירידות של כ-2.8% ו-3.3% בשיא היום. הדאו סגר בעלייה של 197.98 נקודות, כלומר 0.40%, ל-50,216.68, לא רשמי, לפי FirstSquawk ב-{{time:dowclose}}, אחרי שמחק ירידה של 1,100 נקודות, לפי KobeissiLetter ב-{{time:erased}}. הנאסד״ק 100 קיצץ את הירידה ל-0.6% אחרי שהיה על סף שוק דובי במהלך היום, ורוב חברות ה-S&P 500 עלו, לפי FirstSquawk ב-{{time:wrap}}. מניית NVIDIA עצמה ירדה 3.9% בסיכום היום, לפי אותו סיכום - כלומר המדד התאושש בעוד המניה נותרה בירידה.",
+        "en": "Wall Street closed November 25 with a dramatic reversal. Per FirstSquawk's unofficial closing figures at {{time:spclose}}, a single source at this stage, the S&P 500 fell 14.39 points, or 0.20%, to 7,186.70, and the Nasdaq fell 135.26 points, or 0.57%, to 23,598.27, after being down about 2.8% and 3.3% at the day's lows. The Dow closed up 197.98 points, or 0.40%, at 50,216.68, unofficially, per FirstSquawk at {{time:dowclose}}, after erasing a 1,100-point loss, per KobeissiLetter at {{time:erased}}. The Nasdaq 100 pared its drop to 0.6% after nearing bear-market territory intraday, and most S&P 500 companies rose, per FirstSquawk at {{time:wrap}}. NVIDIA stock itself fell 3.9% on the day, per the same wrap - the index recovered while the stock stayed lower."
+      },
+      "bullets": {
+        "he": [
+          "ההתאוששות החלה סביב 11:47 שעון ניו יורק: ב-13:19 שעון ניו יורק המדדים עדיין נסחרו בירידות של 0.65% ב-S&P ו-1.4% בנאסד״ק, לפי DeItaone ב-{{time:trim}}.",
+          "בשיא המכירות, סביב 10:43 שעון ניו יורק, מדד השבבים ירד 7% ו-NVIDIA 8%, לפי wallstengine ב-{{time:chips}}; הירידות קוצצו אל תוך הסגירה.",
+          "תשואת האג״ח ל-10 שנים ירדה יום שמיני ברציפות, הרצף הארוך מאז 2024, ככל שהמשקיעים נמלטו לאג״ח, לפי FirstSquawk ב-{{time:yields}}.",
+          "לתשומת לב: היום, 26 בנובמבר, אין מסחר בוול סטריט לרגל חג ההודיה, וביום שישי מסחר מקוצר עד 13:00 שעון ניו יורק, 20:00 שעון ישראל, לפי eWhispers ב-{{time:tgiving}}."
+        ],
+        "en": [
+          "The recovery began around 11:47 AM New York time: at 1:19 PM New York time the indexes were still down 0.65% on the S&P and 1.4% on the Nasdaq, per DeItaone at {{time:trim}}.",
+          "At the peak of the selling, around 10:43 AM New York time, the semiconductor index was down 7% and NVIDIA 8%, per wallstengine at {{time:chips}}; those losses were pared into the close.",
+          "The 10-year Treasury yield fell for an eighth straight day, the longest streak since 2024, as investors rushed to bonds for safety, per FirstSquawk at {{time:yields}}.",
+          "Note: US markets are closed today, November 26, for Thanksgiving, and Friday is a shortened session ending 13:00 New York time, 20:00 Israel time, per eWhispers at {{time:tgiving}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:spclose}}",
+        "url": "https://x.com/FirstSquawk/status/2125696319683784915"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:dowclose}}",
+          "url": "https://x.com/FirstSquawk/status/2125696142457581792"
+        },
+        {
+          "name": "@FirstSquawk · {{time:ndxclose}}",
+          "url": "https://x.com/FirstSquawk/status/2125696509434106083"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:erased}}",
+          "url": "https://x.com/KobeissiLetter/status/2125697370008555911"
+        },
+        {
+          "name": "@FirstSquawk · {{time:wrap}}",
+          "url": "https://x.com/FirstSquawk/status/2125702204069920950"
+        },
+        {
+          "name": "@DeItaone · {{time:trim}}",
+          "url": "https://x.com/DeItaone/status/2125655535433179637"
+        },
+        {
+          "name": "@wallstengine · {{time:chips}}",
+          "url": "https://x.com/wallstengine/status/2125616279054897586"
+        },
+        {
+          "name": "@FirstSquawk · {{time:yields}}",
+          "url": "https://x.com/FirstSquawk/status/2125702253160059089"
+        },
+        {
+          "name": "@eWhispers · {{time:tgiving}}",
+          "url": "https://x.com/eWhispers/status/2125590899245903932"
+        }
+      ],
+      "timeRefs": {
+        "spclose": {
+          "at": "2026-11-25T21:01:10+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "dowclose": {
+          "at": "2026-11-25T21:00:28+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ndxclose": {
+          "at": "2026-11-25T21:01:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "erased": {
+          "at": "2026-11-25T21:05:21+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wrap": {
+          "at": "2026-11-25T21:24:33+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "trim": {
+          "at": "2026-11-25T18:19:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "chips": {
+          "at": "2026-11-25T15:43:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "yields": {
+          "at": "2026-11-25T21:24:45+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tgiving": {
+          "at": "2026-11-25T14:02:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      },
+      "isLead": true,
+      "marketCharts": [
+        {
+          "symbol": "^GSPC",
+          "range": "1d"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-creditwatch",
+      "section": "tech",
+      "priority": 2,
+      "kicker": {
+        "he": "NVIDIA · דירוג וחקירות",
+        "en": "NVIDIA · rating and investigations"
+      },
+      "headline": {
+        "he": "S&P העמידה את דירוג ה-AA של NVIDIA ב-CreditWatch שלילי; המודיעין: אין ראיות שסין תזמנה את פרשת הואנג",
+        "en": "S&P placed NVIDIA's AA rating on CreditWatch negative; US intelligence: no evidence China orchestrated the Huang affair"
+      },
+      "summary": {
+        "he": "סוכנות S&P העמידה את דירוג האשראי AA של NVIDIA ב-CreditWatch שלילי על רקע סיכוני ניהול וממשל תאגידי, עם אפשרות להורדה של דרגה אחת בתוך 90 יום, לפי LiveSquawk ב-{{time:cw}} ו-FirstSquawk ב-{{time:onewatch}}. S&P מציינת שההורדה צפויה להיות מוגבלת לדרגה אחת, אלא אם החקירות יחשפו פגיעה מוניטינית, לפי zerohedge ב-{{time:onenotch}}. בנפרד, גורמי מודיעין אמריקאים מסרו לקונגרס שאין ראיות שהמודיעין הסיני הורה לאליס הואנג לרגל אחרי ג׳נסן הואנג, לפי הוול סטריט ג׳ורנל כפי שדווח ב-DeItaone ב-{{time:intel}} וב-LiveSquawk ב-{{time:intel2}}.",
+        "en": "S&P placed NVIDIA's AA credit rating on CreditWatch negative, citing rising management and governance risk, with a possible one-notch downgrade within 90 days, per LiveSquawk at {{time:cw}} and FirstSquawk at {{time:onewatch}}. S&P said any downgrade is expected to be limited to one notch unless investigations reveal reputational harm, per zerohedge at {{time:onenotch}}. Separately, US intelligence officials told congressional staffers there is no evidence Chinese intelligence directed Alice Huang to spy on Jensen Huang, per the Wall Street Journal as reported by DeItaone at {{time:intel}} and LiveSquawk at {{time:intel2}}."
+      },
+      "bullets": {
+        "he": [
+          "סגן הנשיא ואנס: התקבלה הבטחה שהואנג אינו נתון לחקירה, הוא אינו זקוק לחנינה, והחזרתו הייתה החלטת הדירקטוריון, לפי LiveSquawk ב-{{time:vance}}.",
+          "מנהיג הדמוקרטים בסנאט שומר האשים את הואנג בהפרת חוקי בקרת היצוא של ארה״ב, לפי unusual_whales ב-{{time:schumer}}.",
+          "NVIDIA שילמה 290 מיליון דולר ליישוב תביעה שקדמה לפרשת הואנג, לפי Bloomberg Law כפי שדווח ב-FirstSquawk ב-{{time:settle}}."
+        ],
+        "en": [
+          "Vice President Vance: assurances were received that Huang is under no investigation, he does not need a pardon, and bringing him back was the board's decision, per LiveSquawk at {{time:vance}}.",
+          "Senate Democratic leader Schumer accused Huang of violating US export-control law, per unusual_whales at {{time:schumer}}.",
+          "NVIDIA paid $290 million to settle a case predating the Huang affair, per Bloomberg Law as reported by FirstSquawk at {{time:settle}}."
+        ]
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:cw}}",
+        "url": "https://x.com/LiveSquawk/status/2125660711816667137"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:onewatch}}",
+          "url": "https://x.com/FirstSquawk/status/2125664121647718818"
+        },
+        {
+          "name": "@zerohedge · {{time:onenotch}}",
+          "url": "https://x.com/zerohedge/status/2125690968330674287"
+        },
+        {
+          "name": "@DeItaone · {{time:intel}}",
+          "url": "https://x.com/DeItaone/status/2125617553921716543"
+        },
+        {
+          "name": "@LiveSquawk · {{time:intel2}}",
+          "url": "https://x.com/LiveSquawk/status/2125618002200571995"
+        },
+        {
+          "name": "@LiveSquawk · {{time:vance}}",
+          "url": "https://x.com/LiveSquawk/status/2125659631074635999"
+        },
+        {
+          "name": "@unusual_whales · {{time:schumer}}",
+          "url": "https://x.com/unusual_whales/status/2125685202500694382"
+        },
+        {
+          "name": "@FirstSquawk · {{time:settle}}",
+          "url": "https://x.com/FirstSquawk/status/2125611155964232140"
+        }
+      ],
+      "timeRefs": {
+        "cw": {
+          "at": "2026-11-25T18:39:41+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "onewatch": {
+          "at": "2026-11-25T18:53:14+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "onenotch": {
+          "at": "2026-11-25T20:39:54+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "intel": {
+          "at": "2026-11-25T15:48:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "intel2": {
+          "at": "2026-11-25T15:49:58+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "vance": {
+          "at": "2026-11-25T18:35:23+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "schumer": {
+          "at": "2026-11-25T20:17:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "settle": {
+          "at": "2026-11-25T15:22:46+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "anthropic-rebound",
+      "section": "tech",
+      "priority": 3,
+      "kicker": {
+        "he": "AI · מניות ושחקנים",
+        "en": "AI · stocks and players"
+      },
+      "headline": {
+        "he": "Anthropic התהפכה לחיובי ונסחרה מעל מחיר ההנפקה; מייקל ברי עבר לעודף לונג על השוק",
+        "en": "Anthropic turned positive above its IPO price; Michael Burry moved net long"
+      },
+      "summary": {
+        "he": "מניית Anthropic התהפכה לחיובי ונסחרה ב-83.50 דולר, מעל מחיר ההנפקה של 83 דולר, אחרי שנפלה עד 26% מהשיא בשלב מוקדם יותר, לפי DeItaone ב-{{time:ant}} ו-KobeissiLetter ב-{{time:ant2}}. לפי ה-Financial Times, כפי שצוטט ב-unusual_whales ב-{{time:antft}}, החברה גייסה 107.3 מיליארד דולר בהנפקה במחיר של 83 דולר למניה, ההנפקה הגדולה בהיסטוריה. במקביל, מייקל ברי מכר את יתרת הפוזיציה ה-short שלו על הנאסד״ק 100, לפי DeItaone ב-{{time:burryputs}}, ובלומברג מדווח שהוא כעת בעודף לונג, לפי zerohedge ב-{{time:burry}}.",
+        "en": "Anthropic stock turned positive and traded at $83.50, above its $83 IPO price, after falling as much as 26% from its peak earlier, per DeItaone at {{time:ant}} and KobeissiLetter at {{time:ant2}}. Per the Financial Times, as quoted by unusual_whales at {{time:antft}}, the company raised $107.3 billion in its IPO at $83 a share, the largest IPO on record. Meanwhile, Michael Burry sold the rest of his Nasdaq 100 put position, per DeItaone at {{time:burryputs}}, and Bloomberg reports he is now more long than short, per zerohedge at {{time:burry}}."
+      },
+      "source": {
+        "name": "@DeItaone · {{time:ant}}",
+        "url": "https://x.com/DeItaone/status/2125644696655417390"
+      },
+      "secondarySources": [
+        {
+          "name": "@KobeissiLetter · {{time:ant2}}",
+          "url": "https://x.com/KobeissiLetter/status/2125645220524286373"
+        },
+        {
+          "name": "@unusual_whales · {{time:antft}}",
+          "url": "https://x.com/unusual_whales/status/2125703825214320816"
+        },
+        {
+          "name": "@DeItaone · {{time:burryputs}}",
+          "url": "https://x.com/DeItaone/status/2125627221222240733"
+        },
+        {
+          "name": "@zerohedge · {{time:burry}}",
+          "url": "https://x.com/zerohedge/status/2125675837517152746"
+        }
+      ],
+      "timeRefs": {
+        "ant": {
+          "at": "2026-11-25T17:36:02+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ant2": {
+          "at": "2026-11-25T17:38:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "antft": {
+          "at": "2026-11-25T21:31:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "burryputs": {
+          "at": "2026-11-25T16:26:36+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "burry": {
+          "at": "2026-11-25T19:39:47+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "commodities-whipsaw",
+      "section": "markets",
+      "priority": 4,
+      "kicker": {
+        "he": "סחורות · זהב ונפט",
+        "en": "Commodities · gold and oil"
+      },
+      "headline": {
+        "he": "הזהב צלל 3% וחזר לעלות באותו יום; הנפט התחזק: WTI נסגר ב-83.68 דולר",
+        "en": "Gold plunged 3% and rebounded the same day; oil strengthened: WTI settled at $83.68"
+      },
+      "summary": {
+        "he": "הזהב נע בתנודתיות קיצונית: הוא צלל יותר מ-3% ל-3,437.49 דולר לאונקיה, לפי FirstSquawk ב-{{time:golddown}}, וחזר לעלות כמעט 1% ל-3,587.64 דולר עד הערב, לפי FirstSquawk ב-{{time:goldup}}. הזהב נסחר כ-20% מתחת לממוצע הנע של 200 הימים, הסטייה השלילית הגדולה מאז יוני 2013, לפי KobeissiLetter ב-{{time:golddma}}. הנפט התחזק: חוזי ה-WTI נסגרו ב-83.68 דולר לחבית, עלייה של 1.99%, לפי FirstSquawk ב-{{time:wti}}, והברנט נסגר ב-94.61 דולר, עלייה של 3.51%, לפי FirstSquawk ב-{{time:brent}}.",
+        "en": "Gold whipsawed: it plunged more than 3% to $3,437.49 an ounce, per FirstSquawk at {{time:golddown}}, and rebounded nearly 1% to $3,587.64 by evening, per FirstSquawk at {{time:goldup}}. Gold trades about 20% below its 200-day moving average, the largest negative deviation since June 2013, per KobeissiLetter at {{time:golddma}}. Oil strengthened: WTI futures settled at $83.68 a barrel, up 1.99%, per FirstSquawk at {{time:wti}}, and Brent settled at $94.61, up 3.51%, per FirstSquawk at {{time:brent}}."
+      },
+      "bullets": {
+        "he": [
+          "העלייה בברנט הגיעה על רקע הסלמה בעימות החות'ים-סעודיה שהחזירה פרמיית סיכון למחיר, לפי zerohedge ב-{{time:brentwar}}."
+        ],
+        "en": [
+          "The Brent gain came as the escalating Houthi-Saudi conflict revived the war-risk premium, per zerohedge at {{time:brentwar}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:golddown}}",
+        "url": "https://x.com/FirstSquawk/status/2125610118817665370"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:goldup}}",
+          "url": "https://x.com/FirstSquawk/status/2125689385261904161"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:golddma}}",
+          "url": "https://x.com/KobeissiLetter/status/2125686323818180737"
+        },
+        {
+          "name": "@FirstSquawk · {{time:wti}}",
+          "url": "https://x.com/FirstSquawk/status/2125674934706098195"
+        },
+        {
+          "name": "@FirstSquawk · {{time:brent}}",
+          "url": "https://x.com/FirstSquawk/status/2125677374817927306"
+        },
+        {
+          "name": "@zerohedge · {{time:brentwar}}",
+          "url": "https://x.com/zerohedge/status/2125579114841026655"
+        }
+      ],
+      "timeRefs": {
+        "golddown": {
+          "at": "2026-11-25T15:18:38+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "goldup": {
+          "at": "2026-11-25T20:33:37+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "golddma": {
+          "at": "2026-11-25T20:21:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wti": {
+          "at": "2026-11-25T19:36:12+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "brent": {
+          "at": "2026-11-25T19:45:53+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "brentwar": {
+          "at": "2026-11-25T13:15:26+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "macro-beige",
+      "section": "markets",
+      "priority": 5,
+      "kicker": {
+        "he": "מאקרו · הפד והקרנות",
+        "en": "Macro · the Fed and funds"
+      },
+      "headline": {
+        "he": "ספר הבז': 8 מתוך 12 מחוזות הפד מדווחים על צמיחה קלה; סיטאדל מחזירה כ-3.5 מיליארד דולר למשקיעים",
+        "en": "Beige Book: 8 of 12 Fed districts report slight growth; Citadel returning about $3.5 billion to investors"
+      },
+      "summary": {
+        "he": "ספר הבז' של הפד: שמונה מתוך 12 המחוזות מדווחים על צמיחה קלה עד מתונה וארבעה על ללא שינוי; המחירים עלו בקצב מתון והתעסוקה עלתה מעט, לפי LiveSquawk ב-{{time:beige}} ו-FirstSquawk ב-{{time:beige2}}. קרן סיטאדל של קן גריפין מחזירה כ-3.5 מיליארד דולר למשקיעים, כמחצית מהרווחים הנקיים השנה, לפי בלומברג כפי שדווח ב-StockMKTNewz ב-{{time:citadel}}.",
+        "en": "The Fed's Beige Book: eight of twelve districts reported slight to moderate growth and four reported no change; prices rose moderately and employment edged up, per LiveSquawk at {{time:beige}} and FirstSquawk at {{time:beige2}}. Ken Griffin's Citadel is returning about $3.5 billion to clients, roughly half of this year's net profits, per Bloomberg as reported by StockMKTNewz at {{time:citadel}}."
+      },
+      "bullets": {
+        "he": [
+          "הביטקוין נפל מתחת ל-57,500 דולר בשיא המכירות של הבוקר, לפי KobeissiLetter ב-{{time:btclow}}, אחרי שירד מתחת ל-59,000 עם יציאות של כמעט 5 מיליארד דולר מ-ETFs החודש, לפי DeItaone ב-{{time:btcetf}}.",
+          "מניית דיסני רשמה שיא של 52 שבועות, לפי StockMKTNewz ב-{{time:disney}}.",
+          "JPMorgan צופה גל חוב של 450 מיליארד דולר לתשתיות AI ב-2027 לפני רגיעה, לפי LiveSquawk ב-{{time:jpm}}."
+        ],
+        "en": [
+          "Bitcoin fell below $57,500 at the morning's selling peak, per KobeissiLetter at {{time:btclow}}, after dropping under $59,000 with nearly $5 billion in ETF outflows this month, per DeItaone at {{time:btcetf}}.",
+          "Disney stock hit a new 52-week high, per StockMKTNewz at {{time:disney}}.",
+          "JPMorgan sees a $450 billion AI debt wave in 2027 before a plateau, per LiveSquawk at {{time:jpm}}."
+        ]
+      },
+      "source": {
+        "name": "@LiveSquawk · {{time:beige}}",
+        "url": "https://x.com/LiveSquawk/status/2125666394465251778"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:beige2}}",
+          "url": "https://x.com/FirstSquawk/status/2125673058824597981"
+        },
+        {
+          "name": "@StockMKTNewz · {{time:citadel}}",
+          "url": "https://x.com/StockMKTNewz/status/2125674365245182351"
+        },
+        {
+          "name": "@KobeissiLetter · {{time:btclow}}",
+          "url": "https://x.com/KobeissiLetter/status/2125609956615573530"
+        },
+        {
+          "name": "@DeItaone · {{time:btcetf}}",
+          "url": "https://x.com/DeItaone/status/2125551720788787507"
+        },
+        {
+          "name": "@StockMKTNewz · {{time:disney}}",
+          "url": "https://x.com/StockMKTNewz/status/2125677721187471729"
+        },
+        {
+          "name": "@LiveSquawk · {{time:jpm}}",
+          "url": "https://x.com/LiveSquawk/status/2125703201638768835"
+        }
+      ],
+      "timeRefs": {
+        "beige": {
+          "at": "2026-11-25T19:02:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "beige2": {
+          "at": "2026-11-25T19:28:44+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "citadel": {
+          "at": "2026-11-25T19:33:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "btclow": {
+          "at": "2026-11-25T15:18:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "btcetf": {
+          "at": "2026-11-25T11:26:35+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "disney": {
+          "at": "2026-11-25T19:47:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "jpm": {
+          "at": "2026-11-25T21:28:31+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "musk-approvals",
+      "section": "tech",
+      "priority": 6,
+      "kicker": {
+        "he": "רגולציה · SpaceX ו-Neuralink",
+        "en": "Regulation · SpaceX and Neuralink"
+      },
+      "headline": {
+        "he": "ה-FCC אישר ל-SpaceX עד מיליון לווייני מרכזי מידע; Neuralink קיבלה אישור FDA לניסוי מכריע",
+        "en": "The FCC approved up to one million SpaceX data-center satellites; Neuralink won FDA approval for a pivotal trial"
+      },
+      "summary": {
+        "he": "רשות התקשורת האמריקאית FCC העניקה ל-SpaceX אישור מותנה לפרוס עד מיליון לוויינים לרשת מרכזי הנתונים המסלולית שלה לעיבוד AI, האישור הראשון מסוגו לקבוצת לוויינים של מרכזי מידע בחלל, לפי FirstSquawk ב-{{time:fcc}} ו-unusual_whales ב-{{time:fcc2}}. באותו ערב, Neuralink קיבלה אישור FDA לניסוי קליני מכריע בארה״ב בשתל המוחי שלה, לפי zerohedge ב-{{time:nlink}} ו-FirstSquawk ב-{{time:nlink2}}.",
+        "en": "The FCC granted SpaceX conditional approval to deploy up to one million satellites for its planned orbital data-center network for AI processing, the first authorization of its kind for a constellation of data centers in space, per FirstSquawk at {{time:fcc}} and unusual_whales at {{time:fcc2}}. The same evening, Neuralink received FDA approval for a pivotal US clinical trial of its brain implant, per zerohedge at {{time:nlink}} and FirstSquawk at {{time:nlink2}}."
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:fcc}}",
+        "url": "https://x.com/FirstSquawk/status/2125692754776981736"
+      },
+      "secondarySources": [
+        {
+          "name": "@unusual_whales · {{time:fcc2}}",
+          "url": "https://x.com/unusual_whales/status/2125657520035570014"
+        },
+        {
+          "name": "@zerohedge · {{time:nlink}}",
+          "url": "https://x.com/zerohedge/status/2125695056548102486"
+        },
+        {
+          "name": "@FirstSquawk · {{time:nlink2}}",
+          "url": "https://x.com/FirstSquawk/status/2125696879166193732"
+        }
+      ],
+      "timeRefs": {
+        "fcc": {
+          "at": "2026-11-25T20:47:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "fcc2": {
+          "at": "2026-11-25T18:27:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nlink": {
+          "at": "2026-11-25T20:56:09+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "nlink2": {
+          "at": "2026-11-25T21:03:24+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "geopolitics-evening",
+      "section": "geopolitics",
+      "priority": 7,
+      "kicker": {
+        "he": "גיאופוליטיקה · ערב",
+        "en": "Geopolitics · evening"
+      },
+      "headline": {
+        "he": "קייב תחת מתקפת טילים בליסטית; דיווח: פינלנד ונורווגיה פעלו בערוץ סודי מול רוסיה בבלטי",
+        "en": "Kyiv under ballistic missile attack; report: Finland and Norway ran a secret Baltic backchannel to Russia"
+      },
+      "summary": {
+        "he": "ראש עיריית קייב מסר שהעיר תחת מתקפת טילים בליסטית ועדים דיווחו על פיצוצים, לפי FirstSquawk ב-{{time:kyiv}}. הקואליציה בראשות סעודיה מסרה שיירטה טיל שיוט חות'י, לפי FirstSquawk ב-{{time:houthi}}. ממשלת טראמפ הניחה בצד את התוכנית לקדם עסקאות עסקיות כדי לשכנע את רוסיה לסיים את המלחמה באוקראינה, לפי ה-Financial Times כפי שדווח ב-unusual_whales ב-{{time:shelved}}.",
+        "en": "Kyiv's mayor said the city is under ballistic missile attack as witnesses reported loud explosions, per FirstSquawk at {{time:kyiv}}. The Saudi-led coalition said its air defenses intercepted a Houthi cruise missile, per FirstSquawk at {{time:houthi}}. The Trump administration has shelved plans to use business deals to coax Russia into ending the war in Ukraine, per the Financial Times as reported by unusual_whales at {{time:shelved}}."
+      },
+      "bullets": {
+        "he": [
+          "פינלנד ונורווגיה פעלו בסתר למנוע עימות צבאי עם רוסיה בים הבלטי, באמצעות אוליגרך רוסי כמתווך ושיחה ישירה עם פוטין ב-27 באוקטובר; מוסקבה הזהירה קודם לכן ממכות מקדימות להגנה על אינטרסים בבלטי, לפי FirstSquawk ב-{{time:baltic}} וב-{{time:baltic2}}.",
+          "ברזיל הביעה זעם על ההמלצה האמריקאית למכסי מטוסים וסוכר חדשים, ומסרה שתבקש פתרון במשא ומתן מבלי לשלול צעדי תגמול - המשך של סוגיית הצעת המכסים, שעדיין בשלב שימוע ולא בתוקף, לפי FirstSquawk ב-{{time:brazil}}."
+        ],
+        "en": [
+          "Finland and Norway secretly sought to avert a military confrontation with Russia in the Baltic Sea, using a Russian oligarch as an intermediary before speaking directly with Putin on October 27; Moscow had earlier warned of preemptive strikes to defend its Baltic interests, per FirstSquawk at {{time:baltic}} and at {{time:baltic2}}.",
+          "Brazil expressed outrage over the US recommendation for new aircraft and sugar tariffs, saying it will seek a negotiated solution without ruling out reciprocal measures - a continuation of the tariff proposal, still at the hearing stage and not in force, per FirstSquawk at {{time:brazil}}."
+        ]
+      },
+      "source": {
+        "name": "@FirstSquawk · {{time:kyiv}}",
+        "url": "https://x.com/FirstSquawk/status/2125696775470362647"
+      },
+      "secondarySources": [
+        {
+          "name": "@FirstSquawk · {{time:houthi}}",
+          "url": "https://x.com/FirstSquawk/status/2125688441845531064"
+        },
+        {
+          "name": "@unusual_whales · {{time:shelved}}",
+          "url": "https://x.com/unusual_whales/status/2125690235510235333"
+        },
+        {
+          "name": "@FirstSquawk · {{time:baltic}}",
+          "url": "https://x.com/FirstSquawk/status/2125686723657203855"
+        },
+        {
+          "name": "@FirstSquawk · {{time:baltic2}}",
+          "url": "https://x.com/FirstSquawk/status/2125686725691515037"
+        },
+        {
+          "name": "@FirstSquawk · {{time:brazil}}",
+          "url": "https://x.com/FirstSquawk/status/2125702371066163639"
+        }
+      ],
+      "timeRefs": {
+        "kyiv": {
+          "at": "2026-11-25T21:02:59+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "houthi": {
+          "at": "2026-11-25T20:29:52+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "shelved": {
+          "at": "2026-11-25T20:37:00+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "baltic": {
+          "at": "2026-11-25T20:23:02+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "baltic2": {
+          "at": "2026-11-25T20:23:03+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "brazil": {
+          "at": "2026-11-25T21:25:13+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "israel-session",
+      "section": "israel",
+      "priority": 8,
+      "kicker": {
+        "he": "ישראל · הבורסה והשקל",
+        "en": "Israel · the exchange and the shekel"
+      },
+      "headline": {
+        "he": "הבורסה בתל אביב ירדה עם וול סטריט: ת״א 35 איבד 2% והדולר התחזק ל-3.38 שקלים",
+        "en": "The Tel Aviv exchange fell with Wall Street: TA-35 lost 2% and the dollar strengthened to 3.38 shekels"
+      },
+      "summary": {
+        "he": "הבורסה בתל אביב ירדה בעקבות הגל העולמי: מדד ת״א 35 איבד 2% והדולר התחזק ל-3.38 שקלים במהלך המסחר, לפי דה מרקר ב-{{time:ta35}}. כבר בבוקר טיפס הדולר ל-3.37 שקלים לראשונה מאז ספטמבר 2025, לפי כלכליסט ב-{{time:ils}}.",
+        "en": "The Tel Aviv exchange fell with the global wave: the TA-35 index lost 2% and the dollar strengthened to 3.38 shekels during the session, per TheMarker at {{time:ta35}}. Earlier in the morning the dollar had already climbed to 3.37 shekels for the first time since September 2025, per Calcalist at {{time:ils}}."
+      },
+      "bullets": {
+        "he": [
+          "רשות המסים דורשת כ-8 מיליארד שקלים נוספים ממייסדי Wiz, לפי דה מרקר ב-{{time:wiz}}; גלובס מסגר את הסכסוך כדרישה של 12 מיליארד שקלים - הסכומים לא אומתו במקור רשמי, לפי {{time:wiz2}}.",
+          "גרין לנטרן תמכור פעילות ב-200 מיליון שקלים, והולנדיה מתקרבת להנפקה לפי שווי של כמיליארד שקלים, לפי דה מרקר ב-{{time:green}}.",
+          "ג׳ארד קושנר: על ישראל לצאת מתפיסת המלחמה ולהתמקד בכלכלה, לפי ישראל היום כפי שדווח ב-FirstSquawk ב-{{time:kushner}}."
+        ],
+        "en": [
+          "The Tax Authority is demanding about 8 billion shekels more from Wiz's founders, per TheMarker at {{time:wiz}}; Globes frames the dispute as a 12 billion shekel demand - the figures are unconfirmed by an official source, per {{time:wiz2}}.",
+          "Green Lantern will sell an operation for 200 million shekels, and Hollandia is nearing an IPO at a valuation of about one billion shekels, per TheMarker at {{time:green}}.",
+          "Jared Kushner: Israel needs to move away from a war mentality and focus on the economy, per Israel Hayom as reported by FirstSquawk at {{time:kushner}}."
+        ]
+      },
+      "source": {
+        "name": "@TheMarker · {{time:ta35}}",
+        "url": "https://x.com/TheMarker/status/2125575273760329832"
+      },
+      "secondarySources": [
+        {
+          "name": "@calcalist · {{time:ils}}",
+          "url": "https://x.com/calcalist/status/2125521420726026386"
+        },
+        {
+          "name": "@TheMarker · {{time:wiz}}",
+          "url": "https://x.com/TheMarker/status/2125590442406232088"
+        },
+        {
+          "name": "@globesnews · {{time:wiz2}}",
+          "url": "https://x.com/globesnews/status/2125531928119984375"
+        },
+        {
+          "name": "@TheMarker · {{time:green}}",
+          "url": "https://x.com/TheMarker/status/2125711186565943655"
+        },
+        {
+          "name": "@FirstSquawk · {{time:kushner}}",
+          "url": "https://x.com/FirstSquawk/status/2125697546077245525"
+        }
+      ],
+      "timeRefs": {
+        "ta35": {
+          "at": "2026-11-25T13:00:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "ils": {
+          "at": "2026-11-25T09:26:11+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wiz": {
+          "at": "2026-11-25T14:00:27+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "wiz2": {
+          "at": "2026-11-25T10:07:56+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "green": {
+          "at": "2026-11-25T22:00:15+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "kushner": {
+          "at": "2026-11-25T21:06:03+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    },
+    {
+      "id": "us-notes",
+      "section": "markets",
+      "priority": 9,
+      "kicker": {
+        "he": "ארה״ב · גם היום",
+        "en": "US · also today"
+      },
+      "headline": {
+        "he": "מצעד חג ההודיה של Macy's נדחה; טראמפ ישתתף בהנחת היסוד של מפעל TSMC בפיניקס ב-4 בדצמבר",
+        "en": "Macy's Thanksgiving parade postponed; Trump to attend TSMC's Phoenix factory groundbreaking on December 4"
+      },
+      "summary": {
+        "he": "מצעד חג ההודיה של Macy's נדחה, לפי הניו יורק פוסט כפי שדווח ב-zerohedge ב-{{time:macys}}. הנשיא טראמפ צפוי להשתתף בטקס הנחת היסוד של מפעל השבבים החדש של TSMC בפיניקס, אריזונה, ב-4 בדצמבר, חלק מהשקעה של 165 מיליארד דולר במדינה, לפי wallstengine ב-{{time:tsmc}}.",
+        "en": "Macy's Thanksgiving Day parade was postponed, per the New York Post as reported by zerohedge at {{time:macys}}. President Trump is set to attend the groundbreaking of TSMC's new chip factory in Phoenix, Arizona, on December 4, part of the company's $165 billion investment in the state, per wallstengine at {{time:tsmc}}."
+      },
+      "bullets": {
+        "he": [
+          "משרד האוצר: הממשלה חסרה 511.1 מיליארד דולר לתקרת ההלוואות של 41.1 טריליון דולר נכון ל-24 בנובמבר, לפי FirstSquawk ב-{{time:debt}}."
+        ],
+        "en": [
+          "The Treasury said the government was $511.1 billion short of its $41.1 trillion borrowing limit as of November 24, per FirstSquawk at {{time:debt}}."
+        ]
+      },
+      "source": {
+        "name": "@zerohedge · {{time:macys}}",
+        "url": "https://x.com/zerohedge/status/2125695550117032438"
+      },
+      "secondarySources": [
+        {
+          "name": "@wallstengine · {{time:tsmc}}",
+          "url": "https://x.com/wallstengine/status/2125551891023319469"
+        },
+        {
+          "name": "@FirstSquawk · {{time:debt}}",
+          "url": "https://x.com/FirstSquawk/status/2125697683709186441"
+        }
+      ],
+      "timeRefs": {
+        "macys": {
+          "at": "2026-11-25T20:58:07+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "tsmc": {
+          "at": "2026-11-25T11:27:16+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        },
+        "debt": {
+          "at": "2026-11-25T21:06:36+00:00",
+          "timeZone": "UTC",
+          "precision": "minute"
+        }
+      }
+    }
+  ]
+}
